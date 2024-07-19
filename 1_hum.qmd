@@ -1,4 +1,4 @@
-# Human Agency and Oversight
+# Human Agency and Oversight (HUM)
 
 AI systems should support human autonomy and decision-making, as prescribed by the principle of respect for human autonomy. This requires that AI systems should both act as enablers to a democratic, flourishing and equitable society by supporting the user’s agency and foster fundamental rights and allow for human oversight. 
 
@@ -11,3 +11,22 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 Users should be able to make informed autonomous decisions regarding AI systems. They should be given the knowledge and tools to comprehend and interact with AI systems to a satisfactory degree and, where possible, be enabled to reasonably self-assess or challenge the system. AI systems should support individuals in making better, more informed choices in accordance with their goals. AI systems can sometimes be deployed to shape and influence human behaviour through mechanisms that may be difficult to detect, since they may harness sub-conscious processes, including various forms of unfair manipulation, deception, herding and conditioning, all of which may threaten individual autonomy. The overall principle of user autonomy must be central to the system’s functionality. Key to this is the right not to be subject to a decision based solely on automated processing when this produces legal effects on users or similarly significantly affects them. 
 
 ### Requirement 12-1-HUM 
+**Description**  In the events where there is a clear conflict between the predictions of the tool and the medical opinion of the doctor, a process protocol for epistemic authority dilemmas customized for ***physician expertise level*** can be followed. Available by ***time point***.	
+
+***physician expertise level***: beginner; intermediate; expert
+***time point***: project end
+
+**Owner**  
+- WP1
+
+**Stakeholders**
+- WP 1 (ethics)
+- WP 3 (design)
+- WP 4 (clinical validation)
+- Other: medical staff
+
+**Tolerable**  
+In the events where there is a clear conflict between the predictions of the tool and the medical opinion of the doctor, a process protocol for epistemic authority dilemmas customized for ***beginner; intermediate; expert*** can be followed. Available by ***project end***.	
+	
+
+
