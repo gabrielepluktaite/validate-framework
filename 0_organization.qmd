@@ -1,0 +1,69 @@
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
+
+# How Requirements are Organized
+
+Requirements are structured to provide a clear view of their definitions
+and parameters. Below is an outline detailing how these are organized,
+articulated through an example of a standard requirement.
+
+## Requirement YZ-N-AAA
+
+**Description**: Each requirement bears a unique ID, constructed as
+follows:
+
+\- **YZ**: Sub-chapter numbers reflecting the requirement's area
+
+\- **N**: Sequential number within the sub-chapter
+
+\- **AAA**: The first three letters of the chapter topic
+
+For instance, the requirement for implementing confidence intervals in
+predictive modeling might state: "X of \[example parameter\] for
+measuring model uncertainty are implemented to provide a confidence
+interval for predictions in the app available at \[time point\]".
+
+## Parameters
+
+-   **\[Example parameter\]**: Parameters listed in brackets are
+    adjustable by the WP 1 team during the project period.
+-   **\[time point\]**: This refers to the deadline by which a
+    requirement should be met, typically specifying some due date.
+
+## Phases
+
+Each requirement is mapped to a specific project phase:
+
+\- **Development**: Focuses on developing the tool's prototype until
+month 18.
+
+\- **Testing**: The prototype undergoes testing until month 18.
+
+\- **Validation**: Begins in month 18, marking the start of validating
+the developed and tested prototype.
+
+## Stakeholders and Owner
+
+**Stakeholders**: Includes project staff and other relevant groups
+affected by or necessary for fulfilling the requirement.
+
+**Owner**: Each requirement is assigned an Owner, usually a WP lead
+relevant to existing tasks. The Owner is responsible for task delegation
+and execution to meet the requirement.
+
+## Requirement Categorization
+
+Based on the parameterized statements, requirements are classified into
+three categories:
+
+\- **TOLERABLE**: The minimum achievement threshold for a requirement.
+
+\- **GOAL**: Represents the objective aimed to be reached by the
+project. If both Tolerable and Goal are defined, the project's likely
+outcome will be between these two.
+
+\- **WISH**: Desirable outcomes that are aimed for but likely only
+partially achieved.
