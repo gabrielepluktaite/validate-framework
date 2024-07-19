@@ -1,9 +1,3 @@
----
-editor: 
-  markdown: 
-    wrap: 72
----
-
 # How Requirements are Organized
 
 Requirements are structured to provide a clear view of their definitions
