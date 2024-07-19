@@ -14,7 +14,7 @@ Users should be able to make informed autonomous decisions regarding AI systems.
 
 ### Requirement 12-1-HUM
 
-**Description** In the events where there is a clear conflict between the predictions of the tool and the medical opinion of the doctor, a process protocol for epistemic authority dilemmas customized for ***physician expertise level*** can be followed. Available by ***time point***.
+**Description:** In the events where there is a clear conflict between the predictions of the tool and the medical opinion of the doctor, a process protocol for epistemic authority dilemmas customized for ***physician expertise level*** can be followed. Available by ***time point***.
 
 ***physician expertise level***: beginner; intermediate; expert
 
