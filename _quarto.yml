@@ -1,0 +1,41 @@
+project:
+  type: book
+
+book:
+  title: "VALIDATE Framework"
+  author: ""
+  date: ""
+  chapters:
+    - index.qmd
+    - 0_organization.qmd
+    - 1_hum.qmd
+    # - 2_rob.qmd  # Uncomment when available
+    # - 3_pri.qmd  # Uncomment when available
+    # - 4_tra.qmd  # Uncomment when available
+    # - 5_div.qmd  # Uncomment when available
+    # - 6_sus.qmd  # Uncomment when available
+    # - 7_acc.qmd  # Uncomment when available
+    # - wp_tasks.qmd  # Uncomment when available
+
+
+format:
+  html:
+    theme: cosmo
+  pdf:
+    documentclass: scrreport
+    mainfont: "Arial"
+    sansfont: "Arial"
+    include-before-body: "main.tex"
+    include-in-header: 
+      text: |
+        \usepackage{scrlayer-scrpage}
+        \clearpairofpagestyles
+        \lofoot{VALIDATE}
+        \rofoot{April 24}
+        \usepackage{graphicx}
+        \graphicspath{{images/}}
+        \usepackage{wrapfig}
+        \usepackage{blindtext}
+        \usepackage{subfiles}
+        \usepackage{multirow}
+        \usepackage[table,xcdraw]{xcolor}

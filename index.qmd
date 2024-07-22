@@ -1,0 +1,10 @@
+---
+title: "Introduction to VALIDATE framework"
+author: ""
+date: ""
+output:
+  html_document:
+    toc: true
+  pdf_document:
+    toc: true
+---

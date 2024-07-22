@@ -1,0 +1,72 @@
+[
+  {
+    "objectID": "0_organization.html",
+    "href": "0_organization.html",
+    "title": "2  How Requirements are Organized",
+    "section": "",
+    "text": "2.1 Requirement YZ-N-AAA\nDescription: Each requirement bears a unique ID, constructed as follows:\n- YZ: Sub-chapter numbers reflecting the requirement’s area\n- N: Sequential number within the sub-chapter\n- AAA: The first three letters of the chapter topic\nFor instance, the requirement for implementing confidence intervals in predictive modeling might state: “X of [example parameter] for measuring model uncertainty are implemented to provide a confidence interval for predictions in the app available at [time point]”.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Requirements are Organized</span>"
+    ]
+  },
+  {
+    "objectID": "0_organization.html#parameters",
+    "href": "0_organization.html#parameters",
+    "title": "2  How Requirements are Organized",
+    "section": "2.2 Parameters",
+    "text": "2.2 Parameters\n\n[Example parameter]: Parameters listed in brackets are adjustable by the WP 1 team during the project period.\n[time point]: This refers to the deadline by which a requirement should be met, typically specifying some due date.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Requirements are Organized</span>"
+    ]
+  },
+  {
+    "objectID": "0_organization.html#phases",
+    "href": "0_organization.html#phases",
+    "title": "2  How Requirements are Organized",
+    "section": "2.3 Phases",
+    "text": "2.3 Phases\nEach requirement is mapped to a specific project phase:\n- Development: Focuses on developing the tool’s prototype until month 18.\n- Testing: The prototype undergoes testing until month 18.\n- Validation: Begins in month 18, marking the start of validating the developed and tested prototype.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Requirements are Organized</span>"
+    ]
+  },
+  {
+    "objectID": "0_organization.html#stakeholders-and-owner",
+    "href": "0_organization.html#stakeholders-and-owner",
+    "title": "2  How Requirements are Organized",
+    "section": "2.4 Stakeholders and Owner",
+    "text": "2.4 Stakeholders and Owner\nStakeholders: Includes project staff and other relevant groups affected by or necessary for fulfilling the requirement.\nOwner: Each requirement is assigned an Owner, usually a WP lead relevant to existing tasks. The Owner is responsible for task delegation and execution to meet the requirement.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Requirements are Organized</span>"
+    ]
+  },
+  {
+    "objectID": "0_organization.html#requirement-categorization",
+    "href": "0_organization.html#requirement-categorization",
+    "title": "2  How Requirements are Organized",
+    "section": "2.5 Requirement Categorization",
+    "text": "2.5 Requirement Categorization\nBased on the parameterized statements, requirements are classified into three categories:\n- TOLERABLE: The minimum achievement threshold for a requirement.\n- GOAL: Represents the objective aimed to be reached by the project. If both Tolerable and Goal are defined, the project’s likely outcome will be between these two.\n- WISH: Desirable outcomes that are aimed for but likely only partially achieved.",
+    "crumbs": [
+      "<span class='chapter-number'>2</span>  <span class='chapter-title'>How Requirements are Organized</span>"
+    ]
+  },
+  {
+    "objectID": "1_hum.html",
+    "href": "1_hum.html",
+    "title": "3  Human Agency and Oversight (HUM)",
+    "section": "",
+    "text": "3.1 Fundamental rights\nLike many technologies, AI systems can equally enable and hamper fundamental rights. They can benefit people for instance by helping them track their personal data, or by increasing the accessibility of education, hence supporting their right to education. However, given the reach and capacity of AI systems, they can also negatively affect fundamental rights. In situations where such risks exist, a fundamental rights impact assessment should be undertaken. This should be done prior to the system’s development and include an evaluation of whether those risks can be reduced or justified as necessary in a democratic society in order to respect the rights and freedoms of others. Moreover, mechanisms should be put into place to receive external feedback regarding AI systems that potentially infringe on fundamental rights.\nNone of the identified requirements could be mapped to this category. Other than the requirements addressed in related sections such as privacy, we believe that our tool does not influence fundamental rights.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Human Agency and Oversight (HUM)</span>"
+    ]
+  },
+  {
+    "objectID": "1_hum.html#human-agency",
+    "href": "1_hum.html#human-agency",
+    "title": "3  Human Agency and Oversight (HUM)",
+    "section": "3.2 Human Agency",
+    "text": "3.2 Human Agency\nUsers should be able to make informed autonomous decisions regarding AI systems. They should be given the knowledge and tools to comprehend and interact with AI systems to a satisfactory degree and, where possible, be enabled to reasonably self-assess or challenge the system. AI systems should support individuals in making better, more informed choices in accordance with their goals. AI systems can sometimes be deployed to shape and influence human behaviour through mechanisms that may be difficult to detect, since they may harness sub-conscious processes, including various forms of unfair manipulation, deception, herding and conditioning, all of which may threaten individual autonomy. The overall principle of user autonomy must be central to the system’s functionality. Key to this is the right not to be subject to a decision based solely on automated processing when this produces legal effects on users or similarly significantly affects them.\n\n3.2.1 Requirement 12-1-HUM\nDescription: In the events where there is a clear conflict between the predictions of the tool and the medical opinion of the doctor, a process protocol for epistemic authority dilemmas customized for physician expertise level can be followed. Available by time point.\nphysician expertise level: beginner; intermediate; expert\ntime point: project end\nOwner\n- WP1\nStakeholders\n- WP 1 (ethics)\n- WP 3 (design)\n- WP 4 (clinical validation)\n- Other: medical staff\nTolerable\nIn the events where there is a clear conflict between the predictions of the tool and the medical opinion of the doctor, a process protocol for epistemic authority dilemmas customized for beginner; intermediate; expert can be followed. Available by project end.",
+    "crumbs": [
+      "<span class='chapter-number'>3</span>  <span class='chapter-title'>Human Agency and Oversight (HUM)</span>"
+    ]
+  }
+]
