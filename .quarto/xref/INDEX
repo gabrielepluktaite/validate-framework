@@ -1,0 +1,32 @@
+{
+  "index.qmd": {
+    "index.html": "4d57a2ef"
+  },
+  "0_organization.qmd": {
+    "0_organization.html": "912ecf1f"
+  },
+  "1_hum.qmd": {
+    "1_hum.html": "2835a24e"
+  },
+  "2_rob.qmd": {
+    "2_rob.html": "944792be"
+  },
+  "3_pri.qmd": {
+    "3_pri.html": "3951fbe7"
+  },
+  "4_tra.qmd": {
+    "4_tra.html": "84612a4b"
+  },
+  "5_div.qmd": {
+    "5_div.html": "1d70cf71"
+  },
+  "6_sus.qmd": {
+    "6_sus.html": "3be6aeab"
+  },
+  "7_acc.qmd": {
+    "7_acc.html": "5c3e43a7"
+  },
+  "wp_tasks.qmd": {
+    "wp_tasks.html": "236eecb7"
+  }
+}

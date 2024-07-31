@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="">
 
-<title>VALIDATE Framework</title>
+<title>VALIDATE Framework - 7 Accountability (ACC)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./0_organization.html" rel="next">
+<link href="./wp_tasks.html" rel="next">
+<link href="./6_sus.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating fullcontent">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-title">Introduction to VALIDATE framework</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./7_acc.html"><span class="chapter-title">7 Accountability (ACC)</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Introduction to VALIDATE framework</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introduction to VALIDATE framework</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -148,7 +148,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./7_acc.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">7 Accountability (ACC)</span></a>
+  <a href="./7_acc.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">7 Accountability (ACC)</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -161,13 +161,27 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#auditability" id="toc-auditability" class="nav-link active" data-scroll-target="#auditability">7.1 Auditability</a></li>
+  <li><a href="#minimisation-and-reporting-of-negative-impacts" id="toc-minimisation-and-reporting-of-negative-impacts" class="nav-link" data-scroll-target="#minimisation-and-reporting-of-negative-impacts">7.2 Minimisation and reporting of negative impacts</a>
+  <ul class="collapse">
+  <li><a href="#requirement-72-1-acc" id="toc-requirement-72-1-acc" class="nav-link" data-scroll-target="#requirement-72-1-acc">Requirement 72-1-ACC</a></li>
+  </ul></li>
+  <li><a href="#trade-offs" id="toc-trade-offs" class="nav-link" data-scroll-target="#trade-offs">7.3 Trade-offs</a></li>
+  <li><a href="#redress" id="toc-redress" class="nav-link" data-scroll-target="#redress">7.4 Redress</a></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">VALIDATE Framework</h1>
+<h1 class="title"><span class="chapter-title">7 Accountability (ACC)</span></h1>
 </div>
 
 
@@ -184,8 +198,45 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>The requirement of accountability complements the above requirements, and is closely linked to the principle of fairness. It necessitates that mechanisms be put in place to ensure responsibility and accountability for AI systems and their outcomes, both before and after their development, deployment and use.</p>
+<section id="auditability" class="level2">
+<h2 class="anchored" data-anchor-id="auditability">7.1 Auditability</h2>
+<p>Auditability entails the enablement of the assessment of algorithms, data and design processes. This does not necessarily imply that information about business models and intellectual property related to the AI system must always be openly available. Evaluation by internal and external auditors, and the availability of such evaluation reports, can contribute to the trustworthiness of the technology. In applications affecting fundamental rights, including safety-critical applications, AI systems should be able to be independently audited.</p>
+<p><strong><em>None of the identified requirements could be mapped to this subcategory. Auditability, however, is a main aspect of the WP1, with audits being performed throughout the project that will, in a co-creation approach, lead to framework updates via interdisciplinary collaboration.</em></strong></p>
+</section>
+<section id="minimisation-and-reporting-of-negative-impacts" class="level2">
+<h2 class="anchored" data-anchor-id="minimisation-and-reporting-of-negative-impacts">7.2 Minimisation and reporting of negative impacts</h2>
+<p>Both the ability to report on actions or decisions that contribute to a certain system outcome, and to respond to the consequences of such an outcome, must be ensured. Identifying, assessing, reporting and minimising the potential negative impacts of AI systems is especially crucial for those (in)directly affected. Due protection must be available for whistle-blowers, NGOs, trade unions or other entities when reporting legitimate concerns about an AI-based system. The use of impact assessments (e.g.&nbsp;red teaming or forms of Algorithmic Impact Assessment) both prior to and during the development, deployment and use of AI systems can be helpful to minimise negative impact. These assessments must be proportionate to the risk that the AI systems pose.</p>
+<section id="requirement-72-1-acc" class="level3">
+<h3 class="anchored" data-anchor-id="requirement-72-1-acc">Requirement 72-1-ACC</h3>
+<p><strong>Description:</strong> Algorithmic impact assessment following <strong><em>relevant method</em></strong> is performed by <strong><em>time point</em></strong>.</p>
+<p><strong><em>relevant method</em></strong>: - MDR - EU AI Act - To be determined</p>
+<p><strong><em>time point</em></strong>:</p>
+<p>- by the end of the project</p>
+<p><strong><em>phases</em></strong>:</p>
+<p>- development</p>
+<p>- testing</p>
+<p>- validation</p>
+<p><strong>Owner</strong></p>
+<p>- WP1 lead</p>
+<p><strong>Stakeholders</strong></p>
+<p>- WP 1 (ethics)</p>
+<p><strong>Tolerable</strong></p>
+<p>- Algorithmic impact assessment using <strong><em>MDR; EU AI Act, relevant method: To be determined</em></strong> performed <strong><em>by the end of the project.</em></strong></p>
+</section>
+</section>
+<section id="trade-offs" class="level2">
+<h2 class="anchored" data-anchor-id="trade-offs">7.3 Trade-offs</h2>
+<p>When implementing the above requirements, tensions may arise between them, which may lead to inevitable trade-offs. Such trade-offs should be addressed in a rational and methodological manner within the state of the art. This entails that relevant interests and values implicated by the AI system should be identified and that, if conflict arises, trade-offs should be explicitly acknowledged and evaluated in terms of their risk to ethical principles, including fundamental rights. In situations in which no ethically acceptable trade-offs can be identified, the development, deployment and use of the AI system should not proceed in that form. Any decision about which trade-off to make should be reasoned and properly documented. The decision-maker must be accountable for the manner in which the appropriate trade-off is being made, and should continually review the appropriateness of the resulting decision to ensure that necessary changes can be made to the system where needed.</p>
+<p><strong><em>None of the identified requirements could be mapped to this subcategory. However, navigating trade-offs and tensions is one of the main overarching goals of work package one is reflected in tasks that include auditing, or the z-inspection assessment, in which identification and solution of tensions is one of the main goals.</em></strong></p>
+</section>
+<section id="redress" class="level2">
+<h2 class="anchored" data-anchor-id="redress">7.4 Redress</h2>
+<p>When unjust adverse impact occurs, accessible mechanisms should be foreseen that ensure adequate redress. Knowing that redress is possible when things go wrong is key to ensure trust. Particular attention should be paid to vulnerable persons or groups.</p>
+<p><strong><em>None of the identified requirements could be mapped to this subcategory.</em></strong></p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -599,10 +650,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./6_sus.html" class="pagination-link" aria-label="Societal and environmental well-being">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Societal and environmental well-being</span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./0_organization.html" class="pagination-link" aria-label="How Requirements are Organized">
-        <span class="nav-page-text"><span class="chapter-title">How Requirements are Organized</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./wp_tasks.html" class="pagination-link" aria-label="Work Packages">
+        <span class="nav-page-text"><span class="chapter-title">Work Packages</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>
