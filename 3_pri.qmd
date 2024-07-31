@@ -1,4 +1,4 @@
-# **3 Privacy and data governance (PRI)**
+# 3 Privacy and data governance (PRI)
 
 Closely linked to the principle of prevention of harm is privacy, a fundamental right particularly affected by AI systems. Prevention of harm to privacy also necessitates adequate data governance that covers the quality and integrity of the data used, its relevance in light of the domain in which the AI systems will be deployed, its access protocols and the capability to process data in a manner that protects privacy. 
 
