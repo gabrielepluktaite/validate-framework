@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="">
 
-<title>VALIDATE Framework</title>
+<title>VALIDATE Framework - Transparency (TRA)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -31,7 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./0_organization.html" rel="next">
+<link href="./5_div.html" rel="next">
+<link href="./3_pri.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -72,7 +72,7 @@ ul.task-list li input[type="checkbox"] {
 
 </head>
 
-<body class="nav-sidebar floating fullcontent">
+<body class="nav-sidebar floating">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./index.html"><span class="chapter-title">Introduction to VALIDATE framework</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./4_tra.html"><span class="chapter-title">Transparency (TRA)</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -108,7 +108,7 @@ ul.task-list li input[type="checkbox"] {
     <ul class="list-unstyled mt-1">
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./index.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Introduction to VALIDATE framework</span></a>
+  <a href="./index.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Introduction to VALIDATE framework</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -133,7 +133,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./4_tra.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">Transparency (TRA)</span></a>
+  <a href="./4_tra.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">Transparency (TRA)</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -161,13 +161,37 @@ ul.task-list li input[type="checkbox"] {
 </nav>
 <div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Table of contents</h2>
+   
+  <ul>
+  <li><a href="#traceability" id="toc-traceability" class="nav-link active" data-scroll-target="#traceability">Traceability</a>
+  <ul class="collapse">
+  <li><a href="#requirement-41-1-tra" id="toc-requirement-41-1-tra" class="nav-link" data-scroll-target="#requirement-41-1-tra">Requirement 41-1-TRA</a></li>
+  </ul></li>
+  <li><a href="#explainability" id="toc-explainability" class="nav-link" data-scroll-target="#explainability">Explainability</a>
+  <ul class="collapse">
+  <li><a href="#requirement-42-1-tra" id="toc-requirement-42-1-tra" class="nav-link" data-scroll-target="#requirement-42-1-tra">Requirement 42-1-TRA</a></li>
+  <li><a href="#requirement-42-2-tra" id="toc-requirement-42-2-tra" class="nav-link" data-scroll-target="#requirement-42-2-tra">Requirement 42-2-TRA</a></li>
+  <li><a href="#requirement-42-3-tra" id="toc-requirement-42-3-tra" class="nav-link" data-scroll-target="#requirement-42-3-tra">Requirement 42-3-TRA</a></li>
+  <li><a href="#requiremennt-42-4-tra" id="toc-requiremennt-42-4-tra" class="nav-link" data-scroll-target="#requiremennt-42-4-tra">Requiremennt 42-4-TRA</a></li>
+  </ul></li>
+  <li><a href="#communication" id="toc-communication" class="nav-link" data-scroll-target="#communication">Communication</a>
+  <ul class="collapse">
+  <li><a href="#requirement-43-1-tra" id="toc-requirement-43-1-tra" class="nav-link" data-scroll-target="#requirement-43-1-tra">Requirement 43-1-TRA</a></li>
+  <li><a href="#requirement-43-2-tra" id="toc-requirement-43-2-tra" class="nav-link" data-scroll-target="#requirement-43-2-tra">Requirement 43-2-TRA</a></li>
+  <li><a href="#requirement-43-3-tra" id="toc-requirement-43-3-tra" class="nav-link" data-scroll-target="#requirement-43-3-tra">Requirement 43-3-TRA</a></li>
+  </ul></li>
+  </ul>
+</nav>
+    </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">VALIDATE Framework</h1>
+<h1 class="title"><span class="chapter-title">Transparency (TRA)</span></h1>
 </div>
 
 
@@ -184,8 +208,178 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
+<p>This requirement is closely linked with the principle of explicability and encompasses transparency of elements relevant to an AI system: the data, the system and the business models.</p>
+<section id="traceability" class="level2">
+<h2 class="anchored" data-anchor-id="traceability">Traceability</h2>
+<p>The data sets and the processes that yield the AI system’s decision, including those of data gathering and data labelling as well as the algorithms used, should be documented to the best possible standard to allow for traceability and an increase in transparency. This also applies to the decisions made by the AI system. This enables identification of the reasons why an AI-decision was erroneous which, in turn, could help prevent future mistakes. Traceability facilitates auditability as well as explainability.</p>
+<section id="requirement-41-1-tra" class="level3">
+<h3 class="anchored" data-anchor-id="requirement-41-1-tra">Requirement 41-1-TRA</h3>
+<p><strong>Description:</strong> <strong><em>Limitations and metadata</em></strong> are available to doctors in the app during emergencies by <strong><em>time point</em></strong>.</p>
+<p><strong>Parameters:</strong></p>
+<p><strong><em>Limitations and metadata</em></strong>: - data collection trail - data source - demographics - how patient-specific input affected the predictions - how model is calibrated and optimized, especially whether it has a tendency for false negatives or false positives</p>
+<p><strong><em>time point</em></strong>:<br>
+- by the end of the project</p>
+<p><strong>Phases</strong><br>
+- development - testing - validation</p>
+<p><strong>Owner</strong><br>
+- WP 2 lead</p>
+<p><strong>Stakeholders</strong></p>
+<p>- WP 2 (development)</p>
+<p>- WP 3 (design)</p>
+<p><strong>Wish</strong></p>
+<p>- <strong><em>Data collection trail, data source, demographics, how patient-specific input affected the predictions, how model is calibrated and optimized</em></strong> are available to doctors in the app during emergencies <strong><em>by the end of the project</em></strong>.</p>
+</section>
+</section>
+<section id="explainability" class="level2">
+<h2 class="anchored" data-anchor-id="explainability">Explainability</h2>
+<p>Explainability concerns the ability to explain both the technical processes of an AI system and the related human decisions (e.g. application areas of a system). Technical explainability requires that the decisions made by an AI system can be understood and traced by human beings. Moreover, trade-offs might have to be made between enhancing a system’s explainability (which may reduce its accuracy) or increasing its accuracy (at the cost of explainability). Whenever an AI system has a significant impact on people’s lives, it should be possible to demand a suitable explanation of the AI system’s decision-making process. Such explanation should be timely and adapted to the expertise of the stakeholder concerned (e.g.&nbsp;layperson, regulator or researcher). In addition, explanations of the degree to which an AI system influences and shapes the organisational decision-making process, design choices of the system, and the rationale for deploying it, should be available (hence ensuring business model transparency).</p>
+<section id="requirement-42-1-tra" class="level3">
+<h3 class="anchored" data-anchor-id="requirement-42-1-tra">Requirement 42-1-TRA</h3>
+<p><strong>Description:</strong>The system is able to inform about parts of the input that led to a specific outcome, achieved at <strong><em>time point</em></strong>.</p>
+<p><strong>Parameters</strong></p>
+<p><strong><em>time point</em></strong>:<br>
+-Prior to start of the prospective study</p>
+<p><strong>Phases</strong><br>
+- development - testing</p>
+<p><strong>Owner</strong><br>
+- WP 2 lead</p>
+<p><strong>Stakeholders</strong></p>
+<p>- WP 2 (development)</p>
+<p>- WP 3 (design)</p>
+<p><strong>Tolerable</strong></p>
+<p>- The system is able to inform about parts of the input that led to a specific outcome achieved <strong><em>prior to start of the prospective study point</em></strong>.</p>
+</section>
+<section id="requirement-42-2-tra" class="level3">
+<h3 class="anchored" data-anchor-id="requirement-42-2-tra">Requirement 42-2-TRA</h3>
+<p><strong>Description:</strong> % of explanations are communicated and defined in line with the <strong><em>constraints</em></strong> of the project <strong><em>time point</em></strong>.</p>
+<p><strong><em>constraints</em></strong>: - ethical values of the project - explainability regulations</p>
+<p><strong><em>ethical values of the project</em></strong>: - ethical framework</p>
+<p><strong><em>process</em></strong>: - process outlined in VALIDATE data management plan</p>
+<p><strong><em>explainability regulations</em></strong>: - EU AI Act - GDPR - EU-MDR</p>
+<p><strong><em>time point</em></strong>: - prior to the start of the prospective study</p>
+<p><strong>Phases</strong><br>
+- development - testing</p>
+<p><strong>Owner</strong><br>
+- WP 6 lead</p>
+<p><strong>Stakeholders</strong></p>
+<p>- WP 2 (development)</p>
+<p>- WP 3 (design)</p>
+<p>- WP 5 (regulations)</p>
+<p>- WP 6 (patient communication)</p>
+<p><strong>Goal</strong></p>
+<p>- % of explanations are communicated and defined in line with <strong><em>ethical values of the project: Ethical framework</em></strong> of the project <strong><em>prior to start of the prospective study</em></strong>.</p>
+<p>- % of explanations are communicated and defined in line with <strong><em>explainability regulations: EU AI act;GDPR;EU-MDR</em></strong> of the project <strong><em>prior to start of the prospective study</em></strong>.</p>
+</section>
+<section id="requirement-42-3-tra" class="level3">
+<h3 class="anchored" data-anchor-id="requirement-42-3-tra">Requirement 42-3-TRA</h3>
+<p><strong>Description:</strong> % of <strong><em>explainability methods</em></strong> are applied in the tool and outputs are available to <strong><em>relevant users</em></strong> by <strong><em>time point</em></strong>.</p>
+<p><strong><em>explainability methods</em></strong>: - explainability methods for tabular data - explainability methods for imaging data</p>
+<p><strong><em>relevant users</em></strong>: - medical personnel</p>
+<p><strong><em>time point</em></strong>: - start of the prospective study</p>
+<p><strong>Phases</strong><br>
+- development - testing</p>
+<p><strong>Owner</strong><br>
+- WP 2 lead</p>
+<p><strong>Stakeholders</strong></p>
+<p>- WP 2 (development)</p>
+<p>- WP 3 (design)</p>
+<p>- WP 4 (clinical validation)</p>
+<p><strong>Goal</strong></p>
+<p>- 100% of <strong><em>explainability methods for tabular data are</em></strong> applied in the tool and outputs are available to medical personnel by <strong><em>the start of the prospective study</em></strong>.</p>
+<p>- 100% of <strong><em>explainability methods for imaging data are</em></strong> applied in the tool and outputs are available to medical personnel by <strong><em>the start of the prospective study</em></strong>.</p>
+</section>
+<section id="requiremennt-42-4-tra" class="level3">
+<h3 class="anchored" data-anchor-id="requiremennt-42-4-tra">Requiremennt 42-4-TRA</h3>
+<p><strong>Description:</strong> % of <strong><em>explainability methods</em></strong> applied in the tool are validated by <strong><em>metric</em></strong> by <strong><em>time point</em></strong>.</p>
+<p><strong><em>explainability methods</em></strong>: - explainability methods for tabular data - explainability methods for imaging data</p>
+<p><strong><em>metric</em></strong>: - quantified scores - qualitative validation by users</p>
+<p><strong><em>time point</em></strong>: - month 24 (delivery date of D2.2 which will incorporate results from T2.4 (refinement and improvement of models for stroke outcome) and T2.5 (augmentation of models with xAI))</p>
+<p><strong>Phases</strong><br>
+- development - testing</p>
+<p><strong>Owner</strong><br>
+- WP 2 lead</p>
+<p><strong>Stakeholders</strong></p>
+<p>- WP 2 (development)</p>
+<p>- WP 3 (design)</p>
+<p><strong>Goal</strong></p>
+<p>- 100% of <strong><em>explainability methods for tabular data</em></strong> applied in the tool are validated by <strong><em>quantified scores</em></strong> by month 24</p>
+<p>- 100% of <strong><em>explainability methods for tabular data</em></strong> applied in the tool are validated by <strong><em>qualitative validation by users</em></strong> by month 24</p>
+<p>- 100% of <strong><em>explainability methods for imaging data</em></strong> applied in the tool are validated by <strong><em>quantified scores</em></strong> by month 24</p>
+<p>- 100% of <strong><em>explainability methods for imaging data</em></strong> applied in the tool are validated by <strong><em>qualitative validation by users</em></strong> by month 24</p>
+</section>
+</section>
+<section id="communication" class="level2">
+<h2 class="anchored" data-anchor-id="communication">Communication</h2>
+<p>AI systems should not represent themselves as humans to users; humans have the right to be informed that they are interacting with an AI system. This entails that AI systems must be identifiable as such. In addition, the option to decide against this interaction in favour of human interaction should be provided where needed to ensure compliance with fundamental rights. Beyond this, the AI system’s capabilities and limitations should be communicated to AI practitioners or end-users in a manner appropriate to the use case at hand. This could encompass communication of the AI system’s level of accuracy, as well as its limitations.</p>
+<section id="requirement-43-1-tra" class="level3">
+<h3 class="anchored" data-anchor-id="requirement-43-1-tra">Requirement 43-1-TRA</h3>
+<p><strong>Description:</strong> <strong><em>information</em></strong> relevant for <strong><em>explainee</em></strong> to read or understand are communicated in adequate language so that it enables <strong><em>explainee</em></strong> to protect their own interests and is available <strong><em>time point</em></strong>.</p>
+<p><strong><em>information</em></strong>: - study information - study results - user information</p>
+<p><strong><em>explainee</em></strong>: - patients - patient family/caregivers - users</p>
+<p><strong><em>time point</em></strong>: - prior to start of the prospective study</p>
+<p><strong>Phases</strong><br>
+- development - testing</p>
+<p><strong>Owner</strong><br>
+- WP 6 lead</p>
+<p><strong>Stakeholders</strong></p>
+<p>- WP 6 (patient communication)</p>
+<p><strong>Tolerable</strong></p>
+<p>- <strong><em>Study information</em></strong> relevant for <strong><em>patients</em></strong> to read or understand are communicated in adequate language so that it enables <strong><em>patients</em></strong> to protect their own interests and is available before the <strong><em>prospective study start</em></strong></p>
+<p>- <strong><em>Study results</em></strong> relevant for <strong><em>patients</em></strong> to read or understand are communicated in adequate language so that it enables <strong><em>patients</em></strong> to protect their own interests and is available before the <strong><em>prospective study start</em></strong></p>
+<p>- <strong><em>Study information</em></strong> relevant for <strong><em>patient family/caregivers</em></strong> to read or understand are communicated in adequate language so that it enables <strong><em>patient family/caregivers</em></strong> to protect their own interests and is available <strong><em>before the prospective study start</em></strong></p>
+<p>- <strong><em>Study results</em></strong> relevant for <strong><em>patient family/caregivers</em></strong> to read or understand are communicated in adequate language so that it enables <strong><em>patient family/caregivers</em></strong> to protect their own interests and is available <strong><em>before the prospective study start</em></strong></p>
+<p>- <strong><em>User information</em></strong> relevant for <strong><em>users</em></strong> to read or understand are communicated in adequate language so that it enables <strong><em>users</em></strong> to protect their own interests and is available <strong><em>before the prospective study start</em></strong></p>
+</section>
+<section id="requirement-43-2-tra" class="level3">
+<h3 class="anchored" data-anchor-id="requirement-43-2-tra">Requirement 43-2-TRA</h3>
+<p><strong>Description:</strong> <strong><em>Relevant information</em></strong> for <strong><em>explainee groups</em></strong> are explained to <strong><em>explainee groups</em></strong> and translated by a science communicator when relevant.</p>
+<p><strong><em>relevant information</em></strong>: For Patient/patient family/caregiver group:</p>
+<p>- Why are we using the tool?</p>
+<p>- Why we don’t know what the best treatment is.</p>
+<p>- What are the results of the AI model?</p>
+<p>- What do the results of the tool imply for them?);</p>
+<p>For medical users group:</p>
+<p>- Why should I use this tool?</p>
+<p>- When should I not use this tool?</p>
+<p>- Evidence that it works.</p>
+<p>- How do we know that this tool is successful? How does the model work?</p>
+<p>- Which parameters/variables are input data? And which ones are deciding factors?</p>
+<p><strong><em>explainee groups</em></strong>: - patient/patient family/caregiver - medical users</p>
+<p><strong>Phases</strong><br>
+- development - testing - validation</p>
+<p><strong>Owner</strong><br>
+- WP 6 lead</p>
+<p><strong>Stakeholders</strong></p>
+<p>- Explainee groups</p>
+<p>- WP 2 (development)</p>
+<p>- WP 4 (clinical validation)</p>
+<p>- WP 6 (patient communication)</p>
+<p><strong>Tolerable</strong></p>
+<p>- <strong><em>(Why are we using the tool? Why we don’t know what the best treatment is. What are the results of the AI model? What do the results of the tool imply for them?)</em></strong> for <strong><em>patient/patient family/caregiver</em></strong> are explained to <strong><em>patient/patient family/caregiver</em></strong> and translated by a science communicator when relevant.</p>
+<p>- <strong><em>(Why should I use this tool? When should I not use this tool? Evidence that it works. How do we know that this tool is successful? How does the model work? Which parameters/variables are input data? And which ones are deciding factors?)</em></strong> for <strong><em>medical users</em></strong> are explained to <strong><em>medical users</em></strong> and translated by a science communicator when relevant.</p>
+</section>
+<section id="requirement-43-3-tra" class="level3">
+<h3 class="anchored" data-anchor-id="requirement-43-3-tra">Requirement 43-3-TRA</h3>
+<p><strong>Description:</strong> Explanations are specifically tailored to <strong><em>different explainee groups</em></strong> by <strong><em>time point</em></strong>.</p>
+<p><strong><em>different explainee groups</em></strong>:</p>
+<p>- users in different countries - patients/family/caregivers in different countries - patients/family/caregivers of different cultures</p>
+<p><strong><em>time point</em></strong>: - prior to the start of the prospective study</p>
+<p><strong>Phases</strong><br>
+- development - testing</p>
+<p><strong>Owner</strong><br>
+- WP 6 lead</p>
+<p><strong>Stakeholders</strong></p>
+<p>- WP 6 (patient communication)</p>
+<p><strong>Tolerable</strong></p>
+<p>- Explanations are specifically tailored to <strong><em>users in different countries prior to start of the prospective study</em></strong>.</p>
+<p><strong>Goal</strong></p>
+<p>- Explanations are specifically tailored to <strong><em>patient/family/caregivers in different countries prior to start of the prospective study</em></strong>.</p>
+<p><strong>Wish</strong></p>
+<p>- Explanations are specifically tailored to <strong><em>patient/family/caregivers of different cultures prior to start of the prospective study</em></strong>.</p>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -599,10 +793,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
+      <a href="./3_pri.html" class="pagination-link" aria-label="**3 Privacy and data governance (PRI)**">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title"><strong>3 Privacy and data governance (PRI)</strong></span></span>
+      </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./0_organization.html" class="pagination-link" aria-label="How Requirements are Organized">
-        <span class="nav-page-text"><span class="chapter-title">How Requirements are Organized</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./5_div.html" class="pagination-link" aria-label="Diversity, non-discrimination, and fairness (DIV)">
+        <span class="nav-page-text"><span class="chapter-title">Diversity, non-discrimination, and fairness (DIV)</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

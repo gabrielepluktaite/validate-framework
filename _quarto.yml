@@ -9,18 +9,19 @@ book:
     - index.qmd
     - 0_organization.qmd
     - 1_hum.qmd
-    # - 2_rob.qmd  # Uncomment when available
-    # - 3_pri.qmd  # Uncomment when available
-    # - 4_tra.qmd  # Uncomment when available
-    # - 5_div.qmd  # Uncomment when available
-    # - 6_sus.qmd  # Uncomment when available
-    # - 7_acc.qmd  # Uncomment when available
-    # - wp_tasks.qmd  # Uncomment when available
+    - 2_rob.qmd  
+    - 3_pri.qmd  
+    - 4_tra.qmd  
+    - 5_div.qmd  
+    - 6_sus.qmd  
+    - 7_acc.qmd  
+    - wp_tasks.qmd  
 
 
 format:
   html:
     theme: cosmo
+    number-sections: false
   pdf:
     documentclass: scrreport
     mainfont: "Arial"
