@@ -1,4 +1,4 @@
-# Transparency (TRA)
+# 4 Transparency (TRA)
 
 This requirement is closely linked with the principle of explicability and encompasses transparency of elements relevant to an AI system: the data, the system and the business models.
 
@@ -10,25 +10,33 @@ The data sets and the processes that yield the AI system’s decision, including
 
 **Description:** ***Limitations and metadata*** are available to doctors in the app during emergencies by ***time point***.
 
-**Parameters:**
-
 ***Limitations and metadata***:
+
 \- data collection trail
+
 \- data source
+
 \- demographics
+
 \- how patient-specific input affected the predictions
+
 \- how model is calibrated and optimized, especially whether it has a tendency for false negatives or false positives
 
-***time point***:\
-- by the end of the project
+***time point***:
 
-**Phases**\
+\- by the end of the project
+
+**Phases**
+
 \- development
+
 \- testing
+
 \- validation
 
-**Owner**\
-- WP 2 lead
+**Owner**
+
+\- WP 2 lead
 
 **Stakeholders**
 
@@ -48,17 +56,19 @@ Explainability concerns the ability to explain both the technical processes of a
 
 **Description:**The system is able to inform about parts of the input that led to a specific outcome, achieved at ***time point***.
 
-**Parameters**
+***time point***:
 
-***time point***:\
--Prior to start of the prospective study
+\-prior to start of the prospective study
 
-**Phases**\
+**Phases**
+
 \- development
+
 \- testing
 
-**Owner**\
-- WP 2 lead
+**Owner**
+
+\- WP 2 lead
 
 **Stakeholders**
 
@@ -75,29 +85,40 @@ Explainability concerns the ability to explain both the technical processes of a
 **Description:** % of explanations are communicated and defined in line with the ***constraints*** of the project ***time point***.
 
 ***constraints***:
+
 \- ethical values of the project
+
 \- explainability regulations
 
 ***ethical values of the project***:
+
 \- ethical framework
 
 ***process***:
+
 \- process outlined in VALIDATE data management plan
 
 ***explainability regulations***:
+
 \- EU AI Act
+
 \- GDPR
+
 \- EU-MDR
 
 ***time point***:
+
 \- prior to the start of the prospective study
 
-**Phases**\
+**Phases**
+
 \- development
+
 \- testing
 
-**Owner**\
-- WP 6 lead
+**Owner**
+
+\- WP 6 lead
 
 **Stakeholders**
 
@@ -120,21 +141,28 @@ Explainability concerns the ability to explain both the technical processes of a
 **Description:** % of ***explainability methods*** are applied in the tool and outputs are available to ***relevant users*** by ***time point***. 
 
 ***explainability methods***:
+
 \- explainability methods for tabular data
+
 \- explainability methods for imaging data 
 
 ***relevant users***:
+
 \- medical personnel
 
 ***time point***:
+
 \- start of the prospective study
 
-**Phases**\
+**Phases**
+
 \- development
+
 \- testing
 
-**Owner**\
-- WP 2 lead
+**Owner**
+
+\- WP 2 lead
 
 **Stakeholders**
 
@@ -155,22 +183,30 @@ Explainability concerns the ability to explain both the technical processes of a
 **Description:** % of ***explainability methods*** applied in the tool are validated by ***metric*** by ***time point***.
 
 ***explainability methods***:
+
 \- explainability methods for tabular data
+
 \- explainability methods for imaging data 
 
 ***metric***:
+
 \- quantified scores
+
 \- qualitative validation by users 
 
 ***time point***:
+
 \- month 24 (delivery date of D2.2 which will incorporate results from T2.4 (refinement and improvement of models for stroke outcome) and T2.5 (augmentation of models with xAI)) 
 
-**Phases**\
+**Phases**
+
 \- development
+
 \- testing
 
-**Owner**\
-- WP 2 lead
+**Owner**
+
+\- WP 2 lead
 
 **Stakeholders**
 
@@ -197,24 +233,34 @@ AI systems should not represent themselves as humans to users; humans have the r
 **Description:** ***information*** relevant for ***explainee*** to read or understand are communicated in adequate language so that it enables ***explainee*** to protect their own interests and is available ***time point***. 
 
 ***information***:
+
 \- study information
+
 \- study results
+
 \- user information 
 
 ***explainee***:
+
 \- patients
+
 \- patient family/caregivers
+
 \- users  
 
 ***time point***:
+
 \- prior to start of the prospective study 
 
-**Phases**\
+**Phases**
+
 \- development
+
 \- testing
 
-**Owner**\
-- WP 6 lead
+**Owner**
+
+\- WP 6 lead
 
 **Stakeholders**
 
@@ -237,6 +283,7 @@ AI systems should not represent themselves as humans to users; humans have the r
 **Description:** ***Relevant information*** for ***explainee groups*** are explained to ***explainee groups*** and translated by a science communicator when relevant.
 
 ***relevant information***:
+
 For Patient/patient family/caregiver group: 
 
 \- Why are we using the tool? 
@@ -260,17 +307,23 @@ For medical users group:
 \- Which parameters/variables are input data? And which ones are deciding factors?
 
 ***explainee groups***:
+
 \- patient/patient family/caregiver
+
 \- medical users  
 
 
-**Phases**\
+**Phases**
+
 \- development
+
 \- testing
+
 \- validation
 
-**Owner**\
-- WP 6 lead
+**Owner**
+
+\- WP 6 lead
 
 **Stakeholders**
 
@@ -295,18 +348,24 @@ For medical users group:
 ***different explainee groups***:
 
 \- users in different countries
+
 \- patients/family/caregivers in different countries
+
 \- patients/family/caregivers of different cultures 
 
 ***time point***:
+
 \- prior to the start of the prospective study
 
-**Phases**\
+**Phases**
+
 \- development
+
 \- testing
 
-**Owner**\
-- WP 6 lead
+**Owner**
+
+\- WP 6 lead
 
 **Stakeholders**
 
