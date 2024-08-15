@@ -16,7 +16,13 @@ Both the ability to report on actions or decisions that contribute to a certain 
 
 **Description:** Algorithmic impact assessment following ***relevant method*** is performed by ***time point***.
 
-***relevant method***: - MDR - EU AI Act - To be determined
+***relevant method***:
+
+\- MDR
+
+\- EU AI Act
+
+\- To be determined
 
 ***time point***:
 

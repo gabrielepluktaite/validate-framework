@@ -1,10 +1,9 @@
+# 4 Transparency (TRA)
 ---
 editor: 
   markdown: 
     wrap: 72
 ---
-
-# Transparency (TRA)
 
 This requirement is closely linked with the principle of explicability
 and encompasses transparency of elements relevant to an AI system: the
@@ -26,21 +25,33 @@ auditability as well as explainability.
 **Description:** ***Limitations and metadata*** are available to doctors
 in the app during emergencies by ***time point***.
 
-**Parameters:**
+***Limitations and metadata***:
 
-***Limitations and metadata***: - data collection trail - data source -
-demographics - how patient-specific input affected the predictions - how
-model is calibrated and optimized, especially whether it has a tendency
-for false negatives or false positives
+\- data collection trail
 
-***time point***:\
-- by the end of the project
+\- data source
 
-**Phases**\
-- development - testing - validation
+\- demographics
 
-**Owner**\
-- WP 2 lead
+\- how patient-specific input affected the predictions
+
+\- how model is calibrated and optimized, especially whether it has a tendency for false negatives or false positives
+
+***time point***:
+
+\- by the end of the project
+
+**Phases**
+
+\- development
+
+\- testing
+
+\- validation
+
+**Owner**
+
+\- WP 2 lead
 
 **Stakeholders**
 
@@ -78,16 +89,19 @@ the system, and the rationale for deploying it, should be available
 **Description:**The system is able to inform about parts of the input
 that led to a specific outcome, achieved at ***time point***.
 
-**Parameters**
+***time point***:
 
-***time point***:\
--Prior to start of the prospective study
+\-prior to start of the prospective study
 
-**Phases**\
-- development - testing
+**Phases**
 
-**Owner**\
-- WP 2 lead
+\- development
+
+\- testing
+
+**Owner**
+
+\- WP 2 lead
 
 **Stakeholders**
 
@@ -106,22 +120,41 @@ point***.
 **Description:** % of explanations are communicated and defined in line
 with the ***constraints*** of the project ***time point***.
 
-***constraints***: - ethical values of the project - explainability
-regulations
+***constraints***:
 
-***ethical values of the project***: - ethical framework
+\- ethical values of the project
 
-***process***: - process outlined in VALIDATE data management plan
+\- explainability regulations
 
-***explainability regulations***: - EU AI Act - GDPR - EU-MDR
+***ethical values of the project***:
 
-***time point***: - prior to the start of the prospective study
+\- ethical framework
 
-**Phases**\
-- development - testing
+***process***:
 
-**Owner**\
-- WP 6 lead
+\- process outlined in VALIDATE data management plan
+
+***explainability regulations***:
+
+\- EU AI Act
+
+\- GDPR
+
+\- EU-MDR
+
+***time point***:
+
+\- prior to the start of the prospective study
+
+**Phases**
+
+\- development
+
+\- testing
+
+**Owner**
+
+\- WP 6 lead
 
 **Stakeholders**
 
@@ -149,18 +182,29 @@ regulations
 tool and outputs are available to ***relevant users*** by ***time
 point***.
 
-***explainability methods***: - explainability methods for tabular
-data - explainability methods for imaging data
+***explainability methods***:
 
-***relevant users***: - medical personnel
+\- explainability methods for tabular data
 
-***time point***: - start of the prospective study
+\- explainability methods for imaging data 
 
-**Phases**\
-- development - testing
+***relevant users***:
 
-**Owner**\
-- WP 2 lead
+\- medical personnel
+
+***time point***:
+
+\- start of the prospective study
+
+**Phases**
+
+\- development
+
+\- testing
+
+**Owner**
+
+\- WP 2 lead
 
 **Stakeholders**
 
@@ -185,20 +229,31 @@ of the prospective study***.
 **Description:** % of ***explainability methods*** applied in the tool
 are validated by ***metric*** by ***time point***.
 
-***explainability methods***: - explainability methods for tabular
-data - explainability methods for imaging data
+***explainability methods***:
 
-***metric***: - quantified scores - qualitative validation by users
+\- explainability methods for tabular data
 
-***time point***: - month 24 (delivery date of D2.2 which will
-incorporate results from T2.4 (refinement and improvement of models for
-stroke outcome) and T2.5 (augmentation of models with xAI))
+\- explainability methods for imaging data 
 
-**Phases**\
-- development - testing
+***metric***:
 
-**Owner**\
-- WP 2 lead
+\- quantified scores
+
+\- qualitative validation by users 
+
+***time point***:
+
+\- month 24 (delivery date of D2.2 which will incorporate results from T2.4 (refinement and improvement of models for stroke outcome) and T2.5 (augmentation of models with xAI)) 
+
+**Phases**
+
+\- development
+
+\- testing
+
+**Owner**
+
+\- WP 2 lead
 
 **Stakeholders**
 
@@ -240,18 +295,35 @@ or understand are communicated in adequate language so that it enables
 ***explainee*** to protect their own interests and is available ***time
 point***.
 
-***information***: - study information - study results - user
-information
+***information***:
 
-***explainee***: - patients - patient family/caregivers - users
+\- study information
 
-***time point***: - prior to start of the prospective study
+\- study results
 
-**Phases**\
-- development - testing
+\- user information 
 
-**Owner**\
-- WP 6 lead
+***explainee***:
+
+\- patients
+
+\- patient family/caregivers
+
+\- users  
+
+***time point***:
+
+\- prior to start of the prospective study 
+
+**Phases**
+
+\- development
+
+\- testing
+
+**Owner**
+
+\- WP 6 lead
 
 **Stakeholders**
 
@@ -286,9 +358,11 @@ study start***
 
 ### Requirement 43-2-TRA
 
-**Description:** ***Relevant information*** for ***explainee groups***
-are explained to ***explainee groups*** and translated by a science
-communicator when relevant.
+**Description:** ***Relevant information*** for ***explainee groups*** are explained to ***explainee groups*** and translated by a science communicator when relevant.
+
+***relevant information***:
+
+For Patient/patient family/caregiver group: 
 
 ***relevant information***: For Patient/patient family/caregiver group:
 
@@ -310,17 +384,26 @@ For medical users group:
 
 \- How do we know that this tool is successful? How does the model work?
 
-\- Which parameters/variables are input data? And which ones are
-deciding factors?
+***explainee groups***:
+
+\- patient/patient family/caregiver
+
+\- medical users 
 
 ***explainee groups***: - patient/patient family/caregiver - medical
 users
 
-**Phases**\
-- development - testing - validation
+**Phases**
 
-**Owner**\
-- WP 6 lead
+\- development
+
+\- testing
+
+\- validation
+
+**Owner**
+
+\- WP 6 lead
 
 **Stakeholders**
 
@@ -355,16 +438,25 @@ explainee groups*** by ***time point***.
 
 ***different explainee groups***:
 
-\- users in different countries - patients/family/caregivers in
-different countries - patients/family/caregivers of different cultures
+\- users in different countries
 
-***time point***: - prior to the start of the prospective study
+\- patients/family/caregivers in different countries
 
-**Phases**\
-- development - testing
+\- patients/family/caregivers of different cultures 
 
-**Owner**\
-- WP 6 lead
+***time point***:
+
+\- prior to the start of the prospective study
+
+**Phases**
+
+\- development
+
+\- testing
+
+**Owner**
+
+\- WP 6 lead
 
 **Stakeholders**
 

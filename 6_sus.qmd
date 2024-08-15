@@ -1,4 +1,4 @@
-# Societal and environmental well-being
+# 6 Societal and environmental well-being (SUS)
 
 In line with the principles of fairness and prevention of harm, the broader society, other sentient beings and the environment should be also considered as stakeholders throughout the AI system’s life cycle. Sustainability and ecological responsibility of AI systems should be encouraged, and research should be fostered into AI solutions addressing areas of global concern, such as for instance the Sustainable Development Goals. Ideally, AI systems should be used to benefit all human beings, including future generations.
 
@@ -10,12 +10,15 @@ AI systems promise to help tackling some of the most pressing societal concerns,
 
 **Description:** % of VALIDATE machine learning engineers follow an SOP to track the environmental impact of model training. 
 
-**Phases**\
+**Phases**
+
 \- development
+
 \- testing
 
-**Owner**\
-- WP 2 lead
+**Owner**
+
+\- WP 2 lead
 
 **Stakeholders**
 
