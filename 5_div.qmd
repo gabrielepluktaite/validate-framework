@@ -1,4 +1,4 @@
-# Diversity, non-discrimination, and fairness (DIV)
+# 5 Diversity, non-discrimination, and fairness (DIV)
 
 In order to achieve Trustworthy AI, we must enable inclusion and diversity throughout the entire AI system’s life cycle. Besides the consideration and involvement of all affected stakeholders throughout the process, this also entails ensuring equal access through inclusive design processes as well as equal treatment. This requirement is closely linked with the principle of fairness.
 
@@ -10,23 +10,31 @@ Data sets used by AI systems (both for training and operation) may suffer from t
 
 **Description:** Subgroup stratified according to ***features*** AND ***intersectional feature combination*** has prediction accuracy with no significant difference compared to the majority population.
 
-
 ***features***:
+
 \- age
+
 \- sex/gender
+
 \- ethnicity/race
+
 \- geographic location
 
-***intersectional feature combination***:\
-- sex/gender with ethnicity/race
+***intersectional feature combination***:
 
-**Phases**\
+\- sex/gender with ethnicity/race
+
+**Phases**
+
 \- development
+
 \- testing
+
 \- validation
 
-**Owner**\
-- WP 2 lead
+**Owner**
+
+\- WP 2 lead
 
 **Stakeholders**
 
@@ -52,22 +60,29 @@ Particularly in business-to-consumer domains, systems should be user-centric and
 
 **Description:** System undergoes UX/UI testing on ***X number user groups at time point***. 
 
-***X number***:\
--10
+***X number***:
+
+\-10
 
 ***user groups***:
+
 \- Stroke physicians of different technical skill levels
+
 \- Stroke physicians of different medical skill levels 
 
 ***time point***:
-\- During demonstrator development and testing
 
-**Phases**\
+\- during demonstrator development and testing
+
+**Phases**
+
 \- development
+
 \- testing
 
-**Owner**\
-- WP 3 lead
+**Owner**
+
+\- WP 3 lead
 
 **Stakeholders**
 
@@ -90,17 +105,22 @@ In order to develop AI systems that are trustworthy, it is advisable to consult 
 **Description:** System is presented to X ***stakeholders*** for feedback ***time point***. 
 
 ***stakeholders***:
+
 \- Stroke patients and/or patient representatives from different geographical and cultural backgrounds
 
 ***time point***:
-\- During demonstrator development and testing
 
-**Phases**\
+\- during demonstrator development and testing
+
+**Phases**
+
 \- development
+
 \- testing
 
-**Owner**\
-- WP 3 lead
+**Owner**
+
+\- WP 3 lead
 
 **Stakeholders**
 
