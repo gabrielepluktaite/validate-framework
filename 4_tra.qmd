@@ -1,14 +1,29 @@
 # 4 Transparency (TRA)
+---
+editor: 
+  markdown: 
+    wrap: 72
+---
 
-This requirement is closely linked with the principle of explicability and encompasses transparency of elements relevant to an AI system: the data, the system and the business models.
+This requirement is closely linked with the principle of explicability
+and encompasses transparency of elements relevant to an AI system: the
+data, the system and the business models.
 
 ## Traceability
 
-The data sets and the processes that yield the AI system’s decision, including those of data gathering and data labelling as well as the algorithms used, should be documented to the best possible standard to allow for traceability and an increase in transparency. This also applies to the decisions made by the AI system. This enables identification of the reasons why an AI-decision was erroneous which, in turn, could help prevent future mistakes. Traceability facilitates auditability as well as explainability. 
+The data sets and the processes that yield the AI system’s decision,
+including those of data gathering and data labelling as well as the
+algorithms used, should be documented to the best possible standard to
+allow for traceability and an increase in transparency. This also
+applies to the decisions made by the AI system. This enables
+identification of the reasons why an AI-decision was erroneous which, in
+turn, could help prevent future mistakes. Traceability facilitates
+auditability as well as explainability.
 
 ### Requirement 41-1-TRA
 
-**Description:** ***Limitations and metadata*** are available to doctors in the app during emergencies by ***time point***.
+**Description:** ***Limitations and metadata*** are available to doctors
+in the app during emergencies by ***time point***.
 
 ***Limitations and metadata***:
 
@@ -46,15 +61,33 @@ The data sets and the processes that yield the AI system’s decision, including
 
 **Wish**
 
-\- ***Data collection trail, data source, demographics, how patient-specific input affected the predictions, how model is calibrated and optimized*** are available to doctors in the app during emergencies ***by the end of the project***.
+\- ***Data collection trail, data source, demographics, how
+patient-specific input affected the predictions, how model is calibrated
+and optimized*** are available to doctors in the app during emergencies
+***by the end of the project***.
 
 ## Explainability
 
-Explainability concerns the ability to explain both the technical processes of an AI system and the related human decisions (e.g. application areas of a system). Technical explainability requires that the decisions made by an AI system can be understood and traced by human beings. Moreover, trade-offs might have to be made between enhancing a system's explainability (which may reduce its accuracy) or increasing its accuracy (at the cost of explainability). Whenever an AI system has a significant impact on people’s lives, it should be possible to demand a suitable explanation of the AI system’s decision-making process. Such explanation should be timely and adapted to the expertise of the stakeholder concerned (e.g. layperson, regulator or researcher). In addition, explanations of the degree to which an AI system influences and shapes the organisational decision-making process, design choices of the system, and the rationale for deploying it, should be available (hence ensuring business model transparency). 
+Explainability concerns the ability to explain both the technical
+processes of an AI system and the related human decisions (e.g.
+application areas of a system). Technical explainability requires that
+the decisions made by an AI system can be understood and traced by human
+beings. Moreover, trade-offs might have to be made between enhancing a
+system's explainability (which may reduce its accuracy) or increasing
+its accuracy (at the cost of explainability). Whenever an AI system has
+a significant impact on people’s lives, it should be possible to demand
+a suitable explanation of the AI system’s decision-making process. Such
+explanation should be timely and adapted to the expertise of the
+stakeholder concerned (e.g. layperson, regulator or researcher). In
+addition, explanations of the degree to which an AI system influences
+and shapes the organisational decision-making process, design choices of
+the system, and the rationale for deploying it, should be available
+(hence ensuring business model transparency).
 
 ### Requirement 42-1-TRA
 
-**Description:**The system is able to inform about parts of the input that led to a specific outcome, achieved at ***time point***.
+**Description:**The system is able to inform about parts of the input
+that led to a specific outcome, achieved at ***time point***.
 
 ***time point***:
 
@@ -78,11 +111,14 @@ Explainability concerns the ability to explain both the technical processes of a
 
 **Tolerable**
 
-\- The system is able to inform about parts of the input that led to a specific outcome achieved ***prior to start of the prospective study point***. 
+\- The system is able to inform about parts of the input that led to a
+specific outcome achieved ***prior to start of the prospective study
+point***.
 
 ### Requirement 42-2-TRA
 
-**Description:** % of explanations are communicated and defined in line with the ***constraints*** of the project ***time point***.
+**Description:** % of explanations are communicated and defined in line
+with the ***constraints*** of the project ***time point***.
 
 ***constraints***:
 
@@ -132,13 +168,19 @@ Explainability concerns the ability to explain both the technical processes of a
 
 **Goal**
 
-\- % of explanations are communicated and defined in line with ***ethical values of the project: Ethical framework*** of the project ***prior to start of the prospective study***.
+\- % of explanations are communicated and defined in line with
+***ethical values of the project: Ethical framework*** of the project
+***prior to start of the prospective study***.
 
-\- % of explanations are communicated and defined in line with ***explainability regulations: EU AI act;GDPR;EU-MDR*** of the project ***prior to start of the prospective study***.
+\- % of explanations are communicated and defined in line with
+***explainability regulations: EU AI act;GDPR;EU-MDR*** of the project
+***prior to start of the prospective study***.
 
 ### Requirement 42-3-TRA
 
-**Description:** % of ***explainability methods*** are applied in the tool and outputs are available to ***relevant users*** by ***time point***. 
+**Description:** % of ***explainability methods*** are applied in the
+tool and outputs are available to ***relevant users*** by ***time
+point***.
 
 ***explainability methods***:
 
@@ -174,13 +216,18 @@ Explainability concerns the ability to explain both the technical processes of a
 
 **Goal**
 
-\- 100% of ***explainability methods for tabular data are*** applied in the tool and outputs are available to medical personnel by ***the start of the prospective study***.  
+\- 100% of ***explainability methods for tabular data are*** applied in
+the tool and outputs are available to medical personnel by ***the start
+of the prospective study***.
 
-\- 100% of ***explainability methods for imaging data are*** applied in the tool and outputs are available to medical personnel by ***the start of the prospective study***.  
+\- 100% of ***explainability methods for imaging data are*** applied in
+the tool and outputs are available to medical personnel by ***the start
+of the prospective study***.
 
 ### Requiremennt 42-4-TRA
 
-**Description:** % of ***explainability methods*** applied in the tool are validated by ***metric*** by ***time point***.
+**Description:** % of ***explainability methods*** applied in the tool
+are validated by ***metric*** by ***time point***.
 
 ***explainability methods***:
 
@@ -216,21 +263,37 @@ Explainability concerns the ability to explain both the technical processes of a
 
 **Goal**
 
-\- 100% of ***explainability methods for tabular data*** applied in the tool are validated by ***quantified scores*** by month 24
+\- 100% of ***explainability methods for tabular data*** applied in the
+tool are validated by ***quantified scores*** by month 24
 
-\- 100% of ***explainability methods for tabular data*** applied in the tool are validated by ***qualitative validation by users*** by month 24
+\- 100% of ***explainability methods for tabular data*** applied in the
+tool are validated by ***qualitative validation by users*** by month 24
 
-\- 100% of ***explainability methods for imaging data*** applied in the tool are validated by ***quantified scores*** by month 24  
+\- 100% of ***explainability methods for imaging data*** applied in the
+tool are validated by ***quantified scores*** by month 24
 
-\- 100% of ***explainability methods for imaging data*** applied in the tool are validated by ***qualitative validation by users*** by month 24
+\- 100% of ***explainability methods for imaging data*** applied in the
+tool are validated by ***qualitative validation by users*** by month 24
 
 ## Communication
 
-AI systems should not represent themselves as humans to users; humans have the right to be informed that they are interacting with an AI system. This entails that AI systems must be identifiable as such. In addition, the option to decide against this interaction in favour of human interaction should be provided where needed to ensure compliance with fundamental rights. Beyond this, the AI system’s capabilities and limitations should be communicated to AI practitioners or end-users in a manner appropriate to the use case at hand. This could encompass communication of the AI system's level of accuracy, as well as its limitations. 
+AI systems should not represent themselves as humans to users; humans
+have the right to be informed that they are interacting with an AI
+system. This entails that AI systems must be identifiable as such. In
+addition, the option to decide against this interaction in favour of
+human interaction should be provided where needed to ensure compliance
+with fundamental rights. Beyond this, the AI system’s capabilities and
+limitations should be communicated to AI practitioners or end-users in a
+manner appropriate to the use case at hand. This could encompass
+communication of the AI system's level of accuracy, as well as its
+limitations.
 
 ### Requirement 43-1-TRA
 
-**Description:** ***information*** relevant for ***explainee*** to read or understand are communicated in adequate language so that it enables ***explainee*** to protect their own interests and is available ***time point***. 
+**Description:** ***information*** relevant for ***explainee*** to read
+or understand are communicated in adequate language so that it enables
+***explainee*** to protect their own interests and is available ***time
+point***.
 
 ***information***:
 
@@ -268,15 +331,30 @@ AI systems should not represent themselves as humans to users; humans have the r
 
 **Tolerable**
 
-\- ***Study information*** relevant for ***patients*** to read or understand are communicated in adequate language so that it enables ***patients*** to protect their own interests and is available before the ***prospective study start***
+\- ***Study information*** relevant for ***patients*** to read or
+understand are communicated in adequate language so that it enables
+***patients*** to protect their own interests and is available before
+the ***prospective study start***
 
-\- ***Study results*** relevant for ***patients*** to read or understand are communicated in adequate language so that it enables ***patients*** to protect their own interests and is available before the ***prospective study start***
+\- ***Study results*** relevant for ***patients*** to read or understand
+are communicated in adequate language so that it enables ***patients***
+to protect their own interests and is available before the
+***prospective study start***
 
-\- ***Study information*** relevant for ***patient family/caregivers*** to read or understand are communicated in adequate language so that it enables ***patient family/caregivers*** to protect their own interests and is available ***before the prospective study start***
+\- ***Study information*** relevant for ***patient family/caregivers***
+to read or understand are communicated in adequate language so that it
+enables ***patient family/caregivers*** to protect their own interests
+and is available ***before the prospective study start***
 
-\- ***Study results*** relevant for ***patient family/caregivers*** to read or understand are communicated in adequate language so that it enables ***patient family/caregivers*** to protect their own interests and is available ***before the prospective study start***
+\- ***Study results*** relevant for ***patient family/caregivers*** to
+read or understand are communicated in adequate language so that it
+enables ***patient family/caregivers*** to protect their own interests
+and is available ***before the prospective study start***
 
-\- ***User information*** relevant for ***users*** to read or understand are communicated in adequate language so that it enables ***users*** to protect their own interests and is available ***before the prospective study start***
+\- ***User information*** relevant for ***users*** to read or understand
+are communicated in adequate language so that it enables ***users*** to
+protect their own interests and is available ***before the prospective
+study start***
 
 ### Requirement 43-2-TRA
 
@@ -286,32 +364,34 @@ AI systems should not represent themselves as humans to users; humans have the r
 
 For Patient/patient family/caregiver group: 
 
-\- Why are we using the tool? 
+***relevant information***: For Patient/patient family/caregiver group:
 
-\- Why we don't know what the best treatment is. 
+\- Why are we using the tool?
 
-\- What are the results of the AI model? 
+\- Why we don't know what the best treatment is.
 
-\- What do the results of the tool imply for them?); 
+\- What are the results of the AI model?
 
-For medical users group:  
+\- What do the results of the tool imply for them?);
 
-\- Why should I use this tool?  
+For medical users group:
 
-\- When should I not use this tool? 
+\- Why should I use this tool?
 
-\- Evidence that it works.  
+\- When should I not use this tool?
 
-\- How do we know that this tool is successful? How does the model work? 
+\- Evidence that it works.
 
-\- Which parameters/variables are input data? And which ones are deciding factors?
+\- How do we know that this tool is successful? How does the model work?
 
 ***explainee groups***:
 
 \- patient/patient family/caregiver
 
-\- medical users  
+\- medical users 
 
+***explainee groups***: - patient/patient family/caregiver - medical
+users
 
 **Phases**
 
@@ -337,13 +417,24 @@ For medical users group:
 
 **Tolerable**
 
-\- ***(Why are we using the tool? Why we don't know what the best treatment is. What are the results of the AI model? What do the results of the tool imply for them?)*** for ***patient/patient family/caregiver*** are explained to ***patient/patient family/caregiver*** and translated by a science communicator when relevant. 
- 
-\- ***(Why should I use this tool? When should I not use this tool? Evidence that it works. How do we know that this tool is successful? How does the model work? Which parameters/variables are input data? And which ones are deciding factors?)*** for ***medical users*** are explained to ***medical users*** and translated by a science communicator when relevant.
+\- ***(Why are we using the tool? Why we don't know what the best
+treatment is. What are the results of the AI model? What do the results
+of the tool imply for them?)*** for ***patient/patient
+family/caregiver*** are explained to ***patient/patient
+family/caregiver*** and translated by a science communicator when
+relevant.
+
+\- ***(Why should I use this tool? When should I not use this tool?
+Evidence that it works. How do we know that this tool is successful? How
+does the model work? Which parameters/variables are input data? And
+which ones are deciding factors?)*** for ***medical users*** are
+explained to ***medical users*** and translated by a science
+communicator when relevant.
 
 ### Requirement 43-3-TRA
 
-**Description:** Explanations are specifically tailored to ***different explainee groups*** by ***time point***.
+**Description:** Explanations are specifically tailored to ***different
+explainee groups*** by ***time point***.
 
 ***different explainee groups***:
 
@@ -373,14 +464,17 @@ For medical users group:
 
 **Tolerable**
 
-\- Explanations are specifically tailored to ***users in different countries prior to start of the prospective study***.
+\- Explanations are specifically tailored to ***users in different
+countries prior to start of the prospective study***.
 
 **Goal**
 
-\- Explanations are specifically tailored to ***patient/family/caregivers in different countries prior to start of the prospective study***.
+\- Explanations are specifically tailored to
+***patient/family/caregivers in different countries prior to start of
+the prospective study***.
 
 **Wish**
 
-\- Explanations are specifically tailored to ***patient/family/caregivers of different cultures prior to start of the prospective study***. 
-
-
+\- Explanations are specifically tailored to
+***patient/family/caregivers of different cultures prior to start of the
+prospective study***.

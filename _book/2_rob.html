@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>VALIDATE Framework - How Requirements are Organized</title>
+<title>VALIDATE Framework - 2 Technical Robustness and Safety (ROB)</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/fuse.min.js"></script>
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
-<link href="./1_hum.html" rel="next">
-<link href="./index.html" rel="prev">
+<link href="./3_pri.html" rel="next">
+<link href="./1_hum.html" rel="prev">
 <script src="site_libs/quarto-html/quarto.js"></script>
 <script src="site_libs/quarto-html/popper.min.js"></script>
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
@@ -81,7 +81,7 @@ ul.task-list li input[type="checkbox"] {
       <button type="button" class="quarto-btn-toggle btn" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
         <i class="bi bi-layout-text-sidebar-reverse"></i>
       </button>
-        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./0_organization.html"><span class="chapter-title">How Requirements are Organized</span></a></li></ol></nav>
+        <nav class="quarto-page-breadcrumbs" aria-label="breadcrumb"><ol class="breadcrumb"><li class="breadcrumb-item"><a href="./2_rob.html"><span class="chapter-title">2 Technical Robustness and Safety (ROB)</span></a></li></ol></nav>
         <a class="flex-grow-1" role="button" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">      
         </a>
       <button type="button" class="btn quarto-search-button" aria-label="" onclick="window.quartoOpenSearch();">
@@ -113,7 +113,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./0_organization.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">How Requirements are Organized</span></a>
+  <a href="./0_organization.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">How Requirements are Organized</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -123,7 +123,7 @@ ul.task-list li input[type="checkbox"] {
 </li>
         <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="./2_rob.html" class="sidebar-item-text sidebar-link"><span class="chapter-title">2 Technical Robustness and Safety (ROB)</span></a>
+  <a href="./2_rob.html" class="sidebar-item-text sidebar-link active"><span class="chapter-title">2 Technical Robustness and Safety (ROB)</span></a>
   </div>
 </li>
         <li class="sidebar-item">
@@ -166,11 +166,26 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#requirement-yz-n-aaa" id="toc-requirement-yz-n-aaa" class="nav-link active" data-scroll-target="#requirement-yz-n-aaa">Requirement YZ-N-AAA</a></li>
-  <li><a href="#parameters" id="toc-parameters" class="nav-link" data-scroll-target="#parameters">Parameters</a></li>
-  <li><a href="#phases" id="toc-phases" class="nav-link" data-scroll-target="#phases">Phases</a></li>
-  <li><a href="#stakeholders-and-owner" id="toc-stakeholders-and-owner" class="nav-link" data-scroll-target="#stakeholders-and-owner">Stakeholders and Owner</a></li>
-  <li><a href="#requirement-categorization" id="toc-requirement-categorization" class="nav-link" data-scroll-target="#requirement-categorization">Requirement Categorization</a></li>
+  <li><a href="#resilience-to-attack-and-safety" id="toc-resilience-to-attack-and-safety" class="nav-link active" data-scroll-target="#resilience-to-attack-and-safety">2.1 R<strong>esilience to Attack and Safety</strong></a>
+  <ul class="collapse">
+  <li><a href="#requirement-21-1-rob" id="toc-requirement-21-1-rob" class="nav-link" data-scroll-target="#requirement-21-1-rob">Requirement <strong>21-1-ROB</strong></a></li>
+  <li><a href="#requirement-21-2-rob" id="toc-requirement-21-2-rob" class="nav-link" data-scroll-target="#requirement-21-2-rob"><strong>Requirement 21-2-ROB</strong>&nbsp;</a></li>
+  </ul></li>
+  <li><a href="#fallback-plan-and-general-safety" id="toc-fallback-plan-and-general-safety" class="nav-link" data-scroll-target="#fallback-plan-and-general-safety"><strong>2.2 Fallback plan and general safety</strong></a>
+  <ul class="collapse">
+  <li><a href="#requirement-22-1-rob" id="toc-requirement-22-1-rob" class="nav-link" data-scroll-target="#requirement-22-1-rob"><strong>Requirement 22-1-ROB</strong>&nbsp;</a></li>
+  </ul></li>
+  <li><a href="#accuracy" id="toc-accuracy" class="nav-link" data-scroll-target="#accuracy"><strong>2.3 Accuracy</strong></a>
+  <ul class="collapse">
+  <li><a href="#requirement-23-1-rob" id="toc-requirement-23-1-rob" class="nav-link" data-scroll-target="#requirement-23-1-rob"><strong>Requirement 23-1-ROB</strong>&nbsp;</a></li>
+  <li><a href="#requirement-23-2-rob" id="toc-requirement-23-2-rob" class="nav-link" data-scroll-target="#requirement-23-2-rob"><strong>Requirement 23-2-ROB</strong>&nbsp;</a></li>
+  </ul></li>
+  <li><a href="#reliability-and-reproducibility" id="toc-reliability-and-reproducibility" class="nav-link" data-scroll-target="#reliability-and-reproducibility"><strong>2.4 Reliability and Reproducibility</strong>&nbsp;</a>
+  <ul class="collapse">
+  <li><a href="#requirement-24-1-rob" id="toc-requirement-24-1-rob" class="nav-link" data-scroll-target="#requirement-24-1-rob">Requirement 24-1-ROB</a></li>
+  <li><a href="#requirement-24-2-rob" id="toc-requirement-24-2-rob" class="nav-link" data-scroll-target="#requirement-24-2-rob"><strong>Requirement 24-2-ROB</strong></a></li>
+  <li><a href="#requirement-24-3-rob" id="toc-requirement-24-3-rob" class="nav-link" data-scroll-target="#requirement-24-3-rob"><strong>Requirement 24-3-ROB</strong></a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -179,7 +194,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title"><span class="chapter-title">How Requirements are Organized</span></h1>
+<h1 class="title"><span class="chapter-title">2 Technical Robustness and Safety (ROB)</span></h1>
 </div>
 
 
@@ -196,42 +211,198 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Requirements are structured to provide a clear view of their definitions and parameters. Below is an outline detailing how these are organized, articulated through an example of a standard requirement.</p>
-<section id="requirement-yz-n-aaa" class="level2">
-<h2 class="anchored" data-anchor-id="requirement-yz-n-aaa">Requirement YZ-N-AAA</h2>
-<p><strong>Description</strong>: Each requirement bears a unique ID, constructed as follows:</p>
-<p>- <strong>YZ</strong>: Sub-chapter numbers reflecting the requirement’s area</p>
-<p>- <strong>N</strong>: Sequential number within the sub-chapter</p>
-<p>- <strong>AAA</strong>: The first three letters of the chapter topic</p>
-<p>For instance, the requirement for implementing confidence intervals in predictive modeling might state: “X of [example parameter] for measuring model uncertainty are implemented to provide a confidence interval for predictions in the app available at [time point]”.</p>
+<p>A crucial component of achieving Trustworthy AI is technical robustness, which is closely linked to the principle of prevention of harm. Technical robustness requires that AI systems be developed with a preventative approach to risks and in a manner such that they reliably behave as intended while minimising unintentional and unexpected harm, and preventing unacceptable harm. This should also apply to potential changes in their operating environment or the presence of other agents (human and artificial) that may interact with the system in an adversarial manner. In addition, the physical and mental integrity of humans should be ensured.&nbsp;</p>
+<section id="resilience-to-attack-and-safety" class="level2">
+<h2 class="anchored" data-anchor-id="resilience-to-attack-and-safety">2.1 R<strong>esilience to Attack and Safety</strong></h2>
+<p>AI systems, like all software systems, should be protected against vulnerabilities that can allow them to be exploited by adversaries, e.g.&nbsp;hacking. Attacks may target the data (data poisoning), the model (model leakage) or the underlying infrastructure, both software and hardware. If an AI system is attacked, e.g.&nbsp;in adversarial attacks, the data as well as system behaviour can be changed, leading the system to make different decisions, or causing it to shut down altogether. Systems and data can also become corrupted by malicious intention or by exposure to unexpected situations. Insufficient security processes can also result in erroneous decisions or even physical harm. For AI systems to be considered secure, possible unintended applications of the AI system (e.g.&nbsp;dual-use applications) and potential abuse of the system by malicious actors should be taken into account, and steps should be taken to prevent and mitigate these.</p>
+<section id="requirement-21-1-rob" class="level3">
+<h3 class="anchored" data-anchor-id="requirement-21-1-rob">Requirement <strong>21-1-ROB</strong></h3>
+<p><strong>Description:</strong> Tool should follow <strong><em>[relevant aspects of norms]</em></strong> that are within our scope and resource limitations to prepare for compliance with the MDR by <strong><em>[time point]</em></strong>.</p>
+<p><strong><em>relevant aspects of norms:</em></strong></p>
+<p>- ISO norms relate to the standard MDR:</p>
+<p>- IEC 62366</p>
+<p>- IEC 62304</p>
+<p>- ISO 14971</p>
+<p>- ISO norms related to MDR and recent AI advancements:</p>
+<p>- ISO 13485</p>
+<p>- ISO/IEC 23894:2023</p>
+<p>- ISO/IEC 38507</p>
+<p><strong><em>time point</em></strong>:&nbsp;</p>
+<p>- the end of the project</p>
+<p><strong>Phases</strong></p>
+<p>- development</p>
+<p>- testing</p>
+<p>- validation</p>
+<p><strong>Owner</strong></p>
+<p>- WP 5 lead</p>
+<p><strong>Stakeholders</strong></p>
+<p>- WP 2 (development)</p>
+<p>- WP 3 (design)</p>
+<p>- WP 5 (regulatory pathway to market)</p>
+<p><strong>Wish</strong></p>
+<p>- The stability of the accuracies and performance for <strong><em>when there are missing input data points</em></strong> of the tool is analyzed or monitored, available <strong><em>by the start of the validation phase</em></strong>.&nbsp;</p>
+<p>- Tool should follow <strong><em>relevant aspects of ISO norms related to the MDR and recent AI advancements: ISO 13485; ISO/IEC 23894:2023; ISO/IEC 38507</em></strong>that are within our scope and resource limitations to prepare for compliance with the MDR by <em><strong>the end of the project</strong>.</em></p>
 </section>
-<section id="parameters" class="level2">
-<h2 class="anchored" data-anchor-id="parameters">Parameters</h2>
-<ul>
-<li><strong>[Example parameter]</strong>: Parameters listed in brackets are adjustable by the WP 1 team during the project period.</li>
-<li><strong>[time point]</strong>: This refers to the deadline by which a requirement should be met, typically specifying some due date.</li>
-</ul>
+<section id="requirement-21-2-rob" class="level3">
+<h3 class="anchored" data-anchor-id="requirement-21-2-rob"><strong>Requirement 21-2-ROB</strong>&nbsp;</h3>
+<p><strong>Description:</strong> Tool should follow <strong><em>[relevant guidelines on cyber security]</em></strong> that are within our scope and resource limitations to prepare for compliance with the MDR by <em><strong>[time point]</strong>.</em></p>
+<p><strong><em>relevant guidelines on cyber security:</em></strong></p>
+<p>- To be defined, needs to be researched by Owner.</p>
+<p><strong><em>time point</em></strong>:&nbsp;</p>
+<p>- the end of the project</p>
+<p><strong>Phases</strong></p>
+<p>- development</p>
+<p>- testing</p>
+<p>- validation</p>
+<p><strong>Owner</strong></p>
+<p>- WP 5 lead</p>
+<p><strong>Stakeholders</strong></p>
+<p>- WP 2 (development)</p>
+<p>- WP 3 (design)</p>
+<p>- WP 5 (regulatory pathway to market)</p>
+<p><strong>Wish</strong></p>
+<p>- Tool should follow <strong><em>[relevant guidelines on cyber security]</em></strong> that are within our scope and resource limitations to prepare for compliance with the MDR by <strong><em>the end of the project</em></strong>.</p>
 </section>
-<section id="phases" class="level2">
-<h2 class="anchored" data-anchor-id="phases">Phases</h2>
-<p>Each requirement is mapped to a specific project phase:</p>
-<p>- <strong>Development</strong>: Focuses on developing the tool’s prototype until month 18.</p>
-<p>- <strong>Testing</strong>: The prototype undergoes testing until month 18.</p>
-<p>- <strong>Validation</strong>: Begins in month 18, marking the start of validating the developed and tested prototype.</p>
 </section>
-<section id="stakeholders-and-owner" class="level2">
-<h2 class="anchored" data-anchor-id="stakeholders-and-owner">Stakeholders and Owner</h2>
-<p><strong>Stakeholders</strong>: Includes project staff and other relevant groups affected by or necessary for fulfilling the requirement.</p>
-<p><strong>Owner</strong>: Each requirement is assigned an Owner, usually a WP lead relevant to existing tasks. The Owner is responsible for task delegation and execution to meet the requirement.</p>
+<section id="fallback-plan-and-general-safety" class="level2">
+<h2 class="anchored" data-anchor-id="fallback-plan-and-general-safety"><strong>2.2 Fallback plan and general safety</strong></h2>
+<p>AI systems should have safeguards that enable a fallback plan in case of problems. This can mean that AI systems switch from a statistical to rule-based procedure, or that they ask for a human operator before continuing their action. It must be ensured that the system will do what it is supposed to do without harming living beings or the environment. This includes the minimisation of unintended consequences and errors. In addition, processes to clarify and assess potential risks associated with the use of AI systems, across various application areas, should be established. The level of safety measures required depends on the magnitude of the risk posed by an AI system, which in turn depends on the system’s capabilities. Where it can be foreseen that the development process or the system itself will pose particularly high risks, it is crucial for safety measures to be developed and tested proactively.&nbsp;</p>
+<section id="requirement-22-1-rob" class="level3">
+<h3 class="anchored" data-anchor-id="requirement-22-1-rob"><strong>Requirement 22-1-ROB</strong>&nbsp;</h3>
+<p><strong>Description:</strong> A risk assessment following relevant aspects of <strong><em>[risk management norms]</em></strong> will be done by <strong><em>[time point]</em></strong>.</p>
+<p><strong><em>risk management norms:</em></strong></p>
+<p>- ISO 14971</p>
+<p>- ISO 23894:2023</p>
+<p><strong><em>time point</em></strong>:&nbsp;</p>
+<p>- when intended purpose is defined</p>
+<p>- at the end of the project</p>
+<p><strong>Phases</strong></p>
+<p>- development</p>
+<p>- testing</p>
+<p>- validation</p>
+<p><strong>Owner</strong></p>
+<p>- WP 5 lead</p>
+<p><strong>Stakeholders</strong></p>
+<p>- WP 2 (development)</p>
+<p>- WP 3 (design)</p>
+<p>- WP 5 (regulatory pathway to market)</p>
+<p><strong>Goal</strong></p>
+<p>- A risk assessment following relevant aspects of <strong><em>ISO 14971</em></strong>will be done by <em><strong>at the end of the project</strong>.</em></p>
+<p><strong>Wish</strong></p>
+<p>- A risk assessment following relevant aspects of <strong><em>ISO 23894:2023</em></strong> will be done by <em><strong>when intended purpose is defined</strong>.</em></p>
 </section>
-<section id="requirement-categorization" class="level2">
-<h2 class="anchored" data-anchor-id="requirement-categorization">Requirement Categorization</h2>
-<p>Based on the parameterized statements, requirements are classified into three categories:</p>
-<p>- <strong>TOLERABLE</strong>: The minimum achievement threshold for a requirement.</p>
-<p>- <strong>GOAL</strong>: Represents the objective aimed to be reached by the project. If both Tolerable and Goal are defined, the project’s likely outcome will be between these two.</p>
-<p>- <strong>WISH</strong>: Desirable outcomes that are aimed for but likely only partially achieved.</p>
+</section>
+<section id="accuracy" class="level2">
+<h2 class="anchored" data-anchor-id="accuracy"><strong>2.3 Accuracy</strong></h2>
+<p>Accuracy pertains to an AI system’s ability to make correct judgements, for example to correctly classify information into the proper categories, or its ability to make correct predictions, recommendations, or decisions based on data or models. An explicit and well-formed development and evaluation process can support, mitigate and correct unintended risks from inaccurate predictions. When occasional inaccurate predictions cannot be avoided, it is important that the system can indicate how likely these errors are. A high level of accuracy is especially crucial in situations where the AI system directly affects human lives.&nbsp;</p>
+<section id="requirement-23-1-rob" class="level3">
+<h3 class="anchored" data-anchor-id="requirement-23-1-rob"><strong>Requirement 23-1-ROB</strong>&nbsp;</h3>
+<p><strong>Description:</strong> Validity will be measured by doing a randomized clinical trial (RCT) to examine whether at least <strong><em>[ratio]</em></strong> of <strong><em>[RCT study size]</em></strong> patients whose doctors use the tool have a significantly improved Modified Ranking Scale 90 (MRS 90) compared to control group at <strong><em>[time point].</em></strong></p>
+<p><strong><em>ratio:</em></strong></p>
+<p>- will be determined at the end of the prospective study</p>
+<p><strong><em>RCT study size</em></strong></p>
+<p>- number will be determined later by estimating the effect size</p>
+<p><strong><em>time point</em></strong>:&nbsp;</p>
+<p>- after the project</p>
+<p><strong>Phases</strong></p>
+<p>- validation</p>
+<p><strong>Owner</strong></p>
+<p>- WP 4 lead</p>
+<p><strong>Stakeholders</strong></p>
+<p>- WP 4 (clinical validation)</p>
+<p><strong>Wish</strong></p>
+<p>- Validity will be measured by doing a randomized clinical trial (RCT) to examine whetherat least <strong><em>[ratio]</em></strong>of <strong><em>number determined by estimated effect size patients</em></strong> whose doctors use the tool have a significantly improved MRS 90 compared to control group at <strong><em>after the project</em>.</strong></p>
+</section>
+<section id="requirement-23-2-rob" class="level3">
+<h3 class="anchored" data-anchor-id="requirement-23-2-rob"><strong>Requirement 23-2-ROB</strong>&nbsp;</h3>
+<p><strong>Description:</strong> Accuracy will be measured by <strong><em>[time point]</em></strong> by doing a prospective shadowing study to examine whether in at least <strong><em>[threshold]</em></strong>of the cases, the predictions of the prototype are similar to the actual 3 months mRS according to the actual administered treatment.</p>
+<p><strong><em>threshold:</em></strong></p>
+<p>- 90%</p>
+<p><strong><em>time point</em></strong>:&nbsp;</p>
+<p>- the end of the project</p>
+<p><strong>Phases</strong></p>
+<p>- validation</p>
+<p><strong>Owner</strong></p>
+<p>- WP 4 lead</p>
+<p><strong>Stakeholders</strong></p>
+<p>- WP 4 (clinical validation)</p>
+<p><strong>Goal</strong></p>
+<p>- Accuracy will be measured by <strong><em>the end of the project</em></strong>by doing a prospective shadowing study to examine whether in at least <strong><em>90%</em></strong>of the cases, the predictions of the prototype are similar to the actual 3 months mRS according to the actual administered treatment</p>
+</section>
+</section>
+<section id="reliability-and-reproducibility" class="level2">
+<h2 class="anchored" data-anchor-id="reliability-and-reproducibility"><strong>2.4 Reliability and Reproducibility</strong>&nbsp;</h2>
+<p>It is critical that the results of AI systems are reproducible, as well as reliable. A reliable AI system is one that works properly with a range of inputs and in a range of situations. This is needed to scrutinise an AI system and to prevent unintended harms. Reproducibility describes whether an AI experiment exhibits the same behaviour when repeated under the same conditions. This enables scientists and policy makers to accurately describe what AI systems do. Replication files can facilitate the process of testing and reproducing behaviours.&nbsp;</p>
+<section id="requirement-24-1-rob" class="level3">
+<h3 class="anchored" data-anchor-id="requirement-24-1-rob">Requirement 24-1-ROB</h3>
+<p><strong>Description:</strong> Tool reliably provides no significantly different performance for <strong><em>[contexts]</em></strong> at <strong><em>[time point].</em></strong></p>
+<p><strong><em>contexts:</em></strong></p>
+<p>- edge-cases</p>
+<p>- differing local standards of care</p>
+<p>- non-western patient minorities</p>
+<p><strong><em>time point</em></strong>:</p>
+<p>- at the end of the project</p>
+<p><strong>Phases</strong></p>
+<p>- development</p>
+<p>- testing</p>
+<p>- validation</p>
+<p><strong>Owner</strong></p>
+<p>- WP 2 lead</p>
+<p><strong>Stakeholders</strong></p>
+<p>- WP 2 (development)</p>
+<p>- WP 3 (design)</p>
+<p>- WP 4 (clinical validation)</p>
+<p><strong>Goal</strong></p>
+<p>- Tool reliably provides no significantly different performance for <strong><em>edge-cases</em></strong> <strong><em>at the end of the project.</em></strong></p>
+<p>- Tool reliably provides no significantly different performance for <strong><em>differing local standards of care</em></strong> <strong><em>at the end of the project</em></strong>.</p>
+<p>- Tool reliably provides no significantly different performance for <strong><em>non-western patient minorities at the end of the project</em></strong>.</p>
+</section>
+<section id="requirement-24-2-rob" class="level3">
+<h3 class="anchored" data-anchor-id="requirement-24-2-rob"><strong>Requirement 24-2-ROB</strong></h3>
+<p><strong>Description:</strong> The stability of the accuracies and performance for <strong><em>[different risk areas]</em></strong> of the tool is analyzed or monitored, available by <strong><em>[time point].</em></strong></p>
+<p><strong><em>different risk areas</em></strong> [From 35-ROB:]<strong><em>:</em></strong></p>
+<p>- edge-cases</p>
+<p>- differing local standards of care</p>
+<p>- non-western patient minorities</p>
+<p>- when there are missing input data points</p>
+<p>- for sub-groups mentioned in 61-DIV</p>
+<p><strong><em>time point</em></strong>:&nbsp;</p>
+<p>- by the start of the validation phase</p>
+<p><strong>Phases</strong></p>
+<p>- development</p>
+<p>- testing</p>
+<p>- validation</p>
+<p><strong>Owner</strong></p>
+<p>- WP 2 lead</p>
+<p><strong>Stakeholders</strong></p>
+<p>- WP 2 (development)</p>
+<p>- WP 3 (design)</p>
+<p>- WP 4 (clinical validation)</p>
+<p><strong>Tolerable</strong></p>
+<p>- The stability of the accuracies and performance for <strong><em>when there are missing input data points</em></strong> of the tool is analyzed or monitored, available <strong><em>by the start of the validation phase</em>.</strong></p>
+<p><strong>Goal</strong>&nbsp;</p>
+<p>- The stability of the accuracies and performance for <strong><em>edge-cases, differing local standards of care, non-western patient minorities</em></strong>of the tool is analyzed or monitored, available <strong><em>by the validation phase</em>.</strong></p>
+<p>- The stability of the accuracies and performance for <strong><em>sub-groups mentioned in 61-DIV</em></strong> of the tool is analyzed or monitored, available <strong><em>by the validation phase</em></strong>.</p>
+</section>
+<section id="requirement-24-3-rob" class="level3">
+<h3 class="anchored" data-anchor-id="requirement-24-3-rob"><strong>Requirement 24-3-ROB</strong></h3>
+<p><strong>Description:</strong> The tool has a defined intended purpose following the MDR <strong><em>[time point]</em></strong>.</p>
+<p><strong><em>time point</em></strong>:&nbsp;</p>
+<p>- as part of the prototype development</p>
+<p><strong>Phases</strong></p>
+<p>- development</p>
+<p>- testing</p>
+<p><strong>Owner</strong></p>
+<p>- WP 3 lead</p>
+<p><strong>Stakeholders</strong></p>
+<p>- WP 2 (development)</p>
+<p>- WP 4 (clinical validation)</p>
+<p>- WP 5 (regulations)</p>
+<p><strong>Tolerable</strong></p>
+<p>- The tool has a defined intended purpose following the MDR <em><strong>as part of the prototype development</strong>.</em></p>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
@@ -646,13 +817,13 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
 </script>
 <nav class="page-navigation">
   <div class="nav-page nav-page-previous">
-      <a href="./index.html" class="pagination-link" aria-label="Introduction to VALIDATE framework">
-        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">Introduction to VALIDATE framework</span></span>
+      <a href="./1_hum.html" class="pagination-link" aria-label="1 Human Agency and Oversight (HUM)">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text"><span class="chapter-title">1 Human Agency and Oversight (HUM)</span></span>
       </a>          
   </div>
   <div class="nav-page nav-page-next">
-      <a href="./1_hum.html" class="pagination-link" aria-label="1 Human Agency and Oversight (HUM)">
-        <span class="nav-page-text"><span class="chapter-title">1 Human Agency and Oversight (HUM)</span></span> <i class="bi bi-arrow-right-short"></i>
+      <a href="./3_pri.html" class="pagination-link" aria-label="3 Privacy and data governance (PRI)">
+        <span class="nav-page-text"><span class="chapter-title">3 Privacy and data governance (PRI)</span></span> <i class="bi bi-arrow-right-short"></i>
       </a>
   </div>
 </nav>

@@ -1,0 +1,435 @@
+# 3 Privacy and data governance (PRI)
+
+Closely linked to the principle of prevention of harm is privacy, a fundamental right particularly affected by AI systems. Prevention of harm to privacy also necessitates adequate data governance that covers the quality and integrity of the data used, its relevance in light of the domain in which the AI systems will be deployed, its access protocols and the capability to process data in a manner that protects privacy. 
+
+## **3.1 Privacy and data protection**
+
+Like many technologies, AI systems can equally enable and hamper fundamental rights. They can benefit people for instance by helping them track their personal data, or by increasing the accessibility of education, hence supporting their right to education. However, given the reach and capacity of AI systems, they can also negatively affect fundamental rights. In situations where such risks exist, a fundamental rights impact assessment should be undertaken. This should be done prior to the system’s development and include an evaluation of whether those risks can be reduced or justified as necessary in a democratic society in order to respect the rights and freedoms of others. Moreover, mechanisms should be put into place to receive external feedback regarding AI systems that potentially infringe on fundamental rights.
+
+### **Requirement 31-1-PRI** 
+
+**Description:** The Prototype complies with relevant ***\[privacy regulations\]*** by ***\[time point\].***
+
+***privacy regulations:***
+
+\- GDPR
+
+\- Health Insurance Portability and Accountability Act (HIPAA)
+
+\- National/local authority privacy regulations
+
+***time point***:\
+- start of the prospective study
+
+**Phases**
+
+\- development
+
+\- testing
+
+\- validation
+
+**Owner**\
+- WP 5 lead
+
+**Stakeholders**
+
+\- WP 1 (ethics)
+
+\- WP 2 (development)
+
+\- WP 3 (design)
+
+\- WP 5 (regulations)
+
+**Tolerable**
+
+\- The prototype complies with ***GDPR*** by ***start of prospective study***.
+
+\- The prototype complies with ***Horizon Europe grant requirements for privacy*** by ***start of prospective study***.
+
+\- The prototype complies with ***national/local authority privacy regulations*** by ***start of prospective study***.
+
+**Wish**
+
+\- The prototype complies with ***HIPAA*** by ***start of prospective study***.
+
+### **Requirement 31-2-PRI** 
+
+**Description:** All ***\[development materials\]*** are stored using ***\[best practices for privacy\]*****,** with practice enabled before ***\[time point\]***
+
+***development materials:***
+
+\- research data
+
+\- models
+
+\- predictions
+
+\- XAI results
+
+***best practices for privacy:***
+
+\- data encryption
+
+\- password protected user rights system
+
+\- local protected servers on clinical premises
+
+***time point***: 
+
+\- start of training
+
+\- at 24 months into the project
+
+**Phases**
+
+\- development
+
+\- testing
+
+\- validation
+
+**Owner**
+
+\- WP 2 lead
+
+**Stakeholders**
+
+\- WP 2 (development)
+
+\- WP 3 (design)
+
+**Tolerable**
+
+\- ***Research data*** are stored using ***password protected user rights system***, with practice enabled ***before start of training***.
+
+\- ***Research data*** are stored using ***local protected servers on clinical premise***s, with practice enabled ***before start of training***.
+
+\- ***Models*** are stored using ***password protected user rights system***, with practice enabled ***before start of training.***
+
+***- Models*** are stored using ***local protected servers on clinical premises***, with practice enabled ***before start of training***.
+
+***- Predictions*** are stored using ***password protected user rights system***, with practice enabled ***before start of training***.
+
+***- Predictions*** are stored using ***local protected servers on clinical premises***, with practice enabled ***before start of training***.
+
+***-*** ***xAI results*** are stored using ***password protected user rights system***, with practice enabled before start of training. xAI results are stored using local protected servers on clinical premises, with practice enabled ***before start of training***.
+
+**Goal**
+
+***- Research data*** are stored using ***data encryption,*** with practice enabled at ***24 months into the project.***
+
+***- Models*** are stored using data encryption, with practice enabled ***at 24 months into the project.***
+
+***- Predictions*** are stored using data encryption, with practice enabled ***at 24 months into the project.***
+
+***-*** ***xAI*** results are stored using data encryption, with practice enabled at ***24 months into the project.***
+
+### **Requirement 31-3-PRI**
+
+**Description:** Privacy information have been collected to answer ***\[local ethics committee questions\]*** at ***\[time point\]***to approve data collection for prospective study in the research data management plan.
+
+***local ethics committee questions:***
+
+\- Why are we collecting this data?
+
+\- How will the data be collected?
+
+\- Where will data be stored?
+
+\- What data be collected?
+
+\- Who is the owner of the data?
+
+\- Who is responsible for the data?
+
+\- Who has access to the data?
+
+\- Will the data be transferred to other countries?
+
+\- Are those countries in the EU? Will the data be shared?
+
+***time point***: 
+
+\- by the end of the development phase
+
+**Phases**
+
+\- development
+
+**Owner**
+
+\- WP 4 lead
+
+**Stakeholders**
+
+\- WP 2 (development)
+
+\- WP 3 (design)
+
+\- WP 5 (regulations)
+
+**Tolerable**
+
+\- Privacy information have been collected to answer ***Why are we collecting this data? How will the data be collected? Where will data be stored? What data be collected? Will the data be shared? by the end of the development phase*** to approve data collection for prospective study in the research data management plan.
+
+### **Requirement 31-4-PRI** 
+
+**Description:** Consent from patients have been collected for ***\[data purposes\] \[time point\]*****.**
+
+***data purposes:***
+
+\- model training using the prospective data
+
+\- prospective study
+
+\- Randomized Clinical Trial
+
+\- open data-sharing required by the EU Horizon grant
+
+***time point***: 
+
+\- before data inclusion in CRF
+
+\- before the randomized clinical trial
+
+\- after the VALIDATE project
+
+**Phases**
+
+\- development
+
+\- training
+
+\- validation
+
+**Owner**
+
+\- WP 4 lead
+
+**Stakeholders**
+
+\- WP 3 (design)
+
+\- WP 4 (clinical validation)
+
+\- WP 5 (regulations)
+
+\- WP 6 (patient communication)
+
+**Tolerable**
+
+\- Consent from patients have been collected for ***model training using the prospective data before data inclusion in CRF***.
+
+\- Consent from patients have been collected for ***open data-sharing required by the EU Horizon grant raining before data inclusion in CRF***.
+
+**Goal**
+
+\- Consent from patients have been collected for ***prospective study before data inclusion in CRF.*** 
+
+**Wish**
+
+\- Consent from patients have been collected for ***randomized clinical trial before the randomized clinical trial, after the VALIDATE project***.
+
+## 3.2 P**rivacy and data protection**
+
+The quality of the data sets used is paramount to the performance of AI systems. When data is gathered, it may contain socially constructed biases, inaccuracies, errors and mistakes. This needs to be addressed prior to training with any given data set. In addition, the integrity of the data must be ensured. Feeding malicious data into an AI system may change its behaviour, particularly with self-learning systems. Processes and data sets used must be tested and documented at each step such as planning, training, testing and deployment. This should also apply to AI systems that were not developed in-house but acquired elsewhere. 
+
+### **Requirement 32-1-PRI**
+
+**Description:** ***%*** of datasets fulfill ***\[quality criteria\]*** with regards to ***\[quality parameters\] \[time point\].***
+
+***quality criteria:***
+
+\- relevant interoperability standards for labeling
+
+\- HL7 FHIR standards
+
+\- to be defined
+
+***quality parameters:***
+
+\- missing data
+
+\- errors
+
+\- inaccuracies
+
+\- interoperability
+
+***time point***: 
+
+\- before final model training for prototype
+
+**Phases**
+
+\- development
+
+\- training
+
+\- validation
+
+**Owner**
+
+\- WP 2 lead
+
+**Stakeholders**
+
+\- WP 1 (ethics)
+
+\- WP 2 (development)
+
+\- WP 4 (clinical validation)
+
+**Tolerable**
+
+\- ***100%*** of datasets fulfill ***quality criteria: To be defined*** with regards to ***(missing data, errors, inaccuracies) before final model training for prototype.***
+
+**Goal**
+
+\- *100%* of datasets fulfill ***relevant interoperability standards for labeling*** with regards to ***interoperability before final model training for prototype.***
+
+## **3.3 Access to data**
+
+In any given organisation that handles individuals’ data (whether someone is a user of the system or not), data protocols governing data access should be put in place. These protocols should outline who can access data and under which circumstances. Only duly qualified personnel with the competence and need to access individual’s data should be allowed to do so. 
+
+### **Requirement 33-1-PRI**
+
+**Description:** ***\[Data type\]*** is available for access to ***\[stakeholder type\]*** through ***\[process\] \[time point\].***
+
+***data type:***
+
+\- retrospective study data
+
+\- anonymized prospective study data
+
+\- data used to simulate a decision during prospective study
+
+\- data generated by the system or app
+
+\- meta-data or usage-data of the app/system
+
+***stakeholder type:***
+
+\- relevant VALIDATE staff
+
+\- researchers
+
+\- legal guardian/caregiver
+
+\- patient
+
+\- users
+
+***process:***
+
+\- process outlined in VALIDATE data management plan
+
+***time point:***
+
+\- after embargo period
+
+\- at the end of the project as preparation for an RCT
+
+\- for prototype development
+
+\- during prospective study
+
+\- at the end of the project
+
+**Phases**
+
+\- development
+
+\- training
+
+\- validation
+
+**Owner**
+
+\- WP 3 lead
+
+**Stakeholders**
+
+\- WP 2 (development)
+
+\- WP 4 (clinical validation)
+
+\- WP 5 (admin)
+
+**Tolerable**
+
+\- ***Retrospective study data*** is available for access to ***relevant VALIDATE staff*** through ***process outlined in VALIDATE data management plan for prototype developmen***t.
+
+\- ***Anonymized prospective study data*** is available for access to ***researchers*** through ***process outlined in VALIDATE data management plan after embargo period***.
+
+\- ***Data used to simulate a decision during prospective study*** is available for access to ***researchers*** through ***process outlined in VALIDATE data management plan during prospective stud***y.
+
+\- ***Data generated by the system or app*** is available for access to ***users*** through ***process outlined in VALIDATE data management plan during prospective study.***
+
+**Goal**
+
+\- ***Data used to simulate a decision during prospective study*** is available for access to ***patients*** through ***process outlined in VALIDATE data management plan during prospective study.***
+
+**Wish**
+
+\- ***Data used to simulate a decision during prospective study*** is available for access to ***legal guardians/caregivers*** through ***process outlined in VALIDATE data management plan during prospective study.***
+
+\- ***Meta-data or usage-data of the app/system*** is available for access to ***researchers*** through ***process outlined in VALIDATE data management plan at the end of the project***.
+
+### **Requirement 33-2-PRI**
+
+**Description:** Access and use of ***\[sensitive data attributes\]*** is ***\[safeguards\]*** to protect ***\[vulnerable groups\]*** from discrimination and harm by ***\[time point\].***
+
+***sensitive data attributes:***
+
+\- sex
+
+\- gender
+
+\- ethnicity
+
+***safeguards:***
+
+\- logged
+
+\- only available to relevant qualified personnel with user privileges
+
+\- only available after log-in
+
+\- data is stored on local hospital premises
+
+***time point***: 
+
+\- by the start of the validation phase. *See page 7 for definition of validation phase.*
+
+**Phases**
+
+\- development
+
+\- training
+
+\- validation
+
+**Owner**
+
+\- WP 4 lead
+
+**Stakeholders**
+
+\- WP 2 (development)
+
+\- WP 4 (clinical validation)
+
+\- WP 5 (admin)
+
+\- NORA (data storage)
+
+**Goal**
+
+\- Access and use of ***sex; gender; ethnicity*** is ***logged*** to protect ***non-binary patients; trans patients; ethnic minorities*** from discrimination and harm ***by the start of the validation phase.***
+
+\- Access and use of ***sex; gender; ethnicit***y is ***only available to relevant qualified personnel with user privileges*** to protect ***non-binary patients; trans patients; ethnic minorities*** from discrimination and harm ***by the start of the validation phase.***
+
+\- Access and use of ***sex; gender; ethnicity*** is ***only available after log-in*** to protect ***non-binary patients; trans patients; ethnic minorities*** from discrimination and harm ***by the start of the validation phase.***
