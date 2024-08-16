@@ -8,7 +8,7 @@ Data sets used by AI systems (both for training and operation) may suffer from t
 
 ### Requirement 51-1-DIV {#51-1-div}
 
-**Description:** Subgroup stratified according to ***features*** AND ***intersectional feature combination*** has prediction accuracy with no significant difference compared to the majority population.
+**Description:** Subgroup stratified according to ***\[features\]*** AND ***\[intersectional feature combination\]*** has prediction accuracy with no significant difference compared to the majority population.
 
 ***features***:
 
@@ -58,7 +58,7 @@ Particularly in business-to-consumer domains, systems should be user-centric and
 
 ### Requirement 52-1-DIV {#52-1-div}
 
-**Description:** System undergoes UX/UI testing on ***X number user groups at time point***.
+**Description:** System undergoes UX/UI testing on ***X number*** ***\[user groups\]*** at ***\[time point\]***.
 
 ***X number***:
 
@@ -104,7 +104,7 @@ In order to develop AI systems that are trustworthy, it is advisable to consult 
 
 ### Requirement 53-1-DIV {#53-1-div}
 
-**Description:** System is presented to X ***stakeholders*** for feedback ***time point***.
+**Description:** System is presented to X ***\[stakeholders\]*** for feedback ***\[time point\]***.
 
 ***stakeholders***:
 
