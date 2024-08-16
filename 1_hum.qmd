@@ -64,11 +64,11 @@ Moreover, it must be ensured that public enforcers have the ability to exercise 
 
 ***capability needed:***
 
-\- capability to oversee the overall activity of the AI system;
+\- capability to oversee the overall activity of the AI system
 
-\- ability to decide whether, when and how to use the system in any particular situation;
+\- ability to decide whether, when and how to use the system in any particular situation
 
-\- established levels of human discretion during the use of the system where necessary;
+\- established levels of human discretion during the use of the system where necessary
 
 \- ability to override a decision made by a system
 
