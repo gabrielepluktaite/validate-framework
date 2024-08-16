@@ -6,8 +6,6 @@ To streamline navigation of this site, the requirements for each work package (W
 Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The relevant links listed below direct the user to the requirement pages (e.g., [1 Human Agency and Oversight (HUM)](1_hum.qmd). Thus, users from specific work packages can easily navigate the requirements which are assigned to them.
 :::
 
-\
-
 ## Work Package 1: Ethics {.unnumbered}
 
 #### Human Agency and Oversight
