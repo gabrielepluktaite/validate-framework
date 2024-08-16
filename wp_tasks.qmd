@@ -1,1 +1,117 @@
-# Work Packages
+# Work Packages {.unnumbered}
+
+To streamline navigation of this site, the requirements for each work package (WP) have been collected here, on a single page.
+
+::: callout-tip
+Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The relevant links listed below direct the user to the requirement pages (e.g., [1 Human Agency and Oversight (HUM)](1_hum.qmd). Thus, users from specific work packages can easily navigate the requirements which are assigned to them.
+:::
+
+\
+
+## Work Package 1: Ethics {.unnumbered}
+
+#### Human Agency and Oversight
+
+*Human Agency*
+
+[Requirement 12-2-HUM](1_hum.qmd#12-2-hum)
+
+*Human Oversight*
+
+[Requirement 13-1-HUM](1_hum.qmd#13-1-hum)
+
+#### Accountability
+
+*Minimisation and reporting of negative impacts*
+
+[Requirement 72-1-ACC](7_acc.qmd#72-1-acc)
+
+*Trade-offs*
+
+[Requirement 73-1-ACC](7_acc.qmd#73-1-acc)
+
+\
+
+## Work Package 2: ML {.unnumbered}
+
+#### Human Agency and Oversight
+
+*Human Agency*
+
+[Requirement 12-2-HUM](1_hum.qmd#12-2-hum)
+
+#### Technical Robustness and Safety
+
+*Reliability and Reproducibility*
+
+[Requirement 24-1-ROB](2_rob.qmd#24-1-rob)  
+
+[Requirement 24-2-ROB](2_rob.qmd#24-2-rob)
+
+#### Privacy and data governance
+
+*Privacy and data protection*
+
+[Requirement 31-2-PRI](3_pri.qmd#31-2-pri)
+
+*Quality and integrity of data*
+
+[Requirement 32-1-PRI](3_pri.qmd#32-1-pri)
+
+#### Transparency
+
+*Traceability*
+
+[Requirement 41-1-TRA](4_tra.qmd#41-1-tra)
+
+*Explainability*
+
+[Requirement 42-3-TRA](4_tra.qmd#42-3-tra)
+
+[Requirement 42-5-TRA](4_tra.qmd#42-5-tra)
+
+#### Diversity, non-discrimination, and fairness
+
+*Avoidance of unfair bias*
+
+[Requirement 51-1-DIV](5_div.qmd#51-1-div)
+
+#### Societal and environmental well-being
+
+*Sustainable and environmentally friendly AI*
+
+[Requirement 61-1-SUS](6_sus.qmd#61-1-sus)
+
+\
+
+## Work Package 3: Design {.unnumbered}
+
+#### Technical Robustness and Safety
+
+*Reliability and Reproducibility*
+
+[Requirement 24-3-ROB](2_rob.qmd#24-3-rob)
+
+#### Privacy and data governance
+
+*Access to data*
+
+[Requirement 33-1-PRI](3_pri.qmd#33-1-pri)
+
+#### Transparency
+
+*Explainability*
+
+[Requirement 42-1-TRA](4_tra.qmd#42-1-tra)
+
+[Requirement 42-4-TRA](4_tra.qmd#42-4-tra)
+
+#### Diversity, non-discrimination, and fairness
+
+*Accessibility and Universal Design*
+
+[Requirement 52-1-DIV](5_div.qmd#52-1-div)
+
+*Stakeholder participation*
+
+[Requirement 53-1-DIV](5_div.qmd#53-1-div)
