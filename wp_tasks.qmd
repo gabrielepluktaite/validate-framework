@@ -113,3 +113,71 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 *Stakeholder participation*
 
 [Requirement 53-1-DIV](5_div.qmd#53-1-div)
+
+\
+
+## Work Package 4: Clinical Validation {.unnumbered}
+
+### Technical Robustness and Safety
+
+*Accuracy*
+
+[Requirement 23-1-ROB](2_rob.qmd#23-1-rob)
+
+[Requirement 23-2-ROB](2_rob.qmd#23-2-rob)
+
+### Privacy and data governance
+
+*Privacy and data protection*
+
+[Requirement 31-3-PRI](3_pri.qmd#31-3-pri)
+
+[Requirement 31-4-PRI](3_pri.qmd#31-4-pri)
+
+*Access to data*
+
+[Requirement 33-2-PRI](3_pri.qmd#33-2-pri)
+
+\
+
+## Work Package 5: Regulations {.unnumbered}
+
+### Technical Robustness and Safety
+
+*Resilience to Attack and Safety*
+
+[Requirement 21-1-ROB](2_rob.qmd#21-1-rob)
+
+[Requirement 21-2-ROB](2_rob.qmd#21-2-rob)
+
+*Fallback plan and general safety*
+
+[Requirement 22-1-ROB](2_rob.qmd#22-1-rob)
+
+*Accuracy*
+
+[Requirement 23-3-ROB](2_rob.qmd#23-3-rob)
+
+### Privacy and data governance
+
+*Privacy and data protection*
+
+[Requirement 31-1-PRI](3_pri.qmd#31-1-pri)
+
+\
+
+## Work Package 6: Patient Commmunications {.unnumbered}
+
+### Transparency
+
+*Explainability*
+
+[Requirement 42-2-TRA](4_tra.qmd#42-2-tra)
+
+*Communication*
+
+[Requirement 43-1-TRA](4_tra.qmd#43-1-tra)
+
+[Requirement 43-2-TRA](4_tra.qmd#43-2-tra)
+
+[Requirement 43-3-TRA](4_tra.qmd#43-3-tra)
