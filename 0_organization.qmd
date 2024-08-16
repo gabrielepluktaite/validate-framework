@@ -16,7 +16,7 @@ Each requirement has a unique ID, constructed as follows:
 
 The requirement for implementing confidence intervals in predictive modeling might state:
 
-X of ***\[example parameter\]*** for measuring model uncertainty are implemented to provide a confidence interval for predictions in the app available at ***\[time point\]***.
+***X*** of ***\[example parameter\]*** for measuring model uncertainty are implemented to provide a confidence interval for predictions in the app available at ***\[time point\]***.
 
 ***\[example parameter\]***
 
