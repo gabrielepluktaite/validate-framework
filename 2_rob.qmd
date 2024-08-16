@@ -92,7 +92,7 @@ AI systems, like all software systems, should be protected against vulnerabiliti
 
 **Wish**
 
-\- Tool should follow ***\[relevant guidelines on cyber security\]*** that are within our scope and resource limitations to prepare for compliance with the MDR by ***the end of the project***.
+\- Tool should follow ***relevant guidelines on cyber security*** that are within our scope and resource limitations to prepare for compliance with the MDR by ***the end of the project***.
 
 ## 2.2 Fallback plan and general safety
 
@@ -140,7 +140,7 @@ AI systems should have safeguards that enable a fallback plan in case of problem
 
 **Wish**
 
-\- A risk assessment following relevant aspects of ***ISO 23894:2023*** will be done by ***when intended purpose is defined**.*
+\- A risk assessment following relevant aspects of ***ISO 23894:2023*** will be done by ***when intended purpose is defined***.
 
 ## 2.3 Accuracy
 
@@ -176,7 +176,7 @@ Accuracy pertains to an AI system’s ability to make correct judgements, for ex
 
 **Wish**
 
-\- Validity will be measured by doing a randomized clinical trial (RCT) to examine whetherat least ***\[ratio\]*** of ***number determined by estimated effect size patients*** whose doctors use the tool have a significantly improved MRS 90 compared to control group at ***after the project*****.**
+\- Validity will be measured by doing a randomized clinical trial (RCT) to examine whetherat least ***ratio*** of ***number determined by estimated effect size patients*** whose doctors use the tool have a significantly improved MRS 90 compared to control group at ***after the project*****.**
 
 ### Requirement 23-2-ROB {#23-2-rob}
 
