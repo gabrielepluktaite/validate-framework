@@ -1,4 +1,5 @@
 # 4 Transparency (TRA)
+
 ---
 editor: 
   markdown: 
@@ -20,7 +21,7 @@ identification of the reasons why an AI-decision was erroneous which, in
 turn, could help prevent future mistakes. Traceability facilitates
 auditability as well as explainability.
 
-### Requirement 41-1-TRA
+### Requirement 41-1-TRA {#41-1-tra}
 
 **Description:** ***Limitations and metadata*** are available to doctors
 in the app during emergencies by ***time point***.
@@ -35,7 +36,8 @@ in the app during emergencies by ***time point***.
 
 \- how patient-specific input affected the predictions
 
-\- how model is calibrated and optimized, especially whether it has a tendency for false negatives or false positives
+\- how model is calibrated and optimized, especially whether it has a
+tendency for false negatives or false positives
 
 ***time point***:
 
@@ -84,14 +86,14 @@ and shapes the organisational decision-making process, design choices of
 the system, and the rationale for deploying it, should be available
 (hence ensuring business model transparency).
 
-### Requirement 42-1-TRA
+### Requirement 42-1-TRA {#42-1-tra}
 
-**Description:**The system is able to inform about parts of the input
+**Description:** The system is able to inform about parts of the input
 that led to a specific outcome, achieved at ***time point***.
 
 ***time point***:
 
-\-prior to start of the prospective study
+-prior to start of the prospective study
 
 **Phases**
 
@@ -176,7 +178,7 @@ with the ***constraints*** of the project ***time point***.
 ***explainability regulations: EU AI act;GDPR;EU-MDR*** of the project
 ***prior to start of the prospective study***.
 
-### Requirement 42-3-TRA
+### Requirement 42-3-TRA {#42-3-tra}
 
 **Description:** % of ***explainability methods*** are applied in the
 tool and outputs are available to ***relevant users*** by ***time
@@ -186,7 +188,7 @@ point***.
 
 \- explainability methods for tabular data
 
-\- explainability methods for imaging data 
+\- explainability methods for imaging data
 
 ***relevant users***:
 
@@ -224,7 +226,7 @@ of the prospective study***.
 the tool and outputs are available to medical personnel by ***the start
 of the prospective study***.
 
-### Requiremennt 42-4-TRA
+### Requirement 42-4-TRA {#42-4-tra}
 
 **Description:** % of ***explainability methods*** applied in the tool
 are validated by ***metric*** by ***time point***.
@@ -233,17 +235,19 @@ are validated by ***metric*** by ***time point***.
 
 \- explainability methods for tabular data
 
-\- explainability methods for imaging data 
+\- explainability methods for imaging data
 
 ***metric***:
 
 \- quantified scores
 
-\- qualitative validation by users 
+\- qualitative validation by users
 
 ***time point***:
 
-\- month 24 (delivery date of D2.2 which will incorporate results from T2.4 (refinement and improvement of models for stroke outcome) and T2.5 (augmentation of models with xAI)) 
+\- month 24 (delivery date of D2.2 which will incorporate results from
+T2.4 (refinement and improvement of models for stroke outcome) and T2.5
+(augmentation of models with xAI))
 
 **Phases**
 
@@ -275,6 +279,8 @@ tool are validated by ***quantified scores*** by month 24
 \- 100% of ***explainability methods for imaging data*** applied in the
 tool are validated by ***qualitative validation by users*** by month 24
 
+### Requirement 42-5-TRA {#42-5-tra}
+
 ## Communication
 
 AI systems should not represent themselves as humans to users; humans
@@ -301,7 +307,7 @@ point***.
 
 \- study results
 
-\- user information 
+\- user information
 
 ***explainee***:
 
@@ -309,11 +315,11 @@ point***.
 
 \- patient family/caregivers
 
-\- users  
+\- users
 
 ***time point***:
 
-\- prior to start of the prospective study 
+\- prior to start of the prospective study
 
 **Phases**
 
@@ -358,11 +364,13 @@ study start***
 
 ### Requirement 43-2-TRA
 
-**Description:** ***Relevant information*** for ***explainee groups*** are explained to ***explainee groups*** and translated by a science communicator when relevant.
+**Description:** ***Relevant information*** for ***explainee groups***
+are explained to ***explainee groups*** and translated by a science
+communicator when relevant.
 
 ***relevant information***:
 
-For Patient/patient family/caregiver group: 
+For Patient/patient family/caregiver group:
 
 ***relevant information***: For Patient/patient family/caregiver group:
 
@@ -388,7 +396,7 @@ For medical users group:
 
 \- patient/patient family/caregiver
 
-\- medical users 
+\- medical users
 
 ***explainee groups***: - patient/patient family/caregiver - medical
 users
@@ -442,7 +450,7 @@ explainee groups*** by ***time point***.
 
 \- patients/family/caregivers in different countries
 
-\- patients/family/caregivers of different cultures 
+\- patients/family/caregivers of different cultures
 
 ***time point***:
 

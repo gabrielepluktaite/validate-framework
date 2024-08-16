@@ -12,7 +12,7 @@ Auditability entails the enablement of the assessment of algorithms, data and de
 
 Both the ability to report on actions or decisions that contribute to a certain system outcome, and to respond to the consequences of such an outcome, must be ensured. Identifying, assessing, reporting and minimising the potential negative impacts of AI systems is especially crucial for those (in)directly affected. Due protection must be available for whistle-blowers, NGOs, trade unions or other entities when reporting legitimate concerns about an AI-based system. The use of impact assessments (e.g. red teaming or forms of Algorithmic Impact Assessment) both prior to and during the development, deployment and use of AI systems can be helpful to minimise negative impact. These assessments must be proportionate to the risk that the AI systems pose.
 
-### Requirement 72-1-ACC
+### Requirement 72-1-ACC {#71-1-acc}
 
 **Description:** Algorithmic impact assessment following ***relevant method*** is performed by ***time point***.
 
@@ -52,7 +52,57 @@ Both the ability to report on actions or decisions that contribute to a certain 
 
 When implementing the above requirements, tensions may arise between them, which may lead to inevitable trade-offs. Such trade-offs should be addressed in a rational and methodological manner within the state of the art. This entails that relevant interests and values implicated by the AI system should be identified and that, if conflict arises, trade-offs should be explicitly acknowledged and evaluated in terms of their risk to ethical principles, including fundamental rights. In situations in which no ethically acceptable trade-offs can be identified, the development, deployment and use of the AI system should not proceed in that form. Any decision about which trade-off to make should be reasoned and properly documented. The decision-maker must be accountable for the manner in which the appropriate trade-off is being made, and should continually review the appropriateness of the resulting decision to ensure that necessary changes can be made to the system where needed.
 
-***None of the identified requirements could be mapped to this subcategory. However, navigating trade-offs and tensions is one of the main overarching goals of work package one is reflected in tasks that include auditing, or the z-inspection assessment, in which identification and solution of tensions is one of the main goals.***
+### Requirement 73-1-ACC {#73-1-acc}
+
+**Description:** Research work produced by the STRATIF-AI consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***\[relevant aspects\]***. This is implemented by ***\[time point\].***
+
+***relevant method***:
+
+\- data availability
+
+\- reproducibility
+
+\- open access
+
+\- distribution
+
+\- confidentiality
+
+\- originality
+
+***time point***:
+
+\- throughout the project
+
+***phases***:
+
+\- development
+
+\- testing
+
+\- validation
+
+**Owner**
+
+\- WP1 lead
+
+**Stakeholders**
+
+\- WP 1 (ethics)
+
+**Goal**
+
+\- Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***data availability***. This is implemented ***throughout the project***.
+
+\- Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***reproducibility***. This is implemented ***throughout the project***.
+
+\- Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***open access***. This is implemented ***throughout the project***.
+
+\- Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***distribution***. This is implemented ***throughout the project***.
+
+\- Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***confidentiality***. This is implemented ***throughout the project***.
+
+\- Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***originality***. This is implemented ***throughout the project***.
 
 ## 7.4 Redress
 
