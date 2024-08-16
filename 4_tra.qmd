@@ -17,10 +17,10 @@ auditability as well as explainability.
 
 ### Requirement 41-1-TRA {#41-1-tra}
 
-**Description:** ***Limitations and metadata*** are available to doctors
-in the app during emergencies by ***time point***.
+**Description:** ***\[limitations and metadata\]*** are available to doctors
+in the app during emergencies by ***\[time point\]***.
 
-***Limitations and metadata***:
+***limitations and metadata***:
 
 \- data collection trail
 
@@ -83,7 +83,7 @@ the system, and the rationale for deploying it, should be available
 ### Requirement 42-1-TRA {#42-1-tra}
 
 **Description:** The system is able to inform about parts of the input
-that led to a specific outcome, achieved at ***time point***.
+that led to a specific outcome, achieved at ***\[time point\]***.
 
 ***time point***:
 
@@ -114,7 +114,7 @@ point***.
 ### Requirement 42-2-TRA {#42-2-tra}
 
 **Description:** % of explanations are communicated and defined in line
-with the ***constraints*** of the project ***time point***.
+with the ***\[constraints\]*** of the project ***\[time point\]***.
 
 ***constraints***:
 
@@ -174,9 +174,9 @@ with the ***constraints*** of the project ***time point***.
 
 ### Requirement 42-3-TRA {#42-3-tra}
 
-**Description:** % of ***explainability methods*** are applied in the
-tool and outputs are available to ***relevant users*** by ***time
-point***.
+**Description:** % of ***\[explainability methods\]*** are applied in the
+tool and outputs are available to ***\[relevant users\]*** by ***\[time
+point\]***.
 
 ***explainability methods***:
 
@@ -222,8 +222,8 @@ of the prospective study***.
 
 ### Requirement 42-4-TRA {#42-4-tra}
 
-**Description:** % of ***explainability methods*** applied in the tool
-are validated by ***metric*** by ***time point***.
+**Description:** % of ***\[explainability methods\]*** applied in the tool
+are validated by ***\[metric\]*** by ***\[time point\]***.
 
 ***explainability methods***:
 
@@ -273,8 +273,6 @@ tool are validated by ***quantified scores*** by month 24
 \- 100% of ***explainability methods for imaging data*** applied in the
 tool are validated by ***qualitative validation by users*** by month 24
 
-### Requirement 42-5-TRA {#42-5-tra}
-
 ## 4.3 Communication
 
 AI systems should not represent themselves as humans to users; humans
@@ -290,10 +288,10 @@ limitations.
 
 ### Requirement 43-1-TRA {#43-1-tra}
 
-**Description:** ***information*** relevant for ***explainee*** to read
+**Description:** ***\[information\]*** relevant for ***\[explainee\]*** to read
 or understand are communicated in adequate language so that it enables
-***explainee*** to protect their own interests and is available ***time
-point***.
+***\[explainee\]*** to protect their own interests and is available ***\[time
+point\]***.
 
 ***information***:
 
@@ -358,8 +356,8 @@ study start***
 
 ### Requirement 43-2-TRA {#43-2-tra}
 
-**Description:** ***Relevant information*** for ***explainee groups***
-are explained to ***explainee groups*** and translated by a science
+**Description:** ***\[relevant information\]*** for ***\[explainee groups\]***
+are explained to ***\[explainee groups\]*** and translated by a science
 communicator when relevant.
 
 ***relevant information***:
@@ -435,8 +433,8 @@ communicator when relevant.
 
 ### Requirement 43-3-TRA {#43-3-tra}
 
-**Description:** Explanations are specifically tailored to ***different
-explainee groups*** by ***time point***.
+**Description:** Explanations are specifically tailored to ***\[different
+explainee groups\]*** by ***\[time point\]***.
 
 ***different explainee groups***:
 
