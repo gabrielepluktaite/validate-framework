@@ -54,7 +54,7 @@ Human oversight helps ensuring that an AI system does not undermine human autono
 
 **HOTL** refers to the capability for human intervention during the design cycle of the system and monitoring the system’s operation.  
 
-**HIC** refers to the **capability to oversee the overall activity of the AI system** (including its broader economic, societal, legal and ethical impact) and the **ability to decide when and how to use the system** in any particular situation. This can include the decision not to use an AI system in a particular situation, to **establish levels of human discretion during the use of the system**, or to **ensure the ability to override a decision made by a system.**  
+**HIC** refers to the capability to oversee the overall activity of the AI system (including its broader economic, societal, legal and ethical impact) and the ability to decide when and how to use the system in any particular situation. This can include the decision not to use an AI system in a particular situation, to establish levels of human discretion during the use of the system, or to ensure the ability to override a decision made by a system.  
 
 Moreover, it must be ensured that public enforcers have the ability to exercise oversight in line with their mandate. Oversight mechanisms can be required in varying degrees to support other safety and control measures, depending on the AI system’s application area and potential risk. All other things being equal, the less oversight a human can exercise over an AI system, the more extensive testing and stricter governance is required. 
 
@@ -74,7 +74,7 @@ Moreover, it must be ensured that public enforcers have the ability to exercise 
 
 ***time point***: 
 
-\- project end \
+\- project end 
 
 **Owner**
 
