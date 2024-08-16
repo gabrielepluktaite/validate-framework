@@ -6,7 +6,7 @@ Closely linked to the principle of prevention of harm is privacy, a fundamental 
 
 Like many technologies, AI systems can equally enable and hamper fundamental rights. They can benefit people for instance by helping them track their personal data, or by increasing the accessibility of education, hence supporting their right to education. However, given the reach and capacity of AI systems, they can also negatively affect fundamental rights. In situations where such risks exist, a fundamental rights impact assessment should be undertaken. This should be done prior to the system’s development and include an evaluation of whether those risks can be reduced or justified as necessary in a democratic society in order to respect the rights and freedoms of others. Moreover, mechanisms should be put into place to receive external feedback regarding AI systems that potentially infringe on fundamental rights.
 
-### Requirement 31-1-PRI
+### Requirement 31-1-PRI {#31-1-pri}
 
 **Description:** The Prototype complies with relevant ***\[privacy regulations\]*** by ***\[time point\].***
 
@@ -128,7 +128,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 \- ***xAI*** results are stored using data encryption, with practice enabled at ***24 months into the project***.
 
-### Requirement 31-3-PRI
+### Requirement 31-3-PRI {#31-3-pri}
 
 **Description:** Privacy information have been collected to answer ***\[local ethics committee questions\]*** at ***\[time point\]*** to approve data collection for prospective study in the research data management plan.
 
@@ -176,7 +176,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 \- Privacy information have been collected to answer ***Why are we collecting this data? How will the data be collected? Where will data be stored? What data be collected? Will the data be shared? by the end of the development phase*** to approve data collection for prospective study in the research data management plan.
 
-### Requirement 31-4-PRI
+### Requirement 31-4-PRI {#31-4-pri}
 
 **Description:** Consent from patients have been collected for ***\[data purposes\] \[time point\]*****.**
 
@@ -380,7 +380,7 @@ In any given organisation that handles individuals’ data (whether someone is a
 
 \- ***Meta-data or usage-data of the app/system*** is available for access to ***researchers*** through ***process outlined in VALIDATE data management plan at the end of the project***.
 
-### Requirement 33-2-PRI
+### Requirement 33-2-PRI {#33-2-pri}
 
 **Description:** Access and use of ***\[sensitive data attributes\]*** is ***\[safeguards\]*** to protect ***\[vulnerable groups\]*** from discrimination and harm by ***\[time point\].***
 
