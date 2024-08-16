@@ -19,6 +19,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 \- National/local authority privacy regulations
 
 ***time point***:
+
 \- start of the prospective study
 
 **Phases**
@@ -30,6 +31,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 \- validation
 
 **Owner**
+
 \- WP 5 lead
 
 **Stakeholders**
@@ -66,7 +68,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 \- predictions
 
-\- XAI results
+\- xAI results
 
 ***best practices for privacy:***
 
@@ -124,11 +126,11 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 \- ***Predictions*** are stored using data encryption, with practice enabled ***at 24 months into the project***.
 
-\- ***AI*** results are stored using data encryption, with practice enabled at ***24 months into the project***.
+\- ***xAI*** results are stored using data encryption, with practice enabled at ***24 months into the project***.
 
 ### Requirement 31-3-PRI
 
-**Description:** Privacy information have been collected to answer ***\[local ethics committee questions\]*** at ***\[time point\]***to approve data collection for prospective study in the research data management plan.
+**Description:** Privacy information have been collected to answer ***\[local ethics committee questions\]*** at ***\[time point\]*** to approve data collection for prospective study in the research data management plan.
 
 ***local ethics committee questions:***
 
@@ -288,7 +290,7 @@ The quality of the data sets used is paramount to the performance of AI systems.
 
 **Goal**
 
-\- *100%* of datasets fulfill ***relevant interoperability standards for labeling*** with regards to ***interoperability before final model training for prototype.***
+\- ***100%*** of datasets fulfill ***relevant interoperability standards for labeling*** with regards to ***interoperability before final model training for prototype.***
 
 ## 3.3 Access to data
 
@@ -360,9 +362,10 @@ In any given organisation that handles individuals’ data (whether someone is a
 
 **Tolerable**
 
-\- ***Retrospective study data*** is available for access to ***relevant VALIDATE staff*** through ***process outlined in VALIDATE data management plan for prototype developmen***t.
+\- ***Retrospective study data*** is available for access to ***relevant VALIDATE staff***  through ***process outlined in VALIDATE data management plan for prototype developmen***t.
 
-\- ***Anonymized prospective study data*** is available for access to ***researchers*** through ***process outlined in VALIDATE data management plan after embargo period***.
+\- ***Anonymized prospective study data*** is available for access to ***researchers*** 
+ through ***process outlined in VALIDATE data management plan after embargo period***.
 
 \- ***Data used to simulate a decision during prospective study*** is available for access to ***researchers*** through ***process outlined in VALIDATE data management plan during prospective stud***y.
 
@@ -402,7 +405,7 @@ In any given organisation that handles individuals’ data (whether someone is a
 
 ***time point***: 
 
-\- by the start of the validation phase. *See page 7 for definition of validation phase.*
+\- by the start of the validation phase. *See page 7 of ethical framework document for definition of validation phase.*
 
 **Phases**
 
@@ -432,4 +435,4 @@ In any given organisation that handles individuals’ data (whether someone is a
 
 \- Access and use of ***sex; gender; ethnicit***y is ***only available to relevant qualified personnel with user privileges*** to protect ***non-binary patients; trans patients; ethnic minorities*** from discrimination and harm ***by the start of the validation phase.***
 
-\- Access and use of ***sex; gender; ethnicity*** is ***only available after log-in*** to protect ***non-binary patients; trans patients; ethnic minorities*** from discrimination and harm ***by the start of the validation phase.***
+\- Access and use of ***sex gender ethnicity*** is ***only available after log-in*** to protect ***non-binary patients; trans patients; ethnic minorities*** from discrimination and harm ***by the start of the validation phase.***
