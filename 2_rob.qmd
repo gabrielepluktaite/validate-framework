@@ -6,7 +6,7 @@ A crucial component of achieving Trustworthy AI is technical robustness, which i
 
 AI systems, like all software systems, should be protected against vulnerabilities that can allow them to be exploited by adversaries, e.g. hacking. Attacks may target the data (data poisoning), the model (model leakage) or the underlying infrastructure, both software and hardware. If an AI system is attacked, e.g. in adversarial attacks, the data as well as system behaviour can be changed, leading the system to make different decisions, or causing it to shut down altogether. Systems and data can also become corrupted by malicious intention or by exposure to unexpected situations. Insufficient security processes can also result in erroneous decisions or even physical harm. For AI systems to be considered secure, possible unintended applications of the AI system (e.g. dual-use applications) and potential abuse of the system by malicious actors should be taken into account, and steps should be taken to prevent and mitigate these.
 
-### Requirement 21-1-ROB
+### Requirement 21-1-ROB {#21-1-rob}
 
 **Description:** Tool should follow ***\[relevant aspects of norms\]*** that are within our scope and resource limitations to prepare for compliance with the MDR by ***\[time point\]***.
 
@@ -58,7 +58,7 @@ AI systems, like all software systems, should be protected against vulnerabiliti
 
 \- Tool should follow ***relevant aspects of ISO norms related to the MDR and recent AI advancements: ISO 13485; ISO/IEC 23894:2023; ISO/IEC 38507***that are within our scope and resource limitations to prepare for compliance with the MDR by ***the end of the project**.*
 
-### Requirement 21-2-ROB
+### Requirement 21-2-ROB {#21-2-rob}
 
 **Description:** Tool should follow ***\[relevant guidelines on cyber security\]*** that are within our scope and resource limitations to prepare for compliance with the MDR by ***\[time point\]***.
 
@@ -98,7 +98,7 @@ AI systems, like all software systems, should be protected against vulnerabiliti
 
 AI systems should have safeguards that enable a fallback plan in case of problems. This can mean that AI systems switch from a statistical to rule-based procedure, or that they ask for a human operator before continuing their action. It must be ensured that the system will do what it is supposed to do without harming living beings or the environment. This includes the minimisation of unintended consequences and errors. In addition, processes to clarify and assess potential risks associated with the use of AI systems, across various application areas, should be established. The level of safety measures required depends on the magnitude of the risk posed by an AI system, which in turn depends on the system’s capabilities. Where it can be foreseen that the development process or the system itself will pose particularly high risks, it is crucial for safety measures to be developed and tested proactively. 
 
-### Requirement 22-1-ROB
+### Requirement 22-1-ROB {#22-1-rob}
 
 **Description:** A risk assessment following relevant aspects of ***\[risk management norms\]*** will be done by ***\[time point\]***.
 
@@ -146,7 +146,7 @@ AI systems should have safeguards that enable a fallback plan in case of problem
 
 Accuracy pertains to an AI system’s ability to make correct judgements, for example to correctly classify information into the proper categories, or its ability to make correct predictions, recommendations, or decisions based on data or models. An explicit and well-formed development and evaluation process can support, mitigate and correct unintended risks from inaccurate predictions. When occasional inaccurate predictions cannot be avoided, it is important that the system can indicate how likely these errors are. A high level of accuracy is especially crucial in situations where the AI system directly affects human lives. 
 
-### Requirement 23-1-ROB
+### Requirement 23-1-ROB {#23-1-rob}
 
 **Description:** Validity will be measured by doing a randomized clinical trial (RCT) to examine whether at least ***\[ratio\]*** of ***\[RCT study size\]*** patients whose doctors use the tool have a significantly improved Modified Ranking Scale 90 (MRS 90) compared to control group at ***\[time point\].***
 
@@ -178,7 +178,7 @@ Accuracy pertains to an AI system’s ability to make correct judgements, for ex
 
 \- Validity will be measured by doing a randomized clinical trial (RCT) to examine whetherat least ***\[ratio\]*** of ***number determined by estimated effect size patients*** whose doctors use the tool have a significantly improved MRS 90 compared to control group at ***after the project*****.**
 
-### Requirement 23-2-ROB 
+### Requirement 23-2-ROB {#23-2-rob}
 
 **Description:** Accuracy will be measured by ***\[time point\]*** by doing a prospective shadowing study to examine whether in at least ***\[threshold\]*** of the cases, the predictions of the prototype are similar to the actual 3 months mRS according to the actual administered treatment.
 
