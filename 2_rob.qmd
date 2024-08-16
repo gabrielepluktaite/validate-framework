@@ -210,7 +210,7 @@ Accuracy pertains to an AI system’s ability to make correct judgements, for ex
 
 It is critical that the results of AI systems are reproducible, as well as reliable. A reliable AI system is one that works properly with a range of inputs and in a range of situations. This is needed to scrutinise an AI system and to prevent unintended harms. Reproducibility describes whether an AI experiment exhibits the same behaviour when repeated under the same conditions. This enables scientists and policy makers to accurately describe what AI systems do. Replication files can facilitate the process of testing and reproducing behaviours. 
 
-### Requirement 24-1-ROB
+### Requirement 24-1-ROB {#24-1-rob}
 
 **Description:** Tool reliably provides no significantly different performance for ***\[contexts\]*** at ***\[time point\].***
 
@@ -254,7 +254,7 @@ It is critical that the results of AI systems are reproducible, as well as relia
 
 \- Tool reliably provides no significantly different performance for ***non-western patient minorities at the end of the project***.
 
-### Requirement 24-2-ROB
+### Requirement 24-2-ROB {#24-2-rob}
 
 **Description:** The stability of the accuracies and performance for ***\[different risk areas\]*** of the tool is analyzed or monitored, available by ***\[time point\].***
 
@@ -272,7 +272,7 @@ It is critical that the results of AI systems are reproducible, as well as relia
 
 ***time point***: 
 
-\- by the start of the validation phase\
+\- by the start of the validation phase. *See “How the requirements are organized” on page 7.*\
 
 **Phases**
 
@@ -304,7 +304,7 @@ It is critical that the results of AI systems are reproducible, as well as relia
 
 \- The stability of the accuracies and performance for ***sub-groups mentioned in 61-DIV*** of the tool is analyzed or monitored, available ***by the validation phase***.
 
-### Requirement 24-3-ROB
+### Requirement 24-3-ROB {#24-3-rob}
 
 **Description:** The tool has a defined intended purpose following the MDR ***\[time point\]***.
 

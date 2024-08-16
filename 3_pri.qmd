@@ -56,7 +56,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 \- The prototype complies with ***HIPAA*** by ***start of prospective study***.
 
-### Requirement 31-2-PRI
+### Requirement 31-2-PRI {#31-2-pri}
 
 **Description:** All ***\[development materials\]*** are stored using ***\[best practices for privacy\]*****,** with practice enabled before ***\[time point\]***
 
@@ -234,11 +234,11 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 \- Consent from patients have been collected for ***randomized clinical trial before the randomized clinical trial, after the VALIDATE project***.
 
-## 3.2 Privacy and data protection
+## 3.2 **Quality and integrity of data**
 
 The quality of the data sets used is paramount to the performance of AI systems. When data is gathered, it may contain socially constructed biases, inaccuracies, errors and mistakes. This needs to be addressed prior to training with any given data set. In addition, the integrity of the data must be ensured. Feeding malicious data into an AI system may change its behaviour, particularly with self-learning systems. Processes and data sets used must be tested and documented at each step such as planning, training, testing and deployment. This should also apply to AI systems that were not developed in-house but acquired elsewhere. 
 
-### Requirement 32-1-PRI
+### Requirement 32-1-PRI {#31-1-pri}
 
 **Description:** ***%*** of datasets fulfill ***\[quality criteria\]*** with regards to ***\[quality parameters\] \[time point\].***
 
@@ -296,7 +296,7 @@ The quality of the data sets used is paramount to the performance of AI systems.
 
 In any given organisation that handles individuals’ data (whether someone is a user of the system or not), data protocols governing data access should be put in place. These protocols should outline who can access data and under which circumstances. Only duly qualified personnel with the competence and need to access individual’s data should be allowed to do so. 
 
-### Requirement 33-1-PRI
+### Requirement 33-1-PRI {#33-1-pri}
 
 **Description:** ***\[Data type\]*** is available for access to ***\[stakeholder type\]*** through ***\[process\] \[time point\].***
 
@@ -362,10 +362,9 @@ In any given organisation that handles individuals’ data (whether someone is a
 
 **Tolerable**
 
-\- ***Retrospective study data*** is available for access to ***relevant VALIDATE staff***  through ***process outlined in VALIDATE data management plan for prototype developmen***t.
+\- ***Retrospective study data*** is available for access to ***relevant VALIDATE staff*** through ***process outlined in VALIDATE data management plan for prototype developmen***t.
 
-\- ***Anonymized prospective study data*** is available for access to ***researchers*** 
- through ***process outlined in VALIDATE data management plan after embargo period***.
+\- ***Anonymized prospective study data*** is available for access to ***researchers*** through ***process outlined in VALIDATE data management plan after embargo period***.
 
 \- ***Data used to simulate a decision during prospective study*** is available for access to ***researchers*** through ***process outlined in VALIDATE data management plan during prospective stud***y.
 
