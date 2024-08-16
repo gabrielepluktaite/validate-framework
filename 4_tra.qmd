@@ -1,11 +1,5 @@
 # 4 Transparency (TRA)
 
----
-editor: 
-  markdown: 
-    wrap: 72
----
-
 This requirement is closely linked with the principle of explicability
 and encompasses transparency of elements relevant to an AI system: the
 data, the system and the business models.
@@ -117,7 +111,7 @@ that led to a specific outcome, achieved at ***time point***.
 specific outcome achieved ***prior to start of the prospective study
 point***.
 
-### Requirement 42-2-TRA
+### Requirement 42-2-TRA {#42-2-tra}
 
 **Description:** % of explanations are communicated and defined in line
 with the ***constraints*** of the project ***time point***.
