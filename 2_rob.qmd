@@ -136,7 +136,7 @@ AI systems should have safeguards that enable a fallback plan in case of problem
 
 **Goal**
 
-\- A risk assessment following relevant aspects of ***ISO 14971***will be done by ***at the end of the project**.*
+\- A risk assessment following relevant aspects of ***ISO 14971*** will be done by ***at the end of the project**.*
 
 **Wish**
 
@@ -176,11 +176,11 @@ Accuracy pertains to an AI system’s ability to make correct judgements, for ex
 
 **Wish**
 
-\- Validity will be measured by doing a randomized clinical trial (RCT) to examine whetherat least ***\[ratio\]***of ***number determined by estimated effect size patients*** whose doctors use the tool have a significantly improved MRS 90 compared to control group at ***after the project*****.**
+\- Validity will be measured by doing a randomized clinical trial (RCT) to examine whetherat least ***\[ratio\]*** of ***number determined by estimated effect size patients*** whose doctors use the tool have a significantly improved MRS 90 compared to control group at ***after the project*****.**
 
 ### Requirement 23-2-ROB 
 
-**Description:** Accuracy will be measured by ***\[time point\]*** by doing a prospective shadowing study to examine whether in at least ***\[threshold\]***of the cases, the predictions of the prototype are similar to the actual 3 months mRS according to the actual administered treatment.
+**Description:** Accuracy will be measured by ***\[time point\]*** by doing a prospective shadowing study to examine whether in at least ***\[threshold\]*** of the cases, the predictions of the prototype are similar to the actual 3 months mRS according to the actual administered treatment.
 
 ***threshold:***
 
@@ -204,7 +204,7 @@ Accuracy pertains to an AI system’s ability to make correct judgements, for ex
 
 **Goal**
 
-\- Accuracy will be measured by ***the end of the project***by doing a prospective shadowing study to examine whether in at least ***90%***of the cases, the predictions of the prototype are similar to the actual 3 months mRS according to the actual administered treatment
+\- Accuracy will be measured by ***the end of the project*** by doing a prospective shadowing study to examine whether in at least ***90%*** of the cases, the predictions of the prototype are similar to the actual 3 months mRS according to the actual administered treatment
 
 ## 2.4 Reliability and Reproducibility
 
@@ -258,7 +258,7 @@ It is critical that the results of AI systems are reproducible, as well as relia
 
 **Description:** The stability of the accuracies and performance for ***\[different risk areas\]*** of the tool is analyzed or monitored, available by ***\[time point\].***
 
-***different risk areas:*** \[from 35-ROB:\]
+***different risk areas:*** \[from 35-ROB\]
 
 \- edge-cases
 
@@ -300,7 +300,7 @@ It is critical that the results of AI systems are reproducible, as well as relia
 
 **Goal** 
 
-\- The stability of the accuracies and performance for ***edge-cases, differing local standards of care, non-western patient minorities***of the tool is analyzed or monitored, available ***by the validation phase*****.**
+\- The stability of the accuracies and performance for ***edge-cases, differing local standards of care, non-western patient minorities*** of the tool is analyzed or monitored, available ***by the validation phase*****.**
 
 \- The stability of the accuracies and performance for ***sub-groups mentioned in 61-DIV*** of the tool is analyzed or monitored, available ***by the validation phase***.
 
