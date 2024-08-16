@@ -4,25 +4,27 @@ Requirements are structured to provide a clear view of their definitions and par
 
 ## Requirement YZ-N-AAA example
 
-**Description**: Each requirement bears a unique ID, constructed as follows:
+Each requirement has a unique ID, constructed as follows:
 
-\- **YZ**: Sub-chapter numbers reflecting the requirement's area
+**YZ**: Sub-chapter numbers reflecting the requirement's area
 
-\- **N**: Sequential number within the sub-chapter
+**N**: Sequential number within the sub-chapter
 
-\- **AAA**: The first three letters of the chapter topic
+**AAA**: The first three letters of the chapter topic
 
 ## Parameters
-\ The requirement for implementing confidence intervals in predictive modeling might state: 
-\ "X of ***\[example parameter\]*** for measuring model uncertainty are implemented to provide a confidence interval for predictions in the app available at ***\[time point\]***".
 
-***\[example parameter\]*** 
+The requirement for implementing confidence intervals in predictive modeling might state:
 
-\ Parameters listed in brackets are adjustable by the WP 1 team during the project period.
+X of ***\[example parameter\]*** for measuring model uncertainty are implemented to provide a confidence interval for predictions in the app available at ***\[time point\]***.
+
+***\[example parameter\]***
+
+Parameters listed in brackets are adjustable by the WP 1 team during the project period.
 
 ***\[time point\]***
 
-\ This refers to the deadline by which a requirement should be met, typically specifying some due date.
+This refers to the deadline by which a requirement should be met, typically specifying some due date.
 
 ## Phases
 
