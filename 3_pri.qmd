@@ -2,11 +2,11 @@
 
 Closely linked to the principle of prevention of harm is privacy, a fundamental right particularly affected by AI systems. Prevention of harm to privacy also necessitates adequate data governance that covers the quality and integrity of the data used, its relevance in light of the domain in which the AI systems will be deployed, its access protocols and the capability to process data in a manner that protects privacy. 
 
-## **3.1 Privacy and data protection**
+## 3.1 Privacy and data protection
 
 Like many technologies, AI systems can equally enable and hamper fundamental rights. They can benefit people for instance by helping them track their personal data, or by increasing the accessibility of education, hence supporting their right to education. However, given the reach and capacity of AI systems, they can also negatively affect fundamental rights. In situations where such risks exist, a fundamental rights impact assessment should be undertaken. This should be done prior to the system’s development and include an evaluation of whether those risks can be reduced or justified as necessary in a democratic society in order to respect the rights and freedoms of others. Moreover, mechanisms should be put into place to receive external feedback regarding AI systems that potentially infringe on fundamental rights.
 
-### **Requirement 31-1-PRI** 
+### Requirement 31-1-PRI
 
 **Description:** The Prototype complies with relevant ***\[privacy regulations\]*** by ***\[time point\].***
 
@@ -18,8 +18,8 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 \- National/local authority privacy regulations
 
-***time point***:\
-- start of the prospective study
+***time point***:
+\- start of the prospective study
 
 **Phases**
 
@@ -29,8 +29,8 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 \- validation
 
-**Owner**\
-- WP 5 lead
+**Owner**
+\- WP 5 lead
 
 **Stakeholders**
 
@@ -54,7 +54,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 \- The prototype complies with ***HIPAA*** by ***start of prospective study***.
 
-### **Requirement 31-2-PRI** 
+### Requirement 31-2-PRI
 
 **Description:** All ***\[development materials\]*** are stored using ***\[best practices for privacy\]*****,** with practice enabled before ***\[time point\]***
 
@@ -108,25 +108,25 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 \- ***Models*** are stored using ***password protected user rights system***, with practice enabled ***before start of training.***
 
-***- Models*** are stored using ***local protected servers on clinical premises***, with practice enabled ***before start of training***.
+\- ***Models*** are stored using ***local protected servers on clinical premises***, with practice enabled ***before start of training***.
 
-***- Predictions*** are stored using ***password protected user rights system***, with practice enabled ***before start of training***.
+\- ***Predictions*** are stored using ***password protected user rights system***, with practice enabled ***before start of training***.
 
-***- Predictions*** are stored using ***local protected servers on clinical premises***, with practice enabled ***before start of training***.
+\- ***Predictions*** are stored using ***local protected servers on clinical premises***, with practice enabled ***before start of training***.
 
-***-*** ***xAI results*** are stored using ***password protected user rights system***, with practice enabled before start of training. xAI results are stored using local protected servers on clinical premises, with practice enabled ***before start of training***.
+\- ***xAI results*** are stored using ***password protected user rights system***, with practice enabled before start of training. xAI results are stored using local protected servers on clinical premises, with practice enabled ***before start of training***.
 
 **Goal**
 
-***- Research data*** are stored using ***data encryption,*** with practice enabled at ***24 months into the project.***
+\- ***Research data*** are stored using ***data encryption,*** with practice enabled at ***24 months into the project***.
 
-***- Models*** are stored using data encryption, with practice enabled ***at 24 months into the project.***
+\- ***Models*** are stored using data encryption, with practice enabled ***at 24 months into the project***.
 
-***- Predictions*** are stored using data encryption, with practice enabled ***at 24 months into the project.***
+\- ***Predictions*** are stored using data encryption, with practice enabled ***at 24 months into the project***.
 
-***-*** ***xAI*** results are stored using data encryption, with practice enabled at ***24 months into the project.***
+\- ***AI*** results are stored using data encryption, with practice enabled at ***24 months into the project***.
 
-### **Requirement 31-3-PRI**
+### Requirement 31-3-PRI
 
 **Description:** Privacy information have been collected to answer ***\[local ethics committee questions\]*** at ***\[time point\]***to approve data collection for prospective study in the research data management plan.
 
@@ -174,7 +174,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 \- Privacy information have been collected to answer ***Why are we collecting this data? How will the data be collected? Where will data be stored? What data be collected? Will the data be shared? by the end of the development phase*** to approve data collection for prospective study in the research data management plan.
 
-### **Requirement 31-4-PRI** 
+### Requirement 31-4-PRI
 
 **Description:** Consent from patients have been collected for ***\[data purposes\] \[time point\]*****.**
 
@@ -232,11 +232,11 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 \- Consent from patients have been collected for ***randomized clinical trial before the randomized clinical trial, after the VALIDATE project***.
 
-## 3.2 P**rivacy and data protection**
+## 3.2 Privacy and data protection
 
 The quality of the data sets used is paramount to the performance of AI systems. When data is gathered, it may contain socially constructed biases, inaccuracies, errors and mistakes. This needs to be addressed prior to training with any given data set. In addition, the integrity of the data must be ensured. Feeding malicious data into an AI system may change its behaviour, particularly with self-learning systems. Processes and data sets used must be tested and documented at each step such as planning, training, testing and deployment. This should also apply to AI systems that were not developed in-house but acquired elsewhere. 
 
-### **Requirement 32-1-PRI**
+### Requirement 32-1-PRI
 
 **Description:** ***%*** of datasets fulfill ***\[quality criteria\]*** with regards to ***\[quality parameters\] \[time point\].***
 
@@ -290,11 +290,11 @@ The quality of the data sets used is paramount to the performance of AI systems.
 
 \- *100%* of datasets fulfill ***relevant interoperability standards for labeling*** with regards to ***interoperability before final model training for prototype.***
 
-## **3.3 Access to data**
+## 3.3 Access to data
 
 In any given organisation that handles individuals’ data (whether someone is a user of the system or not), data protocols governing data access should be put in place. These protocols should outline who can access data and under which circumstances. Only duly qualified personnel with the competence and need to access individual’s data should be allowed to do so. 
 
-### **Requirement 33-1-PRI**
+### Requirement 33-1-PRI
 
 **Description:** ***\[Data type\]*** is available for access to ***\[stakeholder type\]*** through ***\[process\] \[time point\].***
 
@@ -378,7 +378,7 @@ In any given organisation that handles individuals’ data (whether someone is a
 
 \- ***Meta-data or usage-data of the app/system*** is available for access to ***researchers*** through ***process outlined in VALIDATE data management plan at the end of the project***.
 
-### **Requirement 33-2-PRI**
+### Requirement 33-2-PRI
 
 **Description:** Access and use of ***\[sensitive data attributes\]*** is ***\[safeguards\]*** to protect ***\[vulnerable groups\]*** from discrimination and harm by ***\[time point\].***
 
