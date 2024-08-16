@@ -12,7 +12,45 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 Users should be able to make informed autonomous decisions regarding AI systems. They should be given the knowledge and tools to comprehend and interact with AI systems to a satisfactory degree and, where possible, be enabled to reasonably self-assess or challenge the system. AI systems should support individuals in making better, more informed choices in accordance with their goals. AI systems can sometimes be deployed to shape and influence human behaviour through mechanisms that may be difficult to detect, since they may harness sub-conscious processes, including various forms of unfair manipulation, deception, herding and conditioning, all of which may threaten individual autonomy. The overall principle of user autonomy must be central to the system’s functionality. Key to this is the right not to be subject to a decision based solely on automated processing when this produces legal effects on users or similarly significantly affects them.
 
-### Requirement 12-1-HUM
+### Requirement 12-1-HUM {#12-1-hum}
+
+**Description:** ***X*** of ***\[relevant methods\]*** for measuring model uncertainty are implemented to provide a confidence interval for predictions in the app available at ***\[time point\].***
+
+***relevant methods:***
+
+\- to be defined by Owner
+
+***time point***:
+
+\- start of the prospective study. *See page 7 for more detailed information about the time points of phases.*
+
+**Phases**
+
+\- development
+
+\- testing
+
+\- validation
+
+**Owner**
+
+\- WP 2 lead
+
+**Stakeholders**
+
+\- WP 2 (ML)
+
+\- WP 3 (design)
+
+\- WP 4 (clinical validation)
+
+\- Other: medical staff
+
+**Tolerable**
+
+\- ***All*** of relevant methods: ***to be defined by Owner*** for measuring model uncertainty are used to provide a confidence interval for predictions in the app available at ***start of the prospective study***.
+
+### Requirement 12-2-HUM {#12-2-hum}
 
 **Description:** In the events where there is a clear conflict between the predictions of the tool and the medical opinion of the doctor, a process protocol for epistemic authority dilemmas customized for ***physician expertise level*** can be followed. Available by ***time point***.
 
@@ -26,11 +64,19 @@ Users should be able to make informed autonomous decisions regarding AI systems.
 
 ***time point***:
 
-\- project end\
+\- project end
+
+**Phases**
+
+\- development
+
+\- testing
+
+\- validation
 
 **Owner**
 
-\- WP1 lead
+\- WP 1 lead
 
 **Stakeholders**
 
@@ -58,7 +104,7 @@ Human oversight helps ensuring that an AI system does not undermine human autono
 
 Moreover, it must be ensured that public enforcers have the ability to exercise oversight in line with their mandate. Oversight mechanisms can be required in varying degrees to support other safety and control measures, depending on the AI system’s application area and potential risk. All other things being equal, the less oversight a human can exercise over an AI system, the more extensive testing and stricter governance is required. 
 
-### Requirement 13-1-HUM
+### Requirement 13-1-HUM {#13-1-hum}
 
 **Description:** Tool is designed with ***\[capability needed\]*** to enable a Human in Command (HIC) governance structure. This is implemented by ***\[time point\].***
 
@@ -74,7 +120,7 @@ Moreover, it must be ensured that public enforcers have the ability to exercise 
 
 ***time point***: 
 
-\- project end 
+\- project end
 
 **Owner**
 
