@@ -2,7 +2,7 @@
 
 Requirements are structured to provide a clear view of their definitions and parameters. Below is an outline detailing how these are organized, articulated through an example of a standard requirement.
 
-## Requirement YZ-N-AAA
+## Requirement YZ-N-AAA example
 
 **Description**: Each requirement bears a unique ID, constructed as follows:
 
@@ -12,22 +12,24 @@ Requirements are structured to provide a clear view of their definitions and par
 
 \- **AAA**: The first three letters of the chapter topic
 
-For instance, the requirement for implementing confidence intervals in predictive modeling might state: "X of \[example parameter\] for measuring model uncertainty are implemented to provide a confidence interval for predictions in the app available at \[time point\]".
-
 ## Parameters
+\ The requirement for implementing confidence intervals in predictive modeling might state: 
+\ "X of ***\[example parameter\]*** for measuring model uncertainty are implemented to provide a confidence interval for predictions in the app available at ***\[time point\]***".
 
--   **\[Example parameter\]**: Parameters listed in brackets are adjustable by the WP 1 team during the project period.
--   **\[time point\]**: This refers to the deadline by which a requirement should be met, typically specifying some due date.
+***\[example parameter\]*** 
+\ Parameters listed in brackets are adjustable by the WP 1 team during the project period.
+***\[time point\]***
+\ This refers to the deadline by which a requirement should be met, typically specifying some due date.
 
 ## Phases
 
 Each requirement is mapped to a specific project phase:
 
-\- **Development**: Focuses on developing the tool's prototype until month 18.
+\ **Development**: Focuses on developing the tool's prototype until month 18.
 
-\- **Testing**: The prototype undergoes testing until month 18.
+\ **Testing**: The prototype undergoes testing until month 18.
 
-\- **Validation**: Begins in month 18, marking the start of validating the developed and tested prototype.
+\ **Validation**: Begins in month 18, marking the start of validating the developed and tested prototype.
 
 ## Stakeholders and Owner
 
@@ -39,8 +41,8 @@ Each requirement is mapped to a specific project phase:
 
 Based on the parameterized statements, requirements are classified into three categories:
 
-\- **TOLERABLE**: The minimum achievement threshold for a requirement.
+\ **Tolerable**: The minimum achievement threshold for a requirement.
 
-\- **GOAL**: Represents the objective aimed to be reached by the project. If both Tolerable and Goal are defined, the project's likely outcome will be between these two.
+\ **Goal**: Represents the objective aimed to be reached by the project. If both Tolerable and Goal are defined, the project's likely outcome will be between these two.
 
-\- **WISH**: Desirable outcomes that are aimed for but likely only partially achieved.
+\ **Wish**: Desirable outcomes that are aimed for but likely only partially achieved.
