@@ -118,7 +118,7 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 ## Work Package 4: Clinical Validation {.unnumbered}
 
-### Technical Robustness and Safety
+#### Technical Robustness and Safety
 
 *Accuracy*
 
@@ -126,7 +126,7 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 [Requirement 23-2-ROB](2_rob.qmd#23-2-rob)
 
-### Privacy and data governance
+#### Privacy and data governance
 
 *Privacy and data protection*
 
@@ -142,7 +142,7 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 ## Work Package 5: Regulations {.unnumbered}
 
-### Technical Robustness and Safety
+#### Technical Robustness and Safety
 
 *Resilience to Attack and Safety*
 
@@ -158,7 +158,7 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 [Requirement 23-3-ROB](2_rob.qmd#23-3-rob)
 
-### Privacy and data governance
+#### Privacy and data governance
 
 *Privacy and data protection*
 
@@ -168,7 +168,7 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 ## Work Package 6: Patient Commmunications {.unnumbered}
 
-### Transparency
+#### Transparency
 
 *Explainability*
 
