@@ -39,7 +39,7 @@ Each requirement is mapped to a specific project phase:
 
 ## Requirement Categorization
 
-Based on the parameterized statements, requirements are classified into three categories:
+Based on the parameterized statements, requirements are classified into three sub-categories:
 
 \ **Tolerable**: The minimum achievement threshold for a requirement.
 
