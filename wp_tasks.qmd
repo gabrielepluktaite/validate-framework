@@ -12,11 +12,11 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 ##### Human Agency
 
-[Requirement 12-2-HUM](1_hum.qmd#12-2-hum)
+- [Requirement 12-2-HUM](1_hum.qmd#12-2-hum)
 
-*Human Oversight*
+##### Human Oversight
 
-[Requirement 13-1-HUM](1_hum.qmd#13-1-hum)
+- [Requirement 13-1-HUM](1_hum.qmd#13-1-hum)
 
 #### Accountability
 
