@@ -20,15 +20,16 @@ auditability as well as explainability.
 **Description:** ***\[limitations and metadata\]*** are available to doctors
 in the app during emergencies by ***\[time point\]***.
 
-| **parameter** | **values** |
-|:----------:|:----------:|
-| **limitations and metadata** | - data collection trail |
-|                                - data source           |
-|                                - demographics          |
-|                                - how patient-specific input affected the predictions |
-|                                - how model is calibrated and optimized, especially whether it has a
-tendency for false negatives or false positives |
-| **time point** | by the end of the project |
+| **Parameter**                                  | **Values**                              |
+|------------------------------------------------|-----------------------------------------|
+| **Limitations and Metadata**                   | - Data collection trail                 |
+|                                                | - Data source                           |
+|                                                | - How patient-specific input affected   |
+|                                                |   the predictions                       |
+|                                                | - How model is calibrated and optimized,|
+|                                                |   especially whether it has a tendency  |
+|                                                |   for false negatives or false positives|
+| **Time Point**                                 | By the end of the project               |
 
 **Phases**: development, testing, validation
 
@@ -42,12 +43,16 @@ tendency for false negatives or false positives |
 
 - WP 3 (design)
 
+<div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
+
 **Wish**
 
-\- ***Data collection trail, data source, demographics, how
+- *Data collection trail, data source, demographics, how
 patient-specific input affected the predictions, how model is calibrated
-and optimized*** are available to doctors in the app during emergencies
-***by the end of the project***.
+and optimized* are available to doctors in the app during emergencies
+**by the end of the project**.
+
+</div>
 
 ## 4.2 Explainability
 
@@ -72,9 +77,9 @@ the system, and the rationale for deploying it, should be available
 **Description:** The system is able to inform about parts of the input
 that led to a specific outcome, achieved at ***\[time point\]***.
 
-***time point***:
-
--prior to start of the prospective study
+| **Parameter**                                  | **Values**                              |
+|------------------------------------------------|-----------------------------------------|
+| **Time Point**                                 | Prior to start of the prospective study |
 
 **Phases**: development, testing
 
@@ -88,42 +93,31 @@ that led to a specific outcome, achieved at ***\[time point\]***.
 
 - WP 3 (design)
 
+<div style="background-color:#90EE90; padding:10px; border-radius:5px;">
+
 **Tolerable**
 
-\- The system is able to inform about parts of the input that led to a
+- The system is able to inform about parts of the input that led to a
 specific outcome achieved ***prior to start of the prospective study
 point***.
+
+</div>
 
 ### Requirement 42-2-TRA {#42-2-tra}
 
 **Description:** % of explanations are communicated and defined in line
 with the ***\[constraints\]*** of the project ***\[time point\]***.
 
-***constraints***:
-
-\- ethical values of the project
-
-\- explainability regulations
-
-***ethical values of the project***:
-
-\- ethical framework
-
-***process***:
-
-\- process outlined in VALIDATE data management plan
-
-***explainability regulations***:
-
-\- EU AI Act
-
-\- GDPR
-
-\- EU-MDR
-
-***time point***:
-
-\- prior to the start of the prospective study
+| **Parameter**                                  | **Values**                              |
+|------------------------------------------------|-----------------------------------------|
+| **Constraints**                                | - Ethical values of the project         |
+|                                                | - Explainability regulations            |
+| **Ethical values of the project**              | - Ethical framework                     |
+| **Process**                                    | - Process outlined in VALIDATE data     |
+|                                                |   management plan                       |
+| **Explainability regulations**                 | EU AI Act, GDPR, EU-MDR                 |
+| **Time Point**                                 | Prior to the start of the prospective   |
+|                                                | study                                   |
 
 **Phases**: development, testing
 
@@ -141,15 +135,19 @@ with the ***\[constraints\]*** of the project ***\[time point\]***.
 
 - WP 6 (patient communication)
 
+<div style="background-color:#D8BFD8; padding:10px; border-radius:5px;">
+
 **Goal**
 
-\- % of explanations are communicated and defined in line with
+- % of explanations are communicated and defined in line with
 ***ethical values of the project: Ethical framework*** of the project
 ***prior to start of the prospective study***.
 
-\- % of explanations are communicated and defined in line with
+- % of explanations are communicated and defined in line with
 ***explainability regulations: EU AI act;GDPR;EU-MDR*** of the project
 ***prior to start of the prospective study***.
+
+</div>
 
 ### Requirement 42-3-TRA {#42-3-tra}
 
@@ -157,19 +155,14 @@ with the ***\[constraints\]*** of the project ***\[time point\]***.
 tool and outputs are available to ***\[relevant users\]*** by ***\[time
 point\]***.
 
-***explainability methods***:
-
-\- explainability methods for tabular data
-
-\- explainability methods for imaging data
-
-***relevant users***:
-
-\- medical personnel
-
-***time point***:
-
-\- start of the prospective study
+| **Parameter**                                  | **Values**                              |
+|------------------------------------------------|-----------------------------------------|
+| **Explainability methods**                     | - Explainability methods for tabular    |
+|                                                |   data                                  |
+|                                                | - Explainability methods for imaging    |
+|                                                |   data                                  |
+| **Relevant users**                             | Medical personnel                       |
+| **Time Point**                                 | Start of the prospective study          |
 
 **Phases**: development, testing
 
@@ -185,38 +178,38 @@ point\]***.
 
 - WP 4 (clinical validation)
 
+<div style="background-color:#D8BFD8; padding:10px; border-radius:5px;">
+
 **Goal**
 
-\- 100% of ***explainability methods for tabular data are*** applied in
+- 100% of ***explainability methods for tabular data are*** applied in
 the tool and outputs are available to medical personnel by ***the start
 of the prospective study***.
 
-\- 100% of ***explainability methods for imaging data are*** applied in
+- 100% of ***explainability methods for imaging data are*** applied in
 the tool and outputs are available to medical personnel by ***the start
 of the prospective study***.
+
+</div>
 
 ### Requirement 42-4-TRA {#42-4-tra}
 
 **Description:** % of ***\[explainability methods\]*** applied in the tool
 are validated by ***\[metric\]*** by ***\[time point\]***.
 
-***explainability methods***:
-
-\- explainability methods for tabular data
-
-\- explainability methods for imaging data
-
-***metric***:
-
-\- quantified scores
-
-\- qualitative validation by users
-
-***time point***:
-
-\- month 24 (delivery date of D2.2 which will incorporate results from
-T2.4 (refinement and improvement of models for stroke outcome) and T2.5
-(augmentation of models with xAI))
+| **Parameter**                                  | **Values**                              |
+|------------------------------------------------|-----------------------------------------|
+| **Explainability methods**                     | - Explainability methods for tabular    |
+|                                                |   data                                  |
+|                                                | - Explainability methods for imaging    |
+|                                                |   data                                  |
+| **Metric**                                     | - Quantified scores                     |
+|                                                | - Quantified validation by users        |
+| **Time Point**                                 | Month 24 (delivery date of D2.2 which   |
+|                                                | will incorporate results from T2.4      |
+|                                                | (refinement and improvement of models   |
+|                                                | for stroke outcome) and T2.5            |
+|                                                | (augmentation of models with xAI))      |
 
 **Phases**: development, testing
 
@@ -230,19 +223,23 @@ T2.4 (refinement and improvement of models for stroke outcome) and T2.5
 
 - WP 3 (design)
 
+<div style="background-color:#D8BFD8; padding:10px; border-radius:5px;">
+
 **Goal**
 
-\- 100% of ***explainability methods for tabular data*** applied in the
+- 100% of ***explainability methods for tabular data*** applied in the
 tool are validated by ***quantified scores*** by month 24
 
-\- 100% of ***explainability methods for tabular data*** applied in the
+- 100% of ***explainability methods for tabular data*** applied in the
 tool are validated by ***qualitative validation by users*** by month 24
 
-\- 100% of ***explainability methods for imaging data*** applied in the
+- 100% of ***explainability methods for imaging data*** applied in the
 tool are validated by ***quantified scores*** by month 24
 
-\- 100% of ***explainability methods for imaging data*** applied in the
+- 100% of ***explainability methods for imaging data*** applied in the
 tool are validated by ***qualitative validation by users*** by month 24
+
+</div>
 
 ## 4.3 Communication
 
@@ -264,25 +261,15 @@ or understand are communicated in adequate language so that it enables
 ***\[explainee\]*** to protect their own interests and is available ***\[time
 point\]***.
 
-***information***:
-
-\- study information
-
-\- study results
-
-\- user information
-
-***explainee***:
-
-\- patients
-
-\- patient family/caregivers
-
-\- users
-
-***time point***:
-
-\- prior to start of the prospective study
+| **Parameter**                                  | **Values**                              |
+|------------------------------------------------|-----------------------------------------|
+| **Information**                                | - Study information                     |
+|                                                | - Study results                         |
+|                                                | - User information                      |
+| **Explainees**                                 | - Patients                              |
+|                                                | - Patient family/caregivers             |
+|                                                | - Users                                 |
+| **Time Point**                                 | Prior to start of the prospective study |
 
 **Phases**: development, testing
 
@@ -294,32 +281,36 @@ point\]***.
 
 - WP 6 (patient communication)
 
+<div style="background-color:#90EE90; padding:10px; border-radius:5px;">
+
 **Tolerable**
 
-\- ***Study information*** relevant for ***patients*** to read or
+- ***Study information*** relevant for ***patients*** to read or
 understand are communicated in adequate language so that it enables
 ***patients*** to protect their own interests and is available before
 the ***prospective study start***
 
-\- ***Study results*** relevant for ***patients*** to read or understand
+- ***Study results*** relevant for ***patients*** to read or understand
 are communicated in adequate language so that it enables ***patients***
 to protect their own interests and is available before the
 ***prospective study start***
 
-\- ***Study information*** relevant for ***patient family/caregivers***
+- ***Study information*** relevant for ***patient family/caregivers***
 to read or understand are communicated in adequate language so that it
 enables ***patient family/caregivers*** to protect their own interests
 and is available ***before the prospective study start***
 
-\- ***Study results*** relevant for ***patient family/caregivers*** to
+- ***Study results*** relevant for ***patient family/caregivers*** to
 read or understand are communicated in adequate language so that it
 enables ***patient family/caregivers*** to protect their own interests
 and is available ***before the prospective study start***
 
-\- ***User information*** relevant for ***users*** to read or understand
+- ***User information*** relevant for ***users*** to read or understand
 are communicated in adequate language so that it enables ***users*** to
 protect their own interests and is available ***before the prospective
 study start***
+
+</div>
 
 ### Requirement 43-2-TRA {#43-2-tra}
 
@@ -327,38 +318,20 @@ study start***
 are explained to ***\[explainee groups\]*** and translated by a science
 communicator when relevant.
 
-***relevant information***:
-
-For Patient/patient family/caregiver group:
-
-***relevant information***: For Patient/patient family/caregiver group:
-
-\- Why are we using the tool?
-
-\- Why we don't know what the best treatment is.
-
-\- What are the results of the AI model?
-
-\- What do the results of the tool imply for them?);
-
-For medical users group:
-
-\- Why should I use this tool?
-
-\- When should I not use this tool?
-
-\- Evidence that it works.
-
-\- How do we know that this tool is successful? How does the model work?
-
-***explainee groups***:
-
-\- patient/patient family/caregiver
-
-\- medical users
-
-***explainee groups***: - patient/patient family/caregiver - medical
-users
+| **Parameter**                                  | **Values**                              |
+|------------------------------------------------|-----------------------------------------|
+| **Relevant information for patient/patient     | - Why are we using the tool?            |
+| family/caregiver group**                       | - Why we don't know what the best       |
+|                                                |   treatment is                          |
+|                                                | - What are the results of the AI model? |
+|                                                | - What do the results of the tool imply |
+|                                                |   for them?)                            |
+|**Relevant information for medical users group**| - Why should I use this tool?           |
+|                                                | - When should I not use this tool?      |
+| **Explainees**                                 | - Patients                              |
+|                                                | - Patient family/caregivers             |
+|                                                | - Medical users                         |
+| **Time Point**                                 | Prior to start of the prospective study |
 
 **Phases**: development, testing, validation
 
@@ -376,38 +349,39 @@ users
 
 - WP 6 (patient communication)
 
+<div style="background-color:#90EE90; padding:10px; border-radius:5px;">
+
 **Tolerable**
 
-\- ***(Why are we using the tool? Why we don't know what the best
+- ***(Why are we using the tool? Why we don't know what the best
 treatment is. What are the results of the AI model? What do the results
 of the tool imply for them?)*** for ***patient/patient
 family/caregiver*** are explained to ***patient/patient
 family/caregiver*** and translated by a science communicator when
 relevant.
 
-\- ***(Why should I use this tool? When should I not use this tool?
+- ***(Why should I use this tool? When should I not use this tool?
 Evidence that it works. How do we know that this tool is successful? How
 does the model work? Which parameters/variables are input data? And
 which ones are deciding factors?)*** for ***medical users*** are
 explained to ***medical users*** and translated by a science
 communicator when relevant.
 
+</div>
+
 ### Requirement 43-3-TRA {#43-3-tra}
 
 **Description:** Explanations are specifically tailored to ***\[different
 explainee groups\]*** by ***\[time point\]***.
 
-***different explainee groups***:
-
-\- users in different countries
-
-\- patients/family/caregivers in different countries
-
-\- patients/family/caregivers of different cultures
-
-***time point***:
-
-\- prior to the start of the prospective study
+| **Parameter**                                  | **Values**                              |
+|------------------------------------------------|-----------------------------------------|
+| **Different explainee groups**                 | - Users in different countries          |
+|                                                | - Patients/family/caregivers in         |
+|                                                |   different countries                   |
+|                                                | - Patients/family/caregivers in         |
+|                                                |   different cultures                    |
+| **Time Point**                                 | Prior to start of the prospective study |
 
 **Phases**: development, testing
 
@@ -419,19 +393,31 @@ explainee groups\]*** by ***\[time point\]***.
 
 - WP 6 (patient communication)
 
+<div style="background-color:#90EE90; padding:10px; border-radius:5px;">
+
 **Tolerable**
 
-\- Explanations are specifically tailored to ***users in different
+- Explanations are specifically tailored to ***users in different
 countries prior to start of the prospective study***.
+
+</div>
+
+<div style="background-color:#D8BFD8; padding:10px; border-radius:5px;">
 
 **Goal**
 
-\- Explanations are specifically tailored to
+- Explanations are specifically tailored to
 ***patient/family/caregivers in different countries prior to start of
 the prospective study***.
 
+</div>
+
+<div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
+
 **Wish**
 
-\- Explanations are specifically tailored to
+- Explanations are specifically tailored to
 ***patient/family/caregivers of different cultures prior to start of the
 prospective study***.
+
+</div>
