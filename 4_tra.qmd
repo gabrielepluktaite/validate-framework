@@ -22,14 +22,9 @@ in the app during emergencies by ***\[time point\]***.
 
 | **Parameter**                                  | **Values**                              |
 |------------------------------------------------|-----------------------------------------|
-| **Limitations and Metadata**                   | - Data collection trail                 |
-|                                                | - Data source                           |
-|                                                | - How patient-specific input affected   |
-|                                                |   the predictions                       |
-|                                                | - How model is calibrated and optimized,|
-|                                                |   especially whether it has a tendency  |
-|                                                |   for false negatives or false positives|
+| **Limitations and Metadata**                   | - Data collection trail<br>- Data source<br>- How patient-specific input affected the predictions<br>- How model is calibrated and optimized, especially whether it has a tendency for false negatives or false positives                                            |
 | **Time Point**                                 | By the end of the project               |
+
 
 **Phases**: development, testing, validation
 
@@ -81,6 +76,7 @@ that led to a specific outcome, achieved at ***\[time point\]***.
 |------------------------------------------------|-----------------------------------------|
 | **Time Point**                                 | Prior to start of the prospective study |
 
+
 **Phases**: development, testing
 
 **Owner**
@@ -93,7 +89,7 @@ that led to a specific outcome, achieved at ***\[time point\]***.
 
 - WP 3 (design)
 
-<div style="background-color:#90EE90; padding:10px; border-radius:5px;">
+<div style="background-color: #abebc6; padding:10px; border-radius:5px;">
 
 **Tolerable**
 
@@ -110,14 +106,12 @@ with the ***\[constraints\]*** of the project ***\[time point\]***.
 
 | **Parameter**                                  | **Values**                              |
 |------------------------------------------------|-----------------------------------------|
-| **Constraints**                                | - Ethical values of the project         |
-|                                                | - Explainability regulations            |
-| **Ethical values of the project**              | - Ethical framework                     |
-| **Process**                                    | - Process outlined in VALIDATE data     |
-|                                                |   management plan                       |
+| **Constraints**                                | - Ethical values of the project<br>- Explainability regulations|
+| **Ethical values of the project**              | Ethical framework                     |
+| **Process**                                    | Process outlined in VALIDATE data management plan|
 | **Explainability regulations**                 | EU AI Act, GDPR, EU-MDR                 |
-| **Time Point**                                 | Prior to the start of the prospective   |
-|                                                | study                                   |
+| **Time Point**                                 | Prior to the start of the prospective study|
+
 
 **Phases**: development, testing
 
@@ -135,7 +129,7 @@ with the ***\[constraints\]*** of the project ***\[time point\]***.
 
 - WP 6 (patient communication)
 
-<div style="background-color:#D8BFD8; padding:10px; border-radius:5px;">
+<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
 
 **Goal**
 
@@ -157,12 +151,10 @@ point\]***.
 
 | **Parameter**                                  | **Values**                              |
 |------------------------------------------------|-----------------------------------------|
-| **Explainability methods**                     | - Explainability methods for tabular    |
-|                                                |   data                                  |
-|                                                | - Explainability methods for imaging    |
-|                                                |   data                                  |
+| **Explainability methods**                     | - Explainability methods for tabular data<br>- Explainability methods for imaging data                                                                   |
 | **Relevant users**                             | Medical personnel                       |
 | **Time Point**                                 | Start of the prospective study          |
+
 
 **Phases**: development, testing
 
@@ -178,7 +170,7 @@ point\]***.
 
 - WP 4 (clinical validation)
 
-<div style="background-color:#D8BFD8; padding:10px; border-radius:5px;">
+<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
 
 **Goal**
 
@@ -199,17 +191,10 @@ are validated by ***\[metric\]*** by ***\[time point\]***.
 
 | **Parameter**                                  | **Values**                              |
 |------------------------------------------------|-----------------------------------------|
-| **Explainability methods**                     | - Explainability methods for tabular    |
-|                                                |   data                                  |
-|                                                | - Explainability methods for imaging    |
-|                                                |   data                                  |
-| **Metric**                                     | - Quantified scores                     |
-|                                                | - Quantified validation by users        |
-| **Time Point**                                 | Month 24 (delivery date of D2.2 which   |
-|                                                | will incorporate results from T2.4      |
-|                                                | (refinement and improvement of models   |
-|                                                | for stroke outcome) and T2.5            |
-|                                                | (augmentation of models with xAI))      |
+| **Explainability methods**                     | - Explainability methods for tabular and imaging data|
+| **Metric**                                     | - Quantified scores<br>- Quantified validation by users|
+| **Time Point**                                 | Month 24 (delivery date of D2.2 which will incorporate results from T2.4 (refinement and improvement of models for stroke outcome) and T2.5 (augmentation of models with xAI))|
+
 
 **Phases**: development, testing
 
@@ -223,7 +208,7 @@ are validated by ***\[metric\]*** by ***\[time point\]***.
 
 - WP 3 (design)
 
-<div style="background-color:#D8BFD8; padding:10px; border-radius:5px;">
+<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
 
 **Goal**
 
@@ -263,13 +248,10 @@ point\]***.
 
 | **Parameter**                                  | **Values**                              |
 |------------------------------------------------|-----------------------------------------|
-| **Information**                                | - Study information                     |
-|                                                | - Study results                         |
-|                                                | - User information                      |
-| **Explainees**                                 | - Patients                              |
-|                                                | - Patient family/caregivers             |
-|                                                | - Users                                 |
+| **Information**                                | - Study information<br>- Study results<br>- User information|
+| **Explainees**                                 | - Patients<br>- Patient family/caregivers<br>- Users|
 | **Time Point**                                 | Prior to start of the prospective study |
+
 
 **Phases**: development, testing
 
@@ -281,7 +263,7 @@ point\]***.
 
 - WP 6 (patient communication)
 
-<div style="background-color:#90EE90; padding:10px; border-radius:5px;">
+<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 
 **Tolerable**
 
@@ -320,18 +302,11 @@ communicator when relevant.
 
 | **Parameter**                                  | **Values**                              |
 |------------------------------------------------|-----------------------------------------|
-| **Relevant information for patient/patient     | - Why are we using the tool?            |
-| family/caregiver group**                       | - Why we don't know what the best       |
-|                                                |   treatment is                          |
-|                                                | - What are the results of the AI model? |
-|                                                | - What do the results of the tool imply |
-|                                                |   for them?)                            |
-|**Relevant information for medical users group**| - Why should I use this tool?           |
-|                                                | - When should I not use this tool?      |
-| **Explainees**                                 | - Patients                              |
-|                                                | - Patient family/caregivers             |
-|                                                | - Medical users                         |
+| **Relevant information for patient/patient family/caregiver group**| - Why are we using the tool?<br>- Why we don't know what the best treatment is<br>- What are the results of the AI model?<br>- What do the results of the tool imply for them?|
+| **Relevant information for medical users group**| - Why should I use this tool?<br>- When should I not use this tool?|
+| **Explainees**                                 | - Patients<br>- Patient family/caregivers<br>- Medical users|
 | **Time Point**                                 | Prior to start of the prospective study |
+
 
 **Phases**: development, testing, validation
 
@@ -349,7 +324,7 @@ communicator when relevant.
 
 - WP 6 (patient communication)
 
-<div style="background-color:#90EE90; padding:10px; border-radius:5px;">
+<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 
 **Tolerable**
 
@@ -376,12 +351,9 @@ explainee groups\]*** by ***\[time point\]***.
 
 | **Parameter**                                  | **Values**                              |
 |------------------------------------------------|-----------------------------------------|
-| **Different explainee groups**                 | - Users in different countries          |
-|                                                | - Patients/family/caregivers in         |
-|                                                |   different countries                   |
-|                                                | - Patients/family/caregivers in         |
-|                                                |   different cultures                    |
+| **Different explainee groups**                 | - Users in different countries<br>- Patients/family/caregivers in different countries<br>- Patients/family/caregivers in different cultures|
 | **Time Point**                                 | Prior to start of the prospective study |
+
 
 **Phases**: development, testing
 
@@ -393,7 +365,7 @@ explainee groups\]*** by ***\[time point\]***.
 
 - WP 6 (patient communication)
 
-<div style="background-color:#90EE90; padding:10px; border-radius:5px;">
+<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 
 **Tolerable**
 
@@ -402,7 +374,7 @@ countries prior to start of the prospective study***.
 
 </div>
 
-<div style="background-color:#D8BFD8; padding:10px; border-radius:5px;">
+<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
 
 **Goal**
 
