@@ -22,7 +22,7 @@ Both the ability to report on actions or decisions that contribute to a certain 
 | **Time Point**                                 | By the end of the project|
 
 
-***Phases***: development, testing, validation
+**Phases**: development, testing, validation
 
 **Owner**
 
@@ -54,7 +54,7 @@ When implementing the above requirements, tensions may arise between them, which
 | **Time Point**                                 | Throughout the project|
 
 
-***Phases***: development, testing, validation
+**Phases**: development, testing, validation
 
 **Owner**
 
