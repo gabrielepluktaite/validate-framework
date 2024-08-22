@@ -46,8 +46,20 @@ Each requirement is mapped to a specific project phase:
 
 Based on the parameterized statements, requirements are classified into three sub-categories:
 
+<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
+
 **Tolerable**: The minimum achievement threshold for a requirement.
+
+</div>
+
+<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
 
 **Goal**: Represents the objective aimed to be reached by the project. If both Tolerable and Goal are defined, the project's likely outcome will be between these two.
 
+</div>
+
+<div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
+
 **Wish**: Desirable outcomes that are aimed for but likely only partially achieved.
+
+</div>
