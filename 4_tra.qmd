@@ -20,40 +20,27 @@ auditability as well as explainability.
 **Description:** ***\[limitations and metadata\]*** are available to doctors
 in the app during emergencies by ***\[time point\]***.
 
-***limitations and metadata***:
+| **parameter** | **values** |
+|:----------:|:----------:|
+| **limitations and metadata** | - data collection trail |
+|                                - data source           |
+|                                - demographics          |
+|                                - how patient-specific input affected the predictions |
+|                                - how model is calibrated and optimized, especially whether it has a
+tendency for false negatives or false positives |
+| **time point** | by the end of the project |
 
-\- data collection trail
-
-\- data source
-
-\- demographics
-
-\- how patient-specific input affected the predictions
-
-\- how model is calibrated and optimized, especially whether it has a
-tendency for false negatives or false positives
-
-***time point***:
-
-\- by the end of the project
-
-**Phases**
-
-\- development
-
-\- testing
-
-\- validation
+**Phases**: development, testing, validation
 
 **Owner**
 
-\- WP 2 lead
+- WP 2 lead
 
 **Stakeholders**
 
-\- WP 2 (development)
+- WP 2 (development)
 
-\- WP 3 (design)
+- WP 3 (design)
 
 **Wish**
 
@@ -89,21 +76,17 @@ that led to a specific outcome, achieved at ***\[time point\]***.
 
 -prior to start of the prospective study
 
-**Phases**
-
-\- development
-
-\- testing
+**Phases**: development, testing
 
 **Owner**
 
-\- WP 2 lead
+- WP 2 lead
 
 **Stakeholders**
 
-\- WP 2 (development)
+- WP 2 (development)
 
-\- WP 3 (design)
+- WP 3 (design)
 
 **Tolerable**
 
@@ -142,25 +125,21 @@ with the ***\[constraints\]*** of the project ***\[time point\]***.
 
 \- prior to the start of the prospective study
 
-**Phases**
-
-\- development
-
-\- testing
+**Phases**: development, testing
 
 **Owner**
 
-\- WP 6 lead
+- WP 6 lead
 
 **Stakeholders**
 
-\- WP 2 (development)
+- WP 2 (development)
 
-\- WP 3 (design)
+- WP 3 (design)
 
-\- WP 5 (regulations)
+- WP 5 (regulations)
 
-\- WP 6 (patient communication)
+- WP 6 (patient communication)
 
 **Goal**
 
@@ -192,23 +171,19 @@ point\]***.
 
 \- start of the prospective study
 
-**Phases**
-
-\- development
-
-\- testing
+**Phases**: development, testing
 
 **Owner**
 
-\- WP 2 lead
+- WP 2 lead
 
 **Stakeholders**
 
-\- WP 2 (development)
+- WP 2 (development)
 
-\- WP 3 (design)
+- WP 3 (design)
 
-\- WP 4 (clinical validation)
+- WP 4 (clinical validation)
 
 **Goal**
 
@@ -243,21 +218,17 @@ are validated by ***\[metric\]*** by ***\[time point\]***.
 T2.4 (refinement and improvement of models for stroke outcome) and T2.5
 (augmentation of models with xAI))
 
-**Phases**
-
-\- development
-
-\- testing
+**Phases**: development, testing
 
 **Owner**
 
-\- WP 2 lead
+- WP 2 lead
 
 **Stakeholders**
 
-\- WP 2 (development)
+- WP 2 (development)
 
-\- WP 3 (design)
+- WP 3 (design)
 
 **Goal**
 
@@ -313,19 +284,15 @@ point\]***.
 
 \- prior to start of the prospective study
 
-**Phases**
-
-\- development
-
-\- testing
+**Phases**: development, testing
 
 **Owner**
 
-\- WP 6 lead
+- WP 6 lead
 
 **Stakeholders**
 
-\- WP 6 (patient communication)
+- WP 6 (patient communication)
 
 **Tolerable**
 
@@ -393,27 +360,21 @@ For medical users group:
 ***explainee groups***: - patient/patient family/caregiver - medical
 users
 
-**Phases**
-
-\- development
-
-\- testing
-
-\- validation
+**Phases**: development, testing, validation
 
 **Owner**
 
-\- WP 6 lead
+- WP 6 lead
 
 **Stakeholders**
 
-\- Explainee groups
+- Explainee groups
 
-\- WP 2 (development)
+- WP 2 (development)
 
-\- WP 4 (clinical validation)
+- WP 4 (clinical validation)
 
-\- WP 6 (patient communication)
+- WP 6 (patient communication)
 
 **Tolerable**
 
@@ -448,19 +409,15 @@ explainee groups\]*** by ***\[time point\]***.
 
 \- prior to the start of the prospective study
 
-**Phases**
-
-\- development
-
-\- testing
+**Phases**: development, testing
 
 **Owner**
 
-\- WP 6 lead
+- WP 6 lead
 
 **Stakeholders**
 
-\- WP 6 (patient communication)
+- WP 6 (patient communication)
 
 **Tolerable**
 
