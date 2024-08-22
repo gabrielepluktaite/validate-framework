@@ -10,29 +10,33 @@ AI systems promise to help tackling some of the most pressing societal concerns,
 
 **Description:** % of VALIDATE machine learning engineers follow an SOP to track the environmental impact of model training.
 
-**Phases**
-
-\- development
-
-\- testing
+**Phases**: development, testing
 
 **Owner**
 
-\- WP 2 lead
+- WP 2 lead
 
 **Stakeholders**
 
-\- WP 1 (ethics)
+- WP 1 (ethics)
 
-\- WP 2 (development)
+- WP 2 (development)
+
+<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 
 **Tolerable**
 
-\- 50% of VALIDATE machine learning engineers follow an SOP to track the environmental impact of model training.
+- 50% of VALIDATE machine learning engineers follow an SOP to track the environmental impact of model training.
+
+</div>
+
+<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
 
 **Goal**
 
-\- 100% of VALIDATE machine learning engineers follow an SOP to reduce the environmental impact of model training.
+- 100% of VALIDATE machine learning engineers follow an SOP to reduce the environmental impact of model training
+
+</div>
 
 ## 6.2 Social impact
 
