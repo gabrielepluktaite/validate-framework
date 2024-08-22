@@ -10,47 +10,37 @@ Data sets used by AI systems (both for training and operation) may suffer from t
 
 **Description:** Subgroup stratified according to ***\[features\]*** AND ***\[intersectional feature combination\]*** has prediction accuracy with no significant difference compared to the majority population.
 
-***features***:
+| **Parameter**                                  | **Values**                              |
+|------------------------------------------------|-----------------------------------------|
+| **Features**                                   | Age, sex/gender, ethnicity/race, geographic location|
+| **Intersectional feature combination**         | Sex/gender with ethnicity/race|
 
-\- age
 
-\- sex/gender
-
-\- ethnicity/race
-
-\- geographic location
-
-***intersectional feature combination***:
-
-\- sex/gender with ethnicity/race
-
-**Phases**
-
-\- development
-
-\- testing
-
-\- validation
+**Phases**: development, testing, validation
 
 **Owner**
 
-\- WP 2 lead
+- WP 2 lead
 
 **Stakeholders**
 
-\- WP 2 (development)
+- WP 2 (development)
+
+<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
 
 **Goal**
 
-\- Subgroup stratified according to ***age*** has prediction accuracy with no significant difference to the majority population.
+- Subgroup stratified according to ***age*** has prediction accuracy with no significant difference to the majority population.
 
-\- Subgroup stratified according to ***sex/gender*** has prediction accuracy with no significant difference to the majority population.
+- Subgroup stratified according to ***sex/gender*** has prediction accuracy with no significant difference to the majority population.
 
-\- Subgroup stratified according to ***ethnicity/race*** has prediction accuracy with no significant difference to the majority population.
+- Subgroup stratified according to ***ethnicity/race*** has prediction accuracy with no significant difference to the majority population.
 
-\- Subgroup stratified according to ***geographic location*** has prediction accuracy with no significant difference to the majority population.
+- Subgroup stratified according to ***geographic location*** has prediction accuracy with no significant difference to the majority population.
 
-\- Subgroup stratified according to ***sex/gender and ethnicity/race*** has prediction accuracy with no significant difference to the majority population.
+- Subgroup stratified according to ***sex/gender and ethnicity/race*** has prediction accuracy with no significant difference to the majority population.
+
+</div>
 
 ## 5.2 Accessibility and Universal Design
 
@@ -64,39 +54,33 @@ Particularly in business-to-consumer domains, systems should be user-centric and
 
 \- 6 to 8
 
-***user groups***:
+| **Parameter**                                  | **Values**                              |
+|------------------------------------------------|-----------------------------------------|
+| **User groups**                                | - Stroke physicians of different technical skill levels<br>- Stroke physicians of different medical skill levels<br> These user groups will later be updated when the User Groups for the Intended Purpose has been defined|
+| **Time point**                                 | During demonstrator development and testing|
 
-\- Stroke physicians of different technical skill levels
 
-\- Stroke physicians of different medical skill levels
-
-\- These user groups will later be updated when the User Groups for the Intended Purpose has been defined.
-
-***time point***:
-
-\- during demonstrator development and testing
-
-**Phases**
-
-\- development
-
-\- testing
+**Phases**: development, testing
 
 **Owner**
 
-\- WP 3 lead
+- WP 3 lead
 
 **Stakeholders**
 
-\- WP 3 (design)
+- WP 3 (design)
 
-\- WP 4 (clinical validation)
+- WP 4 (clinical validation)
+
+<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 
 **Tolerable**
 
-\- System undergoes UX/UI testing on ***6-8 stroke physicians of different technical skill level during demonstrator development and testing***.
+- System undergoes UX/UI testing on ***6-8 stroke physicians of different technical skill level during demonstrator development and testing***.
 
-\- System undergoes UX/UI testing on ***6-8 stroke physicians of different medical skill level during demonstrator development and testing***.
+- System undergoes UX/UI testing on ***6-8 stroke physicians of different medical skill level during demonstrator development and testing***.
+
+</div>
 
 ## 5.3 Stakeholder participation
 
@@ -106,38 +90,44 @@ In order to develop AI systems that are trustworthy, it is advisable to consult 
 
 **Description:** System is presented to X ***\[stakeholders\]*** for feedback ***\[time point\]***.
 
-***stakeholders***:
+| **Parameter**                                  | **Values**                              |
+|------------------------------------------------|-----------------------------------------|
+| **Stakeholders**                               | Stroke patients and/or patient representatives from different geographical and cultural backgrounds|
+| **Time point**                                 | During demonstrator development and testing|
 
-\- Stroke patients and/or patient representatives from different geographical and cultural backgrounds
 
-***time point***:
-
-\- during demonstrator development and testing
-
-**Phases**
-
-\- development
-
-\- testing
+**Phases**: development, testing
 
 **Owner**
 
-\- WP 3 lead
+- WP 3 lead
 
 **Stakeholders**
 
-\- WP 3 (design)
+- WP 3 (design)
 
-\- WP 6 (patient communication)
+- WP 6 (patient communication)
+
+<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 
 **Tolerable**
 
 \- System is presented to ***4 stroke patients and/or patient representatives from different geographical and cultural backgrounds*** for feedback ***during demonstrator development and testing***.
 
+</div>
+
+<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
+
 **Goal**
 
 \- System is presented to ***7 stroke patients and/or patient representatives from different geographical and cultural backgrounds*** for feedback ***during demonstrator development and testing***.
 
+</div>
+
+<div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
+
 **Wish**
 
 \- System is presented to ***10 stroke patients and/or patient representatives from different geographical and cultural backgrounds*** for feedback ***during demonstrator development and testing***.
+
+</div>
