@@ -50,9 +50,7 @@ Particularly in business-to-consumer domains, systems should be user-centric and
 
 **Description:** System undergoes UX/UI testing on ***X number*** ***\[user groups\]*** at ***\[time point\]***.
 
-***X number***:
-
-\- 6 to 8
+***X number***: 6 to 8
 
 | **Parameter**                                  | **Values**                              |
 |------------------------------------------------|-----------------------------------------|
