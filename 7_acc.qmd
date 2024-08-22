@@ -16,37 +16,29 @@ Both the ability to report on actions or decisions that contribute to a certain 
 
 **Description:** Algorithmic impact assessment following ***\[relevant method\]*** is performed by ***\[time point\]***.
 
-***relevant method***:
+| **Parameter**                                  | **Values**                              |
+|------------------------------------------------|-----------------------------------------|
+| **Relevant methods**                            | - MDR<br>- EU AI Act<br>- To be determined|
+| **Time Point**                                 | By the end of the project|
 
-\- MDR
 
-\- EU AI Act
-
-\- To be determined
-
-***time point***:
-
-\- by the end of the project
-
-***phases***:
-
-\- development
-
-\- testing
-
-\- validation
+***Phases***: development, testing, validation
 
 **Owner**
 
-\- WP1 lead
+- WP1 lead
 
 **Stakeholders**
 
-\- WP 1 (ethics)
+- WP 1 (ethics)
+
+<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 
 **Tolerable**
 
-\- Algorithmic impact assessment using ***MDR; EU AI Act, relevant method: To be determined*** performed ***by the end of the project.***
+- Algorithmic impact assessment using ***MDR; EU AI Act, relevant method: To be determined*** performed ***by the end of the project.***
+
+</div>
 
 ## 7.3 Trade-offs
 
@@ -56,53 +48,39 @@ When implementing the above requirements, tensions may arise between them, which
 
 **Description:** Research work produced by the STRATIF-AI consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***\[relevant aspects\]***. This is implemented by ***\[time point\].***
 
-***relevant method***:
+| **Parameter**                                  | **Values**                              |
+|------------------------------------------------|-----------------------------------------|
+| **Relevant methods**                            | - Data availability<br>- Reproducibility<br>- Open access<br>- Distribution<br>- Confidentiality<br>- Originality|
+| **Time Point**                                 | Throughout the project|
 
-\- data availability
 
-\- reproducibility
-
-\- open access
-
-\- distribution
-
-\- confidentiality
-
-\- originality
-
-***time point***:
-
-\- throughout the project
-
-***phases***:
-
-\- development
-
-\- testing
-
-\- validation
+***Phases***: development, testing, validation
 
 **Owner**
 
-\- WP1 lead
+- WP1 lead
 
 **Stakeholders**
 
-\- WP 1 (ethics)
+- WP 1 (ethics)
+
+<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
 
 **Goal**
 
-\- Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***data availability***. This is implemented ***throughout the project***.
+- Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***data availability***. This is implemented ***throughout the project***.
 
-\- Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***reproducibility***. This is implemented ***throughout the project***.
+- Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***reproducibility***. This is implemented ***throughout the project***.
 
-\- Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***open access***. This is implemented ***throughout the project***.
+- Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***open access***. This is implemented ***throughout the project***.
 
-\- Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***distribution***. This is implemented ***throughout the project***.
+- Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***distribution***. This is implemented ***throughout the project***.
 
-\- Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***confidentiality***. This is implemented ***throughout the project***.
+- Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***confidentiality***. This is implemented ***throughout the project***.
 
-\- Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***originality***. This is implemented ***throughout the project***.
+- Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***originality***. This is implemented ***throughout the project***.
+
+</div>
 
 ## 7.4 Redress
 
