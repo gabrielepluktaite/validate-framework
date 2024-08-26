@@ -238,7 +238,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 The quality of the data sets used is paramount to the performance of AI systems. When data is gathered, it may contain socially constructed biases, inaccuracies, errors and mistakes. This needs to be addressed prior to training with any given data set. In addition, the integrity of the data must be ensured. Feeding malicious data into an AI system may change its behaviour, particularly with self-learning systems. Processes and data sets used must be tested and documented at each step such as planning, training, testing and deployment. This should also apply to AI systems that were not developed in-house but acquired elsewhere. 
 
-### Requirement 32-1-PRI {#31-1-pri}
+### Requirement 32-1-PRI {#32-1-pri}
 
 **Description:** ***%*** of datasets fulfill ***\[quality criteria\]*** with regards to ***\[quality parameters\] \[time point\].***
 
