@@ -12,7 +12,7 @@ AI systems, like all software systems, should be protected against vulnerabiliti
 
 | **Parameter**               | **Values**                                                                                                             |
 |-----------------------------|------------------------------------------------------------------------------------------------------------------------|
-| **Relevant Aspects of Norms** | - ISO norms related to the standard MDR:<br>- IEC 62366<br>- IEC 62304<br>- ISO 14971<br><br>- ISO norms related to MDR and recent AI advancements:<br>- ISO 13485<br>- ISO/IEC 23894:2023<br>- ISO/IEC 38507 |
+| **Relevant Aspects of Norms** | ISO norms related to the standard MDR:<br>- IEC 62366<br>- IEC 62304<br>- ISO 14971<br><br> ISO norms related to MDR and recent AI advancements:<br>- ISO 13485<br>- ISO/IEC 23894:2023<br>- ISO/IEC 38507 |
 | **Time Point**              | The end of the project                                                                                                 |
 
 **Phases**: development, testing, validation
