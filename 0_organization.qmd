@@ -16,14 +16,14 @@ Each requirement has a unique ID, constructed as follows:
 
 **Description:** *X* of ***\[example parameter\]*** for measuring model uncertainty are implemented to provide a confidence interval for predictions in the app available at ***\[time point\]***.
 
-## Parameters
+### Parameters
 
 | **Parameter**         | **Values**                                                                                       |
 |------------------|------------------------------------------------------|
 | **Example Parameter** | Parameters listed in brackets are adjustable by the WP 1 team during the project period.         |
 | **Time Point**        | Refers to the deadline by which a requirement should be met, typically specifying some due date. |
 
-## Phases
+### Phases
 
 Each requirement is mapped to a specific project phase:
 
@@ -33,13 +33,13 @@ Each requirement is mapped to a specific project phase:
 
 **Validation**: Begins in month 18, marking the start of validating the developed and tested prototype.
 
-## Stakeholders and Owner
+### Stakeholders and Owner
 
 **Stakeholders**: Includes project staff and other relevant groups affected by or necessary for fulfilling the requirement.
 
 **Owner**: Each requirement is assigned an Owner, usually a WP lead relevant to existing tasks. The Owner is responsible for task delegation and execution to meet the requirement.
 
-## Requirement Categorization
+### Requirement Categorization
 
 Based on the parameterized statements, requirements are classified into three sub-categories:
 
