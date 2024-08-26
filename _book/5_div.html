@@ -167,15 +167,15 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#avoidance-of-unfair-bias" id="toc-avoidance-of-unfair-bias" class="nav-link active" data-scroll-target="#avoidance-of-unfair-bias">Avoidance of unfair bias</a>
+  <li><a href="#avoidance-of-unfair-bias" id="toc-avoidance-of-unfair-bias" class="nav-link active" data-scroll-target="#avoidance-of-unfair-bias">5.1 Avoidance of unfair bias</a>
   <ul class="collapse">
   <li><a href="#51-1-div" id="toc-51-1-div" class="nav-link" data-scroll-target="#51-1-div">Requirement 51-1-DIV</a></li>
   </ul></li>
-  <li><a href="#accessibility-and-universal-design" id="toc-accessibility-and-universal-design" class="nav-link" data-scroll-target="#accessibility-and-universal-design">Accessibility and Universal Design</a>
+  <li><a href="#accessibility-and-universal-design" id="toc-accessibility-and-universal-design" class="nav-link" data-scroll-target="#accessibility-and-universal-design">5.2 Accessibility and Universal Design</a>
   <ul class="collapse">
   <li><a href="#52-1-div" id="toc-52-1-div" class="nav-link" data-scroll-target="#52-1-div">Requirement 52-1-DIV</a></li>
   </ul></li>
-  <li><a href="#stakeholder-participation" id="toc-stakeholder-participation" class="nav-link" data-scroll-target="#stakeholder-participation">Stakeholder participation</a>
+  <li><a href="#stakeholder-participation" id="toc-stakeholder-participation" class="nav-link" data-scroll-target="#stakeholder-participation">5.3 Stakeholder participation</a>
   <ul class="collapse">
   <li><a href="#53-1-div" id="toc-53-1-div" class="nav-link" data-scroll-target="#53-1-div">Requirement 53-1-DIV</a></li>
   </ul></li>
@@ -206,85 +206,152 @@ ul.task-list li input[type="checkbox"] {
 
 <p>In order to achieve Trustworthy AI, we must enable inclusion and diversity throughout the entire AI system’s life cycle. Besides the consideration and involvement of all affected stakeholders throughout the process, this also entails ensuring equal access through inclusive design processes as well as equal treatment. This requirement is closely linked with the principle of fairness.</p>
 <section id="avoidance-of-unfair-bias" class="level2">
-<h2 class="anchored" data-anchor-id="avoidance-of-unfair-bias">Avoidance of unfair bias</h2>
+<h2 class="anchored" data-anchor-id="avoidance-of-unfair-bias">5.1 Avoidance of unfair bias</h2>
 <p>Data sets used by AI systems (both for training and operation) may suffer from the inclusion of inadvertent historic bias, incompleteness and bad governance models. The continuation of such biases could lead to unintended (in)direct prejudice and discrimination against certain groups or people, potentially exacerbating prejudice and marginalisation. Harm can also result from the intentional exploitation of (consumer) biases or by engaging in unfair competition, such as the homogenisation of prices by means of collusion or a non-transparent market. Identifiable and discriminatory bias should be removed in the collection phase where possible. The way in which AI systems are developed (e.g.&nbsp;algorithms’ programming) may also suffer from unfair bias. This could be counteracted by putting in place oversight processes to analyse and address the system’s purpose, constraints, requirements and decisions in a clear and transparent manner. Moreover, hiring from diverse backgrounds, cultures and disciplines can ensure diversity of opinions and should be encouraged.</p>
 <section id="51-1-div" class="level3">
 <h3 class="anchored" data-anchor-id="51-1-div">Requirement 51-1-DIV</h3>
-<p><strong>Description:</strong> Subgroup stratified according to <strong><em>features</em></strong> AND <strong><em>intersectional feature combination</em></strong> has prediction accuracy with no significant difference compared to the majority population.</p>
-<p><strong><em>features</em></strong>:</p>
-<p>- age</p>
-<p>- sex/gender</p>
-<p>- ethnicity/race</p>
-<p>- geographic location</p>
-<p><strong><em>intersectional feature combination</em></strong>:</p>
-<p>- sex/gender with ethnicity/race</p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
-<p>- validation</p>
+<p><strong>Description:</strong> Subgroup stratified according to <strong><em>[features]</em></strong> AND <strong><em>[intersectional feature combination]</em></strong> has prediction accuracy with no significant difference compared to the majority population.</p>
+<table class="table">
+<colgroup>
+<col style="width: 53%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Features</strong></td>
+<td>Age, sex/gender, ethnicity/race, geographic location</td>
+</tr>
+<tr class="even">
+<td><strong>Intersectional feature combination</strong></td>
+<td>Sex/gender with ethnicity/race</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing, validation</p>
 <p><strong>Owner</strong></p>
-<p>- WP 2 lead</p>
+<ul>
+<li>WP 2 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 2 (development)</p>
+<ul>
+<li>WP 2 (development)</li>
+</ul>
+<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
 <p><strong>Goal</strong></p>
-<p>- Subgroup stratified according to <strong><em>age</em></strong> has prediction accuracy with no significant difference to the majority population.</p>
-<p>- Subgroup stratified according to <strong><em>sex/gender</em></strong> has prediction accuracy with no significant difference to the majority population.</p>
-<p>- Subgroup stratified according to <strong><em>ethnicity/race</em></strong> has prediction accuracy with no significant difference to the majority population.</p>
-<p>- Subgroup stratified according to <strong><em>geographic location</em></strong> has prediction accuracy with no significant difference to the majority population.</p>
-<p>- Subgroup stratified according to <strong><em>sex/gender and ethnicity/race</em></strong> has prediction accuracy with no significant difference to the majority population.</p>
+<ul>
+<li><p>Subgroup stratified according to <strong><em>age</em></strong> has prediction accuracy with no significant difference to the majority population.</p></li>
+<li><p>Subgroup stratified according to <strong><em>sex/gender</em></strong> has prediction accuracy with no significant difference to the majority population.</p></li>
+<li><p>Subgroup stratified according to <strong><em>ethnicity/race</em></strong> has prediction accuracy with no significant difference to the majority population.</p></li>
+<li><p>Subgroup stratified according to <strong><em>geographic location</em></strong> has prediction accuracy with no significant difference to the majority population.</p></li>
+<li><p>Subgroup stratified according to <strong><em>sex/gender and ethnicity/race</em></strong> has prediction accuracy with no significant difference to the majority population.</p></li>
+</ul>
+</div>
 </section>
 </section>
 <section id="accessibility-and-universal-design" class="level2">
-<h2 class="anchored" data-anchor-id="accessibility-and-universal-design">Accessibility and Universal Design</h2>
+<h2 class="anchored" data-anchor-id="accessibility-and-universal-design">5.2 Accessibility and Universal Design</h2>
 <p>Particularly in business-to-consumer domains, systems should be user-centric and designed in a way that allows all people to use AI products or services, regardless of their age, gender, abilities or characteristics. Accessibility to this technology for persons with disabilities, which are present in all societal groups, is of particular importance. AI systems should not have a one-size-fits-all approach and should consider Universal Design principles addressing the widest possible range of users, following relevant accessibility standards. This will enable equitable access and active participation of all people in existing and emerging computer-mediated human activities and with regard to assistive technologies.</p>
 <section id="52-1-div" class="level3">
 <h3 class="anchored" data-anchor-id="52-1-div">Requirement 52-1-DIV</h3>
-<p><strong>Description:</strong> System undergoes UX/UI testing on <strong><em>X number user groups at time point</em></strong>.</p>
-<p><strong><em>X number</em></strong>:</p>
-<p>- 6 to 8</p>
-<p><strong><em>user groups</em></strong>:</p>
-<p>- Stroke physicians of different technical skill levels</p>
-<p>- Stroke physicians of different medical skill levels</p>
-<p>- These user groups will later be updated when the User Groups for the Intended Purpose has been defined.</p>
-<p><strong><em>time point</em></strong>:</p>
-<p>- during demonstrator development and testing</p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
+<p><strong>Description:</strong> System undergoes UX/UI testing on <strong><em>X number</em></strong> <strong><em>[user groups]</em></strong> at <strong><em>[time point]</em></strong>.</p>
+<p><strong><em>X number</em></strong>: 6 to 8</p>
+<table class="table">
+<colgroup>
+<col style="width: 53%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>User groups</strong></td>
+<td>- Stroke physicians of different technical skill levels<br>- Stroke physicians of different medical skill levels<br> These user groups will later be updated when the User Groups for the Intended Purpose has been defined</td>
+</tr>
+<tr class="even">
+<td><strong>Time point</strong></td>
+<td>During demonstrator development and testing</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing</p>
 <p><strong>Owner</strong></p>
-<p>- WP 3 lead</p>
+<ul>
+<li>WP 3 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 3 (design)</p>
-<p>- WP 4 (clinical validation)</p>
+<ul>
+<li><p>WP 3 (design)</p></li>
+<li><p>WP 4 (clinical validation)</p></li>
+</ul>
+<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 <p><strong>Tolerable</strong></p>
-<p>- System undergoes UX/UI testing on <strong><em>6-8 stroke physicians of different technical skill level during demonstrator development and testing</em></strong>.</p>
-<p>- System undergoes UX/UI testing on <strong><em>6-8 stroke physicians of different medical skill level during demonstrator development and testing</em></strong>.</p>
+<ul>
+<li><p>System undergoes UX/UI testing on <strong><em>6-8 stroke physicians of different technical skill level during demonstrator development and testing</em></strong>.</p></li>
+<li><p>System undergoes UX/UI testing on <strong><em>6-8 stroke physicians of different medical skill level during demonstrator development and testing</em></strong>.</p></li>
+</ul>
+</div>
 </section>
 </section>
 <section id="stakeholder-participation" class="level2">
-<h2 class="anchored" data-anchor-id="stakeholder-participation">Stakeholder participation</h2>
+<h2 class="anchored" data-anchor-id="stakeholder-participation">5.3 Stakeholder participation</h2>
 <p>In order to develop AI systems that are trustworthy, it is advisable to consult stakeholders who may directly or indirectly be affected by the system throughout its life cycle. It is beneficial to solicit regular feedback even after deployment and set up longer term mechanisms for stakeholder participation, for example by ensuring workers information, consultation and participation throughout the whole process of implementing AI systems at organisations.</p>
 <section id="53-1-div" class="level3">
 <h3 class="anchored" data-anchor-id="53-1-div">Requirement 53-1-DIV</h3>
-<p><strong>Description:</strong> System is presented to X <strong><em>stakeholders</em></strong> for feedback <strong><em>time point</em></strong>.</p>
-<p><strong><em>stakeholders</em></strong>:</p>
-<p>- Stroke patients and/or patient representatives from different geographical and cultural backgrounds</p>
-<p><strong><em>time point</em></strong>:</p>
-<p>- during demonstrator development and testing</p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
+<p><strong>Description:</strong> System is presented to X <strong><em>[stakeholders]</em></strong> for feedback <strong><em>[time point]</em></strong>.</p>
+<table class="table">
+<colgroup>
+<col style="width: 53%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Stakeholders</strong></td>
+<td>Stroke patients and/or patient representatives from different geographical and cultural backgrounds</td>
+</tr>
+<tr class="even">
+<td><strong>Time point</strong></td>
+<td>During demonstrator development and testing</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing</p>
 <p><strong>Owner</strong></p>
-<p>- WP 3 lead</p>
+<ul>
+<li>WP 3 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 3 (design)</p>
-<p>- WP 6 (patient communication)</p>
+<ul>
+<li><p>WP 3 (design)</p></li>
+<li><p>WP 6 (patient communication)</p></li>
+</ul>
+<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 <p><strong>Tolerable</strong></p>
 <p>- System is presented to <strong><em>4 stroke patients and/or patient representatives from different geographical and cultural backgrounds</em></strong> for feedback <strong><em>during demonstrator development and testing</em></strong>.</p>
+</div>
+<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
 <p><strong>Goal</strong></p>
 <p>- System is presented to <strong><em>7 stroke patients and/or patient representatives from different geographical and cultural backgrounds</em></strong> for feedback <strong><em>during demonstrator development and testing</em></strong>.</p>
+</div>
+<div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
 <p><strong>Wish</strong></p>
 <p>- System is presented to <strong><em>10 stroke patients and/or patient representatives from different geographical and cultural backgrounds</em></strong> for feedback <strong><em>during demonstrator development and testing</em></strong>.</p>
+</div>
 
 
 </section>

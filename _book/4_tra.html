@@ -167,23 +167,22 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#traceability" id="toc-traceability" class="nav-link active" data-scroll-target="#traceability">Traceability</a>
+  <li><a href="#traceability" id="toc-traceability" class="nav-link active" data-scroll-target="#traceability">4.1 Traceability</a>
   <ul class="collapse">
   <li><a href="#41-1-tra" id="toc-41-1-tra" class="nav-link" data-scroll-target="#41-1-tra">Requirement 41-1-TRA</a></li>
   </ul></li>
-  <li><a href="#explainability" id="toc-explainability" class="nav-link" data-scroll-target="#explainability">Explainability</a>
+  <li><a href="#explainability" id="toc-explainability" class="nav-link" data-scroll-target="#explainability">4.2 Explainability</a>
   <ul class="collapse">
   <li><a href="#42-1-tra" id="toc-42-1-tra" class="nav-link" data-scroll-target="#42-1-tra">Requirement 42-1-TRA</a></li>
-  <li><a href="#requirement-42-2-tra" id="toc-requirement-42-2-tra" class="nav-link" data-scroll-target="#requirement-42-2-tra">Requirement 42-2-TRA</a></li>
+  <li><a href="#42-2-tra" id="toc-42-2-tra" class="nav-link" data-scroll-target="#42-2-tra">Requirement 42-2-TRA</a></li>
   <li><a href="#42-3-tra" id="toc-42-3-tra" class="nav-link" data-scroll-target="#42-3-tra">Requirement 42-3-TRA</a></li>
   <li><a href="#42-4-tra" id="toc-42-4-tra" class="nav-link" data-scroll-target="#42-4-tra">Requirement 42-4-TRA</a></li>
-  <li><a href="#42-5-tra" id="toc-42-5-tra" class="nav-link" data-scroll-target="#42-5-tra">Requirement 42-5-TRA</a></li>
   </ul></li>
-  <li><a href="#communication" id="toc-communication" class="nav-link" data-scroll-target="#communication">Communication</a>
+  <li><a href="#communication" id="toc-communication" class="nav-link" data-scroll-target="#communication">4.3 Communication</a>
   <ul class="collapse">
-  <li><a href="#requirement-43-1-tra" id="toc-requirement-43-1-tra" class="nav-link" data-scroll-target="#requirement-43-1-tra">Requirement 43-1-TRA</a></li>
-  <li><a href="#requirement-43-2-tra" id="toc-requirement-43-2-tra" class="nav-link" data-scroll-target="#requirement-43-2-tra">Requirement 43-2-TRA</a></li>
-  <li><a href="#requirement-43-3-tra" id="toc-requirement-43-3-tra" class="nav-link" data-scroll-target="#requirement-43-3-tra">Requirement 43-3-TRA</a></li>
+  <li><a href="#43-1-tra" id="toc-43-1-tra" class="nav-link" data-scroll-target="#43-1-tra">Requirement 43-1-TRA</a></li>
+  <li><a href="#43-2-tra" id="toc-43-2-tra" class="nav-link" data-scroll-target="#43-2-tra">Requirement 43-2-TRA</a></li>
+  <li><a href="#43-3-tra" id="toc-43-3-tra" class="nav-link" data-scroll-target="#43-3-tra">Requirement 43-3-TRA</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -212,219 +211,404 @@ ul.task-list li input[type="checkbox"] {
 
 <p>This requirement is closely linked with the principle of explicability and encompasses transparency of elements relevant to an AI system: the data, the system and the business models.</p>
 <section id="traceability" class="level2">
-<h2 class="anchored" data-anchor-id="traceability">Traceability</h2>
+<h2 class="anchored" data-anchor-id="traceability">4.1 Traceability</h2>
 <p>The data sets and the processes that yield the AI system’s decision, including those of data gathering and data labelling as well as the algorithms used, should be documented to the best possible standard to allow for traceability and an increase in transparency. This also applies to the decisions made by the AI system. This enables identification of the reasons why an AI-decision was erroneous which, in turn, could help prevent future mistakes. Traceability facilitates auditability as well as explainability.</p>
 <section id="41-1-tra" class="level3">
 <h3 class="anchored" data-anchor-id="41-1-tra">Requirement 41-1-TRA</h3>
-<p><strong>Description:</strong> <strong><em>Limitations and metadata</em></strong> are available to doctors in the app during emergencies by <strong><em>time point</em></strong>.</p>
-<p><strong><em>Limitations and metadata</em></strong>:</p>
-<p>- data collection trail</p>
-<p>- data source</p>
-<p>- demographics</p>
-<p>- how patient-specific input affected the predictions</p>
-<p>- how model is calibrated and optimized, especially whether it has a tendency for false negatives or false positives</p>
-<p><strong><em>time point</em></strong>:</p>
-<p>- by the end of the project</p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
-<p>- validation</p>
+<p><strong>Description:</strong> <strong><em>[limitations and metadata]</em></strong> are available to doctors in the app during emergencies by <strong><em>[time point]</em></strong>.</p>
+<table class="table">
+<colgroup>
+<col style="width: 53%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Limitations and Metadata</strong></td>
+<td>- Data collection trail<br>- Data source<br>- How patient-specific input affected the predictions<br>- How model is calibrated and optimized, especially whether it has a tendency for false negatives or false positives</td>
+</tr>
+<tr class="even">
+<td><strong>Time Point</strong></td>
+<td>By the end of the project</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing, validation</p>
 <p><strong>Owner</strong></p>
-<p>- WP 2 lead</p>
+<ul>
+<li>WP 2 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 2 (development)</p>
-<p>- WP 3 (design)</p>
+<ul>
+<li><p>WP 2 (development)</p></li>
+<li><p>WP 3 (design)</p></li>
+</ul>
+<div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
 <p><strong>Wish</strong></p>
-<p>- <strong><em>Data collection trail, data source, demographics, how patient-specific input affected the predictions, how model is calibrated and optimized</em></strong> are available to doctors in the app during emergencies <strong><em>by the end of the project</em></strong>.</p>
+<ul>
+<li><em>Data collection trail, data source, demographics, how patient-specific input affected the predictions, how model is calibrated and optimized</em> are available to doctors in the app during emergencies <strong>by the end of the project</strong>.</li>
+</ul>
+</div>
 </section>
 </section>
 <section id="explainability" class="level2">
-<h2 class="anchored" data-anchor-id="explainability">Explainability</h2>
+<h2 class="anchored" data-anchor-id="explainability">4.2 Explainability</h2>
 <p>Explainability concerns the ability to explain both the technical processes of an AI system and the related human decisions (e.g. application areas of a system). Technical explainability requires that the decisions made by an AI system can be understood and traced by human beings. Moreover, trade-offs might have to be made between enhancing a system’s explainability (which may reduce its accuracy) or increasing its accuracy (at the cost of explainability). Whenever an AI system has a significant impact on people’s lives, it should be possible to demand a suitable explanation of the AI system’s decision-making process. Such explanation should be timely and adapted to the expertise of the stakeholder concerned (e.g.&nbsp;layperson, regulator or researcher). In addition, explanations of the degree to which an AI system influences and shapes the organisational decision-making process, design choices of the system, and the rationale for deploying it, should be available (hence ensuring business model transparency).</p>
 <section id="42-1-tra" class="level3">
 <h3 class="anchored" data-anchor-id="42-1-tra">Requirement 42-1-TRA</h3>
-<p><strong>Description:</strong> The system is able to inform about parts of the input that led to a specific outcome, achieved at <strong><em>time point</em></strong>.</p>
-<p><strong><em>time point</em></strong>:</p>
-<p>-prior to start of the prospective study</p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
+<p><strong>Description:</strong> The system is able to inform about parts of the input that led to a specific outcome, achieved at <strong><em>[time point]</em></strong>.</p>
+<table class="table">
+<colgroup>
+<col style="width: 53%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Time Point</strong></td>
+<td>Prior to start of the prospective study</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing</p>
 <p><strong>Owner</strong></p>
-<p>- WP 2 lead</p>
+<ul>
+<li>WP 2 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 2 (development)</p>
-<p>- WP 3 (design)</p>
+<ul>
+<li><p>WP 2 (development)</p></li>
+<li><p>WP 3 (design)</p></li>
+</ul>
+<div style="background-color: #abebc6; padding:10px; border-radius:5px;">
 <p><strong>Tolerable</strong></p>
-<p>- The system is able to inform about parts of the input that led to a specific outcome achieved <strong><em>prior to start of the prospective study point</em></strong>.</p>
+<ul>
+<li>The system is able to inform about parts of the input that led to a specific outcome achieved <strong><em>prior to start of the prospective study point</em></strong>.</li>
+</ul>
+</div>
 </section>
-<section id="requirement-42-2-tra" class="level3">
-<h3 class="anchored" data-anchor-id="requirement-42-2-tra">Requirement 42-2-TRA</h3>
-<p><strong>Description:</strong> % of explanations are communicated and defined in line with the <strong><em>constraints</em></strong> of the project <strong><em>time point</em></strong>.</p>
-<p><strong><em>constraints</em></strong>:</p>
-<p>- ethical values of the project</p>
-<p>- explainability regulations</p>
-<p><strong><em>ethical values of the project</em></strong>:</p>
-<p>- ethical framework</p>
-<p><strong><em>process</em></strong>:</p>
-<p>- process outlined in VALIDATE data management plan</p>
-<p><strong><em>explainability regulations</em></strong>:</p>
-<p>- EU AI Act</p>
-<p>- GDPR</p>
-<p>- EU-MDR</p>
-<p><strong><em>time point</em></strong>:</p>
-<p>- prior to the start of the prospective study</p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
+<section id="42-2-tra" class="level3">
+<h3 class="anchored" data-anchor-id="42-2-tra">Requirement 42-2-TRA</h3>
+<p><strong>Description:</strong> % of explanations are communicated and defined in line with the <strong><em>[constraints]</em></strong> of the project <strong><em>[time point]</em></strong>.</p>
+<table class="table">
+<colgroup>
+<col style="width: 53%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Constraints</strong></td>
+<td>- Ethical values of the project<br>- Explainability regulations</td>
+</tr>
+<tr class="even">
+<td><strong>Ethical values of the project</strong></td>
+<td>Ethical framework</td>
+</tr>
+<tr class="odd">
+<td><strong>Process</strong></td>
+<td>Process outlined in VALIDATE data management plan</td>
+</tr>
+<tr class="even">
+<td><strong>Explainability regulations</strong></td>
+<td>EU AI Act, GDPR, EU-MDR</td>
+</tr>
+<tr class="odd">
+<td><strong>Time Point</strong></td>
+<td>Prior to the start of the prospective study</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing</p>
 <p><strong>Owner</strong></p>
-<p>- WP 6 lead</p>
+<ul>
+<li>WP 6 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 2 (development)</p>
-<p>- WP 3 (design)</p>
-<p>- WP 5 (regulations)</p>
-<p>- WP 6 (patient communication)</p>
+<ul>
+<li><p>WP 2 (development)</p></li>
+<li><p>WP 3 (design)</p></li>
+<li><p>WP 5 (regulations)</p></li>
+<li><p>WP 6 (patient communication)</p></li>
+</ul>
+<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
 <p><strong>Goal</strong></p>
-<p>- % of explanations are communicated and defined in line with <strong><em>ethical values of the project: Ethical framework</em></strong> of the project <strong><em>prior to start of the prospective study</em></strong>.</p>
-<p>- % of explanations are communicated and defined in line with <strong><em>explainability regulations: EU AI act;GDPR;EU-MDR</em></strong> of the project <strong><em>prior to start of the prospective study</em></strong>.</p>
+<ul>
+<li><p>% of explanations are communicated and defined in line with <strong><em>ethical values of the project: Ethical framework</em></strong> of the project <strong><em>prior to start of the prospective study</em></strong>.</p></li>
+<li><p>% of explanations are communicated and defined in line with <strong><em>explainability regulations: EU AI act;GDPR;EU-MDR</em></strong> of the project <strong><em>prior to start of the prospective study</em></strong>.</p></li>
+</ul>
+</div>
 </section>
 <section id="42-3-tra" class="level3">
 <h3 class="anchored" data-anchor-id="42-3-tra">Requirement 42-3-TRA</h3>
-<p><strong>Description:</strong> % of <strong><em>explainability methods</em></strong> are applied in the tool and outputs are available to <strong><em>relevant users</em></strong> by <strong><em>time point</em></strong>.</p>
-<p><strong><em>explainability methods</em></strong>:</p>
-<p>- explainability methods for tabular data</p>
-<p>- explainability methods for imaging data</p>
-<p><strong><em>relevant users</em></strong>:</p>
-<p>- medical personnel</p>
-<p><strong><em>time point</em></strong>:</p>
-<p>- start of the prospective study</p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
+<p><strong>Description:</strong> % of <strong><em>[explainability methods]</em></strong> are applied in the tool and outputs are available to <strong><em>[relevant users]</em></strong> by <strong><em>[time point]</em></strong>.</p>
+<table class="table">
+<colgroup>
+<col style="width: 53%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Explainability methods</strong></td>
+<td>- Explainability methods for tabular data<br>- Explainability methods for imaging data</td>
+</tr>
+<tr class="even">
+<td><strong>Relevant users</strong></td>
+<td>Medical personnel</td>
+</tr>
+<tr class="odd">
+<td><strong>Time Point</strong></td>
+<td>Start of the prospective study</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing</p>
 <p><strong>Owner</strong></p>
-<p>- WP 2 lead</p>
+<ul>
+<li>WP 2 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 2 (development)</p>
-<p>- WP 3 (design)</p>
-<p>- WP 4 (clinical validation)</p>
+<ul>
+<li><p>WP 2 (development)</p></li>
+<li><p>WP 3 (design)</p></li>
+<li><p>WP 4 (clinical validation)</p></li>
+</ul>
+<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
 <p><strong>Goal</strong></p>
-<p>- 100% of <strong><em>explainability methods for tabular data are</em></strong> applied in the tool and outputs are available to medical personnel by <strong><em>the start of the prospective study</em></strong>.</p>
-<p>- 100% of <strong><em>explainability methods for imaging data are</em></strong> applied in the tool and outputs are available to medical personnel by <strong><em>the start of the prospective study</em></strong>.</p>
+<ul>
+<li><p>100% of <strong><em>explainability methods for tabular data are</em></strong> applied in the tool and outputs are available to medical personnel by <strong><em>the start of the prospective study</em></strong>.</p></li>
+<li><p>100% of <strong><em>explainability methods for imaging data are</em></strong> applied in the tool and outputs are available to medical personnel by <strong><em>the start of the prospective study</em></strong>.</p></li>
+</ul>
+</div>
 </section>
 <section id="42-4-tra" class="level3">
 <h3 class="anchored" data-anchor-id="42-4-tra">Requirement 42-4-TRA</h3>
-<p><strong>Description:</strong> % of <strong><em>explainability methods</em></strong> applied in the tool are validated by <strong><em>metric</em></strong> by <strong><em>time point</em></strong>.</p>
-<p><strong><em>explainability methods</em></strong>:</p>
-<p>- explainability methods for tabular data</p>
-<p>- explainability methods for imaging data</p>
-<p><strong><em>metric</em></strong>:</p>
-<p>- quantified scores</p>
-<p>- qualitative validation by users</p>
-<p><strong><em>time point</em></strong>:</p>
-<p>- month 24 (delivery date of D2.2 which will incorporate results from T2.4 (refinement and improvement of models for stroke outcome) and T2.5 (augmentation of models with xAI))</p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
+<p><strong>Description:</strong> % of <strong><em>[explainability methods]</em></strong> applied in the tool are validated by <strong><em>[metric]</em></strong> by <strong><em>[time point]</em></strong>.</p>
+<table class="table">
+<colgroup>
+<col style="width: 53%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Explainability methods</strong></td>
+<td>- Explainability methods for tabular and imaging data</td>
+</tr>
+<tr class="even">
+<td><strong>Metric</strong></td>
+<td>- Quantified scores<br>- Quantified validation by users</td>
+</tr>
+<tr class="odd">
+<td><strong>Time Point</strong></td>
+<td>Month 24 (delivery date of D2.2 which will incorporate results from T2.4 (refinement and improvement of models for stroke outcome) and T2.5 (augmentation of models with xAI))</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing</p>
 <p><strong>Owner</strong></p>
-<p>- WP 2 lead</p>
+<ul>
+<li>WP 2 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 2 (development)</p>
-<p>- WP 3 (design)</p>
+<ul>
+<li><p>WP 2 (development)</p></li>
+<li><p>WP 3 (design)</p></li>
+</ul>
+<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
 <p><strong>Goal</strong></p>
-<p>- 100% of <strong><em>explainability methods for tabular data</em></strong> applied in the tool are validated by <strong><em>quantified scores</em></strong> by month 24</p>
-<p>- 100% of <strong><em>explainability methods for tabular data</em></strong> applied in the tool are validated by <strong><em>qualitative validation by users</em></strong> by month 24</p>
-<p>- 100% of <strong><em>explainability methods for imaging data</em></strong> applied in the tool are validated by <strong><em>quantified scores</em></strong> by month 24</p>
-<p>- 100% of <strong><em>explainability methods for imaging data</em></strong> applied in the tool are validated by <strong><em>qualitative validation by users</em></strong> by month 24</p>
-</section>
-<section id="42-5-tra" class="level3">
-<h3 class="anchored" data-anchor-id="42-5-tra">Requirement 42-5-TRA</h3>
+<ul>
+<li><p>100% of <strong><em>explainability methods for tabular data</em></strong> applied in the tool are validated by <strong><em>quantified scores</em></strong> by month 24</p></li>
+<li><p>100% of <strong><em>explainability methods for tabular data</em></strong> applied in the tool are validated by <strong><em>qualitative validation by users</em></strong> by month 24</p></li>
+<li><p>100% of <strong><em>explainability methods for imaging data</em></strong> applied in the tool are validated by <strong><em>quantified scores</em></strong> by month 24</p></li>
+<li><p>100% of <strong><em>explainability methods for imaging data</em></strong> applied in the tool are validated by <strong><em>qualitative validation by users</em></strong> by month 24</p></li>
+</ul>
+</div>
 </section>
 </section>
 <section id="communication" class="level2">
-<h2 class="anchored" data-anchor-id="communication">Communication</h2>
+<h2 class="anchored" data-anchor-id="communication">4.3 Communication</h2>
 <p>AI systems should not represent themselves as humans to users; humans have the right to be informed that they are interacting with an AI system. This entails that AI systems must be identifiable as such. In addition, the option to decide against this interaction in favour of human interaction should be provided where needed to ensure compliance with fundamental rights. Beyond this, the AI system’s capabilities and limitations should be communicated to AI practitioners or end-users in a manner appropriate to the use case at hand. This could encompass communication of the AI system’s level of accuracy, as well as its limitations.</p>
-<section id="requirement-43-1-tra" class="level3">
-<h3 class="anchored" data-anchor-id="requirement-43-1-tra">Requirement 43-1-TRA</h3>
-<p><strong>Description:</strong> <strong><em>information</em></strong> relevant for <strong><em>explainee</em></strong> to read or understand are communicated in adequate language so that it enables <strong><em>explainee</em></strong> to protect their own interests and is available <strong><em>time point</em></strong>.</p>
-<p><strong><em>information</em></strong>:</p>
-<p>- study information</p>
-<p>- study results</p>
-<p>- user information</p>
-<p><strong><em>explainee</em></strong>:</p>
-<p>- patients</p>
-<p>- patient family/caregivers</p>
-<p>- users</p>
-<p><strong><em>time point</em></strong>:</p>
-<p>- prior to start of the prospective study</p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
+<section id="43-1-tra" class="level3">
+<h3 class="anchored" data-anchor-id="43-1-tra">Requirement 43-1-TRA</h3>
+<p><strong>Description:</strong> <strong><em>[information]</em></strong> relevant for <strong><em>[explainee]</em></strong> to read or understand are communicated in adequate language so that it enables <strong><em>[explainee]</em></strong> to protect their own interests and is available <strong><em>[time point]</em></strong>.</p>
+<table class="table">
+<colgroup>
+<col style="width: 53%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Information</strong></td>
+<td>- Study information<br>- Study results<br>- User information</td>
+</tr>
+<tr class="even">
+<td><strong>Explainees</strong></td>
+<td>- Patients<br>- Patient family/caregivers<br>- Users</td>
+</tr>
+<tr class="odd">
+<td><strong>Time Point</strong></td>
+<td>Prior to start of the prospective study</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing</p>
 <p><strong>Owner</strong></p>
-<p>- WP 6 lead</p>
+<ul>
+<li>WP 6 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 6 (patient communication)</p>
+<ul>
+<li>WP 6 (patient communication)</li>
+</ul>
+<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 <p><strong>Tolerable</strong></p>
-<p>- <strong><em>Study information</em></strong> relevant for <strong><em>patients</em></strong> to read or understand are communicated in adequate language so that it enables <strong><em>patients</em></strong> to protect their own interests and is available before the <strong><em>prospective study start</em></strong></p>
-<p>- <strong><em>Study results</em></strong> relevant for <strong><em>patients</em></strong> to read or understand are communicated in adequate language so that it enables <strong><em>patients</em></strong> to protect their own interests and is available before the <strong><em>prospective study start</em></strong></p>
-<p>- <strong><em>Study information</em></strong> relevant for <strong><em>patient family/caregivers</em></strong> to read or understand are communicated in adequate language so that it enables <strong><em>patient family/caregivers</em></strong> to protect their own interests and is available <strong><em>before the prospective study start</em></strong></p>
-<p>- <strong><em>Study results</em></strong> relevant for <strong><em>patient family/caregivers</em></strong> to read or understand are communicated in adequate language so that it enables <strong><em>patient family/caregivers</em></strong> to protect their own interests and is available <strong><em>before the prospective study start</em></strong></p>
-<p>- <strong><em>User information</em></strong> relevant for <strong><em>users</em></strong> to read or understand are communicated in adequate language so that it enables <strong><em>users</em></strong> to protect their own interests and is available <strong><em>before the prospective study start</em></strong></p>
+<ul>
+<li><p><strong><em>Study information</em></strong> relevant for <strong><em>patients</em></strong> to read or understand are communicated in adequate language so that it enables <strong><em>patients</em></strong> to protect their own interests and is available before the <strong><em>prospective study start</em></strong></p></li>
+<li><p><strong><em>Study results</em></strong> relevant for <strong><em>patients</em></strong> to read or understand are communicated in adequate language so that it enables <strong><em>patients</em></strong> to protect their own interests and is available before the <strong><em>prospective study start</em></strong></p></li>
+<li><p><strong><em>Study information</em></strong> relevant for <strong><em>patient family/caregivers</em></strong> to read or understand are communicated in adequate language so that it enables <strong><em>patient family/caregivers</em></strong> to protect their own interests and is available <strong><em>before the prospective study start</em></strong></p></li>
+<li><p><strong><em>Study results</em></strong> relevant for <strong><em>patient family/caregivers</em></strong> to read or understand are communicated in adequate language so that it enables <strong><em>patient family/caregivers</em></strong> to protect their own interests and is available <strong><em>before the prospective study start</em></strong></p></li>
+<li><p><strong><em>User information</em></strong> relevant for <strong><em>users</em></strong> to read or understand are communicated in adequate language so that it enables <strong><em>users</em></strong> to protect their own interests and is available <strong><em>before the prospective study start</em></strong></p></li>
+</ul>
+</div>
 </section>
-<section id="requirement-43-2-tra" class="level3">
-<h3 class="anchored" data-anchor-id="requirement-43-2-tra">Requirement 43-2-TRA</h3>
-<p><strong>Description:</strong> <strong><em>Relevant information</em></strong> for <strong><em>explainee groups</em></strong> are explained to <strong><em>explainee groups</em></strong> and translated by a science communicator when relevant.</p>
-<p><strong><em>relevant information</em></strong>:</p>
-<p>For Patient/patient family/caregiver group:</p>
-<p><strong><em>relevant information</em></strong>: For Patient/patient family/caregiver group:</p>
-<p>- Why are we using the tool?</p>
-<p>- Why we don’t know what the best treatment is.</p>
-<p>- What are the results of the AI model?</p>
-<p>- What do the results of the tool imply for them?);</p>
-<p>For medical users group:</p>
-<p>- Why should I use this tool?</p>
-<p>- When should I not use this tool?</p>
-<p>- Evidence that it works.</p>
-<p>- How do we know that this tool is successful? How does the model work?</p>
-<p><strong><em>explainee groups</em></strong>:</p>
-<p>- patient/patient family/caregiver</p>
-<p>- medical users</p>
-<p><strong><em>explainee groups</em></strong>: - patient/patient family/caregiver - medical users</p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
-<p>- validation</p>
+<section id="43-2-tra" class="level3">
+<h3 class="anchored" data-anchor-id="43-2-tra">Requirement 43-2-TRA</h3>
+<p><strong>Description:</strong> <strong><em>[relevant information]</em></strong> for <strong><em>[explainee groups]</em></strong> are explained to <strong><em>[explainee groups]</em></strong> and translated by a science communicator when relevant.</p>
+<table class="table">
+<colgroup>
+<col style="width: 53%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Relevant information for patient/patient family/caregiver group</strong></td>
+<td>- Why are we using the tool?<br>- Why we don’t know what the best treatment is<br>- What are the results of the AI model?<br>- What do the results of the tool imply for them?</td>
+</tr>
+<tr class="even">
+<td><strong>Relevant information for medical users group</strong></td>
+<td>- Why should I use this tool?<br>- When should I not use this tool?</td>
+</tr>
+<tr class="odd">
+<td><strong>Explainees</strong></td>
+<td>- Patients<br>- Patient family/caregivers<br>- Medical users</td>
+</tr>
+<tr class="even">
+<td><strong>Time Point</strong></td>
+<td>Prior to start of the prospective study</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing, validation</p>
 <p><strong>Owner</strong></p>
-<p>- WP 6 lead</p>
+<ul>
+<li>WP 6 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- Explainee groups</p>
-<p>- WP 2 (development)</p>
-<p>- WP 4 (clinical validation)</p>
-<p>- WP 6 (patient communication)</p>
+<ul>
+<li><p>Explainee groups</p></li>
+<li><p>WP 2 (development)</p></li>
+<li><p>WP 4 (clinical validation)</p></li>
+<li><p>WP 6 (patient communication)</p></li>
+</ul>
+<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 <p><strong>Tolerable</strong></p>
-<p>- <strong><em>(Why are we using the tool? Why we don’t know what the best treatment is. What are the results of the AI model? What do the results of the tool imply for them?)</em></strong> for <strong><em>patient/patient family/caregiver</em></strong> are explained to <strong><em>patient/patient family/caregiver</em></strong> and translated by a science communicator when relevant.</p>
-<p>- <strong><em>(Why should I use this tool? When should I not use this tool? Evidence that it works. How do we know that this tool is successful? How does the model work? Which parameters/variables are input data? And which ones are deciding factors?)</em></strong> for <strong><em>medical users</em></strong> are explained to <strong><em>medical users</em></strong> and translated by a science communicator when relevant.</p>
+<ul>
+<li><p><strong><em>(Why are we using the tool? Why we don’t know what the best treatment is. What are the results of the AI model? What do the results of the tool imply for them?)</em></strong> for <strong><em>patient/patient family/caregiver</em></strong> are explained to <strong><em>patient/patient family/caregiver</em></strong> and translated by a science communicator when relevant.</p></li>
+<li><p><strong><em>(Why should I use this tool? When should I not use this tool? Evidence that it works. How do we know that this tool is successful? How does the model work? Which parameters/variables are input data? And which ones are deciding factors?)</em></strong> for <strong><em>medical users</em></strong> are explained to <strong><em>medical users</em></strong> and translated by a science communicator when relevant.</p></li>
+</ul>
+</div>
 </section>
-<section id="requirement-43-3-tra" class="level3">
-<h3 class="anchored" data-anchor-id="requirement-43-3-tra">Requirement 43-3-TRA</h3>
-<p><strong>Description:</strong> Explanations are specifically tailored to <strong><em>different explainee groups</em></strong> by <strong><em>time point</em></strong>.</p>
-<p><strong><em>different explainee groups</em></strong>:</p>
-<p>- users in different countries</p>
-<p>- patients/family/caregivers in different countries</p>
-<p>- patients/family/caregivers of different cultures</p>
-<p><strong><em>time point</em></strong>:</p>
-<p>- prior to the start of the prospective study</p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
+<section id="43-3-tra" class="level3">
+<h3 class="anchored" data-anchor-id="43-3-tra">Requirement 43-3-TRA</h3>
+<p><strong>Description:</strong> Explanations are specifically tailored to <strong><em>[different explainee groups]</em></strong> by <strong><em>[time point]</em></strong>.</p>
+<table class="table">
+<colgroup>
+<col style="width: 53%">
+<col style="width: 46%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Different explainee groups</strong></td>
+<td>- Users in different countries<br>- Patients/family/caregivers in different countries<br>- Patients/family/caregivers in different cultures</td>
+</tr>
+<tr class="even">
+<td><strong>Time Point</strong></td>
+<td>Prior to start of the prospective study</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing</p>
 <p><strong>Owner</strong></p>
-<p>- WP 6 lead</p>
+<ul>
+<li>WP 6 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 6 (patient communication)</p>
+<ul>
+<li>WP 6 (patient communication)</li>
+</ul>
+<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 <p><strong>Tolerable</strong></p>
-<p>- Explanations are specifically tailored to <strong><em>users in different countries prior to start of the prospective study</em></strong>.</p>
+<ul>
+<li>Explanations are specifically tailored to <strong><em>users in different countries prior to start of the prospective study</em></strong>.</li>
+</ul>
+</div>
+<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
 <p><strong>Goal</strong></p>
-<p>- Explanations are specifically tailored to <strong><em>patient/family/caregivers in different countries prior to start of the prospective study</em></strong>.</p>
+<ul>
+<li>Explanations are specifically tailored to <strong><em>patient/family/caregivers in different countries prior to start of the prospective study</em></strong>.</li>
+</ul>
+</div>
+<div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
 <p><strong>Wish</strong></p>
-<p>- Explanations are specifically tailored to <strong><em>patient/family/caregivers of different cultures prior to start of the prospective study</em></strong>.</p>
+<ul>
+<li>Explanations are specifically tailored to <strong><em>patient/family/caregivers of different cultures prior to start of the prospective study</em></strong>.</li>
+</ul>
+</div>
 
 
 </section>
