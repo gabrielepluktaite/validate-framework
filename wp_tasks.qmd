@@ -28,6 +28,8 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 - [Requirement 73-1-ACC](7_acc.qmd#73-1-acc)
 
+------------------------------------------------------------------------
+
 ## Work Package 2: ML {.unnumbered}
 
 #### Human Agency and Oversight
@@ -78,6 +80,8 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 - [Requirement 61-1-SUS](6_sus.qmd#61-1-sus)
 
+------------------------------------------------------------------------
+
 ## Work Package 3: Design {.unnumbered}
 
 #### Technical Robustness and Safety
@@ -110,6 +114,8 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 - [Requirement 53-1-DIV](5_div.qmd#53-1-div)
 
+------------------------------------------------------------------------
+
 ## Work Package 4: Clinical Validation {.unnumbered}
 
 #### Technical Robustness and Safety
@@ -131,6 +137,8 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 ###### Access to data
 
 - [Requirement 33-2-PRI](3_pri.qmd#33-2-pri)
+
+------------------------------------------------------------------------
 
 ## Work Package 5: Regulations {.unnumbered}
 
@@ -155,6 +163,8 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 ###### Privacy and data protection
 
 - [Requirement 31-1-PRI](3_pri.qmd#31-1-pri)
+
+------------------------------------------------------------------------
 
 ## Work Package 6: Patient Commmunications {.unnumbered}
 
