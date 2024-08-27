@@ -213,47 +213,89 @@ ul.task-list li input[type="checkbox"] {
 <p>Users should be able to make informed autonomous decisions regarding AI systems. They should be given the knowledge and tools to comprehend and interact with AI systems to a satisfactory degree and, where possible, be enabled to reasonably self-assess or challenge the system. AI systems should support individuals in making better, more informed choices in accordance with their goals. AI systems can sometimes be deployed to shape and influence human behaviour through mechanisms that may be difficult to detect, since they may harness sub-conscious processes, including various forms of unfair manipulation, deception, herding and conditioning, all of which may threaten individual autonomy. The overall principle of user autonomy must be central to the system’s functionality. Key to this is the right not to be subject to a decision based solely on automated processing when this produces legal effects on users or similarly significantly affects them.</p>
 <section id="12-1-hum" class="level3">
 <h3 class="anchored" data-anchor-id="12-1-hum">Requirement 12-1-HUM</h3>
-<p><strong>Description:</strong> <strong><em>X</em></strong> of <strong><em>[relevant methods]</em></strong> for measuring model uncertainty are implemented to provide a confidence interval for predictions in the app available at <strong><em>[time point].</em></strong></p>
-<p><strong><em>relevant methods:</em></strong></p>
-<p>- to be defined by Owner</p>
-<p><strong><em>time point</em></strong>:</p>
-<p>- start of the prospective study. <em>See page 7 for more detailed information about the time points of phases.</em></p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
-<p>- validation</p>
+<p><strong>Description:</strong> <strong><em>[relevant methods]</em></strong> for measuring model uncertainty are implemented to provide a confidence interval for predictions in the app available at <strong><em>[time point]</em></strong>.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Relevant Methods</strong></td>
+<td>To be defined by Owner</td>
+</tr>
+<tr class="even">
+<td><strong>Time Point</strong></td>
+<td>By the start of the prospective study</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing, validation</p>
 <p><strong>Owner</strong></p>
-<p>- WP 2 lead</p>
+<ul>
+<li>WP 2 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 2 (ML)</p>
-<p>- WP 3 (design)</p>
-<p>- WP 4 (clinical validation)</p>
-<p>- Other: medical staff</p>
+<ul>
+<li>WP 2 (ML)</li>
+<li>WP 3 (design)</li>
+<li>WP 4 (clinical validation)</li>
+<li>Other: medical staff</li>
+</ul>
+<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 <p><strong>Tolerable</strong></p>
-<p>- <strong><em>All</em></strong> of relevant methods: <strong><em>to be defined by Owner</em></strong> for measuring model uncertainty are used to provide a confidence interval for predictions in the app available at <strong><em>start of the prospective study</em></strong>.</p>
+<ul>
+<li><strong><em>All</em></strong> of the relevant methods: <strong><em>to be defined by Owner</em></strong> for measuring model uncertainty are used to provide a confidence interval for predictions in the app available at <strong><em>start of the prospective study</em></strong>.</li>
+</ul>
+</div>
 </section>
 <section id="12-2-hum" class="level3">
 <h3 class="anchored" data-anchor-id="12-2-hum">Requirement 12-2-HUM</h3>
 <p><strong>Description:</strong> In the events where there is a clear conflict between the predictions of the tool and the medical opinion of the doctor, a process protocol for epistemic authority dilemmas customized for <strong><em>[physician expertise level]</em></strong> can be followed. Available by <strong><em>[time point]</em></strong>.</p>
-<p><strong><em>physician expertise level</em></strong>:</p>
-<p>- beginner</p>
-<p>- intermediate</p>
-<p>- expert</p>
-<p><strong><em>time point</em></strong>:</p>
-<p>- project end</p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
-<p>- validation</p>
+<table class="table">
+<colgroup>
+<col style="width: 44%">
+<col style="width: 38%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Physician Expertise Level</strong></td>
+<td><p>- Beginner</p>
+<p>- Intermediate</p>
+<p>- Expert</p></td>
+</tr>
+<tr class="even">
+<td><strong>Time Point</strong></td>
+<td>By the end of the project</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing, validation</p>
 <p><strong>Owner</strong></p>
-<p>- WP 1 lead</p>
+<ul>
+<li>WP 1 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 1 (ethics)</p>
-<p>- WP 3 (design)</p>
-<p>- WP 4 (clinical validation)</p>
-<p>- Other: medical staff</p>
+<ul>
+<li>WP 1 (ethics)</li>
+<li>WP 3 (design)</li>
+<li>WP 4 (clinical validation)</li>
+<li>Other: medical staff</li>
+</ul>
+<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 <p><strong>Tolerable</strong></p>
-<p>- In the events where there is a clear conflict between the predictions of the tool and the medical opinion of the doctor, a process protocol for epistemic authority dilemmas customized for <strong><em>beginner; intermediate; expert</em></strong> can be followed. Available by <strong><em>project end</em></strong>.</p>
+<ul>
+<li>In the events where there is a clear conflict between the predictions of the tool and the medical opinion of the doctor, a process protocol for epistemic authority dilemmas customized for <strong><em>beginner, intermediate, expert</em></strong> can be followed. Available by <strong><em>project end</em></strong>.</li>
+</ul>
+</div>
 </section>
 </section>
 <section id="human-oversight" class="level2">
@@ -265,24 +307,53 @@ ul.task-list li input[type="checkbox"] {
 <p>Moreover, it must be ensured that public enforcers have the ability to exercise oversight in line with their mandate. Oversight mechanisms can be required in varying degrees to support other safety and control measures, depending on the AI system’s application area and potential risk. All other things being equal, the less oversight a human can exercise over an AI system, the more extensive testing and stricter governance is required.&nbsp;</p>
 <section id="13-1-hum" class="level3">
 <h3 class="anchored" data-anchor-id="13-1-hum">Requirement 13-1-HUM</h3>
-<p><strong>Description:</strong> Tool is designed with <strong><em>[capability needed]</em></strong> to enable a Human in Command (HIC) governance structure. This is implemented by <strong><em>[time point].</em></strong></p>
-<p><strong><em>capability needed:</em></strong></p>
-<p>- capability to oversee the overall activity of the AI system</p>
-<p>- ability to decide whether, when and how to use the system in any particular situation</p>
-<p>- established levels of human discretion during the use of the system where necessary</p>
-<p>- ability to override a decision made by a system</p>
-<p><strong><em>time point</em></strong>:&nbsp;</p>
-<p>- project end</p>
+<p><strong>Description:</strong> Tool is designed with <strong><em>[capability needed]</em></strong> to enable a Human in Command (HIC) governance structure. This is implemented by <strong><em>[time point]</em></strong>.</p>
+<table class="table">
+<colgroup>
+<col style="width: 7%">
+<col style="width: 92%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Capability Needed</strong></td>
+<td>- Capability to oversee the overall activity of the AI system<br>- Ability to decide whether, when and how to use the system in any particular situation<br>- Established levels of human discretion during the use of the system where necessary<br>- Ability to override a decision made by a system</td>
+</tr>
+<tr class="even">
+<td><strong>Time Point</strong></td>
+<td>By the end of the project</td>
+</tr>
+</tbody>
+</table>
 <p><strong>Owner</strong></p>
-<p>- WP 1 lead</p>
+<ul>
+<li>WP 1 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 1 (ethics)</p>
-<p>- WP 3 (design)</p>
-<p>- WP 4 (clinical validation)</p>
+<ul>
+<li>WP 1 (ethics)</li>
+<li>WP 3 (design)</li>
+<li>WP 4 (clinical validation)</li>
+</ul>
+<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 <p><strong>Tolerable</strong></p>
-<p>- Tool is designed with <strong><em>capability to oversee the overall activity of the AI system</em></strong> to enable a HIC governance structure. This is implemented <strong><em>by the end of the project</em></strong>.</p>
-<p><strong>Goal</strong>&nbsp;</p>
-<p>- Tool is designed with <strong><em>ability to decide whether, when and how to use the system in any particular situation</em></strong> to enable a HIC governance structure. This is implemented <strong><em>by the end of the project</em></strong>.</p>
+<ul>
+<li>Tool is designed with <strong><em>capability to oversee the overall activity of the AI system</em></strong> to enable a HIC governance structure. This is implemented by <strong><em>the end of the project</em></strong>.</li>
+</ul>
+</div>
+<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
+<p><strong>Goal</strong></p>
+<ul>
+<li><p>Tool is designed with <strong><em>ability to decide whether, when and how to use the system in any particular situation</em></strong> to enable a HIC governance structure. This is implemented by <strong><em>the end of the project</em></strong>.</p></li>
+<li><p>Tool is designed with <strong><em>established levels of human discretion during the use of the system where necessary</em></strong> to enable a HIC governance structure. This is implemented by <strong><em>the end of the project</em></strong>.</p></li>
+<li><p>Tool is designed with <strong><em>ability to override a decision made by a system</em></strong> to enable a HIC governance structure. This is implemented by <strong><em>the end of the project</em></strong>.</p></li>
+</ul>
+</div>
 <p>- Tool is designed with <strong><em>established levels of human discretion during the use of the system where necessary</em></strong> to enable a HIC governance structure. This is implemented <strong><em>by the end of the project</em></strong>.</p>
 <p>- Tool is designed with <strong><em>ability to override a decision made by a system</em></strong> to enable a HIC governance structure. This is implemented <strong><em>by the end of the project</em></strong>.</p>
 

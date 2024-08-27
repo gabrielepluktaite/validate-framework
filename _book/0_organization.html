@@ -167,11 +167,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">Table of contents</h2>
    
   <ul>
-  <li><a href="#requirement-yz-n-aaa-example" id="toc-requirement-yz-n-aaa-example" class="nav-link active" data-scroll-target="#requirement-yz-n-aaa-example">Requirement YZ-N-AAA example</a></li>
+  <li><a href="#requirement-yz-n-aaa-example" id="toc-requirement-yz-n-aaa-example" class="nav-link active" data-scroll-target="#requirement-yz-n-aaa-example">Requirement YZ-N-AAA Example</a>
+  <ul class="collapse">
   <li><a href="#parameters" id="toc-parameters" class="nav-link" data-scroll-target="#parameters">Parameters</a></li>
   <li><a href="#phases" id="toc-phases" class="nav-link" data-scroll-target="#phases">Phases</a></li>
   <li><a href="#stakeholders-and-owner" id="toc-stakeholders-and-owner" class="nav-link" data-scroll-target="#stakeholders-and-owner">Stakeholders and Owner</a></li>
   <li><a href="#requirement-categorization" id="toc-requirement-categorization" class="nav-link" data-scroll-target="#requirement-categorization">Requirement Categorization</a></li>
+  </ul></li>
   </ul>
 </nav>
     </div>
@@ -199,35 +201,52 @@ ul.task-list li input[type="checkbox"] {
 
 <p>Requirements are structured to provide a clear view of their definitions and parameters. Below is an outline detailing how these are organized, articulated through an example of a standard requirement.</p>
 <section id="requirement-yz-n-aaa-example" class="level2">
-<h2 class="anchored" data-anchor-id="requirement-yz-n-aaa-example">Requirement YZ-N-AAA example</h2>
+<h2 class="anchored" data-anchor-id="requirement-yz-n-aaa-example">Requirement YZ-N-AAA Example</h2>
 <p>Each requirement has a unique ID, constructed as follows:</p>
 <p><strong>YZ</strong>: Sub-chapter numbers reflecting the requirement’s area</p>
 <p><strong>N</strong>: Sequential number within the sub-chapter</p>
 <p><strong>AAA</strong>: The first three letters of the chapter topic</p>
+<hr>
+<p><strong>Description:</strong> <em>X</em> of <strong><em>[example parameter]</em></strong> for measuring model uncertainty are implemented to provide a confidence interval for predictions in the app available at <strong><em>[time point]</em></strong>.</p>
+<section id="parameters" class="level3">
+<h3 class="anchored" data-anchor-id="parameters">Parameters</h3>
+<table class="table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 80%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Example Parameter</strong></td>
+<td>Parameters listed in brackets are adjustable by the WP 1 team during the project period.</td>
+</tr>
+<tr class="even">
+<td><strong>Time Point</strong></td>
+<td>Refers to the deadline by which a requirement should be met, typically specifying some due date.</td>
+</tr>
+</tbody>
+</table>
 </section>
-<section id="parameters" class="level2">
-<h2 class="anchored" data-anchor-id="parameters">Parameters</h2>
-<p>The requirement for implementing confidence intervals in predictive modeling might state:</p>
-<p><strong><em>X</em></strong> of <strong><em>[example parameter]</em></strong> for measuring model uncertainty are implemented to provide a confidence interval for predictions in the app available at <strong><em>[time point]</em></strong>.</p>
-<p><strong><em>[example parameter]</em></strong></p>
-<p>Parameters listed in brackets are adjustable by the WP 1 team during the project period.</p>
-<p><strong><em>[time point]</em></strong></p>
-<p>This refers to the deadline by which a requirement should be met, typically specifying some due date.</p>
-</section>
-<section id="phases" class="level2">
-<h2 class="anchored" data-anchor-id="phases">Phases</h2>
+<section id="phases" class="level3">
+<h3 class="anchored" data-anchor-id="phases">Phases</h3>
 <p>Each requirement is mapped to a specific project phase:</p>
 <p><strong>Development</strong>: Focuses on developing the tool’s prototype until month 18.</p>
 <p><strong>Testing</strong>: The prototype undergoes testing until month 18.</p>
 <p><strong>Validation</strong>: Begins in month 18, marking the start of validating the developed and tested prototype.</p>
 </section>
-<section id="stakeholders-and-owner" class="level2">
-<h2 class="anchored" data-anchor-id="stakeholders-and-owner">Stakeholders and Owner</h2>
+<section id="stakeholders-and-owner" class="level3">
+<h3 class="anchored" data-anchor-id="stakeholders-and-owner">Stakeholders and Owner</h3>
 <p><strong>Stakeholders</strong>: Includes project staff and other relevant groups affected by or necessary for fulfilling the requirement.</p>
 <p><strong>Owner</strong>: Each requirement is assigned an Owner, usually a WP lead relevant to existing tasks. The Owner is responsible for task delegation and execution to meet the requirement.</p>
 </section>
-<section id="requirement-categorization" class="level2">
-<h2 class="anchored" data-anchor-id="requirement-categorization">Requirement Categorization</h2>
+<section id="requirement-categorization" class="level3">
+<h3 class="anchored" data-anchor-id="requirement-categorization">Requirement Categorization</h3>
 <p>Based on the parameterized statements, requirements are classified into three sub-categories:</p>
 <div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 <p><strong>Tolerable</strong>: The minimum achievement threshold for a requirement.</p>
@@ -240,6 +259,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->

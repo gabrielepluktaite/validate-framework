@@ -179,7 +179,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#accuracy" id="toc-accuracy" class="nav-link" data-scroll-target="#accuracy">2.3 Accuracy</a>
   <ul class="collapse">
   <li><a href="#23-1-rob" id="toc-23-1-rob" class="nav-link" data-scroll-target="#23-1-rob">Requirement 23-1-ROB</a></li>
-  <li><a href="#23-2-rob" id="toc-23-2-rob" class="nav-link" data-scroll-target="#23-2-rob">Requirement 23-2-ROB&nbsp;</a></li>
+  <li><a href="#23-2-rob" id="toc-23-2-rob" class="nav-link" data-scroll-target="#23-2-rob">Requirement 23-2-ROB</a></li>
   </ul></li>
   <li><a href="#reliability-and-reproducibility" id="toc-reliability-and-reproducibility" class="nav-link" data-scroll-target="#reliability-and-reproducibility">2.4 Reliability and Reproducibility</a>
   <ul class="collapse">
@@ -218,54 +218,94 @@ ul.task-list li input[type="checkbox"] {
 <p>AI systems, like all software systems, should be protected against vulnerabilities that can allow them to be exploited by adversaries, e.g.&nbsp;hacking. Attacks may target the data (data poisoning), the model (model leakage) or the underlying infrastructure, both software and hardware. If an AI system is attacked, e.g.&nbsp;in adversarial attacks, the data as well as system behaviour can be changed, leading the system to make different decisions, or causing it to shut down altogether. Systems and data can also become corrupted by malicious intention or by exposure to unexpected situations. Insufficient security processes can also result in erroneous decisions or even physical harm. For AI systems to be considered secure, possible unintended applications of the AI system (e.g.&nbsp;dual-use applications) and potential abuse of the system by malicious actors should be taken into account, and steps should be taken to prevent and mitigate these.</p>
 <section id="21-1-rob" class="level3">
 <h3 class="anchored" data-anchor-id="21-1-rob">Requirement 21-1-ROB</h3>
-<p><strong>Description:</strong> Tool should follow <strong><em>[relevant aspects of norms]</em></strong> that are within our scope and resource limitations to prepare for compliance with the MDR by <strong><em>[time point]</em></strong>.</p>
-<p><strong><em>relevant aspects of norms:</em></strong></p>
-<p>- ISO norms relate to the standard MDR:</p>
-<p>- IEC 62366</p>
-<p>- IEC 62304</p>
-<p>- ISO 14971</p>
-<p>- ISO norms related to MDR and recent AI advancements:</p>
-<p>- ISO 13485</p>
-<p>- ISO/IEC 23894:2023</p>
-<p>- ISO/IEC 38507</p>
-<p><strong><em>time point</em></strong>:&nbsp;</p>
-<p>- the end of the project<br>
-</p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
-<p>- validation</p>
+<p><strong>Description:</strong> Tool should follow <strong><em>relevant aspects of norms</em></strong> that are within our scope and resource limitations to prepare for compliance with the MDR by <strong><em>time point</em></strong>.</p>
+<table class="table">
+<colgroup>
+<col style="width: 19%">
+<col style="width: 80%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Relevant Aspects of Norms</strong></td>
+<td>ISO norms related to the standard MDR:<br>- IEC 62366<br>- IEC 62304<br>- ISO 14971<br><br> ISO norms related to MDR and recent AI advancements:<br>- ISO 13485<br>- ISO/IEC 23894:2023<br>- ISO/IEC 38507</td>
+</tr>
+<tr class="even">
+<td><strong>Time Point</strong></td>
+<td>The end of the project</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing, validation</p>
 <p><strong>Owner</strong></p>
-<p>- WP 5 lead</p>
+<ul>
+<li>WP 5 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 2 (development)</p>
-<p>- WP 3 (design)</p>
-<p>- WP 5 (regulatory pathway to market)<br>
-</p>
+<ul>
+<li>WP 2 (development)<br>
+</li>
+<li>WP 3 (design)<br>
+</li>
+<li>WP 5 (regulatory pathway to market)</li>
+</ul>
+<div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
 <p><strong>Wish</strong></p>
-<p>- The stability of the accuracies and performance for <strong><em>when there are missing input data points</em></strong> of the tool is analyzed or monitored, available <strong><em>by the start of the validation phase</em></strong>.&nbsp;</p>
-<p>- Tool should follow <strong><em>relevant aspects of ISO norms related to the MDR and recent AI advancements: ISO 13485; ISO/IEC 23894:2023; ISO/IEC 38507</em></strong>that are within our scope and resource limitations to prepare for compliance with the MDR by <em><strong>the end of the project</strong>.</em></p>
+<ul>
+<li>The stability of the accuracies and performance for <strong><em>when there are missing input data points</em></strong> of the tool is analyzed or monitored, available <strong><em>by the start of the validation phase</em></strong>.</li>
+<li>Tool should follow <strong><em>relevant aspects of ISO norms related to the MDR and recent AI advancements: ISO 13485; ISO/IEC 23894:2023; ISO/IEC 38507</em></strong> that are within our scope and resource limitations to prepare for compliance with the MDR by <strong><em>the end of the project</em></strong>.</li>
+</ul>
+</div>
 </section>
 <section id="21-2-rob" class="level3">
 <h3 class="anchored" data-anchor-id="21-2-rob">Requirement 21-2-ROB</h3>
-<p><strong>Description:</strong> Tool should follow <strong><em>[relevant guidelines on cyber security]</em></strong> that are within our scope and resource limitations to prepare for compliance with the MDR by <strong><em>[time point]</em></strong>.</p>
-<p><strong><em>relevant guidelines on cyber security:</em></strong></p>
-<p>- to be defined, needs to be researched by Owner.</p>
-<p><strong><em>time point</em></strong>:&nbsp;</p>
-<p>- the end of the project</p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
-<p>- validation</p>
+<p><strong>Description:</strong> Tool should follow <strong><em>relevant guidelines on cyber security</em></strong> that are within our scope and resource limitations to prepare for compliance with the MDR by <strong><em>time point</em></strong>.</p>
+<table class="table">
+<colgroup>
+<col style="width: 35%">
+<col style="width: 65%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Relevant Guidelines on Cyber Security</strong></td>
+<td>To be defined, needs to be researched by Owner.</td>
+</tr>
+<tr class="even">
+<td><strong>Time Point</strong></td>
+<td>The end of the project</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing, validation</p>
 <p><strong>Owner</strong></p>
-<p>- WP 5 lead</p>
+<ul>
+<li>WP 5 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 2 (development)</p>
-<p>- WP 3 (design)</p>
-<p>- WP 5 (regulatory pathway to market)<br>
-</p>
+<ul>
+<li>WP 2 (development)<br>
+</li>
+<li>WP 3 (design)<br>
+</li>
+<li>WP 5 (regulatory pathway to market)</li>
+</ul>
+<div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
 <p><strong>Wish</strong></p>
-<p>- Tool should follow <strong><em>relevant guidelines on cyber security</em></strong> that are within our scope and resource limitations to prepare for compliance with the MDR by <strong><em>the end of the project</em></strong>.</p>
+<ul>
+<li>Tool should follow <strong><em>relevant guidelines on cyber security</em></strong> that are within our scope and resource limitations to prepare for compliance with the MDR by <strong><em>the end of the project</em></strong>.</li>
+</ul>
+</div>
 </section>
 </section>
 <section id="fallback-plan-and-general-safety" class="level2">
@@ -273,29 +313,54 @@ ul.task-list li input[type="checkbox"] {
 <p>AI systems should have safeguards that enable a fallback plan in case of problems. This can mean that AI systems switch from a statistical to rule-based procedure, or that they ask for a human operator before continuing their action. It must be ensured that the system will do what it is supposed to do without harming living beings or the environment. This includes the minimisation of unintended consequences and errors. In addition, processes to clarify and assess potential risks associated with the use of AI systems, across various application areas, should be established. The level of safety measures required depends on the magnitude of the risk posed by an AI system, which in turn depends on the system’s capabilities. Where it can be foreseen that the development process or the system itself will pose particularly high risks, it is crucial for safety measures to be developed and tested proactively.&nbsp;</p>
 <section id="22-1-rob" class="level3">
 <h3 class="anchored" data-anchor-id="22-1-rob">Requirement 22-1-ROB</h3>
-<p><strong>Description:</strong> A risk assessment following relevant aspects of <strong><em>[risk management norms]</em></strong> will be done by <strong><em>[time point]</em></strong>.</p>
-<p><strong><em>risk management norms:</em></strong></p>
-<p>- ISO 14971</p>
-<p>- ISO 23894:2023</p>
-<p><strong><em>time point</em></strong>:&nbsp;</p>
-<p>- when intended purpose is defined</p>
-<p>- at the end of the project<br>
-</p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
-<p>- validation</p>
+<p><strong>Description:</strong> A risk assessment following relevant aspects of <strong><em>risk management norms</em></strong> will be done by <strong><em>time point</em></strong>.</p>
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 79%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Risk Management Norms</strong></td>
+<td>- ISO 14971<br>- ISO 23894:2023</td>
+</tr>
+<tr class="even">
+<td><strong>Time Point</strong></td>
+<td>- When intended purpose is defined<br>- At the end of the project</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing, validation</p>
 <p><strong>Owner</strong></p>
-<p>- WP 5 lead</p>
+<ul>
+<li>WP 5 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 2 (development)</p>
-<p>- WP 3 (design)</p>
-<p>- WP 5 (regulatory pathway to market)<br>
-</p>
+<ul>
+<li>WP 2 (development)<br>
+</li>
+<li>WP 3 (design)<br>
+</li>
+<li>WP 5 (regulatory pathway to market)</li>
+</ul>
+<div style="background-color:#e8daef; padding:10px; border-radius:5px;">
 <p><strong>Goal</strong></p>
-<p>- A risk assessment following relevant aspects of <strong><em>ISO 14971</em></strong> will be done by <em><strong>at the end of the project</strong>.</em></p>
+<ul>
+<li>A risk assessment following relevant aspects of <strong><em>ISO 14971</em></strong> will be done <strong><em>by the end of the project</em></strong>.</li>
+</ul>
+</div>
+<div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
 <p><strong>Wish</strong></p>
-<p>- A risk assessment following relevant aspects of <strong><em>ISO 23894:2023</em></strong> will be done by <strong><em>when intended purpose is defined</em></strong>.</p>
+<ul>
+<li>A risk assessment following relevant aspects of <strong><em>ISO 23894:2023</em></strong> will be done <strong><em>when intended purpose is defined</em></strong>.</li>
+</ul>
+</div>
 </section>
 </section>
 <section id="accuracy" class="level2">
@@ -303,41 +368,89 @@ ul.task-list li input[type="checkbox"] {
 <p>Accuracy pertains to an AI system’s ability to make correct judgements, for example to correctly classify information into the proper categories, or its ability to make correct predictions, recommendations, or decisions based on data or models. An explicit and well-formed development and evaluation process can support, mitigate and correct unintended risks from inaccurate predictions. When occasional inaccurate predictions cannot be avoided, it is important that the system can indicate how likely these errors are. A high level of accuracy is especially crucial in situations where the AI system directly affects human lives.&nbsp;</p>
 <section id="23-1-rob" class="level3">
 <h3 class="anchored" data-anchor-id="23-1-rob">Requirement 23-1-ROB</h3>
-<p><strong>Description:</strong> Validity will be measured by doing a randomized clinical trial (RCT) to examine whether at least <strong><em>[ratio]</em></strong> of <strong><em>[RCT study size]</em></strong> patients whose doctors use the tool have a significantly improved Modified Ranking Scale 90 (MRS 90) compared to control group at <strong><em>[time point].</em></strong></p>
-<p><strong><em>ratio:</em></strong></p>
-<p>- will be determined at the end of the prospective study</p>
-<p><strong><em>RCT study size:</em></strong></p>
-<p>- number will be determined later by estimating the effect size</p>
-<p><strong><em>time point</em></strong>:&nbsp;</p>
-<p>- after the project<br>
-</p>
-<p><strong>Phases</strong></p>
-<p>- validation</p>
+<p><strong>Description:</strong> Validity will be measured by doing a randomized clinical trial (RCT) to examine whether at least <strong><em>ratio</em></strong> of <strong><em>RCT study size</em></strong> patients whose doctors use the tool have a significantly improved Modified Ranking Scale 90 (MRS 90) compared to control group at <strong><em>time point</em></strong>.</p>
+<table class="table">
+<colgroup>
+<col style="width: 16%">
+<col style="width: 83%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Ratio</strong></td>
+<td>Will be determined at the end of the prospective study</td>
+</tr>
+<tr class="even">
+<td><strong>RCT Study Size</strong></td>
+<td>Number will be determined later by estimating the effect size</td>
+</tr>
+<tr class="odd">
+<td><strong>Time Point</strong></td>
+<td>After the project</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: validation</p>
 <p><strong>Owner</strong></p>
-<p>- WP 4 lead</p>
+<ul>
+<li>WP 4 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 4 (clinical validation)<br>
-</p>
+<ul>
+<li>WP 4 (clinical validation)</li>
+</ul>
+<div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
 <p><strong>Wish</strong></p>
-<p>- Validity will be measured by doing a randomized clinical trial (RCT) to examine whetherat least <strong><em>ratio</em></strong> of <strong><em>number determined by estimated effect size patients</em></strong> whose doctors use the tool have a significantly improved MRS 90 compared to control group at <strong><em>after the project</em>.</strong></p>
+<ul>
+<li><strong>Validity will be measured by doing a randomized clinical trial (RCT) to examine whether at least <em>ratio</em> of <em>number determined by estimated effect size patients</em> whose doctors use the tool have a significantly improved MRS 90 compared to the control group <em>after the project</em>.</strong></li>
+</ul>
+</div>
 </section>
 <section id="23-2-rob" class="level3">
-<h3 class="anchored" data-anchor-id="23-2-rob">Requirement 23-2-ROB&nbsp;</h3>
-<p><strong>Description:</strong> Accuracy will be measured by <strong><em>[time point]</em></strong> by doing a prospective shadowing study to examine whether in at least <strong><em>[threshold]</em></strong> of the cases, the predictions of the prototype are similar to the actual 3 months mRS according to the actual administered treatment.</p>
-<p><strong><em>threshold:</em></strong></p>
-<p>- 90%</p>
-<p><strong><em>time point</em></strong>:&nbsp;</p>
-<p>- the end of the project<br>
-</p>
-<p><strong>Phases</strong></p>
-<p>- validation</p>
+<h3 class="anchored" data-anchor-id="23-2-rob">Requirement 23-2-ROB</h3>
+<p><strong>Description:</strong> Accuracy will be measured by <strong><em>time point</em></strong> by doing a prospective shadowing study to examine whether in at least <strong><em>threshold</em></strong> of the cases, the predictions of the prototype are similar to the actual 3 months mRS according to the actual administered treatment.</p>
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 80%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Threshold</strong></td>
+<td>90%</td>
+</tr>
+<tr class="even">
+<td><strong>Time Point</strong></td>
+<td>The end of the project</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: validation</p>
 <p><strong>Owner</strong></p>
-<p>- WP 4 lead</p>
+<ul>
+<li>WP 4 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 4 (clinical validation)<br>
-</p>
+<ul>
+<li>WP 4 (clinical validation)</li>
+</ul>
+<div style="background-color:#e8daef; padding:10px; border-radius:5px;">
 <p><strong>Goal</strong></p>
-<p>- Accuracy will be measured by <strong><em>the end of the project</em></strong> by doing a prospective shadowing study to examine whether in at least <strong><em>90%</em></strong> of the cases, the predictions of the prototype are similar to the actual 3 months mRS according to the actual administered treatment</p>
+<ul>
+<li>Accuracy will be measured <em>by the end of the project</em> by doing a prospective shadowing study to examine whether in at least <strong>90%</strong> of the cases, the predictions of the prototype are similar to the actual 3 months mRS according to the actual administered treatment.</li>
+</ul>
+</div>
 </section>
 </section>
 <section id="reliability-and-reproducibility" class="level2">
@@ -345,77 +458,139 @@ ul.task-list li input[type="checkbox"] {
 <p>It is critical that the results of AI systems are reproducible, as well as reliable. A reliable AI system is one that works properly with a range of inputs and in a range of situations. This is needed to scrutinise an AI system and to prevent unintended harms. Reproducibility describes whether an AI experiment exhibits the same behaviour when repeated under the same conditions. This enables scientists and policy makers to accurately describe what AI systems do. Replication files can facilitate the process of testing and reproducing behaviours.&nbsp;</p>
 <section id="24-1-rob" class="level3">
 <h3 class="anchored" data-anchor-id="24-1-rob">Requirement 24-1-ROB</h3>
-<p><strong>Description:</strong> Tool reliably provides no significantly different performance for <strong><em>[contexts]</em></strong> at <strong><em>[time point].</em></strong></p>
-<p><strong><em>contexts:</em></strong></p>
-<p>- edge-cases</p>
-<p>- differing local standards of care</p>
-<p>- non-western patient minorities</p>
-<p><strong><em>time point</em></strong>:</p>
-<p>- at the end of the project<br>
-</p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
-<p>- validation</p>
+<p><strong>Description:</strong> Tool reliably provides no significantly different performance for <strong><em>[contexts]</em></strong> at <strong><em>[time point]</em></strong>.</p>
+<table class="table">
+<colgroup>
+<col style="width: 18%">
+<col style="width: 81%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Contexts</strong></td>
+<td>- Edge-cases<br>- Differing local standards of care<br>- Non-western patient minorities</td>
+</tr>
+<tr class="even">
+<td><strong>Time Point</strong></td>
+<td>At the end of the project</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing, validation</p>
 <p><strong>Owner</strong></p>
-<p>- WP 2 lead</p>
+<ul>
+<li>WP 2 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 2 (development)</p>
-<p>- WP 3 (design)</p>
-<p>- WP 4 (clinical validation)<br>
-</p>
+<ul>
+<li>WP 2 (development)<br>
+</li>
+<li>WP 3 (design)<br>
+</li>
+<li>WP 4 (clinical validation)</li>
+</ul>
+<div style="background-color:#e8daef; padding:10px; border-radius:5px;">
 <p><strong>Goal</strong></p>
-<p>- Tool reliably provides no significantly different performance for <strong><em>edge-cases</em></strong> <strong><em>at the end of the project</em></strong>.</p>
-<p>- Tool reliably provides no significantly different performance for <strong><em>differing local standards of care</em></strong> <strong><em>at the end of the project</em></strong>.</p>
-<p>- Tool reliably provides no significantly different performance for <strong><em>non-western patient minorities at the end of the project</em></strong>.</p>
+<ul>
+<li>Tool reliably provides no significantly different performance for <strong><em>edge-cases</em></strong> <strong><em>at the end of the project</em></strong>.</li>
+<li>Tool reliably provides no significantly different performance for <strong><em>differing local standards of care</em></strong> <strong><em>at the end of the project</em></strong>.</li>
+<li>Tool reliably provides no significantly different performance for <strong><em>non-western patient minorities</em></strong> <strong><em>at the end of the project</em></strong>.</li>
+</ul>
+</div>
 </section>
 <section id="24-2-rob" class="level3">
 <h3 class="anchored" data-anchor-id="24-2-rob">Requirement 24-2-ROB</h3>
-<p><strong>Description:</strong> The stability of the accuracies and performance for <strong><em>[different risk areas]</em></strong> of the tool is analyzed or monitored, available by <strong><em>[time point].</em></strong></p>
-<p><strong><em>different risk areas:</em></strong> [from 35-ROB]</p>
-<p>- edge-cases</p>
-<p>- differing local standards of care</p>
-<p>- non-western patient minorities</p>
-<p>- when there are missing input data points</p>
-<p>- for sub-groups mentioned in 61-DIV</p>
-<p><strong><em>time point</em></strong>:&nbsp;</p>
-<p>- by the start of the validation phase. <em>See “How the requirements are organized” on page 7.</em><br>
-</p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
-<p>- validation</p>
+<p><strong>Description:</strong> The stability of the accuracies and performance for <strong><em>[different risk areas]</em></strong> of the tool is analyzed or monitored, available by <strong><em>[time point]</em></strong>.</p>
+<table class="table">
+<colgroup>
+<col style="width: 20%">
+<col style="width: 79%">
+</colgroup>
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Different Risk Areas</strong></td>
+<td>- Edge-cases<br>- Differing local standards of care<br>- Non-western patient minorities<br>- When there are missing input data points<br>- For sub-groups mentioned in 61-DIV</td>
+</tr>
+<tr class="even">
+<td><strong>Time Point</strong></td>
+<td>By the start of the validation phase. <em>See “How the requirements are organized” on page 7.</em></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing, validation</p>
 <p><strong>Owner</strong></p>
-<p>- WP 2 lead</p>
+<ul>
+<li>WP 2 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 2 (development)</p>
-<p>- WP 3 (design)</p>
-<p>- WP 4 (clinical validation)<br>
-</p>
+<ul>
+<li>WP 2 (development)<br>
+</li>
+<li>WP 3 (design)<br>
+</li>
+<li>WP 4 (clinical validation)</li>
+</ul>
+<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 <p><strong>Tolerable</strong></p>
-<p>- The stability of the accuracies and performance for <strong><em>when there are missing input data points</em></strong> of the tool is analyzed or monitored, available <strong><em>by the start of the validation phase</em>.</strong></p>
-<p><strong>Goal</strong>&nbsp;</p>
-<p>- The stability of the accuracies and performance for <strong><em>edge-cases, differing local standards of care, non-western patient minorities</em></strong> of the tool is analyzed or monitored, available <strong><em>by the validation phase</em>.</strong></p>
-<p>- The stability of the accuracies and performance for <strong><em>sub-groups mentioned in 61-DIV</em></strong> of the tool is analyzed or monitored, available <strong><em>by the validation phase</em></strong>.</p>
+<ul>
+<li>The stability of the accuracies and performance for <strong><em>when there are missing input data points</em></strong> of the tool is analyzed or monitored, available <strong><em>by the start of the validation phase</em></strong>.</li>
+</ul>
+</div>
+<div style="background-color:#e8daef; padding:10px; border-radius:5px;">
+<p><strong>Goal</strong></p>
+<ul>
+<li>The stability of the accuracies and performance for <strong><em>edge-cases, differing local standards of care, non-western patient minorities</em></strong> of the tool is analyzed or monitored, available <strong><em>by the validation phase</em></strong>.</li>
+<li>The stability of the accuracies and performance for <strong><em>sub-groups mentioned in 61-DIV</em></strong> of the tool is analyzed or monitored, available <strong><em>by the validation phase</em></strong>.</li>
+</ul>
+</div>
 </section>
 <section id="24-3-rob" class="level3">
 <h3 class="anchored" data-anchor-id="24-3-rob">Requirement 24-3-ROB</h3>
 <p><strong>Description:</strong> The tool has a defined intended purpose following the MDR <strong><em>[time point]</em></strong>.</p>
-<p><strong><em>time point</em></strong>:&nbsp;</p>
-<p>- as part of the prototype development<br>
-</p>
-<p><strong>Phases</strong></p>
-<p>- development</p>
-<p>- testing</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th><strong>Parameter</strong></th>
+<th><strong>Values</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><strong>Time Point</strong></td>
+<td>As part of the prototype development</td>
+</tr>
+</tbody>
+</table>
+<p><strong>Phases</strong>: development, testing</p>
 <p><strong>Owner</strong></p>
-<p>- WP 3 lead</p>
+<ul>
+<li>WP 3 lead</li>
+</ul>
 <p><strong>Stakeholders</strong></p>
-<p>- WP 2 (development)</p>
-<p>- WP 4 (clinical validation)</p>
-<p>- WP 5 (regulations)<br>
-</p>
+<ul>
+<li>WP 2 (development)<br>
+</li>
+<li>WP 4 (clinical validation)<br>
+</li>
+<li>WP 5 (regulations)</li>
+</ul>
+<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 <p><strong>Tolerable</strong></p>
-<p>- The tool has a defined intended purpose following the MDR <em><strong>as part of the prototype development</strong>.</em></p>
+<ul>
+<li>The tool has a defined intended purpose following the MDR <strong><em>as part of the prototype development</em></strong>.</li>
+</ul>
+</div>
 
 
 </section>
