@@ -1,5 +1,5 @@
 
-The files shown here are used to render a website displaying the **VALIDATE Trustworthy AI Framework**, a resource we have developed to support the ethical development of an AI-based prognostic tool for outcome prediction of acute stroke patients. 
+The files shown here are used to render a website displaying the **VALIDATE Trustworthy AI Framework**, a resource we have created to support the ethical development of an AI-based prognostic tool for outcome prediction of acute stroke patients. 
 
 See [here](https://validate-project.eu) for more on the VALIDATE project. 
 
