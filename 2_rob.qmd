@@ -31,8 +31,8 @@ AI systems, like all software systems, should be protected against vulnerabiliti
 
 **Wish**
 
-- The stability of the accuracies and performance for ***when there are missing input data points*** of the tool is analyzed or monitored, available ***by the start of the validation phase***.
-- Tool should follow ***relevant aspects of ISO norms related to the MDR and recent AI advancements: ISO 13485; ISO/IEC 23894:2023; ISO/IEC 38507*** that are within our scope and resource limitations to prepare for compliance with the MDR by ***the end of the project***.
+- Tool should follow ***relevant aspects of ISO norms related to the standard MDR: IEC 62366; IEC 62304; ISO 14971*** that are within our scope and resource limitations to prepare for compliance with the MDR ***by the end of the project***.
+Tool should follow ***relevant aspects of ISO norms related to the MDR and recent AI advancements: ISO 13485; ISO/IEC 23894:2023; ISO/IEC 38507*** that are within our scope and resource limitations to prepare for compliance with the MDR ***by the end of the project***.
 
 </div>
 
