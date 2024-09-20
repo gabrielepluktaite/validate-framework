@@ -154,10 +154,6 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 - [Requirement 22-1-ROB](2_rob.qmd#22-1-rob)
 
-###### Accuracy
-
-- [Requirement 23-2-ROB](2_rob.qmd#23-2-rob)
-
 #### Privacy and data governance
 
 ###### Privacy and data protection
