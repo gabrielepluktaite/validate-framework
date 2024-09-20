@@ -274,7 +274,7 @@ In any given organisation that handles individuals’ data (whether someone is a
 | **Sensitive Data Attributes** | - Sex<br>- Gender<br>- Ethnicity                                                                      |
 | **Safeguards**          | - Logged<br>- Only available to relevant qualified personnel with user privileges<br>- Only available after log-in<br>- Data is stored on local hospital premises |
 | **Vulnerable groups**   | - Non-binary patients<br>- Trans patients<br>- Ethnic minorities |
-| **Time Point**          | By the start of the validation phase. *See page 7 of the ethical framework document for the definition of the validation phase.* |
+| **Time Point**          | By the start of the validation phase. *See the explanation of phases on the How Requirements are Organized page* |
 
 **Phases**: development, training, validation
 
