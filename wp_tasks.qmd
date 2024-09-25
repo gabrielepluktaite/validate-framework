@@ -65,7 +65,7 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 ###### Explainability
 
 - [Requirement 42-3-TRA](4_tra.qmd#42-3-tra)
-
+- [Requirement 42-4-TRA](4_tra.qmd#42-4-tra)
 - [Requirement 42-5-TRA](4_tra.qmd#42-5-tra)
 
 #### Diversity, non-discrimination, and fairness
@@ -101,8 +101,6 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 ###### Explainability
 
 - [Requirement 42-1-TRA](4_tra.qmd#42-1-tra)
-
-- [Requirement 42-4-TRA](4_tra.qmd#42-4-tra)
 
 #### Diversity, non-discrimination, and fairness
 
