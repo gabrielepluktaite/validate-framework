@@ -12,7 +12,7 @@ Auditability entails the enablement of the assessment of algorithms, data and de
 
 Both the ability to report on actions or decisions that contribute to a certain system outcome, and to respond to the consequences of such an outcome, must be ensured. Identifying, assessing, reporting and minimising the potential negative impacts of AI systems is especially crucial for those (in)directly affected. Due protection must be available for whistle-blowers, NGOs, trade unions or other entities when reporting legitimate concerns about an AI-based system. The use of impact assessments (e.g. red teaming or forms of Algorithmic Impact Assessment) both prior to and during the development, deployment and use of AI systems can be helpful to minimise negative impact. These assessments must be proportionate to the risk that the AI systems pose.
 
-### Requirement 72-1-ACC {#71-1-acc}
+### Requirement 72-1-ACC {#72-1-acc}
 
 **Description:** Algorithmic impact assessment following ***\[relevant method\]*** is performed by ***\[time point\]***.
 
