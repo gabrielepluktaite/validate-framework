@@ -46,7 +46,7 @@ When implementing the above requirements, tensions may arise between them, which
 
 ### Requirement 73-1-ACC {#73-1-acc}
 
-**Description:** Research work produced by the STRATIF-AI consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***\[relevant aspects\]***. This is implemented by ***\[time point\].***
+**Description:** Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***\[relevant aspects\]***. This is implemented by ***\[time point\].***
 
 | **Parameter**                                  | **Values**                              |
 |------------------------------------------------|-----------------------------------------|
