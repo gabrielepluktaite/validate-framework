@@ -36,7 +36,7 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 ###### Human Agency
 
-- [Requirement 12-2-HUM](1_hum.qmd#12-2-hum)
+- [Requirement 12-1-HUM](1_hum.qmd#12-1-hum)
 
 #### Technical Robustness and Safety
 
