@@ -108,7 +108,7 @@ with the ***\[constraints\]*** of the project ***\[time point\]***.
 |------------------------------------------------|-----------------------------------------|
 | **Constraints**                                | - Ethical values of the project<br>- Explainability regulations|
 | **Ethical values of the project**              | Ethical framework                     |
-| **Process**                                    | Process outlined in VALIDATE data management plan|
+| **Explanations**                               | How the AI model works; how the model has been trained; what data has been used; who participated in the study; how the data collected from prospective study is used and shared; how data collected from patients during use will be used?|
 | **Explainability regulations**                 | EU AI Act, GDPR, EU-MDR                 |
 | **Time Point**                                 | Prior to the start of the prospective study|
 
@@ -121,23 +121,17 @@ with the ***\[constraints\]*** of the project ***\[time point\]***.
 
 **Stakeholders**
 
-- WP 2 (development)
-
-- WP 3 (design)
-
-- WP 5 (regulations)
-
 - WP 6 (patient communication)
 
 <div style="background-color: #e8daef; padding:10px; border-radius:5px;">
 
 **Goal**
 
-- % of explanations are communicated and defined in line with
+- % of ***explanations*** are communicated and defined in line with
 ***ethical values of the project: Ethical framework*** of the project
 ***prior to start of the prospective study***.
 
-- % of explanations are communicated and defined in line with
+- % of ***explanations*** are communicated and defined in line with
 ***explainability regulations: EU AI act;GDPR;EU-MDR*** of the project
 ***prior to start of the prospective study***.
 
@@ -241,16 +235,16 @@ limitations.
 
 ### Requirement 43-1-TRA {#43-1-tra}
 
-**Description:** ***\[information\]*** relevant for ***\[explainee\]*** to read
+**Description:** % of ***\[information\]*** relevant for ***\[end-user\]*** to read
 or understand are communicated in adequate language so that it enables
-***\[explainee\]*** to protect their own interests and is available ***\[time
+***\[end-user\]*** to protect their own interests and is available ***\[time
 point\]***.
 
 | **Parameter**                                  | **Values**                              |
 |------------------------------------------------|-----------------------------------------|
 | **Information**                                | - Study information<br>- Study results<br>- User information|
-| **Explainees**                                 | - Patients<br>- Patient family/caregivers<br>- Users|
-| **Time Point**                                 | Prior to start of the prospective study |
+| **End-users**                                  | - Patients<br>- Patient family/caregivers<br>- Users|
+| **Time Point**                                 | Prior to start of the prospective study<br>-When the paper of the prospective study has been published |
 
 
 **Phases**: development, testing
