@@ -101,7 +101,7 @@ point***.
 
 ### Requirement 42-2-TRA {#42-2-tra}
 
-**Description:** % of explanations are communicated and defined in line
+**Description:** % of ***\[explanations\]*** are communicated and defined in line
 with the ***\[constraints\]*** of the project ***\[time point\]***.
 
 | **Parameter**                                  | **Values**                              |
