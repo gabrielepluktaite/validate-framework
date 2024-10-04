@@ -60,3 +60,11 @@ Based on the parameterized statements, requirements are classified into three su
 **Wish**: Desirable outcomes that are aimed for but likely only partially achieved.
 
 </div>
+
+### Outputs
+
+::: {style="background-color:#f9e79f; padding:10px; border-radius:5px;"}
+
+- Relevant material associated with the requirement, e.g., links to reports, consent forms, PDFs, etc.
+:::
+
