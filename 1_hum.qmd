@@ -14,7 +14,7 @@ Users should be able to make informed autonomous decisions regarding AI systems.
 
 ### Requirement 12-1-HUM {#12-1-hum}
 
-**Description:** ***\[relevant methods\]*** for measuring model uncertainty are implemented to provide a confidence interval for predictions in the app available at ***\[time point\]***.
+**Description:** ***\[relevant methods\]*** for measuring model uncertainty are implemented to provide a confidence level for predictions in the app available at ***\[time point\]***.
 
 | **Parameter**        | **Values**                            |
 |----------------------|---------------------------------------|
@@ -91,13 +91,10 @@ Moreover, it must be ensured that public enforcers have the ability to exercise 
 
 **Description:** Tool is designed with ***\[capability needed\]*** to enable a Human in Command (HIC) governance structure. This is implemented by ***\[time point\]***.
 
-+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Parameter**         | **Values**                                                                                                                                                                                                                                                                                              |
-+=======================+=========================================================================================================================================================================================================================================================================================================+
+|-----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Capability Needed** | \- Capability to oversee the overall activity of the AI system<br>- Ability to decide whether, when and how to use the system in any particular situation<br>- Established levels of human discretion during the use of the system where necessary<br>- Ability to override a decision made by a system |
-+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Time Point**        | By the end of the project                                                                                                                                                                                                                                                                               |
-+-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 **Owner**
 

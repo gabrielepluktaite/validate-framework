@@ -10,60 +10,61 @@ AI systems, like all software systems, should be protected against vulnerabiliti
 
 **Description:** Tool should follow ***relevant aspects of norms*** that are within our scope and resource limitations to prepare for compliance with the MDR by ***time point***.
 
-| **Parameter**               | **Values**                                                                                                             |
-|-----------------------------|------------------------------------------------------------------------------------------------------------------------|
++-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Parameter**                 | **Values**                                                                                                                                                                                                 |
++===============================+============================================================================================================================================================================================================+
 | **Relevant Aspects of Norms** | ISO norms related to the standard MDR:<br>- IEC 62366<br>- IEC 62304<br>- ISO 14971<br><br> ISO norms related to MDR and recent AI advancements:<br>- ISO 13485<br>- ISO/IEC 23894:2023<br>- ISO/IEC 38507 |
-| **Time Point**              | The end of the project                                                                                                 |
++-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Time Point**                | The end of the project                                                                                                                                                                                     |
++-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 **Phases**: development, testing, validation
 
 **Owner**
 
-- WP 5 lead
+-   WP 5 lead
 
 **Stakeholders**
 
-- WP 2 (development)  
-- WP 3 (design)  
-- WP 5 (regulatory pathway to market)
+-   WP 2 (development)\
+-   WP 3 (design)\
+-   WP 5 (regulatory pathway to market)
 
-<div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
-
+::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
 **Wish**
 
-- Tool should follow ***relevant aspects of ISO norms related to the standard MDR: IEC 62366; IEC 62304; ISO 14971*** that are within our scope and resource limitations to prepare for compliance with the MDR ***by the end of the project***.
-Tool should follow ***relevant aspects of ISO norms related to the MDR and recent AI advancements: ISO 13485; ISO/IEC 23894:2023; ISO/IEC 38507*** that are within our scope and resource limitations to prepare for compliance with the MDR ***by the end of the project***.
-
-</div>
+-   Tool should follow ***relevant aspects of ISO norms related to the standard MDR: IEC 62366; IEC 62304; ISO 14971*** that are within our scope and resource limitations to prepare for compliance with the MDR ***by the end of the project***. Tool should follow ***relevant aspects of ISO norms related to the MDR and recent AI advancements: ISO 13485; ISO/IEC 23894:2023; ISO/IEC 38507*** that are within our scope and resource limitations to prepare for compliance with the MDR ***by the end of the project***.
+:::
 
 ### Requirement 21-2-ROB {#21-2-rob}
 
 **Description:** Tool should follow ***relevant guidelines on cyber security*** that are within our scope and resource limitations to prepare for compliance with the MDR by ***time point***.
 
-| **Parameter**              | **Values**                                         |
-|----------------------------|----------------------------------------------------|
++-------------------------------------------+-------------------------------------------------+
+| **Parameter**                             | **Values**                                      |
++===========================================+=================================================+
 | **Relevant Guidelines on Cyber Security** | To be defined, needs to be researched by Owner. |
-| **Time Point**             | The end of the project                             |
++-------------------------------------------+-------------------------------------------------+
+| **Time Point**                            | The end of the project                          |
++-------------------------------------------+-------------------------------------------------+
 
 **Phases**: development, testing, validation
 
 **Owner**
 
-- WP 5 lead
+-   WP 5 lead
 
 **Stakeholders**
 
-- WP 2 (development)  
-- WP 3 (design)  
-- WP 5 (regulatory pathway to market)
+-   WP 2 (development)\
+-   WP 3 (design)\
+-   WP 5 (regulatory pathway to market)
 
-<div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
-
+::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
 **Wish**
 
-- Tool should follow ***relevant guidelines on cyber security*** that are within our scope and resource limitations to prepare for compliance with the MDR by ***the end of the project***.
-
-</div>
+-   Tool should follow ***relevant guidelines on cyber security*** that are within our scope and resource limitations to prepare for compliance with the MDR by ***the end of the project***.
+:::
 
 ## 2.2 Fallback plan and general safety
 
@@ -73,38 +74,37 @@ AI systems should have safeguards that enable a fallback plan in case of problem
 
 **Description:** A risk assessment following relevant aspects of ***risk management norms*** will be done by ***time point***.
 
-| **Parameter**            | **Values**                                                                                       |
-|--------------------------|--------------------------------------------------------------------------------------------------|
-| **Risk Management Norms**| - ISO 14971<br>- ISO 23894:2023                                                                  |
-| **Time Point**           | - When intended purpose is defined<br>- At the end of the project                               |
++---------------------------+--------------------------------------------------------------------+
+| **Parameter**             | **Values**                                                         |
++===========================+====================================================================+
+| **Risk Management Norms** | \- ISO 14971<br>- ISO 23894:2023                                   |
++---------------------------+--------------------------------------------------------------------+
+| **Time Point**            | \- When intended purpose is defined<br>- At the end of the project |
++---------------------------+--------------------------------------------------------------------+
 
 **Phases**: development, testing, validation
 
 **Owner**
 
-- WP 5 lead
+-   WP 5 lead
 
 **Stakeholders**
 
-- WP 2 (development)  
-- WP 3 (design)  
-- WP 5 (regulatory pathway to market)
+-   WP 2 (development)\
+-   WP 3 (design)\
+-   WP 5 (regulatory pathway to market)
 
-<div style="background-color:#e8daef; padding:10px; border-radius:5px;">
-
+::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
 **Goal**
 
-- A risk assessment following relevant aspects of ***ISO 14971*** will be done ***by the end of the project***.
+-   A risk assessment following relevant aspects of ***ISO 14971*** will be done ***by the end of the project***.
+:::
 
-</div>
-
-<div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
-
+::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
 **Wish**
 
-- A risk assessment following relevant aspects of ***ISO 23894:2023*** will be done ***when intended purpose is defined***.
-
-</div>
+-   A risk assessment following relevant aspects of ***ISO 23894:2023*** will be done ***when intended purpose is defined***.
+:::
 
 ## 2.3 Accuracy
 
@@ -114,155 +114,128 @@ Accuracy pertains to an AI system’s ability to make correct judgements, for ex
 
 **Description:** Validity will be measured by doing a randomized clinical trial (RCT) to examine whether at least ***ratio*** of ***RCT study size*** patients whose doctors use the tool have a significantly improved Modified Ranking Scale 90 (MRS 90) compared to control group at ***time point***.
 
-| **Parameter**         | **Values**                                                                                                         |
-|-----------------------|--------------------------------------------------------------------------------------------------------------------|
-| **Ratio**             | Will be determined at the end of the prospective study                                                             |
-| **RCT Study Size**    | Number will be determined later by estimating the effect size                                                      |
-| **Time Point**        | After the project                                                                                                  |
++--------------------+---------------------------------------------------------------+
+| **Parameter**      | **Values**                                                    |
++====================+===============================================================+
+| **Ratio**          | Will be determined at the end of the prospective study        |
++--------------------+---------------------------------------------------------------+
+| **RCT Study Size** | Number will be determined later by estimating the effect size |
++--------------------+---------------------------------------------------------------+
+| **Time Point**     | After the project                                             |
++--------------------+---------------------------------------------------------------+
 
 **Phases**: validation
 
 **Owner**
 
-- WP 4 lead
+-   WP 4 lead
 
 **Stakeholders**
 
-- WP 4 (clinical validation)
+-   WP 4 (clinical validation)
 
-<div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
-
+::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
 **Wish**
 
-- **Validity will be measured by doing a randomized clinical trial (RCT) to examine whether at least *ratio* of *number determined by estimated effect size patients* whose doctors use the tool have a significantly improved MRS 90 compared to the control group *after the project*.**
-
-</div>
+-   **Validity will be measured by doing a randomized clinical trial (RCT) to examine whether at least *ratio* of *number determined by estimated effect size patients* whose doctors use the tool have a significantly improved MRS 90 compared to the control group *after the project*.**
+:::
 
 ### Requirement 23-2-ROB {#23-2-rob}
 
 **Description:** Accuracy will be measured by ***time point*** by doing a prospective shadowing study to examine whether in at least ***threshold*** of the cases, the predictions of the prototype are similar to the actual 3 months mRS according to the actual administered treatment.
 
-| **Parameter**     | **Values**                                                                 |
-|-------------------|----------------------------------------------------------------------------|
-| **Threshold**     | 90%                                                                        |
-| **Time Point**    | The end of the project                                                     |
+| **Parameter**  | **Values**             |
+|----------------|------------------------|
+| **Threshold**  | 90%                    |
+| **Time Point** | The end of the project |
 
 **Phases**: validation
 
 **Owner**
 
-- WP 4 lead
+-   WP 4 lead
 
 **Stakeholders**
 
-- WP 4 (clinical validation)
+-   WP 4 (clinical validation)
 
-<div style="background-color:#e8daef; padding:10px; border-radius:5px;">
-
+::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
 **Goal**
 
-- Accuracy will be measured *by the end of the project* by doing a prospective shadowing study to examine whether in at least **90%** of the cases, the predictions of the prototype are similar to the actual 3 months mRS according to the actual administered treatment.
-
-</div>
+-   Accuracy will be measured *by the end of the project* by doing a prospective shadowing study to examine whether in at least **90%** of the cases, the predictions of the prototype are similar to the actual 3 months mRS according to the actual administered treatment.
+:::
 
 ## 2.4 Reliability and Reproducibility
 
 It is critical that the results of AI systems are reproducible, as well as reliable. A reliable AI system is one that works properly with a range of inputs and in a range of situations. This is needed to scrutinise an AI system and to prevent unintended harms. Reproducibility describes whether an AI experiment exhibits the same behaviour when repeated under the same conditions. This enables scientists and policy makers to accurately describe what AI systems do. Replication files can facilitate the process of testing and reproducing behaviours. 
 
-### Requirement 24-1-ROB {#24-1-rob}
+### Requirement 24-1-ROB  {#24-1-rob}
 
-**Description:** Tool reliably provides no significantly different performance for ***\[contexts\]*** at ***\[time point\]***.
+**Description:** The tool’s performance and accuracy are monitored and analysed, ensuring no significant differences in performance across ***\[risk areas/contexts\]***, at/by ***\[time point\]***.
 
-| **Parameter**    | **Values**                                                                 |
-|------------------|-----------------------------------------------------------------------------|
-| **Contexts**     | - Edge-cases<br>- Differing local standards of care<br>- Non-western patient minorities |
-| **Time Point**   | At the end of the project                                                     |
-
-**Phases**: development, testing, validation
-
-**Owner**
-
-- WP 2 lead
-
-**Stakeholders**
-
-- WP 2 (development)  
-- WP 3 (design)  
-- WP 4 (clinical validation)
-
-<div style="background-color:#e8daef; padding:10px; border-radius:5px;">
-
-**Goal**
-
-- Tool reliably provides no significantly different performance for ***edge-cases*** ***at the end of the project***.
-- Tool reliably provides no significantly different performance for ***differing local standards of care*** ***at the end of the project***.
-- Tool reliably provides no significantly different performance for ***non-western patient minorities*** ***at the end of the project***.
-
-</div>
-
-### Requirement 24-2-ROB {#24-2-rob}
-
-**Description:** The stability of the accuracies and performance for ***\[different risk areas\]*** of the tool is analyzed or monitored, available by ***\[time point\]***.
-
-| **Parameter**               | **Values**                                                                                                      |
-|-----------------------------|-----------------------------------------------------------------------------------------------------------------|
-| **Different Risk Areas**    | - Edge-cases<br>- Differing local standards of care<br>- Non-western patient minorities<br>- When there are missing input data points<br>- For sub-groups mentioned in 61-DIV |
-| **Time Point**              | By the start of the validation phase. *See “How the requirements are organized” on page 7.*                      |
++----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Parameter**  | **Values**                                                                                                                                                                                                              |
++================+=========================================================================================================================================================================================================================+
+| **Contexts**   | \- Edge-cases<br>- Differing local standards of care<br>- Non-western patient minorities <br>- Missing input data points\<br\>- Sub-groups mentioned in 51-1-DIV (Age, sex/gender, ethnicity/race, geographic location) |
++----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+| **Time Point** | The start of the validation phase                                                                                                                                                                                       |
+|                |                                                                                                                                                                                                                         |
+|                | The end of the project                                                                                                                                                                                                  |
++----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 **Phases**: development, testing, validation
 
 **Owner**
 
-- WP 2 lead
+-   WP 2 lead
 
 **Stakeholders**
 
-- WP 2 (development)  
-- WP 3 (design)  
-- WP 4 (clinical validation)
+-   WP 2 (development)
+-   WP 3 (design)
+-   WP 4 (clinical validation)
 
-<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
-
+::: {style="background-color:#abebc6; padding:10px; border-radius:5px;"}
 **Tolerable**
 
-- The stability of the accuracies and performance for ***when there are missing input data points*** of the tool is analyzed or monitored, available ***by the start of the validation phase***.
+-   The tool’s performance and accuracy are monitored and analysed, ensuring no significant differences in performance *across **missing input data points***, by ***the start of the validation phase***.
+:::
 
-</div>
-
-<div style="background-color:#e8daef; padding:10px; border-radius:5px;">
-
+::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
 **Goal**
 
-- The stability of the accuracies and performance for ***edge-cases, differing local standards of care, non-western patient minorities*** of the tool is analyzed or monitored, available ***by the validation phase***.
-- The stability of the accuracies and performance for ***sub-groups mentioned in 61-DIV*** of the tool is analyzed or monitored, available ***by the validation phase***.
+-   The tool’s performance and accuracy are monitored and analysed, ensuring no significant differences in performance across ***edge-cases, differing local standards of care, non-western patient minorities,*** at ***the end of the project.***
+-   The tool’s performance and accuracy are monitored and analysed, ensuring no significant differences in performance across ***sub-groups mentioned in 61-DIV,*** by ***the start of the validation phase***.
+:::
 
-</div>
+**Stakeholders**
 
-### Requirement 24-3-ROB {#24-3-rob}
+-   WP 2 (development)\
+-   WP 3 (design)\
+-   WP 4 (clinical validation)
+
+### Requirement 24-2-ROB {#24-3-rob}
 
 **Description:** The tool has a defined intended purpose following the MDR ***\[time point\]***.
 
-| **Parameter**   | **Values**                             |
-|-----------------|----------------------------------------|
-| **Time Point**  | As part of the prototype development   |
+| **Parameter**  | **Values**                           |
+|----------------|--------------------------------------|
+| **Time Point** | As part of the prototype development |
 
 **Phases**: development, testing
 
 **Owner**
 
-- WP 3 lead
+-   WP 3 lead
 
 **Stakeholders**
 
-- WP 2 (development)  
-- WP 4 (clinical validation)  
-- WP 5 (regulations)
+-   WP 2 (development)\
+-   WP 4 (clinical validation)\
+-   WP 5 (regulations)
 
-<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
-
+::: {style="background-color:#abebc6; padding:10px; border-radius:5px;"}
 **Tolerable**
 
-- The tool has a defined intended purpose following the MDR ***as part of the prototype development***.
-
-</div>
-
+-   The tool has a defined intended purpose following the MDR ***as part of the prototype development***.
+:::
