@@ -10,10 +10,10 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 **Description:** The Prototype complies with relevant ***\[privacy regulations\]*** by ***\[time point\]***.
 
-| **Parameter**           | **Values**                                                                                                                 |
-|-------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| **Privacy Regulations** | \- GDPR<br>- Health Insurance Portability and Accountability Act (HIPAA)<br>- National/local authority privacy regulations |
-| **Time Point**          | Start of the prospective study                                                                                             |
+| **Parameter**           | **Values**                                                |
+|----------------|--------------------------------------------------------|
+| **Privacy Regulations** | \- GDPR<br>- National/local authority privacy regulations |
+| **Time Point**          | Start of the prospective study                            |
 
 **Phases**: development, testing, validation
 
@@ -36,18 +36,12 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 -   The prototype complies with ***national/local authority privacy regulations*** by ***start of prospective study***.
 :::
 
-::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
-**Wish**
-
--   The prototype complies with ***HIPAA*** by ***start of prospective study***.
-:::
-
 ### Requirement 31-2-PRI {#31-2-pri}
 
 **Description:** All ***\[development materials\]*** are stored using ***\[best practices for privacy\]***, with practice enabled before ***\[time point\]***.
 
 | **Parameter**                  | **Values**                                                                                 |
-|--------------------------------|--------------------------------------------------------------------------------------------|
+|-------------------|-----------------------------------------------------|
 | **Development Materials**      | \- Research data<br>- Models<br>- Predictions<br>- xAI results                             |
 | **Best Practices for Privacy** | \- Password protected user rights system<br>- Local protected servers on clinical premises |
 | **Time Point**                 | Start of training<br>At 24 months into the project                                         |
@@ -89,7 +83,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 **Description:** Privacy information have been collected to answer ***\[local ethics committee questions\]*** at ***\[time point\]*** to approve data collection for prospective study in the research data management plan.
 
 | **Parameter**                        | **Values**                                                                                                                                                                                                                                                                                                                                                         |
-|--------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------|----------------------------------------------------------|
 | **Local Ethics Committee Questions** | \- Why are we collecting this data?<br>- How will the data be collected?<br>- Where will data be stored?<br>- What data be collected?<br>- Who is the owner of the data?<br>- Who is responsible for the data?<br>- Who has access to the data?<br>- Will the data be transferred to other countries?<br>- Are those countries in the EU? Will the data be shared? |
 | **Time Point**                       | By the end of the development phase                                                                                                                                                                                                                                                                                                                                |
 
@@ -125,7 +119,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 **Description:** Consent from patients have been collected for ***\[data purposes\]*** at ***\[time point\]***.
 
 | **Parameter**     | **Values**                                                                                                                                                 |
-|-------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|--------------|----------------------------------------------------------|
 | **Data Purposes** | \- Model training using the prospective data<br>- Prospective study<br>- Randomized Clinical Trial<br>- Open data-sharing required by the EU Horizon grant |
 | **Time Point**    | \- Before data inclusion in CRF<br>- Before the randomized clinical trial<br>- After the VALIDATE project                                                  |
 
@@ -170,7 +164,7 @@ The quality of the data sets used is paramount to the performance of AI systems.
 **Description:** ***%*** of datasets fulfill ***\[quality criteria\]*** with regards to ***\[quality parameters\]*** at ***\[time point\]***.
 
 | **Parameter**          | **Values**                                                                                     |
-|------------------------|------------------------------------------------------------------------------------------------|
+|-----------------|-------------------------------------------------------|
 | **Quality Criteria**   | \- Relevant interoperability standards for labeling<br>- HL7 FHIR standards<br>- To be defined |
 | **Quality Parameters** | \- Missing data<br>- Errors<br>- Inaccuracies<br>- Interoperability                            |
 | **Time Point**         | Before final model training for prototype                                                      |
@@ -208,7 +202,7 @@ In any given organisation that handles individuals’ data (whether someone is a
 **Description:** ***\[Data type\]*** is available for access to ***\[stakeholder type\]*** through ***\[process\]*** at ***\[time point\]***.
 
 | **Parameter**        | **Values**                                                                                                                                                                                                                |
-|----------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|-------------|-----------------------------------------------------------|
 | **Data Type**        | \- Retrospective study data<br>- Anonymized prospective study data<br>- Data used to simulate a decision during prospective study<br>- Data generated by the system or app<br>- Meta-data or usage-data of the app/system |
 | **Stakeholder Type** | \- Relevant VALIDATE staff<br>- Researchers<br>- Legal guardian/caregiver<br>- Patient<br>- Users                                                                                                                         |
 | **Process**          | Process outlined in VALIDATE data management plan                                                                                                                                                                         |
@@ -253,7 +247,7 @@ In any given organisation that handles individuals’ data (whether someone is a
 **Description:** Access and use of ***\[sensitive data attributes\]*** is ***\[safeguards\]*** to protect ***\[vulnerable groups\]*** from discrimination and harm by ***\[time point\]***.
 
 | **Parameter**                 | **Values**                                                                                                                                                         |
-|-------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|----------------|--------------------------------------------------------|
 | **Sensitive Data Attributes** | \- Sex<br>- Gender<br>- Ethnicity                                                                                                                                  |
 | **Safeguards**                | \- Logged<br>- Only available to relevant qualified personnel with user privileges<br>- Only available after log-in<br>- Data is stored on local hospital premises |
 | **Vulnerable groups**         | \- Non-binary patients<br>- Trans patients<br>- Ethnic minorities                                                                                                  |
