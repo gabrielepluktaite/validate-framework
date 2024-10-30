@@ -12,21 +12,21 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 ##### Human Agency
 
-- [Requirement 12-2-HUM](1_hum.qmd#12-2-hum)
+-   [Requirement 12-2-HUM](1_hum.qmd#12-2-hum)
 
 ##### Human Oversight
 
-- [Requirement 13-1-HUM](1_hum.qmd#13-1-hum)
+-   [Requirement 13-1-HUM](1_hum.qmd#13-1-hum)
 
 #### Accountability
 
 ##### Minimisation and reporting of negative impacts
 
-- [Requirement 72-1-ACC](7_acc.qmd#72-1-acc)
+-   [Requirement 72-1-ACC](7_acc.qmd#72-1-acc)
 
 ##### Trade-offs
 
-- [Requirement 73-1-ACC](7_acc.qmd#73-1-acc)
+-   [Requirement 73-1-ACC](7_acc.qmd#73-1-acc)
 
 ------------------------------------------------------------------------
 
@@ -36,48 +36,46 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 ###### Human Agency
 
-- [Requirement 12-1-HUM](1_hum.qmd#12-1-hum)
+-   [Requirement 12-1-HUM](1_hum.qmd#12-1-hum)
 
 #### Technical Robustness and Safety
 
 ###### Reliability and Reproducibility
 
-- [Requirement 24-1-ROB](2_rob.qmd#24-1-rob)  
-
-- [Requirement 24-2-ROB](2_rob.qmd#24-2-rob)
+-   [Requirement 24-1-ROB](2_rob.qmd#24-1-rob)
 
 #### Privacy and data governance
 
 ###### Privacy and data protection
 
-- [Requirement 31-2-PRI](3_pri.qmd#31-2-pri)
+-   [Requirement 31-2-PRI](3_pri.qmd#31-2-pri)
 
 ###### Quality and integrity of data
 
-- [Requirement 32-1-PRI](3_pri.qmd#32-1-pri)
+-   [Requirement 32-1-PRI](3_pri.qmd#32-1-pri)
 
 #### Transparency
 
 ###### Traceability
 
-- [Requirement 41-1-TRA](4_tra.qmd#41-1-tra)
+-   [Requirement 41-1-TRA](4_tra.qmd#41-1-tra)
 
 ###### Explainability
 
-- [Requirement 42-3-TRA](4_tra.qmd#42-3-tra)
-- [Requirement 42-4-TRA](4_tra.qmd#42-4-tra)
+-   [Requirement 42-3-TRA](4_tra.qmd#42-3-tra)
+-   [Requirement 42-4-TRA](4_tra.qmd#42-4-tra)
 
 #### Diversity, non-discrimination, and fairness
 
 ###### Avoidance of unfair bias
 
-- [Requirement 51-1-DIV](5_div.qmd#51-1-div)
+-   [Requirement 51-1-DIV](5_div.qmd#51-1-div)
 
 #### Societal and environmental well-being
 
 ###### Sustainable and environmentally friendly AI
 
-- [Requirement 61-1-SUS](6_sus.qmd#61-1-sus)
+-   [Requirement 61-1-SUS](6_sus.qmd#61-1-sus)
 
 ------------------------------------------------------------------------
 
@@ -87,29 +85,29 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 ###### Reliability and Reproducibility
 
-- [Requirement 24-3-ROB](2_rob.qmd#24-3-rob)
+-   [Requirement 24-2-ROB](2_rob.qmd#24-2-rob)
 
 #### Privacy and data governance
 
 ###### Access to data
 
-- [Requirement 33-1-PRI](3_pri.qmd#33-1-pri)
+-   [Requirement 33-1-PRI](3_pri.qmd#33-1-pri)
 
 #### Transparency
 
 ###### Explainability
 
-- [Requirement 42-1-TRA](4_tra.qmd#42-1-tra)
+-   [Requirement 42-1-TRA](4_tra.qmd#42-1-tra)
 
 #### Diversity, non-discrimination, and fairness
 
 ###### Accessibility and Universal Design
 
-- [Requirement 52-1-DIV](5_div.qmd#52-1-div)
+-   [Requirement 52-1-DIV](5_div.qmd#52-1-div)
 
 ###### Stakeholder participation
 
-- [Requirement 53-1-DIV](5_div.qmd#53-1-div)
+-   [Requirement 53-1-DIV](5_div.qmd#53-1-div)
 
 ------------------------------------------------------------------------
 
@@ -119,21 +117,21 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 ###### Accuracy
 
-- [Requirement 23-1-ROB](2_rob.qmd#23-1-rob)
+-   [Requirement 23-1-ROB](2_rob.qmd#23-1-rob)
 
-- [Requirement 23-2-ROB](2_rob.qmd#23-2-rob)
+-   [Requirement 23-2-ROB](2_rob.qmd#23-2-rob)
 
 #### Privacy and data governance
 
 ###### Privacy and data protection
 
-- [Requirement 31-3-PRI](3_pri.qmd#31-3-pri)
+-   [Requirement 31-3-PRI](3_pri.qmd#31-3-pri)
 
-- [Requirement 31-4-PRI](3_pri.qmd#31-4-pri)
+-   [Requirement 31-4-PRI](3_pri.qmd#31-4-pri)
 
 ###### Access to data
 
-- [Requirement 33-2-PRI](3_pri.qmd#33-2-pri)
+-   [Requirement 33-2-PRI](3_pri.qmd#33-2-pri)
 
 ------------------------------------------------------------------------
 
@@ -143,19 +141,19 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 ###### Resilience to Attack and Safety
 
-- [Requirement 21-1-ROB](2_rob.qmd#21-1-rob)
+-   [Requirement 21-1-ROB](2_rob.qmd#21-1-rob)
 
-- [Requirement 21-2-ROB](2_rob.qmd#21-2-rob)
+-   [Requirement 21-2-ROB](2_rob.qmd#21-2-rob)
 
 ###### Fallback plan and general safety
 
-- [Requirement 22-1-ROB](2_rob.qmd#22-1-rob)
+-   [Requirement 22-1-ROB](2_rob.qmd#22-1-rob)
 
 #### Privacy and data governance
 
 ###### Privacy and data protection
 
-- [Requirement 31-1-PRI](3_pri.qmd#31-1-pri)
+-   [Requirement 31-1-PRI](3_pri.qmd#31-1-pri)
 
 ------------------------------------------------------------------------
 
@@ -165,8 +163,8 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 ###### Explainability
 
-- [Requirement 42-2-TRA](4_tra.qmd#42-2-tra)
+-   [Requirement 42-2-TRA](4_tra.qmd#42-2-tra)
 
 ###### Communication
 
-- [Requirement 43-1-TRA](4_tra.qmd#43-1-tra)
+-   [Requirement 43-1-TRA](4_tra.qmd#43-1-tra)

@@ -8,15 +8,12 @@ AI systems, like all software systems, should be protected against vulnerabiliti
 
 ### Requirement 21-1-ROB {#21-1-rob}
 
-**Description:** Tool should follow ***relevant aspects of norms*** that are within our scope and resource limitations to prepare for compliance with the MDR by ***time point***.
+**Description:** Tool should follow ***\[relevant aspects of norms\]*** that are within our scope and resource limitations to prepare for compliance with the MDR by ***\[time point\]***.
 
-+-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Parameter**                 | **Values**                                                                                                                                                                                                 |
-+===============================+============================================================================================================================================================================================================+
+|-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Relevant Aspects of Norms** | ISO norms related to the standard MDR:<br>- IEC 62366<br>- IEC 62304<br>- ISO 14971<br><br> ISO norms related to MDR and recent AI advancements:<br>- ISO 13485<br>- ISO/IEC 23894:2023<br>- ISO/IEC 38507 |
-+-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Time Point**                | The end of the project                                                                                                                                                                                     |
-+-------------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 **Phases**: development, testing, validation
 
@@ -38,15 +35,12 @@ AI systems, like all software systems, should be protected against vulnerabiliti
 
 ### Requirement 21-2-ROB {#21-2-rob}
 
-**Description:** Tool should follow ***relevant guidelines on cyber security*** that are within our scope and resource limitations to prepare for compliance with the MDR by ***time point***.
+**Description:** Tool should follow ***\[relevant guidelines on cyber security\]*** that are within our scope and resource limitations to prepare for compliance with the MDR by ***\[time point\]***.
 
-+-------------------------------------------+-------------------------------------------------+
 | **Parameter**                             | **Values**                                      |
-+===========================================+=================================================+
+|-------------------------------------------|-------------------------------------------------|
 | **Relevant Guidelines on Cyber Security** | To be defined, needs to be researched by Owner. |
-+-------------------------------------------+-------------------------------------------------+
 | **Time Point**                            | The end of the project                          |
-+-------------------------------------------+-------------------------------------------------+
 
 **Phases**: development, testing, validation
 
@@ -72,15 +66,12 @@ AI systems should have safeguards that enable a fallback plan in case of problem
 
 ### Requirement 22-1-ROB {#22-1-rob}
 
-**Description:** A risk assessment following relevant aspects of ***risk management norms*** will be done by ***time point***.
+**Description:** A risk assessment following relevant aspects of ***\[risk management norms\]*** will be done by ***\[time point\]***.
 
-+---------------------------+--------------------------------------------------------------------+
 | **Parameter**             | **Values**                                                         |
-+===========================+====================================================================+
+|---------------------------|--------------------------------------------------------------------|
 | **Risk Management Norms** | \- ISO 14971<br>- ISO 23894:2023                                   |
-+---------------------------+--------------------------------------------------------------------+
 | **Time Point**            | \- When intended purpose is defined<br>- At the end of the project |
-+---------------------------+--------------------------------------------------------------------+
 
 **Phases**: development, testing, validation
 
@@ -112,7 +103,7 @@ Accuracy pertains to an AI system’s ability to make correct judgements, for ex
 
 ### Requirement 23-1-ROB {#23-2-rob}
 
-**Description:** Accuracy will be measured by ***time point*** by doing a prospective shadowing study to examine whether in at least ***threshold*** of the cases, the predictions of the prototype are similar to the actual 3 months mRS according to the actual administered treatment.
+**Description:** Accuracy will be measured by ***\[time point\]*** by doing a prospective shadowing study to examine whether in at least ***\[threshold\]*** of the cases, the predictions of the prototype are similar to the actual 3 months mRS according to the actual administered treatment.
 
 | **Parameter**  | **Values**             |
 |----------------|------------------------|
@@ -137,17 +128,13 @@ Accuracy pertains to an AI system’s ability to make correct judgements, for ex
 
 ### Requirement 23-2-ROB {#23-1-rob}
 
-**Description:** Validity will be measured by doing a randomized clinical trial (RCT) to examine whether at least ***ratio*** of ***RCT study size*** patients whose doctors use the tool have a significantly improved Modified Ranking Scale 90 (MRS 90) compared to control group at ***time point***.
+**Description:** Validity will be measured by doing a randomized clinical trial (RCT) to examine whether at least ***\[ratio\]*** of ***\[RCT study size\]*** patients whose doctors use the tool have a significantly improved Modified Ranking Scale 90 (MRS 90) compared to control group at ***\[time point\]***.
 
-+--------------------+---------------------------------------------------------------+
 | **Parameter**      | **Values**                                                    |
-+====================+===============================================================+
+|--------------------|---------------------------------------------------------------|
 | **Ratio**          | Will be determined at the end of the prospective study        |
-+--------------------+---------------------------------------------------------------+
 | **RCT Study Size** | Number will be determined later by estimating the effect size |
-+--------------------+---------------------------------------------------------------+
 | **Time Point**     | 3 months after treatment                                      |
-+--------------------+---------------------------------------------------------------+
 
 **Phases**: validation
 
@@ -214,7 +201,7 @@ It is critical that the results of AI systems are reproducible, as well as relia
 -   WP 3 (design)\
 -   WP 4 (clinical validation)
 
-### Requirement 24-2-ROB {#24-3-rob}
+### Requirement 24-2-ROB {#24-2-rob}
 
 **Description:** The tool has a defined intended purpose following the MDR ***\[time point\]***.
 
