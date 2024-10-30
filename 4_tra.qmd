@@ -1,389 +1,206 @@
 # 4 Transparency (TRA)
 
-This requirement is closely linked with the principle of explicability
-and encompasses transparency of elements relevant to an AI system: the
-data, the system and the business models.
+This requirement is closely linked with the principle of explicability and encompasses transparency of elements relevant to an AI system: the data, the system and the business models.
 
 ## 4.1 Traceability
 
-The data sets and the processes that yield the AI system’s decision,
-including those of data gathering and data labelling as well as the
-algorithms used, should be documented to the best possible standard to
-allow for traceability and an increase in transparency. This also
-applies to the decisions made by the AI system. This enables
-identification of the reasons why an AI-decision was erroneous which, in
-turn, could help prevent future mistakes. Traceability facilitates
-auditability as well as explainability.
+The data sets and the processes that yield the AI system’s decision, including those of data gathering and data labelling as well as the algorithms used, should be documented to the best possible standard to allow for traceability and an increase in transparency. This also applies to the decisions made by the AI system. This enables identification of the reasons why an AI-decision was erroneous which, in turn, could help prevent future mistakes. Traceability facilitates auditability as well as explainability.
 
 ### Requirement 41-1-TRA {#41-1-tra}
 
-**Description:** ***\[limitations and metadata\]*** are available to doctors
-in the app during emergencies by ***\[time point\]***.
+**Description:** ***\[limitations and metadata\]*** are available to doctors in the app during emergencies by ***\[time point\]***.
 
-| **Parameter**                                  | **Values**                              |
-|------------------------------------------------|-----------------------------------------|
-| **Limitations and Metadata**                   | - Data collection trail<br>- Data source<br>- How patient-specific input affected the predictions<br>- How model is calibrated and optimized, especially whether it has a tendency for false negatives or false positives                                            |
-| **Time Point**                                 | By the end of the project               |
-
+| **Parameter**                | **Values**                                                                                                                                                                                                                 |
+|---------------------------------------|---------------------------------|
+| **Limitations and Metadata** | \- Data collection trail<br>- Data source<br>- How patient-specific input affected the predictions<br>- How model is calibrated and optimized, especially whether it has a tendency for false negatives or false positives |
+| **Time Point**               | By the end of the project                                                                                                                                                                                                  |
 
 **Phases**: development, testing, validation
 
 **Owner**
 
-- WP 2 lead
+-   WP 2 lead
 
 **Stakeholders**
 
-- WP 2 (development)
+-   WP 2 (development)
 
-- WP 3 (design)
+-   WP 3 (design)
 
-<div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
-
+::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
 **Wish**
 
-- *Data collection trail, data source, demographics, how
-patient-specific input affected the predictions, how model is calibrated
-and optimized* are available to doctors in the app during emergencies
-**by the end of the project**.
-
-</div>
+-   *Data collection trail, data source, demographics, how patient-specific input affected the predictions, how model is calibrated and optimized* are available to doctors in the app during emergencies **by the end of the project**.
+:::
 
 ## 4.2 Explainability
 
-Explainability concerns the ability to explain both the technical
-processes of an AI system and the related human decisions (e.g.
-application areas of a system). Technical explainability requires that
-the decisions made by an AI system can be understood and traced by human
-beings. Moreover, trade-offs might have to be made between enhancing a
-system's explainability (which may reduce its accuracy) or increasing
-its accuracy (at the cost of explainability). Whenever an AI system has
-a significant impact on people’s lives, it should be possible to demand
-a suitable explanation of the AI system’s decision-making process. Such
-explanation should be timely and adapted to the expertise of the
-stakeholder concerned (e.g. layperson, regulator or researcher). In
-addition, explanations of the degree to which an AI system influences
-and shapes the organisational decision-making process, design choices of
-the system, and the rationale for deploying it, should be available
-(hence ensuring business model transparency).
+Explainability concerns the ability to explain both the technical processes of an AI system and the related human decisions (e.g. application areas of a system). Technical explainability requires that the decisions made by an AI system can be understood and traced by human beings. Moreover, trade-offs might have to be made between enhancing a system's explainability (which may reduce its accuracy) or increasing its accuracy (at the cost of explainability). Whenever an AI system has a significant impact on people’s lives, it should be possible to demand a suitable explanation of the AI system’s decision-making process. Such explanation should be timely and adapted to the expertise of the stakeholder concerned (e.g. layperson, regulator or researcher). In addition, explanations of the degree to which an AI system influences and shapes the organisational decision-making process, design choices of the system, and the rationale for deploying it, should be available (hence ensuring business model transparency).
 
 ### Requirement 42-1-TRA {#42-1-tra}
 
-**Description:** The system is able to inform about parts of the input
-that led to a specific outcome, achieved at ***\[time point\]***.
+**Description:** The system is able to inform about parts of the input that led to a specific outcome, achieved at ***\[time point\]***.
 
-| **Parameter**                                  | **Values**                              |
-|------------------------------------------------|-----------------------------------------|
-| **Time Point**                                 | Prior to start of the prospective study |
-
+| **Parameter**  | **Values**                              |
+|----------------|-----------------------------------------|
+| **Time Point** | Prior to start of the prospective study |
 
 **Phases**: development, testing
 
 **Owner**
 
-- WP 2 lead
+-   WP 2 lead
 
 **Stakeholders**
 
-- WP 2 (development)
+-   WP 2 (development)
 
-- WP 3 (design)
+-   WP 3 (design)
 
-<div style="background-color: #abebc6; padding:10px; border-radius:5px;">
-
+::: {style="background-color: #abebc6; padding:10px; border-radius:5px;"}
 **Tolerable**
 
-- The system is able to inform about parts of the input that led to a
-specific outcome achieved ***prior to start of the prospective study
-point***.
-
-</div>
+-   The system is able to inform about parts of the input that led to a specific outcome achieved ***prior to start of the prospective study point***.
+:::
 
 ### Requirement 42-2-TRA {#42-2-tra}
 
-**Description:** % of ***\[explanations\]*** are communicated and defined in line
-with the ***\[constraints\]*** of the project ***\[time point\]***.
+**Description:** % of ***\[explanations\]*** are communicated and defined in line with the ***\[constraints\]*** of the project ***\[time point\]***.
 
-| **Parameter**                                  | **Values**                              |
-|------------------------------------------------|-----------------------------------------|
-| **Constraints**                                | - Ethical values of the project<br>- Explainability regulations|
-| **Ethical values of the project**              | Ethical framework                     |
-| **Explanations**                               | How the AI model works; how the model has been trained; what data has been used; who participated in the study; how the data collected from prospective study is used and shared; how data collected from patients during use will be used?|
-| **Explainability regulations**                 | EU AI Act, GDPR, EU-MDR                 |
-| **Time Point**                                 | Prior to the start of the prospective study|
-
+| **Parameter**                     | **Values**                                                                                                                                                                                                                                  |
+|---------------------------------------|---------------------------------|
+| **Constraints**                   | \- Ethical values of the project<br>- Explainability regulations                                                                                                                                                                            |
+| **Ethical values of the project** | Ethical framework                                                                                                                                                                                                                           |
+| **Explanations**                  | How the AI model works; how the model has been trained; what data has been used; who participated in the study; how the data collected from prospective study is used and shared; how data collected from patients during use will be used? |
+| **Explainability regulations**    | EU AI Act, GDPR, EU-MDR                                                                                                                                                                                                                     |
+| **Time Point**                    | Prior to the start of the prospective study                                                                                                                                                                                                 |
 
 **Phases**: development, testing
 
 **Owner**
 
-- WP 6 lead
+-   WP 6 lead
 
 **Stakeholders**
 
-- WP 6 (patient communication)
+-   WP 6 (patient communication)
 
-<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
-
+::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
 **Goal**
 
-- % of ***explanations*** are communicated and defined in line with
-***ethical values of the project: Ethical framework*** of the project
-***prior to start of the prospective study***.
+-   \% of ***explanations*** are communicated and defined in line with ***ethical values of the project: Ethical framework*** of the project ***prior to start of the prospective study***.
 
-- % of ***explanations*** are communicated and defined in line with
-***explainability regulations: EU AI act;GDPR;EU-MDR*** of the project
-***prior to start of the prospective study***.
-
-</div>
+-   \% of ***explanations*** are communicated and defined in line with ***explainability regulations: EU AI act;GDPR;EU-MDR*** of the project ***prior to start of the prospective study***.
+:::
 
 ### Requirement 42-3-TRA {#42-3-tra}
 
-**Description:** % of ***\[explainability methods\]*** are applied in the
-tool and outputs are available to ***\[relevant users\]*** by ***\[time
-point\]***.
+**Description:** % of ***\[explainability methods\]*** are applied in the tool and outputs are available to ***\[relevant users\]*** by ***\[time point\]***.
 
-| **Parameter**                                  | **Values**                              |
-|------------------------------------------------|-----------------------------------------|
-| **Explainability methods**                     | - Explainability methods for tabular data<br>- Explainability methods for imaging data                                                                   |
-| **Relevant users**                             | Medical personnel                       |
-| **Time Point**                                 | Start of the prospective study          |
-
+| **Parameter**              | **Values**                                                                              |
+|---------------------------------------|---------------------------------|
+| **Explainability methods** | \- Explainability methods for tabular data<br>- Explainability methods for imaging data |
+| **Relevant users**         | Medical personnel                                                                       |
+| **Time Point**             | Start of the prospective study                                                          |
 
 **Phases**: development, testing
 
 **Owner**
 
-- WP 2 lead
+-   WP 2 lead
 
 **Stakeholders**
 
-- WP 2 (development)
+-   WP 2 (development)
 
-- WP 3 (design)
+-   WP 3 (design)
 
-- WP 4 (clinical validation)
+-   WP 4 (clinical validation)
 
-<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
-
+::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
 **Goal**
 
-- 100% of ***explainability methods for tabular data are*** applied in
-the tool and outputs are available to medical personnel by ***the start
-of the prospective study***.
+-   100% of ***explainability methods for tabular data are*** applied in the tool and outputs are available to medical personnel by ***the start of the prospective study***.
 
-- 100% of ***explainability methods for imaging data are*** applied in
-the tool and outputs are available to medical personnel by ***the start
-of the prospective study***.
-
-</div>
+-   100% of ***explainability methods for imaging data are*** applied in the tool and outputs are available to medical personnel by ***the start of the prospective study***.
+:::
 
 ### Requirement 42-4-TRA {#42-4-tra}
 
-**Description:** % of ***\[explainability methods\]*** applied in the tool
-are validated by ***\[metric\]*** by ***\[time point\]***.
+**Description:** % of ***\[explainability methods\]*** applied in the tool are validated by ***\[metric\]*** by ***\[time point\]***.
 
-| **Parameter**                                  | **Values**                              |
-|------------------------------------------------|-----------------------------------------|
-| **Explainability methods**                     | - Explainability methods for tabular and imaging data|
-| **Metric**                                     | - Quantified scores<br>- Quantified validation by users|
-| **Time Point**                                 | Month 24 (delivery date of D2.2 which will incorporate results from T2.4 (refinement and improvement of models for stroke outcome) and T2.5 (augmentation of models with xAI))|
-
+| **Parameter**              | **Values**                                                                                                                                                                     |
+|---------------------------------------|---------------------------------|
+| **Explainability methods** | \- Explainability methods for tabular and imaging data                                                                                                                         |
+| **Metric**                 | \- Quantified scores<br>- Quantified validation by users                                                                                                                       |
+| **Time Point**             | Month 24 (delivery date of D2.2 which will incorporate results from T2.4 (refinement and improvement of models for stroke outcome) and T2.5 (augmentation of models with xAI)) |
 
 **Phases**: development, testing
 
 **Owner**
 
-- WP 2 lead
+-   WP 2 lead
 
 **Stakeholders**
 
-- WP 2 (development)
+-   WP 2 (development)
 
-- WP 3 (design)
+-   WP 3 (design)
 
-<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
-
+::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
 **Goal**
 
-- 100% of ***explainability methods for tabular data*** applied in the
-tool are validated by ***quantified scores*** by month 24
+-   100% of ***explainability methods for tabular data*** applied in the tool are validated by ***quantified scores*** by month 24
 
-- 100% of ***explainability methods for tabular data*** applied in the
-tool are validated by ***qualitative validation by users*** by month 24
+-   100% of ***explainability methods for tabular data*** applied in the tool are validated by ***qualitative validation by users*** by month 24
 
-- 100% of ***explainability methods for imaging data*** applied in the
-tool are validated by ***quantified scores*** by month 24
+-   100% of ***explainability methods for imaging data*** applied in the tool are validated by ***quantified scores*** by month 24
 
-- 100% of ***explainability methods for imaging data*** applied in the
-tool are validated by ***qualitative validation by users*** by month 24
-
-</div>
+-   100% of ***explainability methods for imaging data*** applied in the tool are validated by ***qualitative validation by users*** by month 24
+:::
 
 ## 4.3 Communication
 
-AI systems should not represent themselves as humans to users; humans
-have the right to be informed that they are interacting with an AI
-system. This entails that AI systems must be identifiable as such. In
-addition, the option to decide against this interaction in favour of
-human interaction should be provided where needed to ensure compliance
-with fundamental rights. Beyond this, the AI system’s capabilities and
-limitations should be communicated to AI practitioners or end-users in a
-manner appropriate to the use case at hand. This could encompass
-communication of the AI system's level of accuracy, as well as its
-limitations.
+AI systems should not represent themselves as humans to users; humans have the right to be informed that they are interacting with an AI system. This entails that AI systems must be identifiable as such. In addition, the option to decide against this interaction in favour of human interaction should be provided where needed to ensure compliance with fundamental rights. Beyond this, the AI system’s capabilities and limitations should be communicated to AI practitioners or end-users in a manner appropriate to the use case at hand. This could encompass communication of the AI system's level of accuracy, as well as its limitations.
 
 ### Requirement 43-1-TRA {#43-1-tra}
 
-**Description:** % of ***\[information\]*** relevant for ***\[end-user\]*** to read
-or understand are communicated in adequate language so that it enables
-***\[end-user\]*** to protect their own interests and is available ***\[time
-point\]***.
+**Description:** ***\[Information\]*** for ***\[end-users\]*** are explained and ***\[communicated appropriately\]***, as well as translated by a science communicator when relevant, before ***\[time point\]***.
 
-| **Parameter**                                  | **Values**                              |
-|------------------------------------------------|-----------------------------------------|
-| **Information**                                | - Study information<br>- Study results<br>- User information|
-| **End-users**                                  | - Patients<br>- Patient family/caregivers<br>- Users|
-| **Time Point**                                 | Prior to start of the prospective study<br>-When the paper of the prospective study has been published |
-
-
-**Phases**: development, testing
-
-**Owner**
-
-- WP 6 lead
-
-**Stakeholders**
-
-- WP 6 (patient communication)
-
-<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
-
-**Tolerable**
-
-- ***Study information*** relevant for ***patients*** to read or
-understand are communicated in adequate language so that it enables
-***patients*** to protect their own interests and is available before
-the ***prospective study start***
-
-- ***Study results*** relevant for ***patients*** to read or understand
-are communicated in adequate language so that it enables ***patients***
-to protect their own interests and is available before the
-***prospective study start***
-
-- ***Study information*** relevant for ***patient family/caregivers***
-to read or understand are communicated in adequate language so that it
-enables ***patient family/caregivers*** to protect their own interests
-and is available ***before the prospective study start***
-
-- ***Study results*** relevant for ***patient family/caregivers*** to
-read or understand are communicated in adequate language so that it
-enables ***patient family/caregivers*** to protect their own interests
-and is available ***before the prospective study start***
-
-- ***User information*** relevant for ***users*** to read or understand
-are communicated in adequate language so that it enables ***users*** to
-protect their own interests and is available ***before the prospective
-study start***
-
-</div>
-
-### Requirement 43-2-TRA {#43-2-tra}
-
-**Description:** ***\[relevant information\]*** for ***\[explainee groups\]***
-are explained to ***\[explainee groups\]*** and translated by a science
-communicator when relevant.
-
-| **Parameter**                                  | **Values**                              |
-|------------------------------------------------|-----------------------------------------|
-| **Relevant information for patient/patient family/caregiver group**| - Why are we using the tool?<br>- Why we don't know what the best treatment is<br>- What are the results of the AI model?<br>- What do the results of the tool imply for them?|
-| **Relevant information for medical users group**| - Why should I use this tool?<br>- When should I not use this tool?|
-| **Explainees**                                 | - Patients<br>- Patient family/caregivers<br>- Medical users|
-| **Time Point**                                 | Prior to start of the prospective study |
-
+| **Parameter**                  | **Values**                                                                                                                                                                              |                                                                                                                                                                                                                                                       |
+|-------------------|---------------------------|-------------------------|
+|                                | *Patient, Patient family/caregiver questions*                                                                                                                                           | *Medical professional questions*                                                                                                                                                                                                                      |
+| **Information**                | \- Why are we using the tool?\<br\>- Why don't we know what the best treatment is?\<br\>- What are the results of the AI model? \<br\>- What do the results of the tool imply for them? | \- Why should I use this tool? \<br\>- When should I not use this tool? \<br\>- How do we know that this tool is successful? \<br\>- How does the model work? \<br\>- Which parameters/variables are input data? And which ones are deciding factors? |
+| **End-users**                  | \- Patients<br>- Patient family/caregivers<br>- Medical professionals                                                                                                                   |                                                                                                                                                                                                                                                       |
+| **Communicated appropriately** | Tailored to users in different countries                                                                                                                                                |                                                                                                                                                                                                                                                       |
+| **Time Point**                 | Start of the prospective study                                                                                                                                                          |                                                                                                                                                                                                                                                       |
 
 **Phases**: development, testing, validation
 
 **Owner**
 
-- WP 6 lead
+-   WP 6 lead
 
 **Stakeholders**
 
-- Explainee groups
+-   Explainee groups
 
-- WP 2 (development)
+-   WP 2 (development)
 
-- WP 4 (clinical validation)
+-   WP 4 (clinical validation)
 
-- WP 6 (patient communication)
+-   WP 6 (patient communication)
 
-<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
-
+::: {style="background-color:#abebc6; padding:10px; border-radius:5px;"}
 **Tolerable**
 
-- ***(Why are we using the tool? Why we don't know what the best
-treatment is. What are the results of the AI model? What do the results
-of the tool imply for them?)*** for ***patient/patient
-family/caregiver*** are explained to ***patient/patient
-family/caregiver*** and translated by a science communicator when
-relevant.
+-   ***Why are we using the tool? Why don't we know what the best treatment is? What are the results of the AI model? What do the results of the tool imply for them?*** for ***patients*** are explained and ***tailored to users in different countries***, as well as translated by a science communicator when relevant, before the ***start of the prospective study.***
 
-- ***(Why should I use this tool? When should I not use this tool?
-Evidence that it works. How do we know that this tool is successful? How
-does the model work? Which parameters/variables are input data? And
-which ones are deciding factors?)*** for ***medical users*** are
-explained to ***medical users*** and translated by a science
-communicator when relevant.
+-   ***Why should I use this tool? When should I not use this tool? How do we know that this tool is successful? How does the model work? Which parameters/variables are input data? And which ones are deciding factors?*** for ***medical professionals*** are explained and ***tailored to users in different countries***, as well as translated by a science communicator when relevant, before the ***start of the prospective study.***
+:::
 
-</div>
-
-### Requirement 43-3-TRA {#43-3-tra}
-
-**Description:** Explanations are specifically tailored to ***\[different
-explainee groups\]*** by ***\[time point\]***.
-
-| **Parameter**                                  | **Values**                              |
-|------------------------------------------------|-----------------------------------------|
-| **Different explainee groups**                 | - Users in different countries<br>- Patients/family/caregivers in different countries<br>- Patients/family/caregivers in different cultures|
-| **Time Point**                                 | Prior to start of the prospective study |
-
-
-**Phases**: development, testing
-
-**Owner**
-
-- WP 6 lead
-
-**Stakeholders**
-
-- WP 6 (patient communication)
-
-<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
-
-**Tolerable**
-
-- Explanations are specifically tailored to ***users in different
-countries prior to start of the prospective study***.
-
-</div>
-
-<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
-
+::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
 **Goal**
 
-- Explanations are specifically tailored to
-***patient/family/caregivers in different countries prior to start of
-the prospective study***.
-
-</div>
-
-<div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
-
-**Wish**
-
-- Explanations are specifically tailored to
-***patient/family/caregivers of different cultures prior to start of the
-prospective study***.
-
-</div>
+-   ***Why are we using the tool? Why don't we know what the best treatment is? What are the results of the AI model? What do the results of the tool imply for them?*** for ***patient family/caregivers*** are explained and ***tailored to users in different countries***, as well as translated by a science communicator when relevant, before the ***start of the prospective study.***
+:::

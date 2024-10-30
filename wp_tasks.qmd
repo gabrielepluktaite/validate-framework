@@ -170,7 +170,3 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 ###### Communication
 
 - [Requirement 43-1-TRA](4_tra.qmd#43-1-tra)
-
-- [Requirement 43-2-TRA](4_tra.qmd#43-2-tra)
-
-- [Requirement 43-3-TRA](4_tra.qmd#43-3-tra)
