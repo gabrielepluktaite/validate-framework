@@ -43,10 +43,11 @@ When implementing the above requirements, tensions may arise between them, which
 
 ### Requirement 73-1-ACC {#73-1-acc}
 
-**Description:** Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***\[relevant aspects\]***. This is implemented by ***\[time point\].***
+**Description:** Research work produced by the VALIDATE consortium must adhere to ***\[guidelines\]*** as well as ethical norms regarding ***\[relevant aspects\]***. This is implemented by ***\[time point\].***
 
 | **Parameter**        | **Values**                                                                                                         |
 |---------------------------------------|---------------------------------|
+| **Guidelines**       | \- EU Horizon funding guidelines<br>- Reporting guidelines, e.g., TRIPOD<br>                                       |
 | **Relevant methods** | \- Data availability<br>- Reproducibility<br>- Open access<br>- Distribution<br>- Confidentiality<br>- Originality |
 | **Time Point**       | Throughout the project                                                                                             |
 
@@ -63,17 +64,17 @@ When implementing the above requirements, tensions may arise between them, which
 ::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
 **Goal**
 
--   Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***data availability***. This is implemented ***throughout the project***.
+-   Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines, reporting guidelines, as well as ethical norms regarding ***data availability***. This is implemented ***throughout the project***.
 
--   Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***reproducibility***. This is implemented ***throughout the project***.
+-   Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines, reporting guidelines, as well as ethical norms regarding ***reproducibility***. This is implemented ***throughout the project***.
 
--   Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***open access***. This is implemented ***throughout the project***.
+-   Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines, reporting guidelines, as well as ethical norms regarding ***open access***. This is implemented ***throughout the project***.
 
--   Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***distribution***. This is implemented ***throughout the project***.
+-   Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines, reporting guidelines, as well as ethical norms regarding ***distribution***. This is implemented ***throughout the project***.
 
--   Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***confidentiality***. This is implemented ***throughout the project***.
+-   Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines, reporting guidelines, as well as ethical norms regarding ***confidentiality***. This is implemented ***throughout the project***.
 
--   Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines as well as ethical norms regarding ***originality***. This is implemented ***throughout the project***.
+-   Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines, reporting guidelines, as well as ethical norms regarding ***originality***. This is implemented ***throughout the project***.
 :::
 
 ## 7.4 Redress
