@@ -1,5 +1,5 @@
 ---
-title: "Introduction to VALIDATE Framework"
+title: "Overview"
 author: ""
 date: ""
 output:
@@ -13,25 +13,27 @@ output:
 
 Trustworthy AI in healthcare is crucial to ensure positive patient outcomes, especially in high-stakes areas such as stroke prognosis. 
 
-This website presents the **VALIDATE Trustworthy AI Framework**, a resource we have created to support the ethical development of an AI-based prognostic tool for outcome prediction of acute stroke patients. See [here](https://validate-project.eu) for more on the VALIDATE project. 
+This website presents the **VALIDATE Trustworthy AI Framework**, a resource we have created to support the ethical development of an AI-based prognostic tool for outcome prediction of acute stroke patients. 
+
+See [here](https://validate-project.eu) for more on the VALIDATE project. 
 
 ## Purpose
-AI tools in healthcare must be trustworthy and reliable. To achieve this, they must be developed in compliance with ethical and legal standards that are designed to prevent biases, ensure patient safety, and maintain transparency. 
+AI tools in healthcare must be trustworthy and reliable. AI systems must therefore be developed in compliance with ethical and legal standards, which have been designed to help prevent biases, ensure patient safety and maintain transparency of emerging AI systems.
 
-We have designed the VALIDATE Trustworthy AI Framework to help researchers, clinicians, and AI developers within the VALIDATE research consortium achieve ethical standards. We aim to operationalize high-level ethical principles from regulatory guidelines/frameworks into practical, project-specific solutions. Thus, our AI tool is being purposefully designed to meet standards in terms of regulation, legality, ethics, and robustness---primarily aligning with the [EU Guidelines for Trustworthy AI](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai).
+We have designed the VALIDATE Trustworthy AI Framework to help researchers, clinicians, and AI developers within the VALIDATE research consortium achieve ethical standards. Through our work, we operationalize high-level ethical principles from regulatory guidelines/frameworks into practical, project-specific solutions. Thus, our AI tool is being purposefully designed to meet standards in terms of regulation, legality, ethics, and robustness---primarily aligning with the [EU Guidelines for Trustworthy AI](https://digital-strategy.ec.europa.eu/en/library/ethics-guidelines-trustworthy-ai).
 
 ## Methodology
-Although several principle-based ethical guidelines for the development of trustworthy AI exist, their application can be hindered by their high level of abstraction. Most ethics frameworks provide recommendations on *what* to achieve, but offer limited guidance on *how* to implement these principles in practice. Recognizing this gap, we have developed a comprehensive methodological toolbox for the VALIDATE project, which allows us to bridge high-level guidelines with practical requirements.
+Although several principle-based ethical guidelines for the development of trustworthy AI exist, their application can be hindered by their high level of abstraction. Most ethics frameworks provide recommendations on *what* to achieve, but offer limited guidance on *how* to implement these principles in practice.
 
-Our approach includes:
+Recognizing this gap, we have developed a comprehensive methodological toolbox for the VALIDATE project, which allows us to bridge high-level guidelines with practical requirements.
+
+Our approach involves:
 
 - **Co-creation**: Through workshops with a variety of project stakeholders, we identified project-specific challenges and aligned them with high-level policy recommendations, to produce actionable low-level requirements.
 
 - **Z-Inspection Analysis**: We engaged external experts to evaluate the ethical requirements of the VALIDATE system, ensuring independent oversight and alignment with best practices.
 
-- **Periodic Audits**: We conduct regular audits with consortium members to ensure compliance with evolving ethical standards. These audits involve reviewing and updating requirements and their features based on stakeholder feedback and reflection. 
-
-Overall, the tools we have developed are embedded in an interdisciplinary, co-creation approach, resulting in a dynamic framework that evolves as new ethical, legal, and technological insights emerge.
+- **Periodic Audits**: We conduct regular audits with consortium members to ensure compliance with evolving ethical standards. These audits involve reviewing requirements together with stakeholders, and updating features based on stakeholder feedback.
 
 ## Version-controlled and dynamic development
 Our ethical framework functions as a living document and is systematically updated at key milestones (9, 18, and 36 project months) to reflect new findings and discussions. Version control ensures transparency and accountability in the development process, ensuring that all stakeholders are working with the most current and accurate information. This also fosters ongoing alignment with evolving ethical and legal standards. The website shown here reflects the current snapshot of the framework, while previous (and future) versions of the document will be archived in the project's [git repository](https://github.com/gabrielepluktaite/validate-framework). Any changes between audits will be recorded and available in the files' version histories.
