@@ -21,22 +21,9 @@ Data sets used by AI systems (both for training and operation) may suffer from t
 
 -   WP 2 lead
 
-**Stakeholders**
-
--   WP 2 (development)
-
 ::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
-**Goal**
-
--   Subgroup stratified according to ***age*** has prediction accuracy with no significant difference to the majority population.
-
--   Subgroup stratified according to ***sex/gender*** has prediction accuracy with no significant difference to the majority population.
-
--   Subgroup stratified according to ***ethnicity/race*** has prediction accuracy with no significant difference to the majority population.
-
--   Subgroup stratified according to ***geographic location*** has prediction accuracy with no significant difference to the majority population.
-
--   Subgroup stratified according to ***sex/gender and ethnicity/race*** has prediction accuracy with no significant difference to the majority population.
+In progress
+**Note**: requirement will be updated to define the majority population based on study evidence rather than assuming it reflects the actual majority of stroke patients.
 :::
 
 ## 5.2 Accessibility and Universal Design
@@ -45,12 +32,11 @@ Particularly in business-to-consumer domains, systems should be user-centric and
 
 ### Requirement 52-1-DIV {#52-1-div}
 
-**Description:** System undergoes UX/UI testing on ***X number*** ***\[user groups\]*** at ***\[time point\]***.
+**Description:** System undergoes UX/UI testing on ***X number*** ***\[user groups\]***.
 
 | **Parameter**   | **Values**                                                                                                                                                                                                                   |
 |---------------------------------------|---------------------------------|
 | **User groups** | \- Stroke physicians of different technical skill levels<br>- Stroke physicians of different medical skill levels<br> These user groups will later be updated when the User Groups for the Intended Purpose has been defined |
-| **Time point**  | During demonstrator development and testing                                                                                                                                                                                  |
 
 **X number**: 6 to 8
 
@@ -60,18 +46,8 @@ Particularly in business-to-consumer domains, systems should be user-centric and
 
 -   WP 3 lead
 
-**Stakeholders**
-
--   WP 3 (design)
-
--   WP 4 (clinical validation)
-
-::: {style="background-color:#abebc6; padding:10px; border-radius:5px;"}
-**Tolerable**
-
--   System undergoes UX/UI testing on ***6-8 stroke physicians of different technical skill level during demonstrator development and testing***.
-
--   System undergoes UX/UI testing on ***6-8 stroke physicians of different medical skill level during demonstrator development and testing***.
+::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
+In Progress
 :::
 
 ## 5.3 Stakeholder participation
@@ -80,12 +56,11 @@ In order to develop AI systems that are trustworthy, it is advisable to consult 
 
 ### Requirement 53-1-DIV {#53-1-div}
 
-**Description:** System is presented to X ***\[stakeholders\]*** for feedback ***\[time point\]***.
+**Description:** System is presented to X ***\[stakeholders\]*** for feedback.
 
 | **Parameter**    | **Values**                                                                                          |
 |---------------------------------------|---------------------------------|
 | **Stakeholders** | Stroke patients and/or patient representatives from different geographical and cultural backgrounds |
-| **Time point**   | During demonstrator development and testing                                                         |
 
 **Phases**: development, testing
 
@@ -93,26 +68,7 @@ In order to develop AI systems that are trustworthy, it is advisable to consult 
 
 -   WP 3 lead
 
-**Stakeholders**
-
--   WP 3 (design)
-
--   WP 6 (patient communication)
-
-::: {style="background-color:#abebc6; padding:10px; border-radius:5px;"}
-**Tolerable**
-
-\- System is presented to ***4 stroke patients and/or patient representatives from different geographical and cultural backgrounds*** for feedback ***during demonstrator development and testing***.
-:::
-
-::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
-**Goal**
-
-\- System is presented to ***7 stroke patients and/or patient representatives from different geographical and cultural backgrounds*** for feedback ***during demonstrator development and testing***.
-:::
-
-::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
-**Wish**
-
-\- System is presented to ***10 stroke patients and/or patient representatives from different geographical and cultural backgrounds*** for feedback ***during demonstrator development and testing***.
+::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
+In progress
+***Note***: will be complete when above stated interview study is complete (output will be included in D3.5)
 :::
