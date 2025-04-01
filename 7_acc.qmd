@@ -14,12 +14,11 @@ Both the ability to report on actions or decisions that contribute to a certain 
 
 ### Requirement 72-1-ACC {#72-1-acc}
 
-**Description:** Algorithmic impact assessment following ***\[relevant method\]*** is performed by ***\[time point\]***.
+**Description:** Algorithmic impact assessment following ***\[relevant method\]*** is performed.
 
 | **Parameter**        | **Values**                                  |
 |----------------------|---------------------------------------------|
 | **Relevant methods** | \- MDR<br>- EU AI Act<br>- To be determined |
-| **Time Point**       | By the end of the project                   |
 
 **Phases**: development, testing, validation
 
@@ -27,14 +26,9 @@ Both the ability to report on actions or decisions that contribute to a certain 
 
 -   WP 1 lead
 
-**Stakeholders**
-
--   WP 1 (ethics)
-
-::: {style="background-color:#abebc6; padding:10px; border-radius:5px;"}
-**Tolerable**
-
--   Algorithmic impact assessment using ***MDR; EU AI Act, relevant method: To be determined*** performed ***by the end of the project.***
+::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
+To Be Done
+**Note**: algorithmic impact assessment has not yet started; research and discussions with WP needed to determine the assessment method.
 :::
 
 ## 7.3 Trade-offs
@@ -43,13 +37,12 @@ When implementing the above requirements, tensions may arise between them, which
 
 ### Requirement 73-1-ACC {#73-1-acc}
 
-**Description:** Research work produced by the VALIDATE consortium must adhere to ***\[guidelines\]*** as well as ethical norms regarding ***\[relevant aspects\]***. This is implemented by ***\[time point\].***
+**Description:** Research work produced by the VALIDATE consortium must adhere to ***\[guidelines\]*** as well as ethical norms regarding ***\[relevant aspects\]***.
 
 | **Parameter**        | **Values**                                                                                                         |
 |---------------------------------------|---------------------------------|
 | **Guidelines**       | \- EU Horizon funding guidelines<br>- Reporting guidelines, e.g., TRIPOD<br>                                       |
 | **Relevant methods** | \- Data availability<br>- Reproducibility<br>- Open access<br>- Distribution<br>- Confidentiality<br>- Originality |
-| **Time Point**       | Throughout the project                                                                                             |
 
 **Phases**: development, testing, validation
 
@@ -57,24 +50,8 @@ When implementing the above requirements, tensions may arise between them, which
 
 -   WP 1 lead
 
-**Stakeholders**
-
--   WP 1 (ethics)
-
-::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
-**Goal**
-
--   Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines, reporting guidelines, as well as ethical norms regarding ***data availability***. This is implemented ***throughout the project***.
-
--   Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines, reporting guidelines, as well as ethical norms regarding ***reproducibility***. This is implemented ***throughout the project***.
-
--   Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines, reporting guidelines, as well as ethical norms regarding ***open access***. This is implemented ***throughout the project***.
-
--   Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines, reporting guidelines, as well as ethical norms regarding ***distribution***. This is implemented ***throughout the project***.
-
--   Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines, reporting guidelines, as well as ethical norms regarding ***confidentiality***. This is implemented ***throughout the project***.
-
--   Research work produced by the VALIDATE consortium must adhere to EU Horizon funding guidelines, reporting guidelines, as well as ethical norms regarding ***originality***. This is implemented ***throughout the project***.
+::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
+To Be Done
 :::
 
 ## 7.4 Redress
