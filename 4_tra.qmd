@@ -8,12 +8,11 @@ The data sets and the processes that yield the AI system’s decision, including
 
 ### Requirement 41-1-TRA {#41-1-tra}
 
-**Description:** ***\[Limitations and metadata\]*** are available to doctors in the app during emergencies by ***\[time point\]***.
+**Description:** ***\[Limitations and metadata\]*** are available to doctors in the app during emergencies.
 
 | **Parameter**                | **Values**                                                                                                                                                                                                                 |
 |---------------------------------------|---------------------------------|
 | **Limitations and Metadata** | \- Data collection trail<br>- Data source<br>- How patient-specific input affected the predictions<br>- How model is calibrated and optimized, especially whether it has a tendency for false negatives or false positives |
-| **Time Point**               | By the end of the project                                                                                                                                                                                                  |
 
 **Phases**: development, testing, validation
 
@@ -21,16 +20,8 @@ The data sets and the processes that yield the AI system’s decision, including
 
 -   WP 2 lead
 
-**Stakeholders**
-
--   WP 2 (development)
-
--   WP 3 (design)
-
 ::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
-**Wish**
-
--   *Data collection trail, data source, demographics, how patient-specific input affected the predictions, how model is calibrated and optimized* are available to doctors in the app during emergencies **by the end of the project**.
+In Progress
 :::
 
 ## 4.2 Explainability
@@ -39,11 +30,7 @@ Explainability concerns the ability to explain both the technical processes of a
 
 ### Requirement 42-1-TRA {#42-1-tra}
 
-**Description:** The system is able to inform about parts of the input that led to a specific outcome, achieved at ***\[time point\]***.
-
-| **Parameter**  | **Values**                              |
-|----------------|-----------------------------------------|
-| **Time Point** | Prior to start of the prospective study |
+**Description:** The system is able to inform about parts of the input that led to a specific outcome.
 
 **Phases**: development, testing
 
@@ -51,21 +38,13 @@ Explainability concerns the ability to explain both the technical processes of a
 
 -   WP 2 lead
 
-**Stakeholders**
-
--   WP 2 (development)
-
--   WP 3 (design)
-
 ::: {style="background-color: #abebc6; padding:10px; border-radius:5px;"}
-**Tolerable**
-
--   The system is able to inform about parts of the input that led to a specific outcome achieved ***prior to start of the prospective study point***.
+In Progress
 :::
 
 ### Requirement 42-2-TRA {#42-2-tra}
 
-**Description:** % of ***\[explanations\]*** are communicated and defined in line with the ***\[constraints\]*** of the project ***\[time point\]***.
+**Description:** % of ***\[explanations\]*** are communicated and defined in line with the ***\[constraints\]*** of the project.
 
 | **Parameter**                     | **Values**                                                                                                                                                                                                                                  |
 |---------------------------------------|---------------------------------|
@@ -73,7 +52,6 @@ Explainability concerns the ability to explain both the technical processes of a
 | **Ethical values of the project** | Ethical framework                                                                                                                                                                                                                           |
 | **Explanations**                  | How the AI model works; how the model has been trained; what data has been used; who participated in the study; how the data collected from prospective study is used and shared; how data collected from patients during use will be used? |
 | **Explainability regulations**    | EU AI Act, GDPR, EU-MDR                                                                                                                                                                                                                     |
-| **Time Point**                    | Prior to the start of the prospective study                                                                                                                                                                                                 |
 
 **Phases**: development, testing
 
@@ -81,27 +59,18 @@ Explainability concerns the ability to explain both the technical processes of a
 
 -   WP 6 lead
 
-**Stakeholders**
-
--   WP 6 (patient communication)
-
 ::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
-**Goal**
-
--   \% of ***explanations*** are communicated and defined in line with ***ethical values of the project: Ethical framework*** of the project ***prior to start of the prospective study***.
-
--   \% of ***explanations*** are communicated and defined in line with ***explainability regulations: EU AI act;GDPR;EU-MDR*** of the project ***prior to start of the prospective study***.
+Fulfilled
 :::
 
 ### Requirement 42-3-TRA {#42-3-tra}
 
-**Description:** % of ***\[explainability methods\]*** are applied in the tool and outputs are available to ***\[relevant users\]*** by ***\[time point\]***.
+**Description:** % of ***\[explainability methods\]*** are applied in the tool and outputs are available to ***\[relevant users\]***.
 
 | **Parameter**              | **Values**                                                                              |
 |---------------------------------------|---------------------------------|
 | **Explainability methods** | \- Explainability methods for tabular data<br>- Explainability methods for imaging data |
 | **Relevant users**         | Medical personnel                                                                       |
-| **Time Point**             | Start of the prospective study                                                          |
 
 **Phases**: development, testing
 
@@ -109,31 +78,18 @@ Explainability concerns the ability to explain both the technical processes of a
 
 -   WP 2 lead
 
-**Stakeholders**
-
--   WP 2 (development)
-
--   WP 3 (design)
-
--   WP 4 (clinical validation)
-
 ::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
-**Goal**
-
--   100% of ***explainability methods for tabular data are*** applied in the tool and outputs are available to medical personnel by ***the start of the prospective study***.
-
--   100% of ***explainability methods for imaging data are*** applied in the tool and outputs are available to medical personnel by ***the start of the prospective study***.
+In Progress
 :::
 
 ### Requirement 42-4-TRA {#42-4-tra}
 
-**Description:** % of ***\[explainability methods\]*** applied in the tool are validated by ***\[metric\]*** by ***\[time point\]***.
+**Description:** % of ***\[explainability methods\]*** applied in the tool are validated by ***\[metric\]***.
 
 | **Parameter**              | **Values**                                                                                                                                                                     |
 |---------------------------------------|---------------------------------|
 | **Explainability methods** | \- Explainability methods for tabular and imaging data                                                                                                                         |
 | **Metric**                 | \- Quantified scores<br>- Quantified validation by users                                                                                                                       |
-| **Time Point**             | Month 24 (delivery date of D2.2 which will incorporate results from T2.4 (refinement and improvement of models for stroke outcome) and T2.5 (augmentation of models with xAI)) |
 
 **Phases**: development, testing
 
@@ -141,22 +97,8 @@ Explainability concerns the ability to explain both the technical processes of a
 
 -   WP 2 lead
 
-**Stakeholders**
-
--   WP 2 (development)
-
--   WP 3 (design)
-
 ::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
-**Goal**
-
--   100% of ***explainability methods for tabular data*** applied in the tool are validated by ***quantified scores*** by month 24
-
--   100% of ***explainability methods for tabular data*** applied in the tool are validated by ***qualitative validation by users*** by month 24
-
--   100% of ***explainability methods for imaging data*** applied in the tool are validated by ***quantified scores*** by month 24
-
--   100% of ***explainability methods for imaging data*** applied in the tool are validated by ***qualitative validation by users*** by month 24
+In Progress
 :::
 
 ## 4.3 Communication
@@ -165,7 +107,7 @@ AI systems should not represent themselves as humans to users; humans have the r
 
 ### Requirement 43-1-TRA {#43-1-tra}
 
-**Description:** ***\[Information\]*** for ***\[end-users\]*** are explained and ***\[communicated appropriately\]***, as well as translated by a science communicator when relevant, before ***\[time point\]***.
+**Description:** ***\[Information\]*** for ***\[end-users\]*** are explained and ***\[communicated appropriately\]***, as well as translated by a science communicator when relevant.
 
 | **Parameter**                  | **Values**                                                                                                                                                                              |                                                                                                                                                                                                                                                       |
 |--------------------|---------------------------|-------------------------|
@@ -173,7 +115,6 @@ AI systems should not represent themselves as humans to users; humans have the r
 | **Information**                | \- Why are we using the tool?\<br\>- Why don't we know what the best treatment is?\<br\>- What are the results of the AI model? \<br\>- What do the results of the tool imply for them? | \- Why should I use this tool? \<br\>- When should I not use this tool? \<br\>- How do we know that this tool is successful? \<br\>- How does the model work? \<br\>- Which parameters/variables are input data? And which ones are deciding factors? |
 | **End-users**                  | \- Patients<br>- Patient family/caregivers<br>- Medical professionals                                                                                                                   |                                                                                                                                                                                                                                                       |
 | **Communicated appropriately** | Tailored to users in different countries                                                                                                                                                |                                                                                                                                                                                                                                                       |
-| **Time Point**                 | Start of the prospective study                                                                                                                                                          |                                                                                                                                                                                                                                                       |
 
 **Phases**: development, testing, validation
 
@@ -181,26 +122,6 @@ AI systems should not represent themselves as humans to users; humans have the r
 
 -   WP 6 lead
 
-**Stakeholders**
-
--   Explainee groups
-
--   WP 2 (development)
-
--   WP 4 (clinical validation)
-
--   WP 6 (patient communication)
-
 ::: {style="background-color:#abebc6; padding:10px; border-radius:5px;"}
-**Tolerable**
-
--   ***Why are we using the tool? Why don't we know what the best treatment is? What are the results of the AI model? What do the results of the tool imply for them?*** for ***patients*** are explained and ***tailored to users in different countries***, as well as translated by a science communicator when relevant, before the ***start of the prospective study.***
-
--   ***Why should I use this tool? When should I not use this tool? How do we know that this tool is successful? How does the model work? Which parameters/variables are input data? And which ones are deciding factors?*** for ***medical professionals*** are explained and ***tailored to users in different countries***, as well as translated by a science communicator when relevant, before the ***start of the prospective study.***
-:::
-
-::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
-**Goal**
-
--   ***Why are we using the tool? Why don't we know what the best treatment is? What are the results of the AI model? What do the results of the tool imply for them?*** for ***patient family/caregivers*** are explained and ***tailored to users in different countries***, as well as translated by a science communicator when relevant, before the ***start of the prospective study.***
+In Progress
 :::
