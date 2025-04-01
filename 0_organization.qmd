@@ -14,30 +14,39 @@ Each requirement has a unique ID, constructed as follows:
 
 ------------------------------------------------------------------------
 
-**Description:** *X* of ***\[example parameter\]*** for measuring model uncertainty are implemented to provide a confidence interval for predictions in the app available at ***\[time point\]***.
+**Description:** *X* of ***\[example parameter\]*** for measuring model uncertainty are implemented to provide a confidence interval for predictions in the app.
 
 ### Parameters
 
 | **Parameter**         | **Values**                                                                                       |
 |------------------|------------------------------------------------------|
-| **Example Parameter** | Parameters listed in brackets are adjustable by the WP 1 team during the project period.         |
-| **Time Point**        | Refers to the deadline by which a requirement should be met, typically specifying some due date. |
+| **Example Parameter** | Parameters listed in brackets are adjustable by the WP 1 team during the project period.|
 
 ### Phases
 
 Each requirement is mapped to a specific project phase:
 
+<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
+
 **Development**: Focuses on developing the tool's prototype until month 18.
+
+</div>
+
+<div style="background-color:#006eff; padding:10px; border-radius:5px;">
 
 **Testing**: The prototype undergoes testing until month 18.
 
+</div>
+
+<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
+
 **Validation**: Begins in month 18, marking the start of validating the developed and tested prototype.
 
-### Stakeholders and Owner
+</div>
 
-**Stakeholders**: Includes project staff and other relevant groups affected by or necessary for fulfilling the requirement.
+### Owner
 
-**Owner**: Each requirement is assigned an Owner, usually a WP lead relevant to existing tasks. The Owner is responsible for task delegation and execution to meet the requirement.
+Each requirement is assigned an Owner, usually a WP lead relevant to existing tasks. The Owner is responsible for task delegation and execution to meet the requirement.
 
 ### Requirement Categorization
 
@@ -45,23 +54,23 @@ Based on the parameterized statements, requirements are classified into three su
 
 <div style="background-color:#abebc6; padding:10px; border-radius:5px;">
 
-**Tolerable**: The minimum achievement threshold for a requirement.
+**Fulfilled**: Requirement is complete and if possible, the associated artefact is attached to the framework as proof.
 
 </div>
 
 <div style="background-color: #e8daef; padding:10px; border-radius:5px;">
 
-**Goal**: Represents the objective aimed to be reached by the project. If both Tolerable and Goal are defined, the project's likely outcome will be between these two.
+**In Progress**: The requirement is partially or in the process of being completed. Any relevant artefacts are attached.
 
 </div>
 
 <div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
 
-**Wish**: Desirable outcomes that are aimed for but likely only partially achieved.
+**To Be Done**: The requirement has not been started, with an explanation attached as to why this is the case.
 
 </div>
 
-### Outputs
+### Artefacts
 
 ::: {style="background-color:#f9e79f; padding:10px; border-radius:5px;"}
 
