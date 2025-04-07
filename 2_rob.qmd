@@ -147,7 +147,7 @@ In Progress
 
 **Owner**
 
--   WP 3 lead
+-   WP 2 lead
 
 ::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
 In Progress
