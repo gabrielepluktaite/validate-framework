@@ -20,7 +20,7 @@ The data sets and the processes that yield the AI system’s decision, including
 
 -   WP 2 lead
 
-::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
+::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
 In Progress
 :::
 
@@ -38,7 +38,7 @@ Explainability concerns the ability to explain both the technical processes of a
 
 -   WP 2 lead
 
-::: {style="background-color: #abebc6; padding:10px; border-radius:5px;"}
+::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
 In Progress
 :::
 
@@ -59,7 +59,7 @@ In Progress
 
 -   WP 6 lead
 
-::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
+::: {style="background-color: #abebc6; padding:10px; border-radius:5px;"}
 Fulfilled
 :::
 
@@ -122,6 +122,6 @@ AI systems should not represent themselves as humans to users; humans have the r
 
 -   WP 6 lead
 
-::: {style="background-color:#abebc6; padding:10px; border-radius:5px;"}
+::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
 In Progress
 :::
