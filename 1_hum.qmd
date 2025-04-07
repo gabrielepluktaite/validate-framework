@@ -53,7 +53,7 @@ Validation
 
 -   WP 1 lead
 
-::: {style="background-color:#abebc6; padding:10px; border-radius:5px;"}
+::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
 **In Progress**
 :::
 
@@ -91,7 +91,7 @@ Validation
 -   WP 1 lead
 
 
-::: {style="background-color:#abebc6; padding:10px; border-radius:5px;"}
+::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
 In Progress
 :::
 
