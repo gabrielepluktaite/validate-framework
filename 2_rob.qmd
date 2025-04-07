@@ -102,7 +102,9 @@ In progress
 | **Ratio**          | Will be determined at the end of the prospective study        |
 | **RCT Study Size** | Number will be determined later by estimating the effect size |
 
-**Phases**: validation
+<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
+Validation
+</div>
 
 **Owner**
 
@@ -147,8 +149,6 @@ In Progress
 
 -   WP 3 lead
 
-::: {style="background-color:#abebc6; padding:10px; border-radius:5px;"}
-**Tolerable**
-
--   The tool has a defined intended purpose following the MDR ***as part of the prototype development***.
+::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
+In Progress
 :::
