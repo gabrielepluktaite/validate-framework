@@ -44,6 +44,8 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 -   [Requirement 24-1-ROB](2_rob.qmd#24-1-rob)
 
+-   [Requirement 24-2-ROB](2_rob.qmd#24-2-rob)
+
 #### Privacy and data governance
 
 ###### Privacy and data protection
@@ -63,6 +65,7 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 ###### Explainability
 
 -   [Requirement 42-3-TRA](4_tra.qmd#42-3-tra)
+
 -   [Requirement 42-4-TRA](4_tra.qmd#42-4-tra)
 
 #### Diversity, non-discrimination, and fairness
@@ -85,7 +88,7 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 ###### Reliability and Reproducibility
 
--   [Requirement 24-2-ROB](2_rob.qmd#24-2-rob)
+-   [Requirement 24-3-ROB](2_rob.qmd#24-3-rob)
 
 #### Privacy and data governance
 
