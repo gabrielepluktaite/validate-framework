@@ -141,6 +141,7 @@ The quality of the data sets used is paramount to the performance of AI systems.
 
 ::: {style="background-color:#f9e79f; padding:10px; border-radius:5px; margin-top:10px;"}
 **Artefacts**
+<a href="https://charitede.sharepoint.com/:b:/r/sites/Teammad.AI-Projects_VALIDATE_general/Shared%20Documents/Projects_VALIDATE_general/D4.3.pdf?csf=1&web=1&e=fuoEi6">D4.3</a> 
 :::
 
 ## 3.3 Access to data
