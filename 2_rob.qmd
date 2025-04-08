@@ -70,6 +70,7 @@ AI systems should have safeguards that enable a fallback plan in case of problem
 | **Parameter**             | **Values**                                                         |
 |---------------------------|--------------------------------------------------------------------|
 | **Risk Management Norms** | \- ISO 14971<br>- ISO 23894:2023                                   |
+
 <div style="background-color:#418f8c; padding:10px; border-radius:5px;">
 **Development**
 </div>
@@ -93,7 +94,7 @@ AI systems should have safeguards that enable a fallback plan in case of problem
 
 Accuracy pertains to an AI system’s ability to make correct judgements, for example to correctly classify information into the proper categories, or its ability to make correct predictions, recommendations, or decisions based on data or models. An explicit and well-formed development and evaluation process can support, mitigate and correct unintended risks from inaccurate predictions. When occasional inaccurate predictions cannot be avoided, it is important that the system can indicate how likely these errors are. A high level of accuracy is especially crucial in situations where the AI system directly affects human lives. 
 
-### Requirement 23-1-ROB {#23-2-rob}
+### Requirement 23-1-ROB {#23-1-rob}
 
 **Description:** Accuracy will be measured by doing a prospective shadowing study to examine whether in at least ***\[threshold\]*** of the cases, the predictions of the prototype are similar to the actual 3 months mRS according to the actual administered treatment.
 
@@ -102,7 +103,7 @@ Accuracy pertains to an AI system’s ability to make correct judgements, for ex
 | **Threshold**  | 90%                    |
 
 <div style="background-color:#ff6900; padding:10px; border-radius:5px;">
-Validation
+**Validation**
 </div>
 
 **Owner**
@@ -111,10 +112,10 @@ Validation
 
 ::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
 **In progress**
-<br>**Note**: study protocol will be included in the framework. This is in progress as the recruitment for the study is not complete
+<br>**Note**: 50 patients have been recruited for the study and evaluation for the accuracy of the VALIDATE tool will begin in Spring 2026.
 :::
 
-### Requirement 23-2-ROB {#23-1-rob}
+### Requirement 23-2-ROB {#23-2-rob}
 
 **Description:** Validity will be measured by doing a randomized clinical trial (RCT) to examine whether at least ***\[ratio\]*** of ***\[RCT study size\]*** patients whose doctors use the tool have a significantly improved Modified Ranking Scale 90 (MRS 90) compared to control group.
 
@@ -124,7 +125,7 @@ Validation
 | **RCT Study Size** | Number will be determined later by estimating the effect size |
 
 <div style="background-color:#ff6900; padding:10px; border-radius:5px;">
-Validation
+**Validation**
 </div>
 
 **Owner**
@@ -133,7 +134,7 @@ Validation
 
 ::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
 **To Be Done**
-<br>**Note**: this requirement has not been started as 23-1-ROB needs to be completed before moving on to this requirement.
+<br>**Note**: RCT will likely not happen within the scope of the VALIDATE project but results of prospective shadowing study will inform design of an RCT.
 :::
 
 ## 2.4 Reliability and Reproducibility
