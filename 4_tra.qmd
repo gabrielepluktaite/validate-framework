@@ -43,7 +43,7 @@ Explainability concerns the ability to explain both the technical processes of a
 
 **Owner**
 
--   WP 2 lead
+-   WP 3 lead
 
 ::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
 **In Progress**
@@ -60,14 +60,19 @@ Explainability concerns the ability to explain both the technical processes of a
 | **Explanations**                  | How the AI model works; how the model has been trained; what data has been used; who participated in the study; how the data collected from prospective study is used and shared; how data collected from patients during use will be used? |
 | **Explainability regulations**    | EU AI Act, GDPR, EU-MDR                                                                                                                                                                                                                     |
 
-**Phases**: development, testing
+<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
+**Development**
+</div>
+<div style="background-color:#006eff; padding:10px; border-radius:5px;">
+**Testing**
+</div>
 
 **Owner**
 
 -   WP 6 lead
 
 ::: {style="background-color: #abebc6; padding:10px; border-radius:5px;"}
-Fulfilled
+**Fulfilled**
 :::
 
 ### Requirement 42-3-TRA {#42-3-tra}
@@ -79,14 +84,19 @@ Fulfilled
 | **Explainability methods** | \- Explainability methods for tabular data<br>- Explainability methods for imaging data |
 | **Relevant users**         | Medical personnel                                                                       |
 
-**Phases**: development, testing
+<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
+**Development**
+</div>
+<div style="background-color:#006eff; padding:10px; border-radius:5px;">
+**Testing**
+</div>
 
 **Owner**
 
 -   WP 2 lead
 
 ::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
-In Progress
+**In Progress**
 :::
 
 ### Requirement 42-4-TRA {#42-4-tra}
@@ -128,12 +138,20 @@ AI systems should not represent themselves as humans to users; humans have the r
 | **End-users**                  | \- Patients<br>- Patient family/caregivers<br>- Medical professionals                                                                                                                   |                                                                                                                                                                                                                                                       |
 | **Communicated appropriately** | Tailored to users in different countries                                                                                                                                                |                                                                                                                                                                                                                                                       |
 
-**Phases**: development, testing, validation
+<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
+**Development**
+</div>
+<div style="background-color:#006eff; padding:10px; border-radius:5px;">
+**Testing**
+</div>
+<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
+**Validation**
+</div>
 
 **Owner**
 
 -   WP 6 lead
 
 ::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
-In Progress
+**In Progress**
 :::
