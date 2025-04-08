@@ -88,7 +88,7 @@ Each subsection corresponds to one of the 6 WPs within the VALIDATE project. The
 
 ###### Reliability and Reproducibility
 
--   [Requirement 24-3-ROB](2_rob.qmd#24-3-rob)
+-   [Requirement 24-2-ROB](2_rob.qmd#24-2-rob)
 
 #### Privacy and data governance
 
