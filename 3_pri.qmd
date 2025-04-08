@@ -33,14 +33,19 @@ Fulfilled
 | **Development Materials**      | \- Research data<br>- Models<br>- Predictions<br>- xAI results                             |
 | **Best Practices for Privacy** | \- Password protected user rights system<br>- Local protected servers on clinical premises |
 
-**Phases**: development, testing, validation
+<div style="background-color:#006eff; padding:10px; border-radius:5px;">
+**Testing**
+</div>
+<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
+**Validation**
+</div>
 
 **Owner**
 
 -   WP 2 lead
 
 ::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
-In Progress
+**In Progress**
 :::
 
 ### Requirement 31-3-PRI {#31-3-pri}
@@ -58,7 +63,7 @@ In Progress
 -   WP 4 lead
 
 ::: {style="background-color:#abebc6; padding:10px; border-radius:5px;"}
-Fulfilled
+**Fulfilled**
 :::
 
 ::: {style="background-color:#f9e79f; padding:10px; border-radius:5px; margin-top:10px;"}
@@ -101,14 +106,23 @@ The quality of the data sets used is paramount to the performance of AI systems.
 | **Quality Criteria**   | \- Relevant interoperability standards for labeling<br>- HL7 FHIR standards<br>- To be defined |
 | **Quality Parameters** | \- Missing data<br>- Errors<br>- Inaccuracies<br>- Interoperability                            |
 
-**Phases**: development, training, validation
+<div style="background-color:#006eff; padding:10px; border-radius:5px;">
+**Testing**
+</div>
+<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
+**Validation**
+</div>
 
 **Owner**
 
 -   WP 2 lead
 
 ::: {style="background-color:#abebc6; padding:10px; border-radius:5px;"}
-Fulfilled
+**Fulfilled**
+:::
+
+::: {style="background-color:#f9e79f; padding:10px; border-radius:5px; margin-top:10px;"}
+**Artefacts**
 :::
 
 ## 3.3 Access to data
