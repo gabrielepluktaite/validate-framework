@@ -40,6 +40,9 @@ Explainability concerns the ability to explain both the technical processes of a
 <div style="background-color:#006eff; padding:10px; border-radius:5px;">
 **Testing**
 </div>
+<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
+**Validation**
+</div>
 
 **Owner**
 
@@ -47,6 +50,12 @@ Explainability concerns the ability to explain both the technical processes of a
 
 ::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
 **In Progress**
+<br>**Note**: app prototype document should be added here.
+:::
+
+### Artefacts
+::: {style="background-color:#f9e79f; padding:10px; border-radius:5px;"}
+**Artefact**
 :::
 
 ### Requirement 42-2-TRA {#42-2-tra}
