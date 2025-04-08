@@ -65,7 +65,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 | **Local Ethics Committee Questions** | \- Why are we collecting this data?<br>- How will the data be collected?<br>- Where will data be stored?<br>- What data be collected?<br>- Who is the owner of the data?<br>- Who is responsible for the data?<br>- Who has access to the data?<br>- Will the data be transferred to other countries?<br>- Are those countries in the EU? Will the data be shared? |
 
 <div style="background-color:#418f8c; padding:10px; border-radius:5px;">
-**Development**
+**Testing**
 </div>
 
 **Owner**
@@ -93,14 +93,8 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 |--------------|----------------------------------------------------------|
 | **Data Purposes** | \- Model training using the prospective data<br>- Prospective study<br>- Randomized Clinical Trial<br>- Open data-sharing required by the EU Horizon grant |
 
-<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
-**Development**
-</div>
 <div style="background-color:#006eff; padding:10px; border-radius:5px;">
 **Testing**
-</div>
-<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
-**Validation**
 </div>
 
 **Owner**
@@ -188,9 +182,6 @@ In any given organisation that handles individuals’ data (whether someone is a
 </div>
 <div style="background-color:#006eff; padding:10px; border-radius:5px;">
 **Testing**
-</div>
-<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
-**Validation**
 </div>
 
 **Owner**
