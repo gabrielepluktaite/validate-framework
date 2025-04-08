@@ -18,10 +18,10 @@ Users should be able to make informed autonomous decisions regarding AI systems.
 
 | **Parameter**        | **Values**                            |
 |----------------------|---------------------------------------|
-| **Relevant Methods** | To be defined by Owner                |
+| **Relevant Methods** | Defined in the methods section in D2.4|
 
 <div style="background-color:#418f8c; padding:10px; border-radius:5px;">
-Development
+**Development**
 </div>
 
 **Owner**
@@ -30,6 +30,7 @@ Development
 
 ::: {style="background-color:#abebc6; padding:10px; border-radius:5px;"}
 **Fulfilled**
+<br>**Note**: D2.4 should be added here as an artefact.
 :::
 
 ### Requirement 12-2-HUM {#12-2-hum}
@@ -46,7 +47,7 @@ Development
 +-------------------------------+---------------------------+
 
 <div style="background-color:#ff6900; padding:10px; border-radius:5px;">
-Validation
+**Validation**
 </div>
 
 **Owner**
@@ -80,18 +81,14 @@ Moreover, it must be ensured that public enforcers have the ability to exercise 
 +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
 <div style="background-color:#ff6900; padding:10px; border-radius:5px;">
-
-Validation
-
+**Validation**
 </div>
-
 
 **Owner**
 
 -   WP 1 lead
 
-
 ::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
-In Progress
+**In Progress**
 :::
 
