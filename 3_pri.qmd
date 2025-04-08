@@ -14,12 +14,6 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 |----------------|--------------------------------------------------------|
 | **Privacy Regulations** | \- GDPR<br>- National/local authority privacy regulations |
 
-<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
-**Development**
-</div>
-<div style="background-color:#006eff; padding:10px; border-radius:5px;">
-**Testing**
-</div>
 <div style="background-color:#ff6900; padding:10px; border-radius:5px;">
 **Validation**
 </div>
@@ -29,7 +23,8 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 -   WP 5 lead
 
 ::: {style="background-color:#abebc6; padding:10px; border-radius:5px;"}
-**Fulfilled**
+**In Progress**
+<br>**Note**:survey results and GDPR feedback pending.
 :::
 
 ### Requirement 31-2-PRI {#31-2-pri}
