@@ -34,22 +34,27 @@ Particularly in business-to-consumer domains, systems should be user-centric and
 
 ### Requirement 52-1-DIV {#52-1-div}
 
-**Description:** System undergoes UX/UI testing on ***X number*** ***\[user groups\]***.
+**Description:** System undergoes UX/UI testing on ***\[user groups\]***.
 
 | **Parameter**   | **Values**                                                                                                                                                                                                                   |
 |---------------------------------------|---------------------------------|
 | **User groups** | \- Stroke physicians of different technical skill levels<br>- Stroke physicians of different medical skill levels<br> These user groups will later be updated when the User Groups for the Intended Purpose has been defined |
 
-**X number**: 6 to 8
-
-**Phases**: development, testing
+<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
+**Validation**
+</div>
 
 **Owner**
 
 -   WP 3 lead
 
 ::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
-In Progress
+**In Progress**
+:::
+###Artefact
+::: {style="background-color:#f9e79f; padding:10px; border-radius:5px;"}
+**Artefact**
+<br><a href="https://app.mural.co/t/horizon2020validate8720/m/horizon2020validate8720/1729243566094/9161874a2bbc0b167e755b275bee464170b58fe8?wid=0-1743154456067">Mural board with survey sent to tool users</a> 
 :::
 
 ## 5.3 Stakeholder participation
@@ -64,13 +69,15 @@ In order to develop AI systems that are trustworthy, it is advisable to consult 
 |---------------------------------------|---------------------------------|
 | **Stakeholders** | Stroke patients and/or patient representatives from different geographical and cultural backgrounds |
 
-**Phases**: development, testing
+<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
+**Validation**
+</div>
 
 **Owner**
 
 -   WP 3 lead
 
 ::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
-In progress
-***Note***: will be complete when above stated interview study is complete (output will be included in D3.5)
+**In progress**
+<br>**Note**: will be complete when above stated interview study is complete (output will be included in D3.5)
 :::
