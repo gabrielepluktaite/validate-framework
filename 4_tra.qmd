@@ -14,14 +14,16 @@ The data sets and the processes that yield the AI system’s decision, including
 |---------------------------------------|---------------------------------|
 | **Limitations and Metadata** | \- Data collection trail<br>- Data source<br>- How patient-specific input affected the predictions<br>- How model is calibrated and optimized, especially whether it has a tendency for false negatives or false positives |
 
-**Phases**: development, testing, validation
+<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
+**Validation**
+</div>
 
 **Owner**
 
 -   WP 2 lead
 
 ::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
-In Progress
+**In Progress**
 :::
 
 ## 4.2 Explainability
@@ -32,14 +34,19 @@ Explainability concerns the ability to explain both the technical processes of a
 
 **Description:** The system is able to inform about parts of the input that led to a specific outcome.
 
-**Phases**: development, testing
+<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
+**Development**
+</div>
+<div style="background-color:#006eff; padding:10px; border-radius:5px;">
+**Testing**
+</div>
 
 **Owner**
 
 -   WP 2 lead
 
 ::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
-In Progress
+**In Progress**
 :::
 
 ### Requirement 42-2-TRA {#42-2-tra}
@@ -91,14 +98,19 @@ In Progress
 | **Explainability methods** | \- Explainability methods for tabular and imaging data                                                                                                                         |
 | **Metric**                 | \- Quantified scores<br>- Quantified validation by users                                                                                                                       |
 
-**Phases**: development, testing
+<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
+**Development**
+</div>
+<div style="background-color:#006eff; padding:10px; border-radius:5px;">
+**Testing**
+</div>
 
 **Owner**
 
 -   WP 2 lead
 
 ::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
-In Progress
+**In Progress**
 :::
 
 ## 4.3 Communication
