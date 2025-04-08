@@ -126,10 +126,12 @@ It is critical that the results of AI systems are reproducible, as well as relia
 +----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 | **Parameter**  | **Values**                                                                                                                                                                                                              |
 +================+=========================================================================================================================================================================================================================+
-| **Contexts**   | \- Edge-cases<br>- Differing local standards of care<br>- Non-western patient minorities <br>- Missing input data points\<br\>- Sub-groups mentioned in 51-1-DIV (Age, sex/gender, ethnicity/race, geographic location) |
+| **Contexts**   | - Edge-cases<br>- Differing local standards of care<br>- Non-western patient minorities<br>- Missing input data points<br>-Sub-groups mentioned in 51-1-DIV (Age, sex/gender, ethnicity/race, geographic location) |
 +----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-**Phases**: development, testing, validation
+<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
+**Validation**
+</div>
 
 **Owner**
 
