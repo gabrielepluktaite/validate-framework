@@ -13,16 +13,23 @@ AI systems, like all software systems, should be protected against vulnerabiliti
 | **Parameter**                 | **Values**                                                                                                                                                                                                 |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Relevant Aspects of Norms** | ISO norms related to the standard MDR:<br>- IEC 62366<br>- IEC 62304<br>- ISO 14971<br><br> ISO norms related to MDR and recent AI advancements:<br>- ISO 13485<br>- ISO/IEC 23894:2023<br>- ISO/IEC 38507 |                                                                                                                
-
-**Phases**: development, testing, validation
+<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
+**Development**
+</div>
+<div style="background-color:#006eff; padding:10px; border-radius:5px;">
+**Testing**
+</div>
+<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
+**Validation**
+</div>
 
 **Owner**
 
 -   WP 5 lead
 
 ::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
-To Be Done
-**Note**: market readiness is not expected before project end.
+**To Be Done**
+<br>**Note**: market readiness is not expected before project end.
 :::
 
 ### Requirement 21-2-ROB {#21-2-rob}
@@ -33,15 +40,23 @@ To Be Done
 |-------------------------------------------|-------------------------------------------------|
 | **Relevant Guidelines on Cyber Security** | To be defined, needs to be researched by Owner. |
 
-**Phases**: development, testing, validation
+<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
+**Development**
+</div>
+<div style="background-color:#006eff; padding:10px; border-radius:5px;">
+**Testing**
+</div>
+<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
+**Validation**
+</div>
 
 **Owner**
 
 -   WP 5 lead
 
 ::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
-To Be Done
-**Note**: no identified barriers for market entry, but considered high-level and inappropriate for VALIDATE’s outputs.
+**To Be Done**
+<br>**Note**: no identified barriers for market entry, but considered high-level and inappropriate for VALIDATE’s outputs.
 :::
 
 ## 2.2 Fallback plan and general safety
@@ -55,16 +70,23 @@ AI systems should have safeguards that enable a fallback plan in case of problem
 | **Parameter**             | **Values**                                                         |
 |---------------------------|--------------------------------------------------------------------|
 | **Risk Management Norms** | \- ISO 14971<br>- ISO 23894:2023                                   |
-
-**Phases**: development, testing, validation
+<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
+**Development**
+</div>
+<div style="background-color:#006eff; padding:10px; border-radius:5px;">
+**Testing**
+</div>
+<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
+**Validation**
+</div>
 
 **Owner**
 
 -   WP 5 lead
 
 ::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
-In progress
-**Note**: continued iteration of intended use purpose is ongoing; no final intended use purpose is yet defined.
+**In progress**
+<br>**Note**: continued iteration of intended use purpose is ongoing; no final intended use purpose is yet defined.
 :::
 
 ## 2.3 Accuracy
@@ -83,14 +105,13 @@ Accuracy pertains to an AI system’s ability to make correct judgements, for ex
 Validation
 </div>
 
-
 **Owner**
 
 -   WP 4 lead
 
 ::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
-In progress
-**Note**: study protocol will be included in the framework. This is in progress as the recruitment for the study is not complete
+**In progress**
+<br>**Note**: study protocol will be included in the framework. This is in progress as the recruitment for the study is not complete
 :::
 
 ### Requirement 23-2-ROB {#23-1-rob}
@@ -111,8 +132,8 @@ Validation
 -   WP 4 lead
 
 ::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
-To Be Done
-**Note**: this requirement has not been started as 23-1-ROB needs to be completed before moving on to this requirement.
+**To Be Done**
+<br>**Note**: this requirement has not been started as 23-1-ROB needs to be completed before moving on to this requirement.
 :::
 
 ## 2.4 Reliability and Reproducibility
@@ -138,19 +159,25 @@ It is critical that the results of AI systems are reproducible, as well as relia
 -   WP 2 lead
 
 ::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
-In Progress
+**In Progress**
 :::
 
 ### Requirement 24-2-ROB {#24-2-rob}
 
 **Description:** The tool has a defined intended purpose following the MDR.
 
-**Phases**: development, testing
+<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
+**Development**
+</div>
+<div style="background-color:#006eff; padding:10px; border-radius:5px;">
+**Testing**
+</div>
 
 **Owner**
 
--   WP 2 lead
+-   WP 3 lead
 
 ::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
-In Progress
+**In Progress**
+<br>**Note**: Mural board link and D3.5 detail the intended purpose of the tool and should be added here as artefacts.
 :::
