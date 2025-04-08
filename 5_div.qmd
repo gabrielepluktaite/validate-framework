@@ -15,15 +15,17 @@ Data sets used by AI systems (both for training and operation) may suffer from t
 | **Features**                           | Age, sex/gender, ethnicity/race, geographic location |
 | **Intersectional feature combination** | Sex/gender with ethnicity/race                       |
 
-**Phases**: development, testing, validation
+<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
+**Validation**
+</div>
 
 **Owner**
 
 -   WP 2 lead
 
 ::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
-In progress
-**Note**: requirement will be updated to define the majority population based on study evidence rather than assuming it reflects the actual majority of stroke patients.
+**In progress**
+<br>**Note**: requirement will be updated to define the majority population based on study evidence rather than assuming it reflects the actual majority of stroke patients.
 :::
 
 ## 5.2 Accessibility and Universal Design
