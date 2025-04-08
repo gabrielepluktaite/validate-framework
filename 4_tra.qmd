@@ -50,12 +50,7 @@ Explainability concerns the ability to explain both the technical processes of a
 
 ::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
 **In Progress**
-<br>**Note**: app prototype document should be added here.
-:::
-
-### Artefacts
-::: {style="background-color:#f9e79f; padding:10px; border-radius:5px;"}
-**Artefact**
+<br>**Note**: app prototype document should be added here as artefact.
 :::
 
 ### Requirement 42-2-TRA {#42-2-tra}
@@ -69,11 +64,8 @@ Explainability concerns the ability to explain both the technical processes of a
 | **Explanations**                  | How the AI model works; how the model has been trained; what data has been used; who participated in the study; how the data collected from prospective study is used and shared; how data collected from patients during use will be used? |
 | **Explainability regulations**    | EU AI Act, GDPR, EU-MDR                                                                                                                                                                                                                     |
 
-<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
-**Development**
-</div>
-<div style="background-color:#006eff; padding:10px; border-radius:5px;">
-**Testing**
+<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
+**Validation**
 </div>
 
 **Owner**
@@ -82,6 +74,7 @@ Explainability concerns the ability to explain both the technical processes of a
 
 ::: {style="background-color: #abebc6; padding:10px; border-radius:5px;"}
 **Fulfilled**
+<br>**Note**: videos will be linked here as artefacts.
 :::
 
 ### Requirement 42-3-TRA {#42-3-tra}
@@ -143,16 +136,11 @@ AI systems should not represent themselves as humans to users; humans have the r
 | **Parameter**                  | **Values**                                                                                                                                                                              |                                                                                                                                                                                                                                                       |
 |--------------------|---------------------------|-------------------------|
 | *Questions*                    | *Patient, Patient family/caregiver*                                                                                                                                                     | *Medical professional*                                                                                                                                                                                                                                |
-| **Information**                | \- Why are we using the tool?\<br\>- Why don't we know what the best treatment is?\<br\>- What are the results of the AI model? \<br\>- What do the results of the tool imply for them? | \- Why should I use this tool? \<br\>- When should I not use this tool? \<br\>- How do we know that this tool is successful? \<br\>- How does the model work? \<br\>- Which parameters/variables are input data? And which ones are deciding factors? |
+| **Information**                | \- Why are we using the tool?\<br>\- Why don't we know what the best treatment is?\<br>- What are the results of the AI model? \<br>- What do the results of the tool imply for them? | \- Why should I use this tool? \<br>- When should I not use this tool? \<br>- How do we know that this tool is successful? \<br>- How does the model work? \<br>- Which parameters/variables are input data? And which ones are deciding factors? |
 | **End-users**                  | \- Patients<br>- Patient family/caregivers<br>- Medical professionals                                                                                                                   |                                                                                                                                                                                                                                                       |
 | **Communicated appropriately** | Tailored to users in different countries                                                                                                                                                |                                                                                                                                                                                                                                                       |
 
-<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
-**Development**
-</div>
-<div style="background-color:#006eff; padding:10px; border-radius:5px;">
-**Testing**
-</div>
+
 <div style="background-color:#ff6900; padding:10px; border-radius:5px;">
 **Validation**
 </div>
@@ -163,4 +151,5 @@ AI systems should not represent themselves as humans to users; humans have the r
 
 ::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
 **In Progress**
+<br>**Note**: deliverable D6.2 will document communication efforts and will be added as an artefact. Links to videos will also be added here as artefacts.
 :::
