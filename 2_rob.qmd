@@ -13,12 +13,7 @@ AI systems, like all software systems, should be protected against vulnerabiliti
 | **Parameter**                 | **Values**                                                                                                                                                                                                 |
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Relevant Aspects of Norms** | ISO norms related to the standard MDR:<br>- IEC 62366<br>- IEC 62304<br>- ISO 14971<br><br> ISO norms related to MDR and recent AI advancements:<br>- ISO 13485<br>- ISO/IEC 23894:2023<br>- ISO/IEC 38507 |                                                                                                                
-<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
-**Development**
-</div>
-<div style="background-color:#006eff; padding:10px; border-radius:5px;">
-**Testing**
-</div>
+
 <div style="background-color:#ff6900; padding:10px; border-radius:5px;">
 **Validation**
 </div>
@@ -29,7 +24,7 @@ AI systems, like all software systems, should be protected against vulnerabiliti
 
 ::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
 **To Be Done**
-<br>**Note**: market readiness is not expected before project end.
+<br>**Note**: a document listing all relevant ISO norms for VALIDATE is under preparation..
 :::
 
 ### Requirement 21-2-ROB {#21-2-rob}
@@ -40,9 +35,7 @@ AI systems, like all software systems, should be protected against vulnerabiliti
 |-------------------------------------------|-------------------------------------------------|
 | **Relevant Guidelines on Cyber Security** | To be defined, needs to be researched by Owner. |
 
-<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
-**Development**
-</div>
+
 <div style="background-color:#006eff; padding:10px; border-radius:5px;">
 **Testing**
 </div>
@@ -71,12 +64,7 @@ AI systems should have safeguards that enable a fallback plan in case of problem
 |---------------------------|--------------------------------------------------------------------|
 | **Risk Management Norms** | \- ISO 14971<br>- ISO 23894:2023                                   |
 
-<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
-**Development**
-</div>
-<div style="background-color:#006eff; padding:10px; border-radius:5px;">
-**Testing**
-</div>
+
 <div style="background-color:#ff6900; padding:10px; border-radius:5px;">
 **Validation**
 </div>
