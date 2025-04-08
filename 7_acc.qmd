@@ -72,7 +72,7 @@ When implementing the above requirements, tensions may arise between them, which
 
 ### Artefacts
 ::: {style="background-color:#f9e79f; padding:10px; border-radius:5px;"}
-<a href=“https://charitede.sharepoint.com/:w:/r/sites/Teammad.AI-Projects_VALIDATE_general/Shared%20Documents/Projects_VALIDATE_general/Open%20Research%20Norms.docx?d=wfd86b969ca634cd4bc842e56f8bec3b3&csf=1&web=1&e=bEHsKf”>Open Research Norms Charter</a>
+<a href=“https://charitede.sharepoint.com/:w:/r/sites/Teammad.AI-Projects_VALIDATE_general/Shared%20Documents/Projects_VALIDATE_general/Open%20Research%20Norms.docx?d=wfd86b969ca634cd4bc842e56f8bec3b3&csf=1&web=1&e=bEHsKf”> Open Research Norms Charter</a>
 :::
 
 ## 7.4 Redress
