@@ -30,7 +30,7 @@ Users should be able to make informed autonomous decisions regarding AI systems.
 
 ::: {style="background-color:#abebc6; padding:10px; border-radius:5px;"}
 **Fulfilled**
-<br>**Note**: D2.4 should be added here as an artefact.
+<br>**Note**: D2.4 should be added here as an artefact. D2.2 will also be added as an artefact as the uncertainty estimation implemented for deriving the confidence metric in the tool is described in page 50 of D2.2.
 :::
 
 ### Requirement 12-2-HUM {#12-2-hum}
