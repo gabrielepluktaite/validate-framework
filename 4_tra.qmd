@@ -99,6 +99,7 @@ Explainability concerns the ability to explain both the technical processes of a
 
 ::: {style="background-color: #e8daef; padding:10px; border-radius:5px;"}
 **In Progress**
+<br>**Note**: SHAP implemented for xAI and integrated to the app, described in D2.2 pages 45-9, which will be added as an artefact.
 :::
 
 ### Requirement 42-4-TRA {#42-4-tra}
