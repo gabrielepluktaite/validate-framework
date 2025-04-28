@@ -20,7 +20,7 @@ Users should be able to make informed autonomous decisions regarding AI systems.
 |----------------------|---------------------------------------|
 | **Relevant Methods** | Defined in the methods section in D2.4|
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px;">
+<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
 **Development**
 </div>
 
