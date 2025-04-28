@@ -48,19 +48,19 @@ Each requirement is assigned an Owner, usually a WP lead relevant to existing ta
 
 Based on the parameterized statements, requirements are classified into three sub-categories:
 
-<div style="background-color:#abebc6; padding:10px; border-radius:5px;">
+<div style="background-color:#abebc6; padding:6px 10px; border-radius:5px;">
 
 **Fulfilled**: Requirement is complete and if possible, the associated artefact is attached to the framework as proof.
 
 </div>
 
-<div style="background-color: #e8daef; padding:10px; border-radius:5px;">
+<div style="background-color: #e8daef; padding:6px 10px; border-radius:5px;">
 
 **In Progress**: The requirement is partially or in the process of being completed. Any relevant artefacts are attached.
 
 </div>
 
-<div style="background-color:#e6f7ff; padding:10px; border-radius:5px;">
+<div style="background-color:#e6f7ff; padding:6px 10px; border-radius:5px;">
 
 **To Be Done**: The requirement has not been started, with an explanation attached as to why this is the case.
 
