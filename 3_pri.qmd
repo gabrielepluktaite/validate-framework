@@ -14,7 +14,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 |----------------|--------------------------------------------------------|
 | **Privacy Regulations** | \- GDPR<br>- National/local authority privacy regulations |
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
+<div style="background-color:#f9e79f; padding:6px 10px; border-radius:5px; display:inline-block;">
 **Validation**
 </div>
 
@@ -22,7 +22,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 -   WP 5 lead
 
-::: {style="background-color:#abebc6; padding:10px; border-radius:5px; display:inline-block;"}
+::: {style="background-color:#abebc6; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **In Progress**
 <br>**Note**:survey results and GDPR feedback pending.
 :::
@@ -36,7 +36,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 | **Development Materials**      | \- Research data<br>- Models<br>- Predictions<br>- xAI results                             |
 | **Best Practices for Privacy** | \- Password protected user rights system<br>- Local protected servers on clinical premises |
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
+<div style="background-color:#f9e79f; padding:6px 10px; border-radius:5px; display:inline-block;">
 **Testing**
 <br>**Validation**
 </div>
@@ -45,7 +45,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 -   WP 2 lead
 
-::: {style="background-color:#e8daef; padding:10px; border-radius:5px; display:inline-block;"}
+::: {style="background-color:#e8daef; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **In Progress**
 :::
 
@@ -54,10 +54,10 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 **Description:** Privacy information have been collected to answer ***\[local ethics committee questions\]*** to approve data collection for prospective study in the research data management plan.
 
 | **Parameter**                        | **Values**                                                                                                                                                                                                                                                                                                                                                         |
-|-------------|----------------------------------------------------------|
+|--------------------------------------|----------------------------------------------------------|
 | **Local Ethics Committee Questions** | \- Why are we collecting this data?<br>- How will the data be collected?<br>- Where will data be stored?<br>- What data be collected?<br>- Who is the owner of the data?<br>- Who is responsible for the data?<br>- Who has access to the data?<br>- Will the data be transferred to other countries?<br>- Are those countries in the EU? Will the data be shared? |
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
+<div style="background-color:#f9e79f; padding:6px 10px; border-radius:5px; display:inline-block;">
 **Testing**
 </div>
 
@@ -65,7 +65,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 -   WP 4 lead
 
-::: {style="background-color:#abebc6; padding:10px; border-radius:5px; display:inline-block;"}
+::: {style="background-color:#abebc6; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **Fulfilled**
 <br>**See Artefacts:**
 
@@ -83,7 +83,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 |--------------|----------------------------------------------------------|
 | **Data Purposes** | \- Model training using the prospective data<br>- Prospective study<br>- Randomized Clinical Trial<br>- Open data-sharing required by the EU Horizon grant |
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
+<div style="background-color:#f9e79f; padding:6px 10px; border-radius:5px; display:inline-block;">
 **Testing**
 </div>
 
@@ -91,7 +91,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 -   WP 4 lead
 
-::: {style="background-color:#abebc6; padding:10px; border-radius:5px; display:inline-block;"}
+::: {style="background-color:#abebc6; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **Fulfilled**
 :::
 
@@ -108,7 +108,7 @@ The quality of the data sets used is paramount to the performance of AI systems.
 | **Quality Criteria**   | \- Relevant interoperability standards for labeling<br>- HL7 FHIR standards<br>- To be defined |
 | **Quality Parameters** | \- Missing data<br>- Errors<br>- Inaccuracies<br>- Interoperability                            |
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
+<div style="background-color:#f9e79f; padding:6px 10px; border-radius:5px; display:inline-block;">
 **Testing**
 <br>**Validation**
 </div>
@@ -117,7 +117,7 @@ The quality of the data sets used is paramount to the performance of AI systems.
 
 -   WP 2 lead
 
-::: {style="background-color:#abebc6; padding:10px; border-radius:5px; display:inline-block;"}
+::: {style="background-color:#abebc6; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **Fulfilled**
 <br>**See Artefacts:**
 <a href="https://charitede.sharepoint.com/:b:/r/sites/Teammad.AI-Projects_VALIDATE_general/Shared%20Documents/Projects_VALIDATE_general/D4.3.pdf?csf=1&web=1&e=fuoEi6">D4.3</a> 
@@ -137,7 +137,7 @@ In any given organisation that handles individuals’ data (whether someone is a
 | **Stakeholder Type** | \- Relevant VALIDATE staff<br>- Researchers<br>- Legal guardian/caregiver<br>- Patient<br>- Users                                                                                                                         |
 | **Process**          | Process outlined in VALIDATE data management plan                                                                                                                                                                         |
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
+<div style="background-color:#f9e79f; padding:6px 10px; border-radius:5px; display:inline-block;">
 **Development**
 <br>**Testing**
 </div>
@@ -146,7 +146,7 @@ In any given organisation that handles individuals’ data (whether someone is a
 
 -   WP 3 lead
 
-::: {style="background-color:#e8daef; padding:10px; border-radius:5px; display:inline-block;"}
+::: {style="background-color:#e8daef; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **In Progress**
 <br>**Note**: data management plan will be added to this requirement as an in-progress artefact.
 :::
@@ -160,7 +160,7 @@ In any given organisation that handles individuals’ data (whether someone is a
 | **Sensitive Data Attributes** | \- Sex<br>- Gender<br>- Ethnicity                                                                                                                                  |
 | **Safeguards**                | \- Logged<br>- Only available to relevant qualified personnel with user privileges<br>- Only available after log-in<br>- Data is stored on local hospital premises |
 | **Vulnerable groups**         | \- Non-binary patients<br>- Trans patients<br>- Ethnic minorities                                                                                                  |
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
+<div style="background-color:#f9e79f; padding:6px 10px; border-radius:5px; display:inline-block;">
 **Development**
 <br>**Testing**
 </div>
@@ -169,6 +169,6 @@ In any given organisation that handles individuals’ data (whether someone is a
 
 -   WP 4 lead
 
-::: {style="background-color:#abebc6; padding:10px; border-radius:5px; display:inline-block;"}
+::: {style="background-color:#abebc6; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **Fulfilled**
 :::
