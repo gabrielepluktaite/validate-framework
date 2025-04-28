@@ -26,19 +26,19 @@ Each requirement has a unique ID, constructed as follows:
 
 Each requirement is mapped to a specific project phase:
 
-<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
+<div style="background-color:#f9e79f; padding:10px; border-radius:5px;">
 
 **Development**: Focuses on developing the tool's prototype until month 18.
 
 </div>
 
-<div style="background-color:#006eff; padding:10px; border-radius:5px;">
+<div style="background-color:#f9e79f; padding:10px; border-radius:5px;">
 
 **Testing**: The prototype undergoes testing until month 18.
 
 </div>
 
-<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
+<div style="background-color:#f9e79f; padding:10px; border-radius:5px;">
 
 **Validation**: Begins in month 18, marking the start of validating the developed and tested prototype.
 
@@ -69,11 +69,3 @@ Based on the parameterized statements, requirements are classified into three su
 **To Be Done**: The requirement has not been started, with an explanation attached as to why this is the case.
 
 </div>
-
-### Artefacts
-
-::: {style="background-color:#f9e79f; padding:10px; border-radius:5px;"}
-
-- Relevant material associated with the requirement, e.g., links to reports, consent forms, PDFs, etc.
-:::
-
