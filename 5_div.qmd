@@ -15,7 +15,7 @@ Data sets used by AI systems (both for training and operation) may suffer from t
 | **Features**                           | Age, sex/gender, ethnicity/race, geographic location |
 | **Intersectional feature combination** | Sex/gender with ethnicity/race                       |
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
+<div style="background-color:#f9e79f; padding:6px 10px; border-radius:5px; display:inline-block;">
 **Validation**
 </div>
 
@@ -23,7 +23,7 @@ Data sets used by AI systems (both for training and operation) may suffer from t
 
 -   WP 2 lead
 
-::: {style="background-color: #e8daef; padding:10px; border-radius:5px; display:inline-block;"}
+::: {style="background-color: #e8daef; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **In progress**
 <br>**Note**: requirement will be updated to define the majority population based on study evidence rather than assuming it reflects the actual majority of stroke patients.
 :::
@@ -40,7 +40,7 @@ Particularly in business-to-consumer domains, systems should be user-centric and
 |---------------------------------------|---------------------------------|
 | **User groups** | \- Stroke physicians of different technical skill levels<br>- Stroke physicians of different medical skill levels<br> These user groups will later be updated when the User Groups for the Intended Purpose has been defined |
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
+<div style="background-color:#f9e79f; padding:6px 10px; border-radius:5px; display:inline-block;">
 **Validation**
 </div>
 
@@ -48,7 +48,7 @@ Particularly in business-to-consumer domains, systems should be user-centric and
 
 -   WP 3 lead
 
-::: {style="background-color:#e8daef; padding:10px; border-radius:5px; display:inline-block;"}
+::: {style="background-color:#e8daef; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **In Progress**
 <br>**See Artefact:**
 <br><a href="https://app.mural.co/t/horizon2020validate8720/m/horizon2020validate8720/1729243566094/9161874a2bbc0b167e755b275bee464170b58fe8?wid=0-1743154456067">Mural board with survey sent to tool users</a> 
@@ -66,7 +66,7 @@ In order to develop AI systems that are trustworthy, it is advisable to consult 
 |---------------------------------------|---------------------------------|
 | **Stakeholders** | Stroke patients and/or patient representatives from different geographical and cultural backgrounds |
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
+<div style="background-color:#f9e79f; padding:6px 10px; border-radius:5px; display:inline-block;">
 **Validation**
 </div>
 
@@ -74,7 +74,7 @@ In order to develop AI systems that are trustworthy, it is advisable to consult 
 
 -   WP 3 lead
 
-::: {style="background-color:#e8daef; padding:10px; border-radius:5px; display:inline-block;"}
+::: {style="background-color:#e8daef; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **In progress**
 <br>**Note**: will be complete when above stated interview study is complete (output will be included in D3.5)
 :::
