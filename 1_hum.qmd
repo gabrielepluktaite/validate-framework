@@ -20,7 +20,7 @@ Users should be able to make informed autonomous decisions regarding AI systems.
 |----------------------|---------------------------------------|
 | **Relevant Methods** | Defined in the methods section in D2.4|
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
+<div style="background-color:#f9e79f; padding:6px 10px; border-radius:5px; display:inline-block;">
 **Development**
 </div>
 
@@ -28,7 +28,7 @@ Users should be able to make informed autonomous decisions regarding AI systems.
 
 -   WP 2 lead
 
-::: {style="background-color:#abebc6; padding:10px; border-radius:5px; display:inline-block;"}
+::: {style="background-color:#abebc6; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **Fulfilled**
 <br>**Note**: D2.4 should be added here as an artefact. D2.2 will also be added as an artefact as the uncertainty estimation implemented for deriving the confidence metric in the tool is described in page 50 of D2.2.
 :::
@@ -46,7 +46,7 @@ Users should be able to make informed autonomous decisions regarding AI systems.
 |                               |                           |
 +-------------------------------+---------------------------+
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
+<div style="background-color:#f9e79f; padding:6px 10px; border-radius:5px; display:inline-block;">
 **Validation**
 </div>
 
@@ -54,7 +54,7 @@ Users should be able to make informed autonomous decisions regarding AI systems.
 
 -   WP 1 lead
 
-::: {style="background-color:#e8daef; padding:10px; border-radius:5px; display:inline-block;"}
+::: {style="background-color:#e8daef; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **In Progress**
 :::
 
@@ -80,7 +80,7 @@ Moreover, it must be ensured that public enforcers have the ability to exercise 
 | **Capability Needed** | \- Capability to oversee the overall activity of the AI system<br>- Ability to decide whether, when and how to use the system in any particular situation<br>- Established levels of human discretion during the use of the system where necessary<br>- Ability to override a decision made by a system |
 +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
+<div style="background-color:#f9e79f; padding:6px 10px; border-radius:5px; display:inline-block;">
 **Validation**
 </div>
 
@@ -88,7 +88,7 @@ Moreover, it must be ensured that public enforcers have the ability to exercise 
 
 -   WP 1 lead
 
-::: {style="background-color:#e8daef; padding:10px; border-radius:5px; display:inline-block;"}
+::: {style="background-color:#e8daef; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **In Progress**
 :::
 
