@@ -10,7 +10,7 @@ AI systems promise to help tackling some of the most pressing societal concerns,
 
 **Description:** % of VALIDATE machine learning engineers follow an SOP to track the environmental impact of model training.
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px;">
+<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
 **Development**
 <br>**Testing**
 </div>
@@ -19,7 +19,7 @@ AI systems promise to help tackling some of the most pressing societal concerns,
 
 - WP 2 lead
 
-<div style="background-color:#e8daef; padding:10px; border-radius:5px;">
+<div style="background-color:#e8daef; padding:10px; border-radius:5px; display:inline-block;">
 **In Progress**
 <br>**Note**: sustainability SOP will be created as part of the final project deliverable and attached to the framework.
 </div>
