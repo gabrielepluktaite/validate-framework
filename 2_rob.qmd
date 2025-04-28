@@ -14,7 +14,7 @@ AI systems, like all software systems, should be protected against vulnerabiliti
 |-------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | **Relevant Aspects of Norms** | ISO norms related to the standard MDR:<br>- IEC 62366<br>- IEC 62304<br>- ISO 14971<br><br> ISO norms related to MDR and recent AI advancements:<br>- ISO 13485<br>- ISO/IEC 23894:2023<br>- ISO/IEC 38507 |                                                                                                                
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px;">
+<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
 **Validation**
 </div>
 
@@ -22,7 +22,7 @@ AI systems, like all software systems, should be protected against vulnerabiliti
 
 -   WP 5 lead
 
-::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
+::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px; display:inline-block;"}
 **To Be Done**
 <br>**Note**: a document listing all relevant ISO norms for VALIDATE is under preparation.
 :::
@@ -36,7 +36,7 @@ AI systems, like all software systems, should be protected against vulnerabiliti
 | **Relevant Guidelines on Cyber Security** | To be defined, needs to be researched by Owner. |
 
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px;">
+<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
 **Testing**
 <br>**Validation**
 </div>
@@ -45,7 +45,7 @@ AI systems, like all software systems, should be protected against vulnerabiliti
 
 -   WP 5 lead
 
-::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
+::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px; display:inline-block;"}
 **To Be Done**
 <br>**Note**: no identified barriers for market entry, but considered high-level and inappropriate for VALIDATE’s outputs.
 :::
@@ -63,7 +63,7 @@ AI systems should have safeguards that enable a fallback plan in case of problem
 | **Risk Management Norms** | \- ISO 14971<br>- ISO 23894:2023                                   |
 
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px;">
+<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
 **Validation**
 </div>
 
@@ -71,7 +71,7 @@ AI systems should have safeguards that enable a fallback plan in case of problem
 
 -   WP 5 lead
 
-::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
+::: {style="background-color:#e8daef; padding:10px; border-radius:5px; display:inline-block;"}
 **In progress**
 <br>**Note**: continued iteration of intended use purpose is ongoing; no final intended use purpose is yet defined.
 :::
@@ -88,7 +88,7 @@ Accuracy pertains to an AI system’s ability to make correct judgements, for ex
 |----------------|------------------------|
 | **Threshold**  | 90%                    |
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px;">
+<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
 **Validation**
 </div>
 
@@ -96,7 +96,7 @@ Accuracy pertains to an AI system’s ability to make correct judgements, for ex
 
 -   WP 4 lead
 
-::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
+::: {style="background-color:#e8daef; padding:10px; border-radius:5px; display:inline-block;"}
 **In progress**
 <br>**Note**: 50 patients have been recruited for the study and evaluation for the accuracy of the VALIDATE tool will begin in Spring 2026.
 :::
@@ -110,7 +110,7 @@ Accuracy pertains to an AI system’s ability to make correct judgements, for ex
 | **Ratio**          | Will be determined at the end of the prospective study        |
 | **RCT Study Size** | Number will be determined later by estimating the effect size |
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px;">
+<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
 **Validation**
 </div>
 
@@ -118,7 +118,7 @@ Accuracy pertains to an AI system’s ability to make correct judgements, for ex
 
 -   WP 4 lead
 
-::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
+::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px; display:inline-block;"}
 **To Be Done**
 <br>**Note**: RCT will likely not happen within the scope of the VALIDATE project but results of prospective shadowing study will inform design of an RCT.
 :::
@@ -137,7 +137,7 @@ It is critical that the results of AI systems are reproducible, as well as relia
 | **Contexts**   | - Edge-cases<br>- Differing local standards of care<br>- Non-western patient minorities<br>- Missing input data points<br>-Sub-groups mentioned in 51-1-DIV (Age, sex/gender, ethnicity/race, geographic location) |
 +----------------+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px;">
+<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
 **Validation**
 </div>
 
@@ -145,7 +145,7 @@ It is critical that the results of AI systems are reproducible, as well as relia
 
 -   WP 2 lead
 
-::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
+::: {style="background-color:#e8daef; padding:10px; border-radius:5px; display:inline-block;"}
 **In Progress**
 <br>**Note**: Initial analysis on missing data scenarios has been done in D2.2 pages 54-9. More work on missingness will be done in a retrospective paper whose results will be included in D2.3. Thus, D2.2 and D2.3 will be added as artefacts.
 :::
@@ -154,7 +154,7 @@ It is critical that the results of AI systems are reproducible, as well as relia
 
 **Description:** The tool has a defined intended purpose following the MDR.
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px;">
+<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
 **Development**
 <br>**Testing**
 </div>
@@ -163,7 +163,7 @@ It is critical that the results of AI systems are reproducible, as well as relia
 
 -   WP 3 lead
 
-::: {style="background-color:#e8daef; padding:10px; border-radius:5px;"}
+::: {style="background-color:#e8daef; padding:10px; border-radius:5px; display:inline-block;"}
 **In Progress**
 <br>**Note**: Mural board link and D3.5 detail the intended purpose of the tool and should be added here as artefacts.
 :::
