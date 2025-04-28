@@ -20,7 +20,7 @@ Both the ability to report on actions or decisions that contribute to a certain 
 |----------------------|---------------------------------------------|
 | **Relevant methods** | \- MDR<br>- EU AI Act<br>- To be determined |
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px;">
+<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
 **Development**
 <br>**Testing*
 <br>**Validation**
@@ -30,7 +30,7 @@ Both the ability to report on actions or decisions that contribute to a certain 
 
 -   WP 1 lead
 
-::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
+::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px; display:inline-block;"}
 **To Be Done**
 <br>**Note**: algorithmic impact assessment will be determined by the EU AI act.
 :::
@@ -48,7 +48,7 @@ When implementing the above requirements, tensions may arise between them, which
 | **Guidelines**       | \- EU Horizon funding guidelines<br>- Reporting guidelines, e.g., TRIPOD<br>                                       |
 | **Relevant methods** | \- Data availability<br>- Reproducibility<br>- Open access<br>- Distribution<br>- Confidentiality<br>- Originality |
 
-<div style="background-color:#f9e79f; padding:10px; border-radius:5px;">
+<div style="background-color:#f9e79f; padding:10px; border-radius:5px; display:inline-block;">
 **Development**
 <br>**Testing**
 <br>**Validation**
@@ -58,7 +58,7 @@ When implementing the above requirements, tensions may arise between them, which
 
 -   WP 1 lead
 
-::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px;"}
+::: {style="background-color:#e6f7ff; padding:10px; border-radius:5px; display:inline-block;"}
 **Fulfilled**
 <br>**See Artefacts:**
 <a href=“https://charitede.sharepoint.com/:w:/r/sites/Teammad.AI-Projects_VALIDATE_general/Shared%20Documents/Projects_VALIDATE_general/Open%20Research%20Norms.docx?d=wfd86b969ca634cd4bc842e56f8bec3b3&csf=1&web=1&e=bEHsKf”> Open Research Norms Charter</a>
