@@ -20,7 +20,7 @@ Users should be able to make informed autonomous decisions regarding AI systems.
 |----------------------|---------------------------------------|
 | **Relevant Methods** | Defined in the methods section in D2.4|
 
-<div style="background-color:#418f8c; padding:10px; border-radius:5px;">
+<div style="background-color:#f9e79f; padding:10px; border-radius:5px;">
 **Development**
 </div>
 
@@ -46,7 +46,7 @@ Users should be able to make informed autonomous decisions regarding AI systems.
 |                               |                           |
 +-------------------------------+---------------------------+
 
-<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
+<div style="background-color:#f9e79f; padding:10px; border-radius:5px;">
 **Validation**
 </div>
 
@@ -80,7 +80,7 @@ Moreover, it must be ensured that public enforcers have the ability to exercise 
 | **Capability Needed** | \- Capability to oversee the overall activity of the AI system<br>- Ability to decide whether, when and how to use the system in any particular situation<br>- Established levels of human discretion during the use of the system where necessary<br>- Ability to override a decision made by a system |
 +-----------------------+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
 
-<div style="background-color:#ff6900; padding:10px; border-radius:5px;">
+<div style="background-color:#f9e79f; padding:10px; border-radius:5px;">
 **Validation**
 </div>
 
