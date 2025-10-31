@@ -170,5 +170,6 @@ In any given organisation that handles individuals’ data (whether someone is a
 -   WP 4 lead
 
 ::: {style="background-color:#abebc6; padding:6px 10px; border-radius:5px; display:inline-block;"}
-**Fulfilled**
+**Not Completed**
+<br>**Note**: No data on ethnicity and race are recorded; some data are available in electronic health records, but collected unevenly and shouldn't be used (or shared). There is no differentiation between sex and gender in the collected data. Disability-related data will be included in the shared dataset, and no special risks of sharing this data in an anonymized format are foreseen. 
 :::
