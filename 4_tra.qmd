@@ -32,7 +32,7 @@ Explainability concerns the ability to explain both the technical processes of a
 
 ### Requirement 42-1-TRA {#42-1-tra}
 
-**Description:** The system is able to inform about parts of the input that led to a specific outcome.
+**Description:** The system is able to inform about specific data inputs that had impact on the outcome.
 
 <div style="background-color:#f9e79f; padding:6px 10px; border-radius:5px; display:inline-block;">
 **Development**
@@ -46,7 +46,7 @@ Explainability concerns the ability to explain both the technical processes of a
 
 ::: {style="background-color: #e8daef; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **In Progress**
-<br>**Note**: app prototype document should be added here as artefact.
+<br>**Note**: Impact feature has been integrated into the VALIDATE app; i.e., after generating a prediction, users can navigate to a tab showing which input variables most influenced the prediction. App prototype document should be added here as artefact.
 :::
 
 ### Requirement 42-2-TRA {#42-2-tra}
