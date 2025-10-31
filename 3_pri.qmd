@@ -148,7 +148,7 @@ In any given organisation that handles individuals’ data (whether someone is a
 
 ::: {style="background-color:#e8daef; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **In Progress**
-<br>**Note**: data management plan will be added to this requirement as an in-progress artefact.
+<br>**Note**: data management plan is scheduled for delivery in May 2026, and will be added to this requirement as an in-progress artefact.
 :::
 
 ### Requirement 33-2-PRI {#33-2-pri}
