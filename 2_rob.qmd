@@ -167,5 +167,5 @@ It is critical that the results of AI systems are reproducible, as well as relia
 
 ::: {style="background-color:#e8daef; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **In Progress**
-<br>**Note**: Mural board link and D3.5 detail the intended purpose of the tool and should be added here as artefacts.
+<br>**Note**: Initial version of intended purpose statement is included in Deliverable D3.2. The statement was co-developed through workshops with consortium members. The finalized text still needs to be exported into a formal report.
 :::
