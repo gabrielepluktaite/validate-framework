@@ -98,7 +98,7 @@ Accuracy pertains to an AI system’s ability to make correct judgements, for ex
 
 ::: {style="background-color:#e8daef; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **In progress**
-<br>**Note**: 50 patients have been recruited for the study and evaluation for the accuracy of the VALIDATE tool will begin in Spring 2026.
+<br>**Note**: The prospective shadowing study currently includes 220–250 patients. Some modified Rankin Scale (mRS) scores are missing, primarily due to follow-up duration limitations. Missing data will be addressed through statistical methods and possibly extended follow-up (e.g., at 4 months). Upon discharge, patients receive an appointment or phone follow-up visit to assess mRS outcomes.
 :::
 
 ### Requirement 23-2-ROB {#23-2-rob}
@@ -119,8 +119,10 @@ Accuracy pertains to an AI system’s ability to make correct judgements, for ex
 -   WP 4 lead
 
 ::: {style="background-color:#e6f7ff; padding:6px 10px; border-radius:5px; display:inline-block;"}
-**To Be Done**
-<br>**Note**: RCT will likely not happen within the scope of the VALIDATE project but results of prospective shadowing study will inform design of an RCT.
+**Not Completed**
+<br>**Note**: RCT will need to compare two groups, one with treatment as provided by the VALIDATE system, following its prognostic recommendations exactly, and a control group receiving standard clinical practice without the VALIDATE app. The ratio and sample size will be determined based on observed accuracy in cases where actual treatment data are available.
+
+The clinical work package lacks statistical expertise. The budget for evaluating the prospective validation study has not yet been released. It was noted that the clinical trial protocol should be reviewed to address: (i) handling of missing data (anticipated at 10% based on previous planning), (ii) recruitment challenges and patient inclusion criteria, (iii) implementation challenges leading to differences between retrospective (not collected in real-time, but collected for prospective patients) and truly prospective data sources. Dealing with missing data and foreseeing implementation challenges, related both to recruitment and technical infrastructure are common issues in clinical validation and should be addressed in advance. 
 :::
 
 ## 2.4 Reliability and Reproducibility
