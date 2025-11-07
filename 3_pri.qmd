@@ -24,7 +24,7 @@ Like many technologies, AI systems can equally enable and hamper fundamental rig
 
 ::: {style="background-color:#abebc6; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **In Progress**
-<br>**Note**:survey results and GDPR feedback pending.
+<br>**Note**: tool complies with both national/local regulations and GDPR for data projection. The internal ethics review processes for collection of data for the prospective shadowing study involves appropriate review by local committees. The VALIDATE tool was not compliant with GDPR if integrated with hospital IT systems, and therefore the solution involved ``siloing'' of the VALIDATE tool. Specifically, the tool was kept separate from hospital systems, being used by clinicians via an app on a separate phone, which was connected to the server to transfer data on a WiFi network outside of the hospital. The solution enabled compliance with GDPR but was not scalable.
 :::
 
 ### Requirement 31-2-PRI {#31-2-pri}
