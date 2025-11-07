@@ -24,7 +24,7 @@ AI systems, like all software systems, should be protected against vulnerabiliti
 
 ::: {style="background-color:#e6f7ff; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **To Be Done**
-<br>**Note**: a document listing all relevant ISO norms for VALIDATE is under preparation.
+<br>**Note**: Research about the relevant ISO norms for uptake and MDR will be included in the Deliverables D5.3 and D5.6. Thus, D5.3 and D5.6 will be added as artefacts. Actual compliance of the prototype with the identified norms is unknown and will not be evaluated within the scope of the project. Some norms are being incorporated into software development, e.g., by WP3. However a systematic assessment will not be completed and is in line with the status of the VALIDATE tool which is not market-ready.
 :::
 
 ### Requirement 21-2-ROB {#21-2-rob}
@@ -47,7 +47,7 @@ AI systems, like all software systems, should be protected against vulnerabiliti
 
 ::: {style="background-color:#e6f7ff; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **To Be Done**
-<br>**Note**: no identified barriers for market entry, but considered high-level and inappropriate for VALIDATE’s outputs.
+<br>**Note**: no identified barriers for market entry, but considered high-level and inappropriate for VALIDATE’s outputs. The guidelines on cyber security will not be evaluated or complied by the VALIDATE project within its lifetime. There may be some relevant information included in tasks 5.3 and 5.5, which will be led by CUB (WP2 members). 
 :::
 
 ## 2.2 Fallback plan and general safety
@@ -73,7 +73,7 @@ AI systems should have safeguards that enable a fallback plan in case of problem
 
 ::: {style="background-color:#e8daef; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **In progress**
-<br>**Note**: continued iteration of intended use purpose is ongoing; no final intended use purpose is yet defined.
+<br>**Note**: continued iteration of intended use purpose is ongoing; no final intended use purpose is yet defined. A risk assessment following the specific ISO norms listed will not be done during the project lifetime.
 :::
 
 ## 2.3 Accuracy
