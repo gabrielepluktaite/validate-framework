@@ -24,6 +24,7 @@ The data sets and the processes that yield the AI system’s decision, including
 
 ::: {style="background-color:#e8daef; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **In Progress**
+<br>**Note:** Relevant information will be made available with a retrospective paper which is being prepared that includes analyses such as gender differences; however, these aspects are not covered in the current prototype. The retrospective paper will be added as an artefact.
 :::
 
 ## 4.2 Explainability
@@ -116,6 +117,7 @@ Explainability concerns the ability to explain both the technical processes of a
 
 ::: {style="background-color: #e8daef; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **In Progress**
+<br>**Note:** Current work so far has focused only on SHARP/tabular data. It is uncertain whether further validation, comparison, or user testing will be carried out. Some explainability analyses have been conducted, although they may not have been explicitly documented. Related aspects may also be addressed in the usability study.
 :::
 
 ## 4.3 Communication
