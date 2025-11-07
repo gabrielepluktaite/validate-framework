@@ -25,7 +25,7 @@ Data sets used by AI systems (both for training and operation) may suffer from t
 
 ::: {style="background-color: #e8daef; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **In progress**
-<br>**Note**: requirement will be updated to define the majority population based on study evidence rather than assuming it reflects the actual majority of stroke patients.
+<br>**Note**: This requirement has been addressed in the retrospective validation paper (see Deliverable D2.3). No intersections were identified. Criteria for defining a “typical” patient were established based on relevant clinical guidelines. No intersectional analysis was conducted yet, but will be included. Thus, the retrospective validation paper and D2.3 will be added here as artefacts.
 :::
 
 ## 5.2 Accessibility and Universal Design
