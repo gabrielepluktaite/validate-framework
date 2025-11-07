@@ -149,7 +149,7 @@ It is critical that the results of AI systems are reproducible, as well as relia
 
 ::: {style="background-color:#e8daef; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **In Progress**
-<br>**Note**: Initial analysis on missing data scenarios has been done in D2.2 pages 54-9. More work on missingness will be done in a retrospective paper whose results will be included in D2.3. Thus, D2.2 and D2.3 will be added as artefacts.
+<br>**Note**: Initial analysis on missing data scenarios has been done in D2.2 pages 54-9. Testing differences of local standards of care has proven challenging due to varying definitions of local standards and descriptors. More work on missingness will be done in a retrospective paper whose results will be included in D2.3. Moreover, some other analyses related to minorities have already been included in D 2.3. Thus, D2.2 and D2.3 will be added as artefacts.
 :::
 
 ### Requirement 24-2-ROB {#24-2-rob}
