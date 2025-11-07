@@ -119,6 +119,9 @@ The quality of the data sets used is paramount to the performance of AI systems.
 
 ::: {style="background-color:#abebc6; padding:6px 10px; border-radius:5px; display:inline-block;"}
 **Fulfilled**
+<br>**Note:**
+This requirement addresses interoperability. A standard definition was applied, although no unique interoperability framework was specifically followed. Instead, the project used the OHDSI Common Data Model
+as a reference and adapted it to meet project-specific needs. <a href="https://ohdsi.github.io/CommonDataModel/">See here</a>, also documented in D4.3 which is added as an artefact.
 <br>**See Artefacts:**
 <a href="https://charitede.sharepoint.com/:b:/r/sites/Teammad.AI-Projects_VALIDATE_general/Shared%20Documents/Projects_VALIDATE_general/D4.3.pdf?csf=1&web=1&e=fuoEi6">D4.3</a> 
 :::
